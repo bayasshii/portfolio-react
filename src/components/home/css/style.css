@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*---------共有------------*/
+.myIntroduce, .mySkills, .myWorks {
+  padding: 10px 0 30px; }
+
+.myIntroduce, .mySkill, .myWork {
+  margin: 20px; }
+
+.myIntroduce h2, .mySkills h2, .myWorks h2 {
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin: 20px 0 40px;
+  font-weight: normal;
+  width: 100%; }
+  .myIntroduce h2 span, .mySkills h2 span, .myWorks h2 span {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #00bfa5; }
+
+/*------introduce----------*/
+.myIntroduce {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; }
+
+/*------skills----------*/
+.mySkill {
+  width: 33.3333%; }
+  .mySkill .mySkill__title, .mySkill .mySkill__image {
+    text-align: center; }
+  .mySkill .mySkill__title {
+    font-size: 25px; }
+  .mySkill .mySkill__image {
+    margin: 30px auto; }
+  .mySkill .mySkill__image img {
+    width: 50px;
+    height: 50px; }
+  .mySkill .mySkill__text {
+    font-size: 14px;
+    line-height: 25px; }
+
+/*------ works ----------*/
+.myWorks {
+  padding-bottom: 0px; }
+
+.myWork {
+  width: 29.185%;
+  margin-top: 0px; }
+  .myWork a {
+    cursor: pointer; }
+  .myWork a:hover .myWork__image img {
+    opacity: 0.7; }
+  .myWork .myWork__title, .myWork .myWork__image {
+    text-align: center;
+    font-size: 15px; }
+  .myWork .myWork__image {
+    margin: 10px auto 30px; }
+  .myWork .myWork__image img {
+    width: 280px;
+    height: 280px; }
