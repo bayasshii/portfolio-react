@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import About from "./components/about/about.js";
-import Works from "./components/works/works.js";
-import Blog from "./components/blog/blog.js";
-import Home from "./components/home/home.js";
+import About from "./components/about/about.jsx";
+import Works from "./components/works/works.jsx";
+import Blog from "./components/blog/blog.jsx";
+import Home from "./components/home/home.jsx";
 import App from './App.js';
 
 //　react-routerの使い方　"https://qiita.com/TsutomuNakamura/items/34a7339a05bb5fd697f2"
