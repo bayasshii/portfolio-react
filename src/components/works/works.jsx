@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Work from "./work.js";
-import foltana from './image/foltana.svg';
+import Work from "./work.jsx";
 
 class Works extends Component {
   constructor(props) {

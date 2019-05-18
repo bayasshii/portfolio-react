@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Header from "./components/header/header.js";
-import About from "./components/about/about.js";
-import Home from "./components/home/home.js";
-import Works from "./components/works/works.js";
-import Blog from "./components/blog/blog.js";
+import Header from "./components/header/header.jsx";
+import About from "./components/about/about.jsx";
+import Home from "./components/home/home.jsx";
+import Works from "./components/works/works.jsx";
+import Blog from "./components/blog/blog.jsx";
 import './css/share.css';
 import './css/reset.css';
 
