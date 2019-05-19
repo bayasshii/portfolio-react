@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./components/about/about.jsx";
 import Works from "./components/works/works.jsx";
 import Blog from "./components/blog/blog.jsx";
+import BlogContents from "./components/blog/blogContents.jsx";
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
@@ -14,9 +15,10 @@ const root = document.getElementById('root');
 ReactDOM.render(
   <Router>
     <App>
-      <Route component={Home}></Route>
+      <Route exact path="/" component={Home}></Route>
       <Route path="/about" component={About}></Route>
-      <Route path="/blog" component={Blog}></Route>
+      <Route exact path="/blog" component={Blog}></Route>
+      <Route path="/blog/:article" component={BlogContents}></Route>
       <Route path="/works" component={Works}></Route>
     </App>
   </Router>,
