@@ -14,7 +14,7 @@ const root = document.getElementById('root');
 ReactDOM.render(
   <Router>
     <App>
-      <Route exact path="/" component={Home}></Route>
+      <Route component={Home}></Route>
       <Route path="/about" component={About}></Route>
       <Route path="/blog" component={Blog}></Route>
       <Route path="/works" component={Works}></Route>
