@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import blogComponents from "./contents/blogComponents.jsx";
+import React, { Component } from 'react'
+import blogContents from "./contents/blogContents.jsx"
 
 class Blog extends Component {
   render() {
     return (
     <div>
-      <blogComponents />
+      ブログ
+      <blogContents />
     </div>
     );
   }

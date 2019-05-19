@@ -43,10 +43,6 @@ class About extends Component {
             <div>旅・ロードバイク・カメラ・バレーボール・筋トレ・スイーツ巡り</div>
           </li>
           <li className="about__content flex">
-            <div>座右の銘</div>
-            <div>石橋を高速で叩いて渡る</div>
-          </li>
-          <li className="about__content flex">
             <div>その他</div>
             <div>京都工芸繊維大学バレーボール部副キャプテン<br />
               第３０回近畿高校ビーチバレーボール選手権大阪予選ベスト８<br />

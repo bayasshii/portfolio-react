@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class blogComponents extends Component {
+class blogContents extends Component {
   render() {
     return (
     <div className="blogComponents">
@@ -18,4 +18,4 @@ class blogComponents extends Component {
   }
 }
 
-export default blogComponents ;
+export default blogContents ;
