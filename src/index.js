@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./components/about/about.jsx";
 import Works from "./components/works/works.jsx";
 import Blog from "./components/blog/blog.jsx";
-import BlogContents from "./components/blog/blogContents.jsx";
+import BlogArticles from "./components/blog/article/blogArticle.jsx";
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
@@ -18,7 +18,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home}></Route>
       <Route path="/about" component={About}></Route>
       <Route exact path="/blog" component={Blog}></Route>
-      <Route path="/blog/:article" component={BlogContents}></Route>
+      <Route path="/blog/:article" component={BlogArticles}></Route>
       <Route path="/works" component={Works}></Route>
     </App>
   </Router>,

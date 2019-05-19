@@ -1,22 +1,27 @@
 import React, { Component } from 'react'
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router'
+import { Link } from "react-router-dom"
+
 
 class BlogContents extends Component {
-  pushToEachBlog = () => {
-    this.props.setTest('some-other-articles')
-  }
   render() {
     return (
     <div className="blogContents">
-      <div className="blogContents__photo" onClick={this.pushToEachBlog}>
-        <img alt="header" src="https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg" />
+      <div className="blogContents__photo">
+        <Link to={"blog/"+this.props.url}>
+          <img alt="header" src={this.props.image} />
+        </Link>
         <div className="blogContents__type">
-          備忘録
+          {this.props.type}
         </div>
       </div>
-      <div className="blogContents__body" onClick={this.pushToEachBlog}>
-        <h2 className="blogContents__title">タイトルダミータイトルダミータイトルダミータイトルダミー</h2>
-        <p className="blogContents__time">2019/05/19</p>
+      <div className="blogContents__body">
+        <h2 className="blogContents__title">
+          {this.props.title}
+        </h2>
+        <p className="blogContents__time">
+          {this.props.time}
+        </p>
       </div>
     </div>
     );
