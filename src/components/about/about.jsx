@@ -32,7 +32,7 @@ class About extends Component {
           </li>
           <li className="about__content flex">
             <div>言語</div>
-            <div>HTML CSS JavaScript Node.js React Python Git</div>
+            <div>HTML CSS JavaScript React Python Git</div>
           </li>
           <li className="about__content flex">
             <div>ソフト</div>

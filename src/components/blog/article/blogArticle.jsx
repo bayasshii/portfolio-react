@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
 
-class BlogArticles extends Component {
-  pushToEachBlog = () => {
-    this.props.setTest('some-other-articles')
-  }
+class BlogArticle extends Component {
   render() {
     return (
-    <div className="blogContents">
-      {/* idを渡して記事を読み込む */}
-      いえい
+    <div>
+      ほげ<br/>
+      {this.props.content}
+      <br/>ほげ
     </div>
     );
   }
 }
 
-export default BlogArticles ;
+export default BlogArticle ;

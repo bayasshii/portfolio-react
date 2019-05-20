@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import { withRouter } from 'react-router'
 import { Link } from "react-router-dom"
-
 
 class BlogContents extends Component {
   render() {
@@ -16,9 +14,11 @@ class BlogContents extends Component {
         </div>
       </div>
       <div className="blogContents__body">
-        <h2 className="blogContents__title">
-          {this.props.title}
-        </h2>
+        <Link to={"blog/"+this.props.url}>
+          <h2 className="blogContents__title">
+            {this.props.title}
+          </h2>
+        </Link>
         <p className="blogContents__time">
           {this.props.time}
         </p>
@@ -28,4 +28,4 @@ class BlogContents extends Component {
   }
 }
 
-export default withRouter(BlogContents) ;
+export default BlogContents ;
