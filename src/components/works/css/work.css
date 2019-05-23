@@ -1,0 +1,22 @@
+/*------ works ----------*/
+.myWorks {
+  padding-bottom: 0px; }
+
+.myWork {
+  width: 29.185%;
+  margin-top: 0px;
+  margin: auto; }
+  .myWork .a {
+    cursor: pointer; }
+  .myWork a:hover .myWork__image img {
+    opacity: 0.7; }
+  .myWork .myWork__title, .myWork .myWork .myWork__image {
+    text-align: center;
+    font-size: 15px; }
+  .myWork .myWork__image {
+    margin: 10px auto 30px; }
+  .myWork .myWork__image img {
+    width: 280px;
+    height: 280px; }
+  .myWork .myWork__title {
+    text-align: center; }

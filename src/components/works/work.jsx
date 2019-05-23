@@ -5,9 +5,11 @@ class Work extends Component {
   render() {
     return (
         <li className="myWork">
-          <Link>
+          <Link to={"works/"+this.props.url}>
             <div className="myWork__title">{this.props.name}</div>
-            <div className="myWork__image"><img alt={this.props.image} src={this.props.image} /></div>
+            <div className="myWork__image">
+              <img alt={this.props.name} src={this.props.imageURL} />
+            </div>
           </Link>
         </li>
     );

@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
 import Work from "./work.jsx";
+import "./css/work.css"
 
 class Works extends Component {
-  constructor(props) {
-   super(props);
-   this.state = {
-     workTitle: "",
-   };
-  }
   render() {
     const workList = [
       {
-        name: 'foltana',
-        image: 'foltana'
+        name: 'folta',
+        url: 'foltana',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       },
       {
         name: 'foltana',
-        image: 'foltana'
+        url: 'foltana',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       },
       {
         name: 'foltana',
-        image: 'foltana'
+        url: 'foltana',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       },
       {
         name: 'foltana',
-        image: 'foltana'
+        url: 'foltana',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       }
     ]
     return (
@@ -35,7 +34,8 @@ class Works extends Component {
             return (
               <Work
                 name = {workItem.name}
-                image = {workItem.image}
+                url = {workItem.url}
+                imageURL = {workItem.imageURL}
               />
             )
           })}
