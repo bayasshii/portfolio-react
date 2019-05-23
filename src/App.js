@@ -10,7 +10,7 @@ class App extends Component {
         <header>
           <Header />
         </header>
-        <main>
+        <main className="mb-20">
           {this.props.children}
         </main>
       </div>

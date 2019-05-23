@@ -6,12 +6,12 @@ import About from "./components/about/about.jsx";
 import Works from "./components/works/works.jsx";
 import Blog from "./components/blog/blog.jsx";
 import Article from "./components/blog/article/article1.jsx";
-import Article2 from "./components/blog/article/article2.jsx";
+import ReactSwiper from "./components/blog/article/ReactSwiper.jsx";
 import Article3 from "./components/blog/article/article3.jsx";
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
-//　react-routerの使い方　"https://qiita.com/TsutomuNakamura/items/34a7339a05bb5fd697f2"
+// react-routerの使い方　"https://qiita.com/TsutomuNakamura/items/34a7339a05bb5fd697f2"
 
 const root = document.getElementById('root');
 ReactDOM.render(
@@ -27,8 +27,8 @@ ReactDOM.render(
         >
       </Route>
       <Route
-        path="/blog/article2"
-        component={Article2}
+        path="/blog/react.swiper"
+        component={ReactSwiper}
         >
       </Route>
       <Route
