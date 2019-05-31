@@ -10,13 +10,21 @@
     cursor: pointer; }
   .myWork a:hover .myWork__image img {
     opacity: 0.7; }
-  .myWork .myWork__title, .myWork .myWork .myWork__image {
-    text-align: center;
-    font-size: 15px; }
-  .myWork .myWork__image {
-    margin: 10px auto 30px; }
-  .myWork .myWork__image img {
-    width: 280px;
-    height: 280px; }
   .myWork .myWork__title {
+    font-size: 20px;
+    margin-bottom: 10px; }
+  .myWork .myWork__image {
+    margin: 10px auto; }
+  .myWork .myWork__image img {
+    width: 100%;
+    height: 200px;
     text-align: center; }
+  .myWork .myWork__day {
+    font-size: 14px;
+    color: #ccc; }
+
+/*--------- foltana -------------*/
+.foltana img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px; }

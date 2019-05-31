@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import About from "./components/about/about.jsx";
+
 import Works from "./components/works/works.jsx";
 import Foltana from "./components/works/works/foltana.jsx";
+import SUTD__workshop from "./components/works/works/sutd__workshop.jsx";
+import Undulight from "./components/works/works/undulight.jsx";
 
 import Blog from "./components/blog/blog.jsx";
 import Article from "./components/blog/article/article1.jsx";
@@ -45,18 +48,18 @@ ReactDOM.render(
       <Route exact path="/works" component={Works}></Route>
       {/*ワークのURL*/}
       <Route
-        path="/works/foltana"
+        path="/works/fortana"
         component={Foltana}
         >
       </Route>
       <Route
-        path="/works/react.swiper"
-        component={ReactSwiper}
+        path="/works/sutd__workshop"
+        component={SUTD__workshop}
         >
       </Route>
       <Route
-        path="/works/article3"
-        component={Article3}
+        path="/works/undulight"
+        component={Undulight}
         >
       </Route>
       {/*ワークのURLここまで*/}

@@ -6,23 +6,27 @@ class Works extends Component {
   render() {
     const workList = [
       {
-        name: 'folta',
-        url: 'foltana',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
+        name: 'fortana',
+        url: 'fortana',
+        day: '2018/01~2018/02',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/fortana1.svg'
+      },
+      {
+        name: 'Workshop with SUTD',
+        url: 'sutd__workshop',
+        day: '2018/05',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
+      },
+      {
+        name: 'Undulight',
+        url: 'undulight',
+        day: '2017/11~2017/12',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/undulight-02.svg'
       },
       {
         name: 'foltana',
         url: 'foltana',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
-      },
-      {
-        name: 'foltana',
-        url: 'foltana',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
-      },
-      {
-        name: 'foltana',
-        url: 'foltana',
+        day: '2018/01~2018/02',
         imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       }
     ]
@@ -36,6 +40,7 @@ class Works extends Component {
                 name = {workItem.name}
                 url = {workItem.url}
                 imageURL = {workItem.imageURL}
+                day = {workItem.day}
               />
             )
           })}

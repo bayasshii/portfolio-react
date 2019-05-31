@@ -23,7 +23,10 @@
 
 /*------skills----------*/
 .mySkill {
-  width: 33.3333%; }
+  width: 29.2%;
+  border: 10px #999;
+  -webkit-box-shadow: 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px rgba(0, 0, 0, 0.1); }
   .mySkill .mySkill__title, .mySkill .mySkill__image {
     text-align: center; }
   .mySkill .mySkill__title {
