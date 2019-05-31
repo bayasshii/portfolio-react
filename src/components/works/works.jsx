@@ -1,30 +1,33 @@
 import React, { Component } from 'react';
 import Work from "./work.jsx";
+import "./css/work.css"
 
 class Works extends Component {
-  constructor(props) {
-   super(props);
-   this.state = {
-     workTitle: "",
-   };
-  }
   render() {
     const workList = [
       {
-        name: 'foltana',
-        image: 'foltana'
+        name: 'fortana',
+        url: 'fortana',
+        day: '2018/01~2018/02',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/fortana1.svg'
+      },
+      {
+        name: 'Workshop with SUTD',
+        url: 'sutd__workshop',
+        day: '2018/05',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
+      },
+      {
+        name: 'Undulight',
+        url: 'undulight',
+        day: '2017/11~2017/12',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/undulight-02.svg'
       },
       {
         name: 'foltana',
-        image: 'foltana'
-      },
-      {
-        name: 'foltana',
-        image: 'foltana'
-      },
-      {
-        name: 'foltana',
-        image: 'foltana'
+        url: 'foltana',
+        day: '2018/01~2018/02',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       }
     ]
     return (
@@ -35,7 +38,9 @@ class Works extends Component {
             return (
               <Work
                 name = {workItem.name}
-                image = {workItem.image}
+                url = {workItem.url}
+                imageURL = {workItem.imageURL}
+                day = {workItem.day}
               />
             )
           })}

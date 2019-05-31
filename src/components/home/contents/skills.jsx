@@ -8,7 +8,7 @@ class Skills extends Component {
     return (
       <div className="mySkills">
         <h2 className="flex flex-center"><span>Skills</span></h2>
-        <ul className="flex">
+        <ul className="flex flex-wrap">
           <li className="mySkill">
             <div className="mySkill__title">Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src={mouse} /></div>

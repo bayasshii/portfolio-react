@@ -41,6 +41,7 @@ a {
 /*-------flex系-----*/
 .flex {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
@@ -66,6 +67,11 @@ a {
 .flex-wrap {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+
+/*おりかえさない*/
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
 
 /*---------- 強調 --------*/
 .enpha {

@@ -22,16 +22,16 @@
     position: relative;
     background-color: gray;
     width: 100%;
-    height: 100px;
+    height: 130px;
     margin: auto;
     img
-      height: 100%;
-      width: 100%;
+      height: 130px;
+      max-width: 100%;
 
   .blogContents__title
     cursor: pointer;
     padding: 10px 0 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
 
   .blogContents__time
@@ -39,9 +39,14 @@
     opacity: 0.7;
 
   .blogContents__photo:hover
+    transition: 0.2s;
     outline: 3px solid #00bfa5;
     .blogContents__type
       display: block;
 
   .blogContents__title:hover
     color: #00bfa5;
+
+// 記事
+.blogArticle__Contents
+  line-height: 40px;
