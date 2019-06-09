@@ -6,13 +6,13 @@
 .myIntroduce, .mySkill, .myWork {
   margin: 20px; }
 
-.myIntroduce h2, .mySkills h2, .myWorks h2 {
+.myIntroduce h2, .myBlogs h2, .myWorks h2 {
   font-size: 35px;
   letter-spacing: 3px;
   margin: 20px 0 40px;
   font-weight: normal;
   width: 100%; }
-  .myIntroduce h2 span, .mySkills h2 span, .myWorks h2 span {
+  .myIntroduce h2 span, .myBlogs h2 span, .myWorks h2 span {
     padding-bottom: 30px;
     border-bottom: 1px solid #00bfa5; }
 

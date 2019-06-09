@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import './css/about.css';
+import TopImage from "../topImage/topImage.jsx"
 
 class About extends Component {
+  state={
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myPhoto.jpg"
+  }
   render() {
     return (
       <div className="about">
+        <TopImage
+          imageURL={this.state.imageURL}
+        />
         <ul className="about__contents">
           <li className="about__content flex">
             <div>名前</div>
