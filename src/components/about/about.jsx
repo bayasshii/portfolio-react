@@ -4,7 +4,7 @@ import TopImage from "../topImage/topImage.jsx"
 
 class About extends Component {
   state={
-    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myPhoto.jpg"
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/newMyPhoto.jpg"
   }
   render() {
     return (
@@ -19,7 +19,7 @@ class About extends Component {
           </li>
           <li className="about__content flex">
             <div>メール</div>
-            <div>treee333threee@gmail.com</div>
+            <div>kibayashi.masaya@gmail.com</div>
           </li>
           <li className="about__content flex">
             <div>高校</div>
@@ -35,7 +35,7 @@ class About extends Component {
           </li>
           <li className="about__content flex">
             <div>資格</div>
-            <div>TOEIC 705　簿記2級</div>
+            <div>TOEIC 705</div>
           </li>
           <li className="about__content flex">
             <div>言語</div>
@@ -43,7 +43,7 @@ class About extends Component {
           </li>
           <li className="about__content flex">
             <div>ソフト</div>
-            <div>Illustrator Photoshop Sketch Rhinoceros JWCAD ArchCAD Office</div>
+            <div>Illustrator Photoshop Sketch Rhinoceros Jw-cad ARCHICAD Office365</div>
           </li>
           <li className="about__content flex">
             <div>趣味</div>

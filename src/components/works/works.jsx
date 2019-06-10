@@ -39,7 +39,7 @@ class Works extends Component {
         <TopImage
           imageURL={this.state.imageURL}
         />
-        <h2 className="flex flex-center"><span>Works</span></h2>
+        <h2 className="flex flex-center"><span>Work</span></h2>
         <ul className="flex flex-wrap">
           {workList.map((workItem) => {
             return (

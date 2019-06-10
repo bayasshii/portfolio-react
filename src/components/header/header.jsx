@@ -12,9 +12,9 @@ class Header extends Component {
         </div>
         <ul className="header__menues flex flex-end">
           <li className="header__menue"><Link to="">home</Link></li>
-          <li className="header__menue"><Link to="works">works</Link></li>
-          <li className="header__menue"><Link to="blog">blog</Link></li>
-          <li className="header__menue"><Link to="about">about</Link></li>
+          <li className="header__menue"><Link to="/works">work</Link></li>
+          <li className="header__menue"><Link to="/blog">blog</Link></li>
+          <li className="header__menue"><Link to="/about">about</Link></li>
         </ul>
       </div>
     );
