@@ -4,20 +4,28 @@
  * base
  * -------------------------------- */
 
+
+// #032e43　紺色
+// #edeff1　背景/薄いグレー
+// #232729  フッター/濃いグレー
+// #fff     しろ
+// #ee4b44  アクセント/濃い赤
+// #fc534c  アクセント/薄い赤
+
 html
   font-size: 62.5%;
-  color: #182634;
+  color: #032e43
 
 body
   padding: 30px 30px 0;
   font-size: 1.2rem;
-  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
-/* 横幅決めてるところ〜結構重要noresponsive〜*/
-.contents
+/* 横幅決めてるところ〜結構重要, no-responsive〜*/
+.width
   width: 1024px;
   margin: 0 auto;
-/* 横幅決めてるところ〜結構重要noresponsive〜*/
+/* 横幅決めてるところ〜結構重要, no-responsive〜*/
 
 *, *::before, *::after
   box-sizing: border-box;
@@ -37,6 +45,22 @@ li
 
 a
   color: #182634;
+
+/*-------position-----*/
+
+.parent
+  position: relative
+
+.children
+  position: absolute
+
+/*-------background-----*/
+
+.bg-white
+  background: #fff;
+
+.bg-gray
+  background: #edeff1;
 
 /*-------flex系-----*/
 .flex
@@ -82,6 +106,9 @@ a
 
 .f-15
   font-size: 15px;
+
+.f-18
+  font-size: 18px;
 
 .f-20
   font-size: 20px;
@@ -157,11 +184,18 @@ a
 .pb-100
   padding-bottom: 500px;
 
-/*---------- Margin --------*/
+
+/* ---------- Margin ---------- */
 
 .m-auto
   display: block;
   margin: 0 auto;
+
+.ml-auto
+  margin-left: auto
+
+.mr-auto
+  margin-right: auto;
 
 .m-5
   margin: 5px;

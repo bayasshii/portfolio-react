@@ -8,35 +8,41 @@ class SkillCharts extends Component {
       {
         title: "HTML",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-01.svg"
       },
       {
         title: "Sass",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-02.svg"
       },
       {
         title: "React",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-03.svg"
       },
       {
         title: "Ruby",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-04.svg"
       },{
         title: "Python",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-05.svg"
       },
       {
         title: "Git",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
-      },{
-        title: "Processing(Java)",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-06.svg"
+      },
+      {
+        title: "Processing",
         percent: "★★★★☆",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/HTML5_logo.png"
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-07.svg"
+      },
+      {
+        title: "Rails",
+        percent: "★★★★☆",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-08.svg"
       }
 
     ]

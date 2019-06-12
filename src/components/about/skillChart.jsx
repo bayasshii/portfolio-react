@@ -6,9 +6,8 @@ class SkillChart extends Component {
     return (
       <div className="skillChart">
         <div>
-          <div className="skillChart--title">{this.props.title}</div>
           <div className="skillChart--image"><img alt="skill" src={this.props.image} /></div>
-          <div className="skillChart--percent">{this.props.percent}</div>
+          <div className="skillChart--title">{this.props.title}</div>
         </div>
       </div>
     )

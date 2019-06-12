@@ -14,8 +14,16 @@ class Home extends Component {
         <TopImage
           imageURL={this.state.imageURL}
         />
-        <Introduce />
-        <Skills />
+        <div className="bg-white">
+          <div className="width">
+            <Introduce />
+          </div>
+        </div>
+        <div className="bg-gray">
+          <div className="width">
+            <Skills />
+          </div>
+        </div>
       </React.Fragment>
     );
   }

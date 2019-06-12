@@ -10,25 +10,29 @@ class Blog extends Component {
   }
   render() {
     return (
-    <div className="myBlogs">
+    <div className="myBlog">
       <TopImage
         imageURL={this.state.imageURL}
       />
-      <h2 className="flex flex-center"><span>Blogs</span></h2>
-      <ul className="flex flex-wrap">
-        {articleList.map((articleItem) => {
-          return (
-            <BlogContents
-              content = {articleItem.content}
-              time = {articleItem.time}
-              title = {articleItem.title}
-              type = {articleItem.type}
-              url = {articleItem.url}
-              image = {articleItem.image}
-            />
-          )
-        })}
-      </ul>
+      <div className="bg-gray">
+        <div className="width">
+          <h2 className="flex flex-center"><span>Blogs</span></h2>
+          <ul className="flex flex-wrap">
+            {articleList.map((articleItem) => {
+              return (
+                <BlogContents
+                  content = {articleItem.content}
+                  time = {articleItem.time}
+                  title = {articleItem.title}
+                  type = {articleItem.type}
+                  url = {articleItem.url}
+                  image = {articleItem.image}
+                />
+              )
+            })}
+          </ul>
+        </div>
+      </div>
     </div>
     );
   }

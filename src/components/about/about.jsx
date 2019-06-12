@@ -13,57 +13,63 @@ class About extends Component {
         <TopImage
           imageURL={this.state.imageURL}
         />
-        <div className="flex">
-          <ul className="about__contents mr-10">
-            <li className="about__content flex">
-              <div>名前</div>
-              <div>木林将也</div>
-            </li>
-            <li className="about__content flex">
-              <div>出身地</div>
-              <div>大阪府 松原市</div>
-            </li>
-            <li className="about__content flex">
-              <div>メール</div>
-              <div>kibayashi.masaya@gmail.com</div>
-            </li>
-          </ul>
-          <ul className="about__contents m-10">
-            <li className="about__content flex">
-              <div>高校</div>
-              <div>大阪府立天王寺高校</div>
-            </li>
-            <li className="about__content flex">
-              <div>大学</div>
-              <div>京都工芸繊維大学 工芸科学部 デザイン経営工学課程</div>
-            </li>
-            <li className="about__content flex">
-              <div>大学院</div>
-              <div>京都工芸繊維大学大学院 工芸科学研究科 デザイン学専攻</div>
-            </li>
-          </ul>
+        <div className="flex bg-white">
+          <div className="width flex">
+            <ul className="about__contents mr-10">
+              <li className="about__content flex">
+                <div>名前</div>
+                <div>木林将也</div>
+              </li>
+              <li className="about__content flex">
+                <div>出身地</div>
+                <div>大阪府 松原市</div>
+              </li>
+              <li className="about__content flex">
+                <div>メール</div>
+                <div>kibayashi.masaya@gmail.com</div>
+              </li>
+            </ul>
+            <ul className="about__contents m-10">
+              <li className="about__content flex">
+                <div>高校</div>
+                <div>大阪府立天王寺高校</div>
+              </li>
+              <li className="about__content flex">
+                <div>大学</div>
+                <div>京都工芸繊維大学 工芸科学部 デザイン経営工学課程</div>
+              </li>
+              <li className="about__content flex">
+                <div>大学院</div>
+                <div>京都工芸繊維大学大学院 工芸科学研究科 デザイン学専攻</div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul className="about__contents">
-          <li className="about__content flex">
-            <div>資格</div>
-            <div>TOEIC 705</div>
-          </li>
-          <li className="about__content flex">
-            <div>ソフト</div>
-            <div>Illustrator Photoshop Sketch Rhinoceros Jw-cad ARCHICAD Office365</div>
-          </li>
-          <li className="about__content flex">
-            <div>趣味</div>
-            <div>旅・ロードバイク・カメラ・バレーボール・筋トレ・スイーツ巡り</div>
-          </li>
-          <li className="about__content flex">
-            <div>その他</div>
-            <div>京都工芸繊維大学バレーボール部副キャプテン<br />
-              第３０回近畿高校ビーチバレーボール選手権大阪予選ベスト８<br />
-              第１２回松原マラソン大会第６位入賞</div>
-          </li>
-        </ul>
-        <SkillCharts />
+        <div className="flex bg-gray">
+          <div className="width">
+            <ul className="about__contents">
+              <li className="about__content flex">
+                <div>資格</div>
+                <div>TOEIC 705</div>
+              </li>
+              <li className="about__content flex">
+                <div>ソフト</div>
+                <div>Illustrator Photoshop Sketch Rhinoceros Jw-cad ARCHICAD Office365</div>
+              </li>
+              <li className="about__content flex">
+                <div>趣味</div>
+                <div>旅・ロードバイク・カメラ・バレーボール・筋トレ・スイーツ巡り</div>
+              </li>
+              <li className="about__content flex">
+                <div>その他</div>
+                <div>京都工芸繊維大学バレーボール部副キャプテン<br />
+                  第３０回近畿高校ビーチバレーボール選手権大阪予選ベスト８<br />
+                  第１２回松原マラソン大会第６位入賞</div>
+              </li>
+            </ul>
+            <SkillCharts />
+          </div>
+        </div>
       </div>
     );
   }

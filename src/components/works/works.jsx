@@ -35,24 +35,28 @@ class Works extends Component {
       }
     ]
     return (
-      <div className="myWorks">
+      <React.Fragment>
         <TopImage
           imageURL={this.state.imageURL}
         />
-        <h2 className="flex flex-center"><span>Work</span></h2>
-        <ul className="flex flex-wrap">
-          {workList.map((workItem) => {
-            return (
-                <Work
-                  name = {workItem.name}
-                  url = {workItem.url}
-                  imageURL = {workItem.imageURL}
-                  day = {workItem.day}
-                />
-            )
-          })}
-        </ul>
-      </div>
+        <div className="myWorks bg-gray">
+          <div className="width">
+            <h2 className="flex flex-center"><span>Work</span></h2>
+            <ul className="flex flex-wrap">
+              {workList.map((workItem) => {
+                return (
+                    <Work
+                      name = {workItem.name}
+                      url = {workItem.url}
+                      imageURL = {workItem.imageURL}
+                      day = {workItem.day}
+                    />
+                )
+              })}
+            </ul>
+          </div>
+        </div>
+      </React.Fragment>
     );
   }
 }

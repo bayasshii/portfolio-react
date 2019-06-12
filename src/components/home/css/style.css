@@ -29,7 +29,8 @@
   width: 300px;
   border-top: 5px solid #00bfa5;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05); }
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+  background: #fff; }
   .mySkill .mySkill__title, .mySkill .mySkill__image {
     text-align: center; }
   .mySkill .mySkill__title {
