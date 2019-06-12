@@ -42,3 +42,12 @@
   .mySkill .mySkill__text {
     font-size: 14px;
     line-height: 25px; }
+
+.directionSkill {
+  border-top: 5px solid blue; }
+
+.programmingSkill {
+  border-top: 5px solid black; }
+
+.curiositySkill {
+  border-top: 5px solid red; }

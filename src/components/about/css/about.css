@@ -2,6 +2,9 @@
   font-size: 35px;
   margin: 50px 0 30px; }
 
+.about .about__contents {
+  width: calc(50% - 10px); }
+
 .about .about__content {
   margin: 15px 0;
   padding: 5px 0 15px;
@@ -11,8 +14,18 @@
     font-size: 16px;
     width: 800px; }
   .about .about__content div:first-child {
-    width: 100px;
+    width: 150px;
     font-weight: bold; }
   .about .about__content span {
     color: #999;
     margin: 0 10px; }
+
+.about .skillChart {
+  border: 1px solid #444;
+  margin: 20px; }
+  .about .skillChart .skillChart--title {
+    font-size: 50px; }
+  .about .skillChart .skillChart--image img {
+    width: 50px; }
+  .about .skillChart .skillChart--percent {
+    font-size: 30px; }
