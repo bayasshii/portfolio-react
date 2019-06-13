@@ -29,7 +29,7 @@ class About extends Component {
                 <div>kibayashi.masaya@gmail.com</div>
               </li>
             </ul>
-            <ul className="about__contents m-10">
+            <ul className="about__contents">
               <li className="about__content flex">
                 <div>高校</div>
                 <div>大阪府立天王寺高校</div>
@@ -46,27 +46,10 @@ class About extends Component {
           </div>
         </div>
         <div className="flex bg-gray">
-          <div className="width">
-            <ul className="about__contents">
-              <li className="about__content flex">
-                <div>資格</div>
-                <div>TOEIC 705</div>
-              </li>
-              <li className="about__content flex">
-                <div>ソフト</div>
-                <div>Illustrator Photoshop Sketch Rhinoceros Jw-cad ARCHICAD Office365</div>
-              </li>
-              <li className="about__content flex">
-                <div>趣味</div>
-                <div>旅・ロードバイク・カメラ・バレーボール・筋トレ・スイーツ巡り</div>
-              </li>
-              <li className="about__content flex">
-                <div>その他</div>
-                <div>京都工芸繊維大学バレーボール部副キャプテン<br />
-                  第３０回近畿高校ビーチバレーボール選手権大阪予選ベスト８<br />
-                  第１２回松原マラソン大会第６位入賞</div>
-              </li>
-            </ul>
+          <div className="width pb-30">
+            <div className="f-30 pt-30 pb-10">
+              My Confidence of Skill
+            </div>
             <SkillCharts />
           </div>
         </div>

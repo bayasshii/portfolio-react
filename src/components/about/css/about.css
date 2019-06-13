@@ -24,15 +24,28 @@
     margin: 0 10px; }
 
 .about .skillChart {
-  margin: 30px;
-  padding: 30px;
-  background: #fff; }
+  margin: 20px;
+  padding: 30px 0 10px;
+  background: #fff;
+  border-radius: 10px; }
   .about .skillChart .skillChart--title {
     font-size: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding: 20px 0;
+    border-top: 1px #edeff1 solid;
     text-align: center; }
   .about .skillChart .skillChart--image img {
-    width: 120px;
+    width: 172px;
+    padding: 0 30px;
     text-align: center; }
   .about .skillChart .skillChart--percent {
     font-size: 30px; }
+
+.about .skillChart__container ul li:nth-child(5n+1) {
+  margin-left: 0; }
+
+.about .skillChart__container ul li:nth-child(5n) {
+  margin-right: 0; }
+
+.about .about__content:last-child {
+  border-bottom: none; }

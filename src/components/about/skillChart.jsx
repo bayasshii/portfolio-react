@@ -4,12 +4,12 @@ import './css/about.css';
 class SkillChart extends Component {
   render() {
     return (
-      <div className="skillChart">
+      <li className="skillChart">
         <div>
           <div className="skillChart--image"><img alt="skill" src={this.props.image} /></div>
           <div className="skillChart--title">{this.props.title}</div>
         </div>
-      </div>
+      </li>
     )
   }
 }
