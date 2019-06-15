@@ -48,7 +48,7 @@ class About extends Component {
         <div className="flex bg-gray">
           <div className="width pb-30">
             <div className="f-30 pt-30 pb-10">
-              My Confidence of Skill
+              My Confidence of Skill<span className="hideText">   ~超主観的評価です~   </span>
             </div>
             <SkillCharts />
           </div>

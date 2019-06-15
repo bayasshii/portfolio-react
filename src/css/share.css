@@ -38,6 +38,10 @@ li {
 a {
   color: #182634; }
 
+.hideText {
+  color: #fff;
+  font-size: 13px; }
+
 /*-------position-----*/
 .parent {
   position: relative; }
