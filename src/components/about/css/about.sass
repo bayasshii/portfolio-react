@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
 .about
+  .bg-white
+    width: 100%;
   .about__title
     font-size: 35px;
     margin: 50px 0 30px;
+
+  .about__contents
+    width: calc(50% - 10px);
+
 
   .about__content
     margin: 15px 0;
@@ -14,8 +20,37 @@
       font-size: 16px;
       width: 800px;;
     div:first-child
-      width: 100px;
+      width: 150px;
       font-weight: bold;
     span
       color: #999;
       margin: 0 10px
+
+  .skillChart
+    margin: 20px;
+    padding: 30px 0 10px;
+    background: #fff;
+    border-radius: 10px;
+    .skillChart--title
+      font-size: 20px;
+      margin-top: 10px;
+      padding: 20px 0;
+      border-top: 1px #edeff1 solid;
+      text-align: center;
+    .skillChart--image
+      img
+        width: 172px;
+        padding: 0 30px;
+        text-align: center;
+    .skillChart--percent
+      font-size: 30px;
+
+  .skillChart__container
+    ul
+      li:nth-child(5n+1)
+        margin-left: 0;
+      li:nth-child(5n)
+        margin-right: 0;
+
+  .about__content:last-child
+    border-bottom: none;

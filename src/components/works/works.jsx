@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Work from "./work.jsx";
 import "./css/work.css"
+import TopImage from "../topImage/topImage.jsx"
 
 class Works extends Component {
+  state={
+    imageURL: "https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg"
+  }
   render() {
     const workList = [
       {
@@ -31,21 +35,28 @@ class Works extends Component {
       }
     ]
     return (
-      <div className="myWorks">
-        <h2 className="flex flex-center"><span>Works</span></h2>
-        <ul className="flex flex-wrap">
-          {workList.map((workItem) => {
-            return (
-              <Work
-                name = {workItem.name}
-                url = {workItem.url}
-                imageURL = {workItem.imageURL}
-                day = {workItem.day}
-              />
-            )
-          })}
-        </ul>
-      </div>
+      <React.Fragment>
+        <TopImage
+          imageURL={this.state.imageURL}
+        />
+        <div className="myWorks bg-gray">
+          <div className="width">
+            <h2 className="flex flex-center"><span>Work</span></h2>
+            <ul className="flex flex-wrap">
+              {workList.map((workItem) => {
+                return (
+                    <Work
+                      name = {workItem.name}
+                      url = {workItem.url}
+                      imageURL = {workItem.imageURL}
+                      day = {workItem.day}
+                    />
+                )
+              })}
+            </ul>
+          </div>
+        </div>
+      </React.Fragment>
     );
   }
 }

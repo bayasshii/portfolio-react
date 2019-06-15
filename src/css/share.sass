@@ -4,20 +4,29 @@
  * base
  * -------------------------------- */
 
+
+// #032e43　紺色
+// #edeff1　背景/薄いグレー
+// #232729  フッター/濃いグレー
+// #fff     しろ
+// #ee4b44  アクセント/濃い赤
+// #fc534c  アクセント/薄い赤
+// #00bfa5  アクセント/緑
+
 html
   font-size: 62.5%;
-  color: #182634;
+  color: #032e43
 
 body
   padding: 30px 30px 0;
   font-size: 1.2rem;
-  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
-/* 横幅決めてるところ〜結構重要noresponsive〜*/
-.contents
+/* 横幅決めてるところ〜結構重要, no-responsive〜*/
+.width
   width: 1024px;
   margin: 0 auto;
-/* 横幅決めてるところ〜結構重要noresponsive〜*/
+/* 横幅決めてるところ〜結構重要, no-responsive〜*/
 
 *, *::before, *::after
   box-sizing: border-box;
@@ -37,6 +46,26 @@ li
 
 a
   color: #182634;
+
+.hideText
+  color: #fff;
+  font-size: 13px;
+
+/*-------position-----*/
+
+.parent
+  position: relative
+
+.children
+  position: absolute
+
+/*-------background-----*/
+
+.bg-white
+  background: #fff;
+
+.bg-gray
+  background: #edeff1;
 
 /*-------flex系-----*/
 .flex
@@ -82,6 +111,9 @@ a
 
 .f-15
   font-size: 15px;
+
+.f-18
+  font-size: 18px;
 
 .f-20
   font-size: 20px;
@@ -154,14 +186,38 @@ a
 .pl-20
   padding-left: 20px;
 
+.p-30
+  padding: 30px;
+
+.pt-30
+  padding-top: 30px;
+
+.pr-30
+  padding-right: 30px;
+
+.pb-30
+  padding-bottom: 30px;
+
+.pl-30
+  padding-left: 30px;
+
+
+
 .pb-100
   padding-bottom: 500px;
 
-/*---------- Margin --------*/
+
+/* ---------- Margin ---------- */
 
 .m-auto
   display: block;
   margin: 0 auto;
+
+.ml-auto
+  margin-left: auto
+
+.mr-auto
+  margin-right: auto;
 
 .m-5
   margin: 5px;

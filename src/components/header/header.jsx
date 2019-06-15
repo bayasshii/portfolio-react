@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="header__title">
           Masaya Kibayashi
         </div>
-        <ul className="header__menues flex">
+        <ul className="header__menues flex flex-end">
           <li className="header__menue"><Link to="">home</Link></li>
           <li className="header__menue"><Link to="/works">work</Link></li>
           <li className="header__menue"><Link to="/blog">blog</Link></li>
