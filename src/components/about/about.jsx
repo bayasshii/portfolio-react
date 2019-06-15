@@ -5,7 +5,7 @@ import SkillCharts from "./skillCharts.jsx"
 
 class About extends Component {
   state={
-    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/newMyPhoto.jpg"
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/AboutPhoto.jpg"
   }
   render() {
     return (

@@ -6,7 +6,7 @@ import TopImage from "../topImage/topImage.jsx"
 
 class Home extends Component {
   state={
-    imageURL: "https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg"
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/topImage.jpg"
   }
   render() {
     return (
