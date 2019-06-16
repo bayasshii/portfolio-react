@@ -5,7 +5,7 @@ import SkillCharts from "./skillCharts.jsx"
 
 class About extends Component {
   state={
-    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/newMyPhoto.jpg"
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/AboutPhoto.jpg"
   }
   render() {
     return (
@@ -48,7 +48,7 @@ class About extends Component {
         <div className="flex bg-gray">
           <div className="width pb-30">
             <div className="f-30 pt-30 pb-10">
-              My Confidence of Skill<span className="hideText">   ~超主観的評価です~   </span>
+              My Confidence of Skills<span className="hideText">   ~超主観的評価です~   </span>
             </div>
             <SkillCharts />
           </div>

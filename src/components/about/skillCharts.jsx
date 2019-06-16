@@ -78,6 +78,10 @@ class SkillCharts extends Component {
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-07.svg"
       },
       {
+        title: "TOEIC",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-15.svg"
+      },
+      {
         title: "Road Bike",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-08.svg"
       },
@@ -98,22 +102,19 @@ class SkillCharts extends Component {
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-12.svg"
       },
       {
-        title: "TOEIC",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-15.svg"
-      },
-      {
         title: "Sweets",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-14.svg"
       }
     ]
 
-    const shuffleSkillChartList = ShuffleAry(skillChartList)
+    // シャッフルするやつ。現時点では不要。
+    // const shuffleSkillChartList = ShuffleAry(skillChartList)
 
     return (
       <div className="skillChart__container">
         <ul className="flex flex-wrap">
           {
-            shuffleSkillChartList.map((skillChartItem) => {
+            skillChartList.map((skillChartItem) => {
             return (
                 <SkillChart
                   title = {skillChartItem.title}
