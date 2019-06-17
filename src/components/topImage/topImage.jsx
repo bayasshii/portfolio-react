@@ -7,6 +7,7 @@ class TopImage extends Component {
     return (
       <div className="topImage">
         <img className="header__image" alt="header" src={this.props.imageURL} />
+        <img className="header__image--back" alt="header" src={this.props.backImageURL} />
       </div>
     );
   }

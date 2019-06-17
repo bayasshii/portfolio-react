@@ -1,4 +1,23 @@
-.header__image
-  width: 100%;
-  margin-top: 50px;
-  max-height: 500px;
+.topImage
+  margin-bottom: 550px;
+  position: relative;
+  .header__image
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-height: 500px;
+    z-index: 2;
+    position: absolute;
+    left: calc(-2540px + (100%-1024px)/2);
+
+  .header__image--back
+    width: 100%;
+    margin-top: 50px;
+    max-height: 500px;
+    position: fixed;
+    z-index: 1;
+  .header__image--left
+    position: absolute;
+    left: -1200px;
+    top: 0;
+    z-index: 2

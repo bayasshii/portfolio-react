@@ -6,13 +6,15 @@ import TopImage from "../topImage/topImage.jsx"
 
 class Home extends Component {
   state={
-    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/topImage.jpg"
+    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround.svg",
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myNameLong.svg"
   }
   render() {
     return (
       <React.Fragment>
         <TopImage
           imageURL={this.state.imageURL}
+          backImageURL={this.state.backImageURL}
         />
         <div className="bg-white">
           <div className="width">
