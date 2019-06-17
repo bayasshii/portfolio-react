@@ -6,7 +6,6 @@ class Introduce extends Component {
     <div className="myIntroduce">
       <h2 className="flex flex-center"><span>Introduce</span></h2>
       <p className="f-15">
-        空間デザイン、UI・UXデザインの他にも、インテリア、プロダクト、グラフィックのデザインや、もっと他の分野で言えば、プログラミング、会社経営、経済学、プロジェクトマネジメント、地域活性、心理学、スポーツ、筋肉、栄養学、日本食やワインなど...
         　はじめまして。
         京都工芸繊維大学大学院 デザイン学専攻 修士1回生の木林将也です。
         <br/><br/>
