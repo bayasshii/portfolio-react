@@ -42,14 +42,14 @@ a {
   color: #fef;
   font-size: 13px; }
 
-/*-------position-----*/
+/*-------  position  -----*/
 .parent {
   position: relative; }
 
 .children {
   position: absolute; }
 
-/*-------background-----*/
+/*-------  backgroundとアンダーライン  -----*/
 .bg-white {
   position: relative;
   background: #fff;
@@ -60,37 +60,43 @@ a {
   background: #edeff1;
   z-index: 10; }
 
-/*-------flex系-----*/
+.colorUnderline {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #00bfa5));
+  background: -webkit-linear-gradient(transparent 70%, #00bfa5 70%);
+  background: -o-linear-gradient(transparent 70%, #00bfa5 70%);
+  background: linear-gradient(transparent 70%, #00bfa5 70%); }
+
+/*-------  flex系  -----*/
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/*右寄せ*/
+/*  右寄せ  */
 .flex-end {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-/*左寄せ*/
+/*  左寄せ  */
 .flex-start {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start; }
 
-/*中央寄せ*/
+/*  中央寄せ  */
 .flex-center {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
 
-/*おりかえし*/
+/*  おりかえし  */
 .flex-wrap {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/*おりかえさない*/
+/*  おりかえさない  */
 .flex-nowrap {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap; }
@@ -126,6 +132,9 @@ a {
 
 .f-20 {
   font-size: 20px; }
+
+.f-22 {
+  font-size: 22px; }
 
 .f-25 {
   font-size: 25px; }
@@ -291,6 +300,9 @@ a {
 
 .mt-30 {
   margin-top: 30px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
 
 /*---------- FontsColor --------*/
 .f-white {

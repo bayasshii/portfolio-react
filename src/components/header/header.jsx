@@ -7,9 +7,6 @@ class Header extends Component {
   render() {
     return (
       <div className="header flex">
-        <div className="header__title">
-          Masaya Kibayashi
-        </div>
         <ul className="header__menues flex flex-end">
           <li className="header__menue"><Link to="">home</Link></li>
           <li className="header__menue"><Link to="/works">work</Link></li>

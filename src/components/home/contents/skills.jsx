@@ -14,7 +14,7 @@ class Skills extends Component {
           <li className="mySkill designSkill">
             <div className="mySkill__title">Spatial Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/home.svg" /></div>
-            <div className="mySkill__text">　学部時代の私の専攻です。住宅、オフィス、公共建築、リノベーション、椅子、棚、照明などの空間デザインが得意で好きです。学部での演習や研究室でのPJを通して学びました。</div>
+            <div className="mySkill__text">　学部時代の私の専攻です。住宅、オフィス、公共建築、リノベーション、椅子、棚、照明などの空間デザインが得意ですし好きです。学部での演習や研究室でのPJを通して学びました。</div>
           </li>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Algorithmic Design</div>
