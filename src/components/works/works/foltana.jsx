@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import TopImage from "../../topImage/topImage.jsx"
+import { Link } from "react-router-dom";
+
 
 class Foltana extends Component {
   state={
-    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround.svg",
+    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround--work.svg",
     imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myNameLong.svg",
     workTitle: "fortana"
   }
@@ -51,6 +53,7 @@ class Foltana extends Component {
                   {/* 制作背景とか描きたいな */}
                 </div>
               </div>
+              <div className="backToTop"><Link to="/works">back</Link></div>
             </div>
           </div>
         </div>

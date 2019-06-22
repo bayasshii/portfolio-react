@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import ScrollToTop from "./scrollTop.jsx"
 import About from "./components/about/about.jsx";
 
 import Works from "./components/works/works.jsx";
@@ -22,6 +22,7 @@ import App from './App.js';
 const root = document.getElementById('root');
 ReactDOM.render(
   <Router>
+    <ScrollToTop>
     <App>
       <Route exact path="/" component={Home}></Route>
       <Route path="/about" component={About}></Route>
@@ -64,5 +65,6 @@ ReactDOM.render(
       </Route>
       {/*ワークのURLここまで*/}
     </App>
+  </ScrollToTop>
   </Router>
   ,root);

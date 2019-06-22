@@ -19,14 +19,14 @@ class Works extends Component {
       {
         name: 'Workshop with SUTD',
         url: 'sutd__workshop',
-        day: '2018/05',
+        day: '2018/05/14~2018/05/17',
         imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
       },
       {
         name: 'Undulight',
         url: 'undulight',
         day: '2017/11~2017/12',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/undulight-02.svg'
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/undolight092.jpg'
       },
       {
         name: 'foltana',
