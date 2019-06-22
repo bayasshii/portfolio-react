@@ -9,7 +9,7 @@ class Skills extends Component {
           <li className="mySkill designSkill">
             <div className="mySkill__title">Web Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/display.svg" /></div>
-            <div className="mySkill__text">　SketchやPhotoshopを使ってデザインすることができます。web系ベンチャー企業でのインターンシップを通して学びました。その他、個人的に依頼して頂いた企業のWebサイトを製作もしています。</div>
+            <div className="mySkill__text">　SketchやPhotoshopを使ってデザインすることができます。web系ベンチャー企業でのインターンシップを通して学びました。その他、個人的に依頼して頂いた団体のWebサイトを製作もしています。</div>
           </li>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Spatial Design</div>
@@ -29,7 +29,7 @@ class Skills extends Component {
           <li className="mySkill directionSkill">
             <div className="mySkill__title">Direction</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/pen.svg" /></div>
-            <div className="mySkill__text">　市場調査や観察調査、ワークショップ、アンケート、ヒアリングなどの様々な調査の経験があります。根本的な問題解決ができるように常にメタ思考で考えることを心がけています。</div>
+            <div className="mySkill__text">　市場調査やSWOT分析、観察調査、ワークショップ、アンケート、ヒアリングなどの様々な分析や調査を研究室の活動を通して経験しました。根本的な問題解決ができるように常にメタ思考で考えることを心がけています。</div>
           </li>
           <li className="mySkill curiositySkill">
             <div className="mySkill__title">Curiosity</div>

@@ -3,6 +3,7 @@ import Introduce from "./contents/introduce.jsx"
 import Skills from "./contents/skills.jsx"
 import './css/style.css'
 import TopImage from "../topImage/topImage.jsx"
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   state={
@@ -24,6 +25,13 @@ class Home extends Component {
         <div className="bg-gray">
           <div className="width">
             <Skills />
+          </div>
+        </div>
+        <div className="bg-white">
+          <div className="width flex">
+            <li className="home__menue"><Link to="/works">work</Link></li>
+            <li className="home__menue"><Link to="/blog">blog</Link></li>
+            <li className="home__menue"><Link to="/about">about</Link></li>
           </div>
         </div>
       </React.Fragment>

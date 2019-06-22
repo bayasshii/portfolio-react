@@ -1,3 +1,7 @@
+.about .about__myPhoto img {
+  width: 500px;
+  margin-right: 50px; }
+
 .about .bg-white {
   width: 100%; }
 
