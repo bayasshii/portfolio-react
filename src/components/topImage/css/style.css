@@ -11,8 +11,8 @@
     left: calc(-2500px + (100%-1024px)/2); }
   .topImage .header__image--back {
     width: 100%;
+    height: 100%;
     margin-top: 50px;
-    max-height: 500px;
     position: fixed;
     z-index: 1; }
   .topImage .header__image--left {
