@@ -33,21 +33,23 @@ class SkillCharts extends Component {
       {
         title: "Ruby",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-04.svg"
-      },{
-        title: "Python",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-05.svg"
-      },
-      {
-        title: "Git",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-06.svg"
-      },
-      {
-        title: "Processing",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-07.svg"
       },
       {
         title: "Rails",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-08.svg"
+      },
+      {
+        title: "Git",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-06.svg"
+      }
+      ,
+      {
+        title: "Python",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-05.svg"
+      },
+      {
+        title: "Processing",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-07.svg"
       },
       {
         title: "Illustrator",
@@ -82,6 +84,10 @@ class SkillCharts extends Component {
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-15.svg"
       },
       {
+        title: "Camera",
+        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-11.svg"
+      },
+      {
         title: "Road Bike",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-08.svg"
       },
@@ -92,10 +98,6 @@ class SkillCharts extends Component {
       {
         title: "Muscle Training",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-10.svg"
-      },
-      {
-        title: "Camera",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChartFunny-11.svg"
       },
       {
         title: "Shogi",

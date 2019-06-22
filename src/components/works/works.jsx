@@ -5,7 +5,8 @@ import TopImage from "../topImage/topImage.jsx"
 
 class Works extends Component {
   state={
-    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/topImage.jpg"
+    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround--work.svg",
+    imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myNameLong.svg"
   }
   render() {
     const workList = [
@@ -18,14 +19,14 @@ class Works extends Component {
       {
         name: 'Workshop with SUTD',
         url: 'sutd__workshop',
-        day: '2018/05',
+        day: '2018/05/14~2018/05/17',
         imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
       },
       {
         name: 'Undulight',
         url: 'undulight',
         day: '2017/11~2017/12',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/undulight-02.svg'
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/undolight092.jpg'
       },
       {
         name: 'foltana',
@@ -38,8 +39,9 @@ class Works extends Component {
       <React.Fragment>
         <TopImage
           imageURL={this.state.imageURL}
+          backImageURL={this.state.backImageURL}
         />
-        <div className="myWorks bg-gray">
+        <div className="myWorks bg-white">
           <div className="width">
             <h2 className="flex flex-center"><span>Work</span></h2>
             <ul className="flex flex-wrap">
