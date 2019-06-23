@@ -28,7 +28,7 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none; }
 
 p {
-  line-height: 40px; }
+  line-height: 35px; }
 
 div {
   -webkit-box-sizing: border-box;
@@ -73,6 +73,9 @@ a {
   position: relative;
   background: #edeff1;
   z-index: 10; }
+
+.bold {
+  font-weight: bold; }
 
 .colorUnderline {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #00bfa5));
