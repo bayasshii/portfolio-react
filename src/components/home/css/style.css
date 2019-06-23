@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*---------共有------------*/
 .myIntroduce, .mySkills, .myBlog, .myWorks {
-  padding: 10px 0 30px; }
+  padding: 10px 0 40px; }
 
 .myIntroduce h2, .mySkills h2, .myBlog h2, .myWorks h2, .about h2 {
   font-size: 35px;
@@ -52,8 +52,13 @@
 
 /*------links----------*/
 .home__menue {
-  padding: 50px 50px; }
+  padding: 50px;
+  margin: 20px;
+  width: 33%;
+  text-align: center; }
 
 .home__menue:hover {
-  opacity: 0.5;
+  opacity: 02;
+  color: #fff;
+  border: 1px solid #00bfa5;
   cursor: pointer; }

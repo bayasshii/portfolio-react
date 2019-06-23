@@ -27,12 +27,6 @@ class Works extends Component {
         url: 'undulight',
         day: '2017/11~2017/12',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/undolight092.jpg'
-      },
-      {
-        name: 'foltana',
-        url: 'foltana',
-        day: '2018/01~2018/02',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/top-image.svg'
       }
     ]
     return (

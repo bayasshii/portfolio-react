@@ -18,7 +18,9 @@ class Blog extends Component {
         />
         <div className="myBlog bg-white">
           <div className="width">
-            <h2 className="flex flex-center"><span>Blogs</span></h2>
+            <h2 className="flex flex-center"><span>Blog</span></h2>
+            <p className="zyunbi">準備中です<br/><br/>近日公開予定！！</p>
+            {/*
             <ul className="flex flex-wrap">
               {articleList.map((articleItem) => {
                 return (
@@ -33,6 +35,7 @@ class Blog extends Component {
                 )
               })}
             </ul>
+            */}
           </div>
         </div>
       </React.Fragment>

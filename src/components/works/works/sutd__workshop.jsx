@@ -25,6 +25,7 @@ class SUTD__workshop extends Component {
                 <div className="work__contents--kinds">
                   <ul className="flex">
                     <li>ワークショップ</li>
+                    <li>グループワーク</li>
                     <li>グローバル</li>
                     <li>スクレイピング</li>
                     <li>Python</li>

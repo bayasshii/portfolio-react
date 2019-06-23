@@ -26,6 +26,7 @@ class Foltana extends Component {
                 <div className="work__contents--kinds">
                   <ul className="flex">
                     <li>学内課題</li>
+                    <li>グループワーク</li>
                     <li>空間デザイン</li>
                     <li>コンピュテーショナルデザイン</li>
                     <li>Python</li>
