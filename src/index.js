@@ -8,6 +8,7 @@ import Works from "./components/works/works.jsx";
 import Foltana from "./components/works/works/foltana.jsx";
 import SUTD__workshop from "./components/works/works/sutd__workshop.jsx";
 import Undulight from "./components/works/works/undulight.jsx";
+import Trivet from "./components/works/works/trivet.jsx";
 
 import Blog from "./components/blog/blog.jsx";
 import Article from "./components/blog/article/article1.jsx";
@@ -61,6 +62,11 @@ ReactDOM.render(
       <Route
         path="/works/undulight"
         component={Undulight}
+        >
+      </Route>
+      <Route
+        path="/works/trivet"
+        component={Trivet}
         >
       </Route>
       {/*ワークのURLここまで*/}

@@ -27,6 +27,12 @@ class Works extends Component {
         url: 'undulight',
         day: '2017/11~2017/12',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/undolight092.jpg'
+      },
+      {
+        name: 'Trivet',
+        url: 'trivet',
+        day: '2017/10~2017/11',
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/S__729092.jpg'
       }
     ]
     return (

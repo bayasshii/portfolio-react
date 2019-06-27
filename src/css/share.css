@@ -56,6 +56,13 @@ a {
   padding: 10px 20px;
   border: 1px solid gray; }
 
+.backToTop:hover {
+  opacity: 0.7; }
+
+/*---------width----------*/
+.w-50 {
+  width: 50%; }
+
 /*-------  position  -----*/
 .parent {
   position: relative; }
