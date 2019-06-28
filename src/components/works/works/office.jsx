@@ -46,7 +46,25 @@ class Office extends Component {
               </div>
               <div className="work__contents--main">
                 <div className="work__contents--background">
-                  {/* 制作背景とか描きたいな */}
+                  <div className="pb-20">○ 制作期間</div>
+                  <div>2017/06 ~ 2017/07 (2month)</div>
+                </div>
+                <div className="work__contents--background">
+                  <div className="pb-20">○ 使用ツール</div>
+                  <div>JWCAD / Illustrator / PhotoShop</div>
+                </div>
+                <div className="work__contents--background">
+                  <div className="pb-20">○ 制作背景と意図</div>
+                  <div>
+                    <p className="pb-10">
+                      『老舗オフィス家具メーカーの新オフィスの設計』というテーマ。なかなかイノベーティブな商品が開発できないという問題を抱えているという設定。
+                    </p>
+                    <p className="pb-10">
+　                      まず私は「老舗メーカーで働いている社員には少なからず安定思考なところがあって挑戦を避ける傾向がある。だからイノベーションがなかなか起こせないのではないだろうか」という仮説を立てた。
+                      そんな社員とは対照的な「新しいことにどんどん挑戦していく会社になるんだ！」という経営陣の熱い想いを具体化した、強いメッセージ性のある新オフィスにしたいと考え、ステップフロア、スロープ、吹き抜け、ガラス張り、屋上スペースといった現代の流行りのオフィスの要素を盛り込んだ。
+                      これによって社員の考えの変化を促すことができたなら大成功である。
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="backToTop"><Link to="/works">back</Link></div>

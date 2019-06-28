@@ -42,12 +42,48 @@ class Sudaku extends Component {
                   <li className="w-50">
                     <img alt="foltana" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudaku2.png" />
                   </li>
+                  <li>
+                    <img alt="foltana" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudakuopen1.jpg" />
+                  </li>
+                  <li>
+                    <img alt="foltana" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudakuopen2.jpg" />
+                  </li>
                 </ul>
               </div>
               <div className="work__contents--main">
                 <div className="work__contents--background">
-                  {/* 制作背景とか描きたいな */}
-                  <a href="http://sudaku.crap.jp">http://sudaku.crap.jp</a>
+                  <div className="pb-20">○ サイトURL</div>
+                  <div>
+                    <a href="http://sudaku.crap.jp">http://sudaku.crap.jp</a>
+                  </div>
+                </div>
+                <div className="work__contents--background">
+                  <div className="pb-20">○ 制作期間</div>
+                  <div>2018/12 (3days)</div>
+                </div>
+                <div className="work__contents--background">
+                  <div className="pb-20">○ 担当範囲</div>
+                  <div>企画 / 情報設計 / デザイン / コーディング </div>
+                </div>
+                <div className="work__contents--background">
+                  <div className="pb-20">○ 使用ツール</div>
+                  <div>HTML / CSS / PhotoShop</div>
+                </div>
+                <div className="work__contents--background">
+                  <div className="pb-20">○ 制作背景と意図</div>
+                  <div>
+                    <p className="pb-10">
+                      　友人からの紹介で、2019年1月に滋賀にオープンする焼肉屋のLPのデザイン・コーディングの依頼を受けた。
+                      納期が３日間と非常に急ではあったが、WEBデザインほぼ初心者だった私にとって非常に有難い貴重なチャンスだったので当時なりの全力で取り組んだ。
+                      ツイッターからの流入がメインな上、納期の都合もあったので、スマホ表示のみに絞ってデザインした。
+                    </p>
+                    <p className="pb-10">
+                      　最終的には「フォローするだけで１万円相当の試食会が抽選で当たる！」という企画に落ち着いたが、そもそもどういう企画にするかというところから３日間がスタートした。
+                      当初の企画では応募の条件は「リツイート&フォロー」だった。
+                      しかしメインターゲットは30代の家族連れであることから、学生ならともかく、プライベートでTwitterを利用している大人はプライドもあるしリツイートを躊躇うのでは？ということが危惧されたので、あえて条件をフォローだけにすることでメインターゲットの層でも気軽に応募できる仕組みを作った。
+                      実際、試食会に当選した人は地元の家族連れの方が多かったので、成功であったと言えるであろう。
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="backToTop"><Link to="/works">back</Link></div>

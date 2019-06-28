@@ -19,7 +19,7 @@ class Works extends Component {
       {
         name: 'Workshop with SUTD',
         url: 'sutd__workshop',
-        day: '2018/05/14 ~1week~',
+        day: '2018/05 ~4days~',
         imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
       },
       {
