@@ -18,7 +18,7 @@ class About extends Component {
         <div className="about bg-white">
           <div className="flex">
             <div className="width">
-              <div className="mb-30">
+              <div className="mb-40">
                 <h2 className="flex flex-center"><span>About</span></h2>
                 <div>
                   <div>
@@ -35,7 +35,7 @@ class About extends Component {
                       <br/>
                       　2019年、京都工芸繊維大学大学院デザイン学専攻に入学。入学式の直後に日本を出発して、マダガスカルに1ヶ月間滞在。腹痛と嘔吐の時間を過ごす。
                       言語が通じないプリミティブな環境の中でも生きられる自信を手に入れる。
-                      帰国後、このポートフォリオを制作。現在、オフィスデザインとアルゴリズミックデザインについて研究・実践を行いながら、web企業でのインターンシップ活動中。
+                      帰国後、このポートフォリオを制作。現在、オフィスデザインとアルゴリズミックデザインについて研究・実践を行いながら、web系企業でのインターンシップ活動中。
                     </p>
                   </div>
                 </div>
@@ -43,8 +43,8 @@ class About extends Component {
             </div>
           </div>
           <div className="flex bg-gray">
-            <div className="width pb-30">
-              <div className="f-30 pt-30 pb-10">
+            <div className="width pb-40">
+              <div className="f-30 pt-40 pb-10">
                 My Confidence of Skills<span className="hideText">   ~超主観的評価です~   </span>
               </div>
               <SkillCharts />
