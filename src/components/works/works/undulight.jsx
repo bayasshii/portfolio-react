@@ -25,6 +25,7 @@ class Undulight extends Component {
                 <div className="work__contents--kinds">
                   <ul className="flex">
                     <li>学内課題</li>
+                    <li>照明</li>
                     <li>コンピュテーショナルデザイン</li>
                     <li>Python</li>
                   </ul>

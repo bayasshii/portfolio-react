@@ -9,7 +9,6 @@ class ScrollToTop extends Component {
       window.scrollTo(0, 0) // 一番上まで戻す
     }
   }
-
   render() {
     return this.props.children
   }
