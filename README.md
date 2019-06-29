@@ -2,7 +2,7 @@
 
 ポートフォリオのコードです。
 reactで設計しました。
-AWSのAmplipyでデプロイしています。
+AWSのAmplifyでデプロイしています。
 
 ~~~
 TODO
