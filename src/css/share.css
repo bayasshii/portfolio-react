@@ -343,6 +343,10 @@ a {
 .mb-40 {
   margin-bottom: 40px; }
 
+.mbt-50 {
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
 /*---------- FontsColor --------*/
 .f-white {
   color: white; }
