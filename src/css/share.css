@@ -30,6 +30,9 @@ a:link, a:visited, a:hover, a:active {
 p {
   line-height: 35px; }
 
+a {
+  color: #032e43; }
+
 div {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -37,9 +40,6 @@ div {
 li {
   text-decoration: none;
   list-style: none; }
-
-a {
-  color: #182634; }
 
 .hideText {
   color: #fef;
@@ -173,6 +173,9 @@ a {
   font-size: 30px; }
 
 /*---------- Padding --------*/
+.pt-0 {
+  padding-top: 0; }
+
 .p-5 {
   padding: 5px; }
 

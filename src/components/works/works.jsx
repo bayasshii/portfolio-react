@@ -21,6 +21,11 @@ class Works extends Component {
         url: 'sutd__workshop',
         day: '2018/05 ~4days~',
         imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
+      },{
+        name: 'Baseconnectインターン',
+        url: 'baseconnect',
+        day: '2018/10 ~ now',
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect.jpg'
       },
       {
         name: 'Undulight',
@@ -69,36 +74,24 @@ class Works extends Component {
         url: 'takatobi',
         day: '2018/06~2018/07',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/takatobida.jpg'
-      },
-      {
-        name: 'Portfolio',
-        url: 'portfolio',
-        day: '2019/05~',
-        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio.png'
       }
     ]
     return (
       <React.Fragment>
-        <TopImage
-          imageURL={this.state.imageURL}
-          backImageURL={this.state.backImageURL}
-        />
-        <div className="myWorks bg-white">
-          <div className="width">
-            <h2 className="flex flex-center"><span>Work</span></h2>
-            <ul className="flex flex-wrap">
-              {workList.map((workItem) => {
-                return (
-                    <Work
-                      name = {workItem.name}
-                      url = {workItem.url}
-                      imageURL = {workItem.imageURL}
-                      day = {workItem.day}
-                    />
-                )
-              })}
-            </ul>
-          </div>
+        <div className="myWorks width">
+          <h2 className="flex flex-center"><span>Works</span></h2>
+          <ul className="flex flex-wrap">
+            {workList.map((workItem) => {
+              return (
+                  <Work
+                    name = {workItem.name}
+                    url = {workItem.url}
+                    imageURL = {workItem.imageURL}
+                    day = {workItem.day}
+                  />
+              )
+            })}
+          </ul>
         </div>
       </React.Fragment>
     );
