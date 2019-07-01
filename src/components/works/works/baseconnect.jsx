@@ -32,7 +32,7 @@ class Baseconnect extends Component {
                 </div>
               </div>
               <div className="work__contents--img">
-                <ul className="SUTD__workshop--image">
+                <ul>
                   <li>
                     <img alt="foltana" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect.jpg" />
                   </li>

@@ -14,7 +14,7 @@ class Works extends Component {
         name: 'fortana',
         url: 'fortana',
         day: '2018/01~2018/02',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/fortana1.svg'
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/fortana.jpg'
       },
       {
         name: 'Workshop with SUTD',
