@@ -41,10 +41,10 @@ class Works extends Component {
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/office1.jpg'
       },
       {
-        name: '卒業論文',
-        url: 'sotsuron',
+        name: 'CloudChair',
+        url: 'cloudChair',
         day: '2018/10~2019/02',
-        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudaku-gaisou.jpg'
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/sotsuron2.jpg'
       },
       {
         name: '"近江焼肉すだく" LP',
@@ -59,12 +59,6 @@ class Works extends Component {
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudaku-gaisou.jpg'
       },
       {
-        name: 'Portfolio',
-        url: 'portfolio',
-        day: '2019/05~',
-        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio.png'
-      },
-      {
         name: '"Jouneyalist" 名刺',
         url: 'jouneyalist',
         day: '2019/04 ~1day~',
@@ -74,7 +68,13 @@ class Works extends Component {
         name: '高飛びチャレンジ大運動会',
         url: 'takatobi',
         day: '2018/06~2018/07',
-        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/maishi21.jpg'
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/takatobida.jpg'
+      },
+      {
+        name: 'Portfolio',
+        url: 'portfolio',
+        day: '2019/05~',
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio.png'
       }
     ]
     return (

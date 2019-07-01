@@ -29,9 +29,9 @@ class Home extends Component {
         </div>
         <div className="bg-white">
           <div className="width flex">
-            <li className="home__menue"><Link to="/works">work</Link></li>
-            <li className="home__menue"><Link to="/blog">blog</Link></li>
-            <li className="home__menue"><Link to="/about">about</Link></li>
+            <li className="backToTop f-18 m-25 mbt-50"><Link to="/works">work</Link></li>
+            <li className="backToTop f-18 m-25 mbt-50"><Link to="/blog">blog</Link></li>
+            <li className="backToTop f-18 m-25 mbt-50"><Link to="/about">about</Link></li>
           </div>
         </div>
       </React.Fragment>
