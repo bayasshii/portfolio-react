@@ -3,7 +3,7 @@ import Introduce from "./contents/introduce.jsx"
 import Skills from "./contents/skills.jsx"
 import './css/style.css'
 import TopImage from "../topImage/topImage.jsx"
-import { Link } from "react-router-dom";
+import Works from "../works/works.jsx"
 
 class Home extends Component {
   state={
@@ -28,10 +28,8 @@ class Home extends Component {
           </div>
         </div>
         <div className="bg-white">
-          <div className="width flex">
-            <li className="backToTop f-18 m-25 mbt-50"><Link to="/works">work</Link></li>
-            <li className="backToTop f-18 m-25 mbt-50"><Link to="/blog">blog</Link></li>
-            <li className="backToTop f-18 m-25 mbt-50"><Link to="/about">about</Link></li>
+          <div className="width">
+            <Works/>
           </div>
         </div>
       </React.Fragment>

@@ -17,6 +17,12 @@
 .myIntroduce {
   -webkit-animation-duration: 2s;
   animation-duration: 2s; }
+  .myIntroduce .baseconnect a {
+    color: #00bfa5;
+    border-bottom: 1px solid #00bfa5; }
+  .myIntroduce .baseconnect a:hover {
+    color: #032e43;
+    border-bottom: 1px solid #032e43; }
 
 /*------skills----------*/
 .mySkill {

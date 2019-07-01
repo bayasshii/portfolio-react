@@ -11,7 +11,7 @@ class App extends Component {
         <header>
           <Header />
         </header>
-        <main className="pt-20">
+        <main>
           {this.props.children}
         </main>
         <footer>
