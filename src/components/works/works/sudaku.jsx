@@ -54,7 +54,7 @@ class Sudaku extends Component {
                 <div className="work__contents--background">
                   <div className="pb-20">○ サイトURL</div>
                   <div>
-                    <a href="http://sudaku.crap.jp">http://sudaku.crap.jp</a>
+                    <a href="http://sudaku.crap.jp" target="_blank">http://sudaku.crap.jp</a>
                   </div>
                 </div>
                 <div className="work__contents--background">

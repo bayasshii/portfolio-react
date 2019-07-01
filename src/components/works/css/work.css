@@ -54,3 +54,5 @@
     border: 2px solid #edeff1; }
   .work__contents .work__contents--background {
     padding: 25px 0; }
+    .work__contents .work__contents--background a:hover {
+      color: #00bfa5; }

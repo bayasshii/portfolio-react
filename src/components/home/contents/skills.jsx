@@ -34,7 +34,7 @@ class Skills extends Component {
           <li className="mySkill curiositySkill">
             <div className="mySkill__title">Curiosity</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/heart.svg" /></div>
-            <div className="mySkill__text">　好奇心がとても旺盛です。特にデザイン・プログラミングの分野に興味がありますが、会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなど幅広い興味があります。</div>
+            <div className="mySkill__text">　好奇心が非常に旺盛です。今はデザイン・プログラミングの分野に注力していますが、会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなど幅広い分野を勉強しています。</div>
           </li>
         </ul>
       </div>

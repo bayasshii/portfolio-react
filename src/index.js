@@ -97,7 +97,7 @@ ReactDOM.render(
       >
       </Route>
       <Route
-        path="/works/sotsuron"
+        path="/works/cloudChair"
         component={Sotsuron}
       >
       </Route>
