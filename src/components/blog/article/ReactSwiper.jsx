@@ -36,7 +36,7 @@ const SimpleSwiper = () => {
 
 class ReactSwiper extends Component {
   state={
-    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround--work.svg",
+    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround__works.svg",
     imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myNameLong.svg",
     blogTitle: "React-id-swiperを試してみた"
   }
