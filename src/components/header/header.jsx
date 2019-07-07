@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './css/style.css';
 
 class Header extends Component {
+  // TODO: ボタンによるページ移行にしか対応できない。「戻る」とかでページ移行した場合ヤバイ。
   CurrentPage() {
     const home = document.getElementById("home")
     const works = document.getElementById("works")
