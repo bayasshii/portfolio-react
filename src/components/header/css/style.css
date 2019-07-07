@@ -4,7 +4,7 @@ header {
   header .header {
     left: 0;
     padding: 27px 5% 27px;
-    background: rgba(255, 255, 255, 0.95);
+    background: #fff;
     -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -34,7 +34,6 @@ header {
         content: '';
         width: 100%;
         height: 2px;
-        background: #00bfa5;
         -webkit-transform: scale(0, 1);
         -ms-transform: scale(0, 1);
         transform: scale(0, 1);
@@ -46,7 +45,19 @@ header {
         -o-transition: transform .3s;
         transition: transform .3s;
         transition: transform .3s, -webkit-transform .3s; }
+      header .header .header__menue .home::after {
+        background: #00bfa5; }
+      header .header .header__menue .works::after {
+        background: #d59d66; }
+      header .header .header__menue .about::after {
+        background: #f5ae3e; }
       header .header .header__menue a:hover::after {
         -webkit-transform: scale(1, 1);
         -ms-transform: scale(1, 1);
         transform: scale(1, 1); }
+    header .header .currentPage .home {
+      color: #00bfa5; }
+    header .header .currentPage .works {
+      color: #d59d66; }
+    header .header .currentPage .about {
+      color: #f5ae3e; }

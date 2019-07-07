@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 class Article extends Component {
   state={
-    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround--work.svg",
+    backImageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/backGround__works.svg",
     imageURL: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/myNameLong.svg",
     blogTitle: "ブログ始めました。"
   }
