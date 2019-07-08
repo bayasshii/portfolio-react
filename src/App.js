@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <React.Fragment>
         <header>
-          <Header />
+          <Header
+            currentPage={this.props.currentPage}
+          />
         </header>
         <main>
           {this.props.children}
