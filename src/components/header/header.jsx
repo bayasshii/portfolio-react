@@ -3,36 +3,46 @@ import { Link } from "react-router-dom";
 import './css/style.css';
 
 class Header extends Component {
-  // TODO: ボタンによるページ移行にしか対応できない。「戻る」とかでページ移行した場合ヤバイ。
-  CurrentPage() {
-    const home = document.getElementById("home")
-    const works = document.getElementById("works")
-    const about = document.getElementById("about")
-    let currentUrl = window.location.href
+  ChangeCurrentPage(){
+    let currentUrl = this.props.currentPage
+
+    const homeClass = document.getElementById("home")
+    const worksClass = document.getElementById("works")
+    const aboutClass = document.getElementById("about")
+
     if ( currentUrl.indexOf('works') !== -1 ) {
-      works.classList.add( "currentPage" )
-      home.classList.remove( "currentPage" )
-      about.classList.remove( "currentPage" )
+      worksClass.classList.add( "currentPage" )
+      homeClass.classList.remove( "currentPage" )
+      aboutClass.classList.remove( "currentPage" )
     }
     else if( currentUrl.indexOf('about') !== -1 ) {
-      about.classList.add( "currentPage" )
-      home.classList.remove( "currentPage" )
-      works.classList.remove( "currentPage" )
+      aboutClass.classList.add( "currentPage" )
+      homeClass.classList.remove( "currentPage" )
+      worksClass.classList.remove( "currentPage" )
     }
     else {
-      home.classList.add( "currentPage" ) ;
-      works.classList.remove( "currentPage" )
-      about.classList.remove( "currentPage" )
+      homeClass.classList.add( "currentPage" )
+      worksClass.classList.remove( "currentPage" )
+      aboutClass.classList.remove( "currentPage" )
     }
   }
 
+  // TODO: ダーティな上にDidMount使ってる。要修正。
+  componentDidMount(){
+    this.ChangeCurrentPage()
+  }
+  componentDidUpdate(prevProps, prevState){
+    this.ChangeCurrentPage()
+  }
+  
   render() {
+
     return (
       <div className="header flex">
         <ul className="header__menue--others flex">
-          <li className="header__menue currentPage" id="home" onClick={this.CurrentPage}><Link to="" className="home">home</Link></li>
-          <li className="header__menue" id="works" onClick={this.CurrentPage}><Link to="/works" className="works">works</Link></li>
-          <li className="header__menue" id="about" onClick={this.CurrentPage}><Link to="/about" className="about">about</Link></li>
+          <li className="header__menue" id="home"><Link to="" className="home">home</Link></li>
+          <li className="header__menue" id="works"><Link to="/works" className="works">works</Link></li>
+          <li className="header__menue" id="about"><Link to="/about" className="about">about</Link></li>
         </ul>
       </div>
     );
