@@ -17,15 +17,23 @@ class Works extends Component {
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/fortana.jpg'
       },
       {
-        name: 'Workshop with SUTD',
-        url: 'sutd__workshop',
-        day: '2018/05 ~4days~',
-        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
-      },{
         name: 'Baseconnectインターン',
         url: 'baseconnect',
         day: '2018/10 ~ now',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect.jpg'
+      }
+      ,
+      {
+        name: 'Workshop with SUTD',
+        url: 'sutd__workshop',
+        day: '2018/05 ~4days~',
+        imageURL: 'https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg'
+      },
+      {
+        name: '"T社 オフィスリニューアルPJ" ロゴデザイン',
+        url: 'campanyT.logo',
+        day: '2018/03 ~1week~',
+        imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/onecomfortLogogo.jpg'
       },
       {
         name: 'Undulight',

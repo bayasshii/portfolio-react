@@ -34,7 +34,7 @@ class Header extends Component {
   componentDidUpdate(prevProps, prevState){
     this.ChangeCurrentPage()
   }
-  
+
   render() {
 
     return (
