@@ -18,6 +18,7 @@ import Sotsuron from "./components/works/works/sotsuron.jsx";
 import Jouneyalist from "./components/works/works/jouneyalist.jsx";
 import Takatobi from "./components/works/works/takatobi.jsx";
 import Baseconnect from "./components/works/works/baseconnect.jsx";
+import CampanyTlogo from "./components/works/works/campanyTlogo.jsx";
 
 import Blog from "./components/blog/blog.jsx";
 import Article from "./components/blog/article/article1.jsx";
@@ -117,6 +118,11 @@ ReactDOM.render(
           <Route
             path="/works/baseconnect"
             component={Baseconnect}
+          >
+          </Route>
+          <Route
+            path="/works/campanyT.logo"
+            component={CampanyTlogo}
           >
           </Route>
           {/*ワークのURLここまで*/}
