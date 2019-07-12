@@ -139,6 +139,8 @@ li {
 
 /*---------- 強調 --------*/
 .enpha {
+  font-weight: bold;
+  font-size: 20px;
   color: #00bfa5; }
 
 .enpha__line {

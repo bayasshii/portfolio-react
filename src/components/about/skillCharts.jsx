@@ -31,10 +31,6 @@ class SkillCharts extends Component {
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-03.svg"
       },
       {
-        title: "Ruby",
-        image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-04.svg"
-      },
-      {
         title: "Rails",
         image: "https://treeethreee.s3-ap-northeast-1.amazonaws.com/skillChart-08.svg"
       },
