@@ -24,7 +24,7 @@ class Skills extends Component {
           <li className="mySkill programmingSkill">
             <div className="mySkill__title">Coding</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/keyboard.svg" /></div>
-            <div className="mySkill__text">　HTMLやCSS、JavaScriptを用いたWEBサイトのコーディングができます。このポートフォリオはAtomicDesignを意識しながらReactを用いて設計しました。第三者でも迷わずに読めるコードを書くことに注力しています。</div>
+            <div className="mySkill__text">　HTMLやCSS、JavaScriptを用いたWEBサイトのコーディングができます。このポートフォリオはAtomicDesignを意識しながらReactで設計しました。第三者でも迷わずに読めるコードを書くことに注力しています。</div>
           </li>
           <li className="mySkill directionSkill">
             <div className="mySkill__title">Research</div>
