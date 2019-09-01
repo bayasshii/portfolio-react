@@ -42,6 +42,7 @@ class About extends Component {
               </div>
             </div>
           </div>
+          {/*
           <div className="flex bg-gray">
             <div className="width pb-40">
               <div className="f-30 pt-40 pb-10">
@@ -50,6 +51,7 @@ class About extends Component {
               <SkillCharts />
             </div>
           </div>
+        */}
         </div>
       </React.Fragment>
     );

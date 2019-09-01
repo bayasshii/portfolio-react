@@ -53,7 +53,7 @@ class Baseconnect extends Component {
                 </div>
                 <div className="work__contents--background">
                   <div className="pb-20">○ 使用ツール</div>
-                  <div>React / Sketch / Illustrator / PhotoShop</div>
+                  <div>HTML / CSS / React / Sketch / Illustrator / PhotoShop</div>
                 </div>
                 <div className="work__contents--background">
                   <div className="pb-20">○ 業務</div>
