@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------ works ----------*/
 .myWorks {
   padding-bottom: 0px; }
@@ -22,6 +23,14 @@
   .myWork .myWork__day {
     font-size: 14px;
     color: #ccc; }
+
+/*---------- モバイル ----------*/
+@media screen and (max-width: 980px) {
+  .myWork {
+    width: 100%;
+    margin: 0; }
+    .myWork .myWork__image img {
+      height: 200px; } }
 
 /*------ works ----------*/
 .work__contents {
