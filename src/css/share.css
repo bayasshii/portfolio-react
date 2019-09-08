@@ -19,6 +19,12 @@ body {
   width: 1024px;
   margin: 0 auto; }
 
+/* モバイル対応 */
+@media screen and (max-width: 980px) {
+  .width {
+    width: 100%;
+    padding: 0 30px; } }
+
 /* 横幅決めてるところ〜結構重要, no-responsive〜*/
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -97,6 +103,11 @@ li {
   background: linear-gradient(transparent 70%, #f5ae3e 70%); }
 
 /*-------  flex系  -----*/
+.cf:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
