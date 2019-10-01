@@ -8,8 +8,7 @@ class Introduce extends Component {
       <h2 className="flex flex-center"><span>Introduce</span></h2>
       <p className="f-15">
         　はじめまして。
-        京都工芸繊維大学大学院 デザイン学専攻 修士1回生の<span className="bold">木林将也</span>です。
-        もしご興味があれば、<span className="baseconnect"><Link to="/about">こちら</Link></span>で自己紹介をしているのでぜひご覧ください。ここでは、僕の大学生活について手短にお話したいと思います。
+        京都工芸繊維大学大学院 デザイン学専攻 修士1回生の<span className="bold">木林将也</span>です。まず僕の大学生活でどんな勉強をしてきたかについて手短にお話します。
         <br/><br/>
         　学部時代の４年間は、<span className="bold">デザイン経営工学課程</span>という少し珍しい学科に所属していました。
         デザインとマネジメント、エンジニアリングという<span className="bold">ものづくりの上流から下流までを広く学んで、</span>それぞれの領域のマインドを身につけることができました。
