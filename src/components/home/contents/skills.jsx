@@ -24,7 +24,7 @@ class Skills extends Component {
           <li className="mySkill programmingSkill">
             <div className="mySkill__title">Coding</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/keyboard.svg" /></div>
-            <div className="mySkill__text">　HTMLやCSS、JavaScriptを用いたWEBサイトのコーディングができます。このポートフォリオはAtomicDesignを意識しながらReactで設計しました。第三者でも迷わずに読めるコードを書くことに注力しています。</div>
+            <div className="mySkill__text">　HTMLやCSS、JavaScriptを用いたフロントエンドのコーディングができます。AtomicDesignやstyled-componentsなどの設計手法にも興味があります。１年後の自分でも迷わずに読めるコードを書くことに注力しています。</div>
           </li>
           <li className="mySkill directionSkill">
             <div className="mySkill__title">Research</div>
@@ -34,7 +34,7 @@ class Skills extends Component {
           <li className="mySkill curiositySkill">
             <div className="mySkill__title">Curiosity</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/heart.svg" /></div>
-            <div className="mySkill__text">　好奇心が非常に旺盛です。今はデザイン・プログラミングの勉強に注力していますが、会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなどの幅広い分野を勉強しています。</div>
+            <div className="mySkill__text">　好奇心が非常に旺盛です。じっとしていられないタイプです。会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなど、幅広い分野に興味があって勉強しています。</div>
           </li>
         </ul>
       </div>
