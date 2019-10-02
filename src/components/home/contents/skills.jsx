@@ -34,7 +34,7 @@ class Skills extends Component {
           <li className="mySkill curiositySkill">
             <div className="mySkill__title">Curiosity</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/heart.svg" /></div>
-            <div className="mySkill__text">　好奇心が非常に旺盛です。じっとしていられないタイプです。会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなど、幅広い分野に興味があって勉強しています。</div>
+            <div className="mySkill__text">　好奇心が非常に旺盛で、常に動き回っているタイプです。会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなど、幅広い分野に興味があって勉強しています。</div>
           </li>
         </ul>
       </div>
