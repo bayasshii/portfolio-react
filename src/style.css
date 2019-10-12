@@ -7,7 +7,7 @@
     max-height: 500px;
     z-index: 2;
     left: 50%;
-    bottom: 0;
+    bottom: -70px;
     margin-left: -2508px;
     position: absolute; }
   .topImage .header__image--back {

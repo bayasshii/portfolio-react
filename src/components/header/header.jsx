@@ -7,22 +7,14 @@ class Header extends Component {
     let currentUrl = this.props.currentPage
 
     const homeClass = document.getElementById("home")
-    const worksClass = document.getElementById("works")
     const aboutClass = document.getElementById("about")
 
-    if ( currentUrl.indexOf('works') !== -1 ) {
-      worksClass.classList.add( "currentPage" )
-      homeClass.classList.remove( "currentPage" )
-      aboutClass.classList.remove( "currentPage" )
-    }
-    else if( currentUrl.indexOf('about') !== -1 ) {
+    if( currentUrl.indexOf('about') !== -1 ) {
       aboutClass.classList.add( "currentPage" )
       homeClass.classList.remove( "currentPage" )
-      worksClass.classList.remove( "currentPage" )
     }
     else {
       homeClass.classList.add( "currentPage" )
-      worksClass.classList.remove( "currentPage" )
       aboutClass.classList.remove( "currentPage" )
     }
   }
@@ -41,7 +33,7 @@ class Header extends Component {
       <div className="header flex">
         <ul className="header__menue--others flex">
           <li className="header__menue" id="home"><Link to="" className="home">home</Link></li>
-          <li className="header__menue" id="works"><Link to="/works" className="works">works</Link></li>
+          {/*<li className="header__menue" id="works"><Link to="/works" className="works">works</Link></li>*/}
           <li className="header__menue" id="about"><Link to="/about" className="about">about</Link></li>
         </ul>
       </div>

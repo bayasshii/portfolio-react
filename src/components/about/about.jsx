@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './css/about.css';
-import TopImage from "../topImage/topImage.jsx"
 import SkillCharts from "./skillCharts.jsx"
+import Skills from "./skills.jsx"
 
 class About extends Component {
   state={
@@ -11,10 +11,6 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <TopImage
-          imageURL={this.state.imageURL}
-          backImageURL={this.state.backImageURL}
-        />
         <div className="about bg-white">
           <div className="flex">
             <div className="width">
@@ -40,6 +36,11 @@ class About extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="flex bg-gray">
+            <div className="width pb-40">
+              <Skills />
             </div>
           </div>
           {/*
