@@ -6,7 +6,10 @@
 .myWork {
   width: 46%;
   margin-top: 0px;
-  margin: 30px 20px; }
+  background: -webkit-gradient(linear, left top, right top, from(#182634), to(#00bfa5));
+  background: -webkit-linear-gradient(left, #182634, #00bfa5);
+  background: -o-linear-gradient(left, #182634, #00bfa5);
+  background: linear-gradient(left, #182634, #00bfa5); }
   .myWork a {
     cursor: pointer; }
   .myWork a:hover .myWork__image img {

@@ -14,17 +14,17 @@ class Works extends Component {
     ]
     return (
       <React.Fragment>
-        <div className="myWorks width">
+        <div className="myWorks w-100">
           {/*<h2 className="flex flex-center"><span>Works</span></h2>*/}
-          <ul className="flex flex-wrap">
+          <ul className="flex flex-wrap w-100">
             {workList.map((workItem) => {
               return (
-                  <Work
-                    name = {workItem.name}
-                    url = {workItem.url}
-                    imageURL = {workItem.imageURL}
-                    day = {workItem.day}
-                  />
+                <Work
+                  name = {workItem.name}
+                  url = {workItem.url}
+                  imageURL = {workItem.imageURL}
+                  day = {workItem.day}
+                />
               )
             })}
           </ul>

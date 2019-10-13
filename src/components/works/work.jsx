@@ -8,7 +8,8 @@ class Work extends Component {
       localStorage.setItem('key',scrollPos);
     }
     return (
-        <li className="myWork">
+        <li className="myWork w-100">
+          {/*
           <Link to={"works/"+this.props.url} onclick={strageScroll}>
             <div className="myWork__image">
               <img alt={this.props.name} src={this.props.imageURL} />
@@ -20,6 +21,13 @@ class Work extends Component {
               {this.props.day}
             </div>
           </Link>
+          */}
+          <div className="w-100">
+            <div>
+              Baseconnect
+            </div>
+            <img src="https://bayashi.s3-ap-northeast-1.amazonaws.com/baseconnect_pc.png" />
+          </div>
         </li>
     );
   }
