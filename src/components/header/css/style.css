@@ -10,9 +10,6 @@ header {
     width: 100%;
     top: 0;
     position: fixed; }
-    header .header .header__title {
-      font-size: 25px;
-      line-height: 25px; }
     header .header .header__menues {
       margin-right: auto;
       vertical-align: middle; }
@@ -20,7 +17,8 @@ header {
       margin-left: auto;
       vertical-align: middle; }
     header .header .header__menue {
-      font-size: 18px; }
+      font-size: 18px;
+      font-weight: bold; }
       header .header .header__menue a {
         padding: 0 30px 0;
         cursor: pointer;

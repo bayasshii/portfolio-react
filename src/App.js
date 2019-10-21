@@ -3,7 +3,6 @@ import Header from "./components/header/header.jsx"
 import Footer from "./components/footer/footer.jsx"
 import './css/share.css'
 import './css/reset.css'
-import TopImage from "./topImage.jsx"
 
 class App extends Component {
   render() {
@@ -14,7 +13,6 @@ class App extends Component {
             currentPage={this.props.currentPage}
           />
         </header>
-        <TopImage/>
         <main class="pt-70">
           {this.props.children}
         </main>

@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /*---------共有------------*/
-.myIntroduce, .mySkills, .myBlog, .myWorks {
-  padding: 10px 0 40px; }
-
 .myIntroduce h2, .mySkills h2, .myBlog h2, .myWorks h2, .about h2 {
   font-size: 35px;
   letter-spacing: 3px;
@@ -13,7 +10,7 @@
     padding-bottom: 40px;
     border-bottom: 1px solid #00bfa5; }
 
-/*------introduce----------*/
+/* ------Introduce---------- */
 .myIntroduce {
   -webkit-animation-duration: 2s;
   animation-duration: 2s; }
@@ -24,7 +21,7 @@
     color: #032e43;
     border-bottom: none; }
 
-/*------skills----------*/
+/* ------skills---------- */
 .mySkill {
   display: block;
   margin: 0 auto 40px;
