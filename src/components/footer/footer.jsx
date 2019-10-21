@@ -9,7 +9,6 @@ class Footer extends Component {
           <div>
             <ul className="flex">
               <li className="footer__menue"><a href="https://github.com/bayasshii" target="_blank">GitHub</a></li>
-              <li className="footer__menue"><a href="https://note.mu/kibachan" target="_blank">note</a></li>
             </ul>
           </div>
           <div className="ml-auto">
