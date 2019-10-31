@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './homeTop.css'
 
-class HomeTop extends Component {
+class TopImage extends Component {
   render() {
     return (
     <div className="homeTop">
@@ -15,4 +15,4 @@ class HomeTop extends Component {
   }
 }
 
-export default HomeTop ;
+export default TopImage ;

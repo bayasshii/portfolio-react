@@ -1,6 +1,6 @@
 .homeTop {
   background: #eaedec;
-  padding: 100px 0;
+  padding: 200px 0 120px;
   margin: 0 auto; }
   .homeTop .homeTop__mainText {
     text-align: center; }
@@ -12,3 +12,10 @@
       font-size: 36px; }
       .homeTop .homeTop__mainText h2 li:last-child {
         color: #f5ae3e; }
+    @media screen and (max-width: 980px) {
+      .homeTop .homeTop__mainText h1 {
+        font-size: 32px; }
+      .homeTop .homeTop__mainText h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 30px; } }

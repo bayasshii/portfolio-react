@@ -13,7 +13,7 @@ class App extends Component {
             currentPage={this.props.currentPage}
           />
         </header>
-        <main class="pt-70">
+        <main>
           {this.props.children}
         </main>
         <footer>

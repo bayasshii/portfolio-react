@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './css/about.css';
 import SkillCharts from "./skillCharts.jsx"
 import Skills from "./skills.jsx"
+import TopImage from "../topImage/homeTop.jsx"
+
 
 class About extends Component {
   state={
@@ -11,8 +13,9 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
+        <TopImage/ >
         <div className="about bg-white">
-          <div className="flex">
+          <div className="flex">_
             <div className="width">
               <div className="mb-40">
                 <h2 className="flex flex-center"><span>About</span></h2>

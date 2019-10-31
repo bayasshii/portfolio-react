@@ -4,7 +4,8 @@
   line-height: 120px;
   position: relative;
   z-index: 10;
-  text-align: center; }
+  text-align: center;
+  background: #eaedec; }
   .footer .footer__menue {
     margin: 0 auto; }
     .footer .footer__menue a {
