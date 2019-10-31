@@ -2,33 +2,34 @@
 .myWorks {
   padding: 0 200px; }
   .myWorks .myWork {
-    width: 50%; }
+    width: 50%;
+    margin: 50px auto; }
     .myWorks .myWork li {
       background: fff;
       -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
       box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
       border-radius: 16px;
-      width: 500px;
-      margin: 50px auto; }
+      width: 500px; }
       .myWorks .myWork li .myWork__image {
         padding: 30px;
         overflow: hidden; }
         .myWorks .myWork li .myWork__image img {
           width: 300px; }
-      .myWorks .myWork li .myWork__image:hover img {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        -webkit-transition-duration: 0.5s;
-        -o-transition-duration: 0.5s;
-        transition-duration: 0.5s; }
       .myWorks .myWork li .myWork__text {
         text-align: center;
         padding-bottom: 30px; }
         .myWorks .myWork li .myWork__text h1 {
-          font-size: 28px; }
+          font-size: 28px;
+          padding-bottom: 10px; }
         .myWorks .myWork li .myWork__text h2 {
           font-size: 16px;
           color: #aaa; }
+    .myWorks .myWork li:hover .myWork__image img {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s; }
   .myWorks .work__contents--main {
     padding-top: 70px; }
