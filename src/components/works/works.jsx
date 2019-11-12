@@ -19,13 +19,13 @@ class Works extends Component {
       },
       {
         name: 'Workshop with SUTD',
-        tag: 'Scraping & Analysis',
+        tag: 'Scraping / Analysis',
         utl: 'sutd',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect.jpg'
       },
       {
         name: 'Hobby Blog',
-        tag: 'Writting',
+        tag: 'Writting / Cording',
         utl: 'blog',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect.jpg'
       }
