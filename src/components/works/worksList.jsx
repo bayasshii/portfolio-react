@@ -7,9 +7,7 @@ class WorksList extends Component {
     return (
       <React.Fragment>
         <div className="bg-white">
-          <div className="width">
-            <Works />
-          </div>
+          <Works />
         </div>
       </React.Fragment>
     );
