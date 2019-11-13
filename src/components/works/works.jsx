@@ -70,7 +70,7 @@ class Works extends Component {
         url: 'sudaku-gaisou',
         day: '2019/2 ~1week~',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudaku-gaisou.jpg'
-      },
+      }/*,
       {
         name: '"Jouneyalist" 名刺',
         url: 'jouneyalist',
@@ -82,7 +82,7 @@ class Works extends Component {
         url: 'takatobi',
         day: '2018/06~2018/07',
         imageURL: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/takatobida.jpg'
-      }
+      }*/
     ]
     return (
       <React.Fragment>
