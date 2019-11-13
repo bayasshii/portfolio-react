@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.workshop li {
+  background: -webkit-gradient(linear, right top, left top, from(#a02f44), to(#800f24));
+  background: -webkit-linear-gradient(right, #a02f44, #800f24);
+  background: -o-linear-gradient(right, #a02f44, #800f24);
+  background: linear-gradient(to left, #a02f44, #800f24); }
+
+.workshop .myWork__image {
+  position: relative; }
+  .workshop .myWork__image img {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    height: 80vh;
+    width: 60%; }
+
+.workshop .myWork__text {
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  padding-top: 10vh;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; }
+  .workshop .myWork__text h1 {
+    font-size: 72px !important;
+    letter-spacing: 3px;
+    line-height: 100px;
+    padding-bottom: 10px;
+    font-weight: bold; }
+  .workshop .myWork__text h2 {
+    display: inline-block;
+    margin-top: 30px;
+    width: 400px;
+    text-align: center;
+    padding: 15px 70px;
+    border: 3px solid #fff;
+    border-radius: 10px; }

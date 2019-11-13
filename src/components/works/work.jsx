@@ -8,7 +8,7 @@ class Work extends Component {
       localStorage.setItem('key',scrollPos);
     }
     return (
-      <Link to={this.props.url} onclick={strageScroll} className="myWork">
+      <Link to="/" onclick={strageScroll} className="myWork">
         <li>
           <div className="myWork__image">
             <img alt={this.props.name} src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/beseconnect_logo.png" />

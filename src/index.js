@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ScrollToTop from "./scrollTop.jsx"
 import ChangeCurrentHeader from "./changeCurrentHeader.jsx"
 import About from "./components/about/about.jsx";
-import Baseconnect from "./components/works/works/baseconnect.jsx";
+import BaseconnectContents from "./components/works/baseconnect/baseconnectContents.jsx";
+import FoltanaContents from "./components/works/foltana/foltanaContents.jsx";
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
@@ -21,22 +22,12 @@ ReactDOM.render(
           {/*ワークのURL*/}
           <Route
             path="/baseconnect"
-            component={Baseconnect}
+            component={BaseconnectContents}
           >
           </Route>
           <Route
-            path="/sutd"
-            component={Baseconnect}
-          >
-          </Route>
-          <Route
-            path="/office"
-            component={Baseconnect}
-          >
-          </Route>
-          <Route
-            path="/blog"
-            component={Baseconnect}
+            path="/foltana"
+            component={FoltanaContents}
           >
           </Route>
           {/*ワークのURLここまで*/}

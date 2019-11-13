@@ -12,9 +12,9 @@ body {
   overflow-y: auto;
   padding: 30px 30px 0;
   font-size: 1.2rem;
-  font-family: "ヒラギノ角ゴ Pro W2", "Hiragino Kaku Gothic Pro", 游ゴシック体, "Yu Gothic", YuGothic, メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  font-family: Avenir, "ヒラギノ角ゴ Pro W2", "Hiragino Kaku Gothic Pro", 游ゴシック体, "Yu Gothic", YuGothic, メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
 
-/* 横幅決めてるところ〜結構重要, no-responsive〜*/
+/* 横幅決めてるところ〜結構重要〜*/
 .width {
   width: 1024px;
   margin: 0 auto; }
@@ -25,7 +25,6 @@ body {
     width: 100%;
     padding: 0 30px; } }
 
-/* 横幅決めてるところ〜結構重要, no-responsive〜*/
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
