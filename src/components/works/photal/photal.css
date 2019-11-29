@@ -1,31 +1,29 @@
 @charset "UTF-8";
-.workshop li {
-  background: -webkit-gradient(linear, right top, left top, from(#a02f44), to(#800f24));
-  background: -webkit-linear-gradient(right, #a02f44, #800f24);
-  background: -o-linear-gradient(right, #a02f44, #800f24);
-  background: linear-gradient(to left, #a02f44, #800f24); }
+.photal li {
+  padding: 0 !important; }
 
-.workshop .myWork__image {
+.photal .myWork__image {
   position: relative; }
-  .workshop .myWork__image img {
+  .photal .myWork__image img {
     position: absolute;
     cursor: pointer;
+    border-radius: 15px;
     top: 0;
-    right: 0;
-    height: 80vh;
-    width: 60%; }
+    left: 0;
+    width: 100%;
+    height: 500px; }
 
-.workshop .myWork__text {
+.photal .myWork__text {
   cursor: pointer;
   color: #fff;
   text-align: left;
   padding-top: 10vh;
   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; }
-  .workshop .myWork__text h1 {
+  .photal .myWork__text h1 {
     letter-spacing: 3px;
     padding-bottom: 10px;
     font-weight: bold; }
-  .workshop .myWork__text h2 {
+  .photal .myWork__text h2 {
     display: inline-block;
     margin-top: 30px;
     width: 400px;

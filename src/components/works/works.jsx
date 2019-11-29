@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Baseconnect from "./baseconnect/baseconnect.jsx";
-import Workshop from "./workshop/workshop.jsx"
+import Photal from "./photal/photal.jsx"
 import Foltana from "./foltana/foltana.jsx"
 import Others from "./others/others.jsx"
 import Sugar from "./sugar/sugar.jsx"
@@ -13,7 +13,7 @@ class Works extends Component {
       <React.Fragment>
         <div className="myWorks">
           <Baseconnect/>
-          {/*<Workshop/>*/}
+          <Photal/>
           <Sugar/>
           <Foltana/>
           <Others/>
