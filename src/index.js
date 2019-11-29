@@ -6,6 +6,7 @@ import ChangeCurrentHeader from "./changeCurrentHeader.jsx"
 import About from "./components/about/about.jsx";
 import BaseconnectContents from "./components/works/baseconnect/baseconnectContents.jsx";
 import FoltanaContents from "./components/works/foltana/foltanaContents.jsx";
+import SugarContents from "./components/works/sugar/sugarContents.jsx";
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
@@ -28,6 +29,11 @@ ReactDOM.render(
           <Route
             path="/foltana"
             component={FoltanaContents}
+          >
+          </Route>
+          <Route
+            path="/sugar"
+            component={SugarContents}
           >
           </Route>
           {/*ワークのURLここまで*/}

@@ -5,17 +5,17 @@ class BaseconnectContents extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="baseconnectContents">
-          <div className="baseconnectContents__header flex">
+        <div className="workContents baseconnectContents">
+          <div className="workContents__header flex">
             <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/beseconnect_logo.png" />
           </div>
-          <div className="baseconnectContents__wrap">
+          <div className="workContents__wrap">
             <h1>Baseconnect Internship</h1>
-            <div className="baseconnectContents__text">
+            <div className="workContents__text">
               Baseconnectのミッションは「世界中のデータを繋げることで、ダイレクトに必要な情報にアクセスできる世界を作る」ことです。
               現在は主に、営業を支援するBtoBのwebサービスを開発しています。
             </div>
-            <div className="baseconnectContents__text">
+            <div className="workContents__text">
               私が担当している領域は
               <ul>
                 <li>- UIデザイン</li>
@@ -27,17 +27,17 @@ class BaseconnectContents extends Component {
               </ul>
               などです。
             </div>
-            <div className="baseconnectContents__text">
+            <div className="workContents__text">
               以下では具体的な活動について紹介していきます。
             </div>
             <div>
 
             </div>
-            <div className="baseconnectContents__title">
+            <div className="workContents__title">
               <div>Case 1.　</div>
               <h2>事業所画面 コーディング</h2>
             </div>
-            <div className="baseconnectContents__list">
+            <div className="workContents__list">
               <ul>
                 <li>
                   URL
@@ -47,7 +47,7 @@ class BaseconnectContents extends Component {
                 </li>
               </ul>
             </div>
-            <div className="baseconnectContents__list">
+            <div className="workContents__list">
               <ul>
                 <li>
                   Roles
@@ -57,7 +57,7 @@ class BaseconnectContents extends Component {
                 </li>
               </ul>
             </div>
-            <div className="baseconnectContents__list">
+            <div className="workContents__list">
               <ul>
                 <li>
                   Detail
@@ -66,7 +66,7 @@ class BaseconnectContents extends Component {
                   企業情報検索エンジン『Baseconnect』は企業と企業のデータを繋げることで、営業の情報収集を効率的にするサービスです。
                   <br/>
                   今回は『Baseconnect』に、企業の事業所の情報を追加することになり、私はその画面のフロントエンドのコーディングを担当しました。
-                  <div className="baseconnectContents__image">
+                  <div className="workContents__image">
                     <div className="flex">
                       <div>Mobile</div>
                       <div>PC</div>
@@ -76,7 +76,7 @@ class BaseconnectContents extends Component {
                 </li>
               </ul>
             </div>
-            <div className="baseconnectContents__list">
+            <div className="workContents__list">
               <ul>
                 <li>
                   Points
