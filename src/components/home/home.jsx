@@ -8,8 +8,8 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <TopImage/>
-        <div className="bg-white">
+        <div className="bg-gray">
+          <TopImage/>
           <Works />
         </div>
       </React.Fragment>

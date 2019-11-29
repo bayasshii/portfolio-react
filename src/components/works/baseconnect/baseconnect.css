@@ -1,5 +1,5 @@
-@charset "UTF-8";
 .baseconnect li {
+  border-radius: 15px;
   background: -webkit-gradient(linear, right top, left top, from(#222f40), to(#323f50));
   background: -webkit-linear-gradient(right, #222f40, #323f50);
   background: -o-linear-gradient(right, #222f40, #323f50);
@@ -12,13 +12,13 @@
     z-index: 9; }
   .baseconnect .myWork__image img:nth-child(1) {
     cursor: pointer;
-    top: 0;
-    left: -100px;
-    width: 700px;
-    opacity: 0.7; }
+    top: -20px;
+    left: -80px;
+    width: 500px;
+    opacity: 0.4; }
   .baseconnect .myWork__image img:nth-child(2) {
     cursor: pointer;
-    top: 10vh;
+    top: 30px;
     right: -10%;
     width: 55%;
     min-width: 600px; }
@@ -27,27 +27,26 @@
   cursor: pointer;
   color: #fff;
   text-align: left;
-  padding-top: 20vh;
-  font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; }
+  padding-top: 80px; }
   .baseconnect .myWork__text h1 {
-    letter-spacing: 3px;
     line-height: 100px;
     padding-bottom: 10px;
-    font-weight: bold; }
+    font-weight: 600; }
   .baseconnect .myWork__text h2 {
     display: inline-block;
     margin-top: 30px;
     padding: 15px 70px;
     border: 3px solid #fff;
-    border-radius: 10px; }
+    border-radius: 10px;
+    font-weight: 600; }
 
 .baseconnect li:hover .myWork__image img:nth-child(1) {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s; }
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
 
 .baseconnectContents .baseconnectContents__header {
   background: -webkit-gradient(linear, right top, left top, from(#121f30), to(#424f60));
@@ -57,10 +56,41 @@
   .baseconnectContents .baseconnectContents__header img {
     width: 300px; }
 
-.baseconnectContents .baseconnectContents__main {
-  width: 1240px;
+.baseconnectContents .baseconnectContents__wrap {
+  width: 800px;
   margin: auto;
-  font-size: 20px; }
-  .baseconnectContents .baseconnectContents__main h1 {
-    font-size: 32px;
+  line-height: 35px; }
+  .baseconnectContents .baseconnectContents__wrap h1 {
+    font-size: 42px;
     padding: 50px 0 30px; }
+  .baseconnectContents .baseconnectContents__wrap .baseconnectContents__image {
+    padding: 30px 0; }
+    .baseconnectContents .baseconnectContents__wrap .baseconnectContents__image .flex div {
+      padding: 10px 210px; }
+    .baseconnectContents .baseconnectContents__wrap .baseconnectContents__image .flex div:first-child {
+      padding: 10px 170px; }
+    .baseconnectContents .baseconnectContents__wrap .baseconnectContents__image img {
+      width: 100%; }
+  .baseconnectContents .baseconnectContents__wrap .baseconnectContents__title {
+    padding: 30px 25px 20px;
+    position: relative; }
+    .baseconnectContents .baseconnectContents__wrap .baseconnectContents__title h2 {
+      font-size: 20px; }
+  .baseconnectContents .baseconnectContents__wrap .baseconnectContents__title:before {
+    content: '';
+    width: 6px;
+    height: 70px;
+    background-color: #00bfa5;
+    display: block;
+    position: absolute;
+    left: 0; }
+  .baseconnectContents .baseconnectContents__wrap .baseconnectContents__list ul {
+    line-height: 30px;
+    padding: 15px 0; }
+    .baseconnectContents .baseconnectContents__wrap .baseconnectContents__list ul li:first-child {
+      color: #bbb;
+      padding-bottom: 5px; }
+  .baseconnectContents .baseconnectContents__wrap .baseconnectContents__explain {
+    padding-top: 20px; }
+  .baseconnectContents .baseconnectContents__wrap .baseconnectContents__text {
+    padding: 10px 0; }

@@ -1,33 +1,35 @@
-@charset "UTF-8";
 .foltana li {
   background: -webkit-gradient(linear, right top, left top, from(#33dd44));
   background: -webkit-linear-gradient(right, #33dd44);
   background: -o-linear-gradient(right, #33dd44);
-  background: linear-gradient(to left, #33dd44); }
+  background: linear-gradient(to left, #33dd44);
+  border-radius: 15px; }
 
 .foltana .myWork__image {
   position: relative; }
   .foltana .myWork__image img {
+    border-radius: 0 15px 15px 0;
     position: absolute;
     cursor: pointer;
-    top: 10vh;
-    right: 0;
-    width: 60%; }
+    top: -20px;
+    right: -100px;
+    height: 500px;
+    width: 700px; }
 
 .foltana .myWork__text {
   cursor: pointer;
   color: #fff;
   text-align: left;
-  padding-top: 20vh;
-  font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; }
+  padding-top: 60px; }
   .foltana .myWork__text h1 {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     line-height: 100px;
     padding-bottom: 10px;
-    font-weight: bold; }
+    font-weight: 600; }
   .foltana .myWork__text h2 {
     display: inline-block;
     margin-top: 30px;
     padding: 15px 70px;
     border: 3px solid #fff;
-    border-radius: 10px; }
+    border-radius: 10px;
+    font-weight: 600; }

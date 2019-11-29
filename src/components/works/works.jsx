@@ -12,7 +12,7 @@ class Works extends Component {
       <React.Fragment>
         <div className="myWorks">
           <Baseconnect/>
-          <Workshop/>
+          {/*<Workshop/>*/}
           <Foltana/>
           <Others/>
         </div>

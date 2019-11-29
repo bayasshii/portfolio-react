@@ -16,7 +16,7 @@ class Foltana extends Component {
               <img alt={this.props.name} src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/fortana.jpg" />
             </div>
             <div className="myWork__text">
-              <h1>Foltana</h1>
+              <h1>foltana(全面画像で覆う？)</h1>
               <div><h2>Archtecture</h2></div>
               <div><h2>Programming</h2></div>
             </div>

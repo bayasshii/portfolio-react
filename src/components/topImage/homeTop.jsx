@@ -6,9 +6,9 @@ class TopImage extends Component {
     return (
     <div className="homeTop">
       <div class="homeTop__mainText">
-        <h1 className="colorUnderline">MASAYA KIBAYASHI</h1>
+        <h1 className="colorUnderline">I'm <span>Masaya Kibayashi</span>,</h1>
         <br/>
-        <h2 className="colorUnderline">I'm Designer & MarkupEngineer & More !</h2>
+        <h2 className="colorUnderline">Designer<span>,</span> MarkupEngineer<span>,</span> & More !</h2>
       </div>
     </div>
     );

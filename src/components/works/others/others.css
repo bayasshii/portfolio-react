@@ -1,9 +1,9 @@
-@charset "UTF-8";
 .others li {
   background: -webkit-gradient(linear, right top, left top, from(#a02f44), to(#800f24));
   background: -webkit-linear-gradient(right, #a02f44, #800f24);
   background: -o-linear-gradient(right, #a02f44, #800f24);
-  background: linear-gradient(to left, #a02f44, #800f24); }
+  background: linear-gradient(to left, #a02f44, #800f24);
+  border-radius: 15px; }
 
 .others .myWork__image {
   position: relative; }
@@ -19,8 +19,7 @@
   cursor: pointer;
   color: #fff;
   text-align: left;
-  padding-top: 10vh;
-  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; }
+  padding-top: 10vh; }
   .others .myWork__text h1 {
     font-size: 72px !important;
     letter-spacing: 3px;
