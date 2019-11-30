@@ -1,5 +1,4 @@
 .baseconnect li {
-  border-radius: 15px;
   background: -webkit-gradient(linear, right top, left top, from(#222f40), to(#323f50));
   background: -webkit-linear-gradient(right, #222f40, #323f50);
   background: -o-linear-gradient(right, #222f40, #323f50);
@@ -39,14 +38,6 @@
     border: 3px solid #fff;
     border-radius: 10px;
     font-weight: 600; }
-
-.baseconnect li:hover .myWork__image img:nth-child(1) {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
 
 .baseconnectContents .workContents__image {
   padding: 30px 0; }

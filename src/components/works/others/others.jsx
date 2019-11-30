@@ -12,11 +12,7 @@ class Others extends Component {
       <React.Fragment>
         <Link to="./foltana" onclick={strageScroll} className="myWork others">
           <li>
-            <div className="myWork__image">
-            </div>
-            <div className="myWork__text">
-              <h1>Others</h1>
-            </div>
+
           </li>
         </Link>
       </React.Fragment>

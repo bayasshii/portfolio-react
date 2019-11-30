@@ -12,7 +12,7 @@ class PhotalContents extends Component {
             <h1>photal</h1>
             <div className="workContents__text">
               チームラボサマーインターンシップ2019にて個人で製作したwebサービスです。<br/>
-              事前課題として製作した『美味しいケーキの検索サイト』と比較していただけると二週間での成長が分かるかと思います。
+              事前課題として製作した『美味しいケーキの検索サイト』と合わせて紹介します。
             </div>
             <div className="workContents__title">
               <div>Case 1.　</div>
@@ -99,6 +99,16 @@ class PhotalContents extends Component {
                 </li>
                 <li>
                   PHP(Laravel) / PosgreSQL / Heroku / AWS / Vue.js / HTML / CSS / UID / UXD
+                </li>
+              </ul>
+            </div>
+            <div className="workContents__list">
+              <ul>
+                <li>
+                  Detail
+                </li>
+                <li>
+
                 </li>
               </ul>
             </div>

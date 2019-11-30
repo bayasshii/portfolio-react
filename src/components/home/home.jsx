@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="bg-gray">
+        <div>
           <TopImage/>
           <Works />
         </div>
