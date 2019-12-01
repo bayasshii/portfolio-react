@@ -1,122 +1,57 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import WorkTitle from "../workContents/workTitle";
+import WorkSubTitle from "../workContents/workSubTitle";
+import WorkWrap from "../workContents/workWrap";
+import WorkText from "../workContents/workText";
+import WorkHeading from "../workContents/workHeading";
+import WorkMenuComponent from "../workContents/workMenuComponent";
+
+import PhotalHeader from "./photalHeader";
+
+import * as color from "../../../css/color.js"
 
 class PhotalContents extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="workContents photalContents">
-          <div className="workContents__header flex">
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/beseconnect_logo.png" />
-          </div>
-          <div className="workContents__wrap">
-            <h1>photal</h1>
-            <div className="workContents__text">
-              チームラボサマーインターンシップ2019にて個人で製作したwebサービスです。<br/>
+        <PhotalHeader/>
+        <div
+          style={{ background:color.background }}
+        >
+          <WorkWrap>
+            <WorkTitle
+              style={{padding: '70px 0 20px'}}
+            >
+              TeamLab Internshp
+            </WorkTitle>
+            <WorkSubTitle
+              style={{ padding: '0 0 70px' }}
+            >
+              BackEndEngineering / FrontEndEngineering / UI.UX Design
+            </WorkSubTitle>
+            <WorkText
+              style={{padding: '0 0 50px'}}
+            >
+              チームラボサマーインターンシップ2019にて個人で製作したwebサービスです。
               事前課題として製作した『美味しいケーキの検索サイト』と合わせて紹介します。
-            </div>
-            <div className="workContents__title">
+              BeforeAfterを見て欲しい。
+            </WorkText>
+            <WorkHeading
+              style={{margin: '0 0 0 30px'}}
+            >
               <div>Case 1.　</div>
-              <h2>美味しいケーキの検索サイト</h2>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Term
-                </li>
-                <li>
-                  July 2019 ( 1week )
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  URL
-                </li>
-                <li>
-                  <a href="https://php-study-teamlab.herokuapp.com/" target="_blank">https://php-study-teamlab.herokuapp.com/</a>
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  GitHub
-                </li>
-                <li>
-                  <a href="https://github.com/bayasshii/PHP" target="_blank">https://github.com/bayasshii/PHP</a>
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Role
-                </li>
-                <li>
-                  PHP / MySQL / Heroku / HTML / CSS / UID / UXD
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Detail
-                </li>
-                <li>
-                  ベタ書きのPHPで実装しました。
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__title">
-              <div>Case 2.　</div>
-              <h2>photal</h2>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  URL
-                </li>
-                <li>
-                  <a href="http://my-photal.herokuapp.com" target="_blank">http://my-photal.herokuapp.com</a>
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  GitHub
-                </li>
-                <li>
-                  <a href="https://github.com/bayasshii/laravelProjects" target="_blank">https://github.com/bayasshii/laravelProjects</a>
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Role
-                </li>
-                <li>
-                  PHP(Laravel) / PosgreSQL / Heroku / AWS / Vue.js / HTML / CSS / UID / UXD
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Detail
-                </li>
-                <li>
-
-                </li>
-              </ul>
-            </div>
-          </div>
+              <div>美味しいケーキの検索サイト</div>
+            </WorkHeading>
+            <WorkMenuComponent
+              role="BackEnd(PHP / MySQL) / SCSS"
+              duration="July 2019"
+              url="https://php-study-teamlab.herokuapp.com"
+            />
+          </WorkWrap>
         </div>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default PhotalContents ;
+export default PhotalContents;

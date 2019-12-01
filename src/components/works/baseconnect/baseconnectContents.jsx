@@ -1,105 +1,136 @@
-import React, { Component } from 'react'
-import "./baseconnect.css";
+import React, { Component } from 'react';
+import WorkTitle from "../workContents/workTitle";
+import WorkWrap from "../workContents/workWrap";
+import WorkText from "../workContents/workText";
+import WorkHeading from "../workContents/workHeading";
+import WorkMenuComponent from "../workContents/workMenuComponent";
+import WorkSubTitle from "../workContents/workSubTitle";
+
+import BaseconnectHeader from "./baseconnectHeader";
+
+import * as color from "../../../css/color.js"
+
 
 class BaseconnectContents extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="workContents baseconnectContents">
-          <div className="workContents__header flex">
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/beseconnect_logo.png" />
-          </div>
-          <div className="workContents__wrap">
-            <h1>Baseconnect Internship</h1>
-            <div className="workContents__text">
-              Baseconnectのミッションは「世界中のデータを繋げることで、ダイレクトに必要な情報にアクセスできる世界を作る」ことです。
-              現在は主に、営業を支援するBtoBのwebサービスを開発しています。
-            </div>
-            <div className="workContents__text">
-              私が担当している領域は
-              <ul>
-                <li>- UIデザイン</li>
-                <li>- 新画面・新機能のマークアップ</li>
-                <li>- フロントエンドの改修</li>
-                <li>- IE対応</li>
-                <li>- モバイル対応</li>
-                <li>- DESIGN BOOTCAMPの運営 <a href="http://company.baseconnect.in/design-bootcamp/" target="_blank">(http://company.baseconnect.in/design-bootcamp)</a></li>
-              </ul>
-              などです。
-            </div>
-            <div className="workContents__text">
-              以下では具体的な活動について紹介していきます。
-            </div>
-            <div>
+        <BaseconnectHeader/>
+        <div
+          style={{ background:color.background }}
+        >
+          <WorkWrap>
+            <WorkTitle
+              style={{ padding: '70px 0 20px' }}
+            >
+              Baseconnect Internship
+            </WorkTitle>
 
+            <WorkSubTitle
+              style={{ padding: '0 0 70px' }}
+            >
+              UI Design / MarkUpEngineering / FrontEndEngineering
+            </WorkSubTitle>
+
+            <WorkText
+              style={{padding: '0 0 50px'}}
+            >
+              Baseconnectのミッションは「世界中のデータを繋げることで、ダイレクトに必要な情報にアクセスできる世界を作る」ことです。現在は主に、営業を支援するBtoBのwebサービスを開発しています。
+            </WorkText>
+            <WorkText
+              style={{padding: '0 0 50px'}}
+            >
+              私が担当している領域は
+                <ul>
+                  <li>- UIデザイン</li>
+                  <li>- 新画面・新機能のマークアップ</li>
+                  <li>- フロントエンドの改修</li>
+                  <li>- IE対応</li>
+                  <li>- モバイル対応</li>
+                  <li>- DESIGN BOOTCAMPの運営 <a href="http://company.baseconnect.in/design-bootcamp/" target="_blank">(http://company.baseconnect.in/design-bootcamp)</a></li>
+                </ul>
+                などです。
+            </WorkText>
+            <WorkHeading
+              style={{margin: '0 0 0 30px'}}
+            >
+              <div>CASE 1.</div>
+              <div>事業所画面 コーディング</div>
+            </WorkHeading>
+            <WorkMenuComponent
+              role="Cording(React / SCSS)"
+              duration="July 2019"
+              url="https://baseconnect.in/"
+            />
+            <div
+              style={{
+                position: 'relative',
+                margin: '0 0 50px'
+              }}
+            >
+              <img
+                alt="branchoffice_mobile"
+                src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect__pc%26mobile.jpg"
+                style={{
+                  width: '100%',
+                  padding: '20px 0'
+                }}
+              />
+                <div
+                  style={{
+                    position: 'absolute',
+                    bottom: '-10px',
+                    left: '180px',
+                    fontSize: '2rem',
+                    color: color.baseText__thin
+                  }}
+                >
+                  Mobile
+                </div>
+                <div
+                  style={{
+                    position: 'absolute',
+                    bottom: '-10px',
+                    right: '200px',
+                    fontSize: '2rem',
+                    color: color.baseText__thin
+                  }}
+                >
+                  PC
+                </div>
             </div>
-            <div className="workContents__title">
-              <div>Case 1.　</div>
-              <h2>事業所画面 コーディング</h2>
-            </div>
-            <div className="workContents__list">
+            <WorkText
+              style={{padding: '0 0 30px'}}
+            >
+              企業情報検索エンジン『Baseconnect』は企業と企業のデータを繋げることで、営業の情報収集を効率的にするサービスです。
+              今回は『Baseconnect』に、企業の事業所の情報を追加することになり、私はその画面のフロントエンドのコーディングを担当しました。
+            </WorkText>
+            <WorkText
+              style={{padding: '0 0 30px'}}
+            >
               <ul>
-                <li>
-                  URL
-                </li>
-                <li>
-                  <a href="https://baseconnect.in/" target="_blank">https://baseconnect.in</a>
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Roles
-                </li>
-                <li>
-                  コーディング (React.js / SCSS)
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
-                  Detail
-                </li>
-                <li>
-                  企業情報検索エンジン『Baseconnect』は企業と企業のデータを繋げることで、営業の情報収集を効率的にするサービスです。
-                  <br/>
-                  今回は『Baseconnect』に、企業の事業所の情報を追加することになり、私はその画面のフロントエンドのコーディングを担当しました。
-                  <div className="workContents__image">
-                    <div className="flex">
-                      <div>Mobile</div>
-                      <div>PC</div>
-                    </div>
-                    <img alt="branchoffice_mobile" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect__pc%26mobile.jpg"/>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div className="workContents__list">
-              <ul>
-                <li>
+                <li style={{fontSize: '2rem'}} >
                   Points
                 </li>
-                <li className="pb-20">
+                <li style={{padding: '0 0 20px'}} >
                   ・新しい画面だったので、クラスの命名にはいつもより時間がかかりました。
                   結果、過去のcssを使いまわせそうな箇所が多かったので、クラス名も過去のものを多く使用しました。
                   ただ過去のクラス名はユニークな名前のものも多く、そのまま使用するのはふさわしくないものも少なくありませんでした。
                   他の場所でも使えるように汎用性のある名前にすべきところと、他の箇所に影響を与えないようにユニークな名前を使用すべきところがあることを実感しました。
                 </li>
-                <li className="pb-20">
+                <li style={{padding: '0 0 20px'}}>
                   ・文字が長い事業所名も少なくなかったので、文字が長くなった場合でもスマホでレイアウトが崩れないように、デザイナーと共同でデザインしました。
                 </li>
-                <li className="pb-20">
+                <li style={{padding: '0 0 20px'}}>
                   ・「もっと見る」をクリックすると事務所が全て表示されるようにしました。また、動作が重たくならないように「もっと見る」をクリックするまでは表示されてない事業所を読み込まないようにコーディングしました。
                 </li>
               </ul>
-            </div>
-          </div>
+            </WorkText>
+          </WorkWrap>
         </div>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default BaseconnectContents ;
+export default BaseconnectContents;

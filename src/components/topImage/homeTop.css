@@ -1,10 +1,14 @@
 .homeTop {
-  background: #ecefee;
+  background: #edeff1;
   padding: 200px 0 150px;
   margin: auto; }
   .homeTop .homeTop__mainText {
     text-align: center; }
     .homeTop .homeTop__mainText h1 {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #F2C744));
+      background: -webkit-linear-gradient(transparent 70%, #F2C744 70%);
+      background: -o-linear-gradient(transparent 70%, #F2C744 70%);
+      background: linear-gradient(transparent 70%, #F2C744 70%);
       display: inline-block;
       font-size: 36px;
       margin-bottom: 60px;
@@ -13,6 +17,10 @@
         font-weight: 600;
         font-size: 42px; }
     .homeTop .homeTop__mainText h2 {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #F2C744));
+      background: -webkit-linear-gradient(transparent 70%, #F2C744 70%);
+      background: -o-linear-gradient(transparent 70%, #F2C744 70%);
+      background: linear-gradient(transparent 70%, #F2C744 70%);
       font-size: 42px;
       display: inline-block;
       font-weight: 600; }

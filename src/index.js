@@ -5,9 +5,13 @@ import ScrollToTop from "./scrollTop.jsx"
 import ChangeCurrentHeader from "./changeCurrentHeader.jsx"
 import About from "./components/about/about.jsx";
 import BaseconnectContents from "./components/works/baseconnect/baseconnectContents.jsx";
+import CoralContents from "./components/works/coral/coralContents.jsx";
+import PhotalContents from "./components/works/photal/photalContents.jsx";
+/*
 import FoltanaContents from "./components/works/foltana/foltanaContents.jsx";
 import SugarContents from "./components/works/sugar/sugarContents.jsx";
 import PhotalContents from "./components/works/photal/photalContents.jsx";
+*/
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
@@ -28,13 +32,8 @@ ReactDOM.render(
           >
           </Route>
           <Route
-            path="/foltana"
-            component={FoltanaContents}
-          >
-          </Route>
-          <Route
-            path="/sugar"
-            component={SugarContents}
+            path="/coral"
+            component={CoralContents}
           >
           </Route>
           <Route
@@ -42,6 +41,13 @@ ReactDOM.render(
             component={PhotalContents}
           >
           </Route>
+          {/*
+          <Route
+            path="/sugar"
+            component={SugarContents}
+          >
+          </Route>
+          */}
           {/*ワークのURLここまで*/}
         </App>
       </ChangeCurrentHeader>
