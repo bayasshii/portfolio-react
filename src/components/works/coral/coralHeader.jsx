@@ -14,7 +14,6 @@ class CoralHeader extends Component {
     return (
       <React.Fragment>
         <CoralHeaderWrap>
-          Cotal
         </CoralHeaderWrap>
       </React.Fragment>
     )
