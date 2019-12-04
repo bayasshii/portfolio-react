@@ -4,10 +4,8 @@ import * as color from "../../../css/color.js"
 
 const MenuWrap = styled.ul`
   width: 100%;
-  padding: 20px 40px;
   margin: 20px 0 0;
   display: flex;
-  border: 1px solid ${color.baseText__thin};
   border-radius: 5px;
 `
 

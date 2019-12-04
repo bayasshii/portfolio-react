@@ -10,7 +10,7 @@ import WorkMenuComponent from "../workContents/workMenuComponent";
 import CoralHeader from "./coralHeader";
 import CoralContentsStakeholder from "./coralContentsStakeholder";
 import CoralContentsBusinnesModel from "./coralContentsBusinnesModel";
-
+import CoralContentsUX from "./coralContentsUX";
 
 import * as color from "../../../css/color.js"
 
@@ -39,15 +39,21 @@ class CoralContents extends Component {
             <WorkSubTitle style={{padding: '0 0 70px'}}>
               UX Design / UI Design
             </WorkSubTitle>
+
             <WorkHeadingCoral style={{margin: '0 0 30px'}}>ステークホルダー</WorkHeadingCoral>
             <CoralContentsStakeholder/>
+
             <WorkHeadingCoral style={{margin: '50px 0 30px'}}>ビジネスモデル</WorkHeadingCoral>
             <CoralContentsBusinnesModel/>
-            <WorkText
-              style={{padding: '0 0 30px'}}
-            >
+            <WorkText style={{padding: '0 0 30px'}}>
               オンライン診断アプリCoralのビジネスモデルを考えました。
             </WorkText>
+
+            <WorkHeadingCoral style={{margin: '50px 0 30px'}}>ワイヤーデザイン</WorkHeadingCoral>
+            <CoralContentsUX/>
+
+            <WorkHeadingCoral style={{margin: '50px 0 30px'}}>UIデザイン</WorkHeadingCoral>
+
           </WorkWrap>
         </div>
       </React.Fragment>

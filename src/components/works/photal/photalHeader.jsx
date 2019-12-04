@@ -14,7 +14,6 @@ class PhotalHeader extends Component {
     return (
       <React.Fragment>
         <PhotalHeaderWrap>
-          Photal
         </PhotalHeaderWrap>
       </React.Fragment>
     )

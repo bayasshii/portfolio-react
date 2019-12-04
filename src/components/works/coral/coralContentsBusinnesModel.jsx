@@ -59,6 +59,7 @@ const CoralContentsBusinnesModelArrowToLeft = styled(CoralContentsBusinnesModelA
 const CoralContentsBusinnesModelText = styled.div`
   position: absolute;
   font-size: 1.7rem;
+  font-weight: 400;
 `
 
 const CoralContentsBusinnesModelLT = styled(CoralContentsBusinnesModelText)`
@@ -150,7 +151,6 @@ class CoralContentsBusinnesModel extends Component {
               />
             </CoralContentsBusinnesModelImage>
           </CoralContentsBusinnesModelDoctor>
-
         </CoralContentsBusinnesModelWrap>
       </React.Fragment>
     )
