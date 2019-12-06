@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import styled from 'styled-components'
+import * as color from "../../../css/color.js"
 import WorkTitle from "../workContents/workTitle";
 import WorkWrap from "../workContents/workWrap";
 import WorkText from "../workContents/workText";
 import WorkHeading from "../workContents/workHeading";
 import WorkMenuComponent from "../workContents/workMenuComponent";
 import WorkSubTitle from "../workContents/workSubTitle";
+import WorkPoint from "../workContents/workPoint";
 
 import BaseconnectHeader from "./baseconnectHeader";
 
-import * as color from "../../../css/color.js"
 
 
 class BaseconnectContents extends Component {
@@ -108,23 +110,23 @@ class BaseconnectContents extends Component {
             <WorkText
               style={{padding: '0 0 30px'}}
             >
-              <ul>
-                <li style={{fontSize: '2rem'}} >
-                  Points
-                </li>
-                <li style={{padding: '0 0 20px'}} >
-                  ・新しい画面だったので、クラスの命名にはいつもより時間がかかりました。
-                  結果、過去のcssを使いまわせそうな箇所が多かったので、クラス名も過去のものを多く使用しました。
-                  ただ過去のクラス名はユニークな名前のものも多く、そのまま使用するのはふさわしくないものも少なくありませんでした。
-                  他の場所でも使えるように汎用性のある名前にすべきところと、他の箇所に影響を与えないようにユニークな名前を使用すべきところがあることを実感しました。
-                </li>
-                <li style={{padding: '0 0 20px'}}>
-                  ・文字が長い事業所名も少なくなかったので、文字が長くなった場合でもスマホでレイアウトが崩れないように、デザイナーと共同でデザインしました。
-                </li>
-                <li style={{padding: '0 0 20px'}}>
-                  ・「もっと見る」をクリックすると事務所が全て表示されるようにしました。また、動作が重たくならないように「もっと見る」をクリックするまでは表示されてない事業所を読み込まないようにコーディングしました。
-                </li>
-              </ul>
+            <div>
+              <WorkPoint>Point 1. レスポンシブ対応</WorkPoint>
+              <div style={{padding: '0 0 20px'}}>
+                文字が長い事業所名が少なくなかったので、文字が長くなった場合でもスマホとPCの両方でレイアウトが崩れないように、デザインと並行してコーディングを進めました。
+              </div>
+              <WorkPoint>Point 2. データの読み込み</WorkPoint>
+              <div style={{padding: '0 0 20px'}}>
+                「もっと見る」をクリックすると事務所が全て表示されるようにしました。また、動作が重たくならないように「もっと見る」をクリックするまでは表示されてない事業所を読み込まないようにコーディングしました。
+              </div>
+              <WorkPoint>Point 3. クラスの命名</WorkPoint>
+              <div style={{padding: '0 0 20px'}} >
+                新しい画面だったので、クラスの命名にはいつもより時間がかかりました。
+                結果、過去のcssを使いまわせそうな箇所が多かったので、過去のクラス名を多く使用しました。
+                ただ過去のクラス名はユニークな名前が多く、そのまま使用するのはふさわしくない名前も少なくありませんでした。
+                他の場所でも使えるように汎用性のある名前にすべき状況と、他の箇所に影響を与えないようにユニークな名前を使用すべき状況があることを実感しました。
+              </div>
+            </div>
             </WorkText>
           </WorkWrap>
         </div>

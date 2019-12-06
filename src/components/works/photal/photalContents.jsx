@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components'
 import WorkTitle from "../workContents/workTitle";
 import WorkSubTitle from "../workContents/workSubTitle";
 import WorkWrap from "../workContents/workWrap";
@@ -8,7 +9,19 @@ import WorkMenuComponent from "../workContents/workMenuComponent";
 
 import PhotalHeader from "./photalHeader";
 
+import PhotalContentsNeedfinding from "./photalContentsNeedfinding"
+import PhotalContentsUX from "./photalContentsUX"
+import PhotalContentsServerside from "./photalContentsServerside"
+
 import * as color from "../../../css/color.js"
+
+const WorkHeadingPhotal = styled(WorkHeading)`
+  padding-left: 20px;
+  &::before {
+    height: 35px;
+    background: ${color.photalGradient};
+  }
+`;
 
 class PhotalContents extends Component {
   render() {
@@ -23,46 +36,44 @@ class PhotalContents extends Component {
               teamLab Internship
             </WorkTitle>
             <WorkSubTitle style={{ padding: '0 0 70px' }}>
-              SeverSideEngineer / FrontEndEngineer / UI.UX Design
+              SeverSide Cording / FrontEnd Cording / UX Design
             </WorkSubTitle>
             <WorkText style={{padding: '0 0 50px'}}>
               チームラボ サマーインターンシップ2019にサーバーサイドエンジニアとして参加しました。
-              以下では二週間のインターンシップを通して個人で製作したwebサービスと、事前課題として製作したwebサービスの二つを合わせて紹介します。
+              二週間のインターンシップを通してサービスの企画から、サーバーサイド・フロントエンド・デプロイまでを個人で行いました。
             </WorkText>
 
-            <WorkHeading style={{margin: '0 0 50px 30px'}}>
-              <div>Case 1.　</div>
-              <div>美味しいケーキの検索サイト</div>
-            </WorkHeading>
-            <WorkMenuComponent
-              role="BackEnd(PHP / MySQL) / SCSS"
-              duration="July 2019"
-              url="https://php-study-teamlab.herokuapp.com"
-            />
-            <img style={{ margin: '50px 0 0 0',width: '100%'}} src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sweetSearch.png"/>
+            <WorkHeadingPhotal>1. Concept Make</WorkHeadingPhotal>
+            <PhotalContentsNeedfinding/>
+
+            <WorkHeadingPhotal>2. UX Design</WorkHeadingPhotal>
             <WorkText style={{padding: '20px 0 50px'}}>
-              インターンシップの事前課題として一週間で作成しました。
-              主な機能は２つで、『ケーキの名前、値段、解説を添えて画像を投稿する機能』と『ケーキの名前を入れて検索する機能』です。
-              フレームワークを使わず（使えず）、PHPをベタ書きで実装しています。
-              ここで基本的なサーバーとの通信の方法とデータベースの管理の仕方を学びました。この時点では正規化も非同期通信も何も知りません。
+              <PhotalContentsUX/>
             </WorkText>
 
+            <WorkHeadingPhotal>3. ServerSide Cording</WorkHeadingPhotal>
+            <PhotalContentsServerside/>
 
-            <WorkHeading style={{margin: '0 0 0 30px'}}>
-              <div>Case 2.　</div>
-              <div>写真アルバムSNS - Photal -</div>
-            </WorkHeading>
-            <WorkMenuComponent
-              role="BackEnd( / MySQL) / SCSS"
-              duration="July 2019"
-              url="https://php-study-teamlab.herokuapp.com"
-            />
+            <WorkHeadingPhotal>4. FrontEnd Cording</WorkHeadingPhotal>
             <WorkText style={{padding: '20px 0 50px'}}>
-              インターンシップの課題として２週間で設計しました。与えられた課題は『インスタグラムのような写真投稿機能のあるWEBサービスの実装』でした。
-              そこで、僕が目をつけた問題はLINEのアルバム機能についてです。
-              LINEのアルバム機能の問題 → アルバムを一元で管理できないことが挙げられます。
-              A君との思い出も、B君との思い出も、同じ場所で管理できたらいいのになぁという個人的なニーズから考えました。
+              少し時間に余裕があったので、Vueでの非同期通信の実装も行いました。
+              上記の要件のうちの全てを非同期通信として書き直しました。
+              操作性がすごく向上しました。
             </WorkText>
+
+            <WorkHeadingPhotal>5. MarkUp Cording & UI Design</WorkHeadingPhotal>
+            <WorkText style={{padding: '20px 0 50px'}}>
+              非同期にこだわったため時間がなくなったので、UIデザインと同時にマークアップを行いました。ですので正直に言うと、ほとんどUIがワイヤーのままで、UIに関してあまり意図はありません。笑<br/>
+              ただ一つだけ、やはり写真のアプリなので、グラデーションを使って、綺麗で写真映えしそうなアプリであることは意識しました。
+            </WorkText>
+
+            <WorkHeadingPhotal>6. Summary</WorkHeadingPhotal>
+            <WorkText style={{padding: '20px 0 50px'}}>
+              エンジニアを学べた。
+              PHPという未知の分野に苦しめられましたが、 実装を通して得た知識・経験は、
+              今後デザイナーとしての僕が直接使うことはなくても、エンジニアとコミュニケーションをとる際には共通言語として必ず役に立つと思います。
+            </WorkText>
+
           </WorkWrap>
         </div>
       </React.Fragment>

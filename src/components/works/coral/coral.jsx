@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import * as color from "../../../css/color.js"
 
 const CoralWrap = styled.div`
-  background: #ccc;
+  background: ${color.coralGradient};
   height: 600px;
   position: relative;
   z-index: -2;

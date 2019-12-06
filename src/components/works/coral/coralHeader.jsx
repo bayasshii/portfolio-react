@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import * as color from "../../../css/color.js"
 
 const CoralHeaderWrap = styled.div`
-  background: #ccc;
+  background: ${color.coralGradientVertical};
   width: 100%;
   height: 600px;
   font-size: 5rem;
