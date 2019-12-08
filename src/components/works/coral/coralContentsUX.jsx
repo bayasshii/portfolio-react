@@ -12,7 +12,7 @@ const CoralContentsUXWrap = styled.div`
 const CoralContentsUXImageWrap = styled.div`
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 650px;
 `
 
 const CoralContentsUXImage = styled.div`
@@ -103,14 +103,17 @@ class CoralContentsUX extends Component {
           <WorkPoint>Point 1. 歯科医の個人情報の強調</WorkPoint>
           <WorkText style={{padding: '10px 0 30px'}}>
             歯科医の顔や名前を大きく見せることで、どんな人に診察してもらえるのか、ユーザーの体験を想像しやすくしました。
+            オンライン診断という未知のアプリケーションなので、体験を想像しやすくすることで、ユーザーに安心感を持ってもらいやすくするためです。
           </WorkText>
           <WorkPoint>Point 2. 歯科の評価の強調</WorkPoint>
           <WorkText style={{padding: '10px 0 30px'}}>
-            いいねの数を大きく表示することで、ユーザーの安心感がますようにしました。
+            いいねの数を大きく表示することで、一目で歯科医への不信感を取り除くことができて、ユーザーの安心感が増すようにしました。
           </WorkText>
           <WorkPoint>Point 3. 健全なUI</WorkPoint>
           <WorkText style={{padding: '10px 0 30px'}}>
-            横スクロールにせず、縦にスクロールすることでより多くの情報を短時間で見ることができるようにしました
+            近年マッチングアプリに見られる「横スクロール(スワイプ)」ではなく、「縦スクロール」で歯科医を選択するUXにしました。
+            より現代的なUXである横スクロールよりも、昔から馴染みのある縦スクロールの方がユーザーは安心するのではないかと考えたからです。
+            また縦スクロールの利点として、より多くの情報を短時間で見ることができるという面もあります。
           </WorkText>
         </CoralContentsUXWrap>
       </React.Fragment>

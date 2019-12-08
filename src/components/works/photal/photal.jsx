@@ -26,11 +26,6 @@ class Photal extends Component {
           <PhotalSubTitle>
             Planning / UX Design / UI Design / BackEndEngineering / MarkUpEngineering / FrontEndEngineering / Deploy
           </PhotalSubTitle>
-          <img
-            alt="photal_laughUX_before"
-            src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/photal.jpg"
-            style={{width: '50%'}}
-          />
         </PhotalWrap>
       </React.Fragment>
     )

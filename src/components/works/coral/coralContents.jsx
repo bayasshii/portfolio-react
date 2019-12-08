@@ -52,9 +52,6 @@ class CoralContents extends Component {
 
             <WorkHeadingCoral style={{margin: '50px 0 30px'}}>ビジネスモデル</WorkHeadingCoral>
             <CoralContentsBusinnesModel/>
-            <WorkText style={{padding: '0 0 30px'}}>
-              オンライン診断アプリCoralのビジネスモデルを考えました。
-            </WorkText>
 
             <WorkHeadingCoral style={{margin: '50px 0 30px'}}>UXデザイン</WorkHeadingCoral>
             <CoralContentsUX/>
