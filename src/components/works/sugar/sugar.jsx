@@ -6,6 +6,7 @@ const BaseconnectWrap = styled.div`
   background: linear-gradient(to left, #222f40, #323f50);
   height: 600px;
   position: relative;
+  width: 70%;
   z-index: -2;
 `;
 

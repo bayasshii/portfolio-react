@@ -1,5 +1,5 @@
 export const baseText =  "#020E26"
-export const baseText__thin = "#626E82"
+export const baseText__thin = "#929Eb2"
 export const thinText = "#0B3640"
 export const urlText = "#7A77D9"
 

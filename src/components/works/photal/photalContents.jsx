@@ -53,7 +53,7 @@ class PhotalContents extends Component {
             <WorkText style={{padding: '0 0 50px'}}>
               チームラボ サマーインターンシップ2019にサーバーサイドエンジニアとして参加しました。
               二週間のインターンシップを通してサービスの企画から、サーバーサイド・フロントエンド・デプロイまでを個人で行いました。
-              インターン終了後、デザインし直したのでそちらを説明します。
+              またインターン終了後、制作物のリデザインをしました。
             </WorkText>
 
             <WorkHeadingPhotal>
@@ -64,7 +64,7 @@ class PhotalContents extends Component {
             <PhotalContentsNeedfinding/>
 
             <WorkHeadingPhotal>
-              UX Design
+              UI/UX Redesign
               <span>Duration: 2days</span>
               <span>Tools: Sketch</span>
             </WorkHeadingPhotal>

@@ -5,6 +5,7 @@ import * as color from "../../../css/color.js"
 const BaseconnectWrap = styled.div`
   background: linear-gradient(to left, #222f40, #323f50);
   height: 600px;
+  width: 80%;
   position: relative;
   z-index: -2;
 `;
