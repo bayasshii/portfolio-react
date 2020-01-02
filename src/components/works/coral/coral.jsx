@@ -2,34 +2,60 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import * as color from "../../../css/color.js"
 
-const CoralWrap = styled.div`
-  background: ${color.coralGradient};
-  height: 600px;
+const WorkWrap = styled.div`
   position: relative;
-  z-index: -2;
-`
+  padding-top: 30px;
+`;
 
-const CoralTitle = styled.div`
-  font-size: 3.0rem;
-`
+const ImagetWrap = styled.div`
+  width: 400px;
+  height: 326px;
+  text-align: center;
+  margin: auto;
+  background: ${color.coralGradientNaname};
+`;
 
-const CoralSubTitle = styled.div`
-  font-size: 2.0rem;
-`
+const TextWrap = styled.div`
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+`;
 
-class Coral extends Component {
+const TextWrapTitle = styled.div`
+  color: ${color.baseText}
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-weight: 600;
+  & span {
+    font-size: 2.5rem;
+  }
+`;
+
+const TextWrapSubTitle = styled.div`
+  color: ${color.baseText__thin}
+  font-size: 1.5rem;
+  font-weight: 600;
+`;
+
+
+class Baseconnect extends Component {
   render() {
     return (
       <React.Fragment>
-        <CoralWrap>
-          <CoralTitle>Coral</CoralTitle>
-          <CoralSubTitle>
-            Planning / UX Design / UI Design
-          </CoralSubTitle>
-        </CoralWrap>
+        <WorkWrap>
+          <ImagetWrap>
+            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coralImage.jpg"
+              style={{ width: '400px' }}
+            />
+          </ImagetWrap>
+          <TextWrap>
+            <TextWrapTitle>オンライン歯科診断アプリ<span>- Coral -</span></TextWrapTitle>
+            <TextWrapSubTitle>UI & UX Design / BussinesModel Design</TextWrapSubTitle>
+          </TextWrap>
+        </WorkWrap>
       </React.Fragment>
     )
   }
 }
 
-export default Coral;
+export default Baseconnect;

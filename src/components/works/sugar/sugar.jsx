@@ -2,82 +2,56 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import * as color from "../../../css/color.js"
 
-const BaseconnectWrap = styled.div`
-  background: linear-gradient(to left, #222f40, #323f50);
-  height: 600px;
+const WorkWrap = styled.div`
   position: relative;
-  width: 70%;
-  z-index: -2;
+  padding-top: 30px;
 `;
 
-const BaseconnectTitleWrap = styled.div`
-  position: absolute;
-  top: 70px;
-  left: 6%;
-  width: 650px;
-  padding: 80px 50px 60px;
-  background: rgba(255,255,255,0.2);
-`
+const ImagetWrap = styled.div`
+  width: 400px;
+  height: 335px
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  background: ${color.mainYellow};
+`;
 
-const BaseconnectTitle = styled.div`
-  font-size: 6.0rem;
-  color: #fff;
+const TextWrap = styled.div`
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+`;
+
+const TextWrapTitle = styled.div`
+  color: ${color.baseText}
+  font-size: 2rem;
+  padding-bottom: 20px;
   font-weight: 600;
-  line-height: 10.0rem;
-  letter-spacing: 0.5rem;
-  &::before {
-    content:  '';
-    width: 350px;
-    height: 10px;
-    background-color: ${color.baseconnectGreen};
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+  & span {
+    font-size: 2.5rem;
   }
 `;
 
-const BaseconnectSubTitle = styled.div`
-  font-size: 2.0rem;
-  color: ${color.baseconnectGreen};
-  font-weight: 400;
-  line-height: 10.0rem
+const TextWrapSubTitle = styled.div`
+  color: ${color.baseText__thin}
+  font-size: 1.5rem;
+  font-weight: 600;
 `;
 
-const BaseconnectLogo = styled.div`
-  position: absolute;
-  top: -50px;
-  right: 0;
-  z-index: -1;
-`;
-
-const BaseconnectPC = styled.div`
-  position: absolute;
-  top: 55px;
-  right: 6%;
-  z-index: 1;
-`;
 
 class Baseconnect extends Component {
   render() {
     return (
       <React.Fragment>
-        <BaseconnectWrap>
-          <BaseconnectTitleWrap>
-            <BaseconnectTitle>Baseconnect<br/>Internship</BaseconnectTitle>
-            <BaseconnectSubTitle>UI Design / MarkUpEngineering / FrontEndEngineering</BaseconnectSubTitle>
-          </BaseconnectTitleWrap>
-          <BaseconnectLogo>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/beseconnect_logo.png"
-              style={{ width: '1000px' }}
-            />
-          </BaseconnectLogo>
-          <BaseconnectPC>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_imac.png"
-              style={{ width: '600px' }}
-            />
-          </BaseconnectPC>
-        </BaseconnectWrap>
+        <WorkWrap>
+          <ImagetWrap>
+
+          </ImagetWrap>
+          <TextWrap>
+            <TextWrapTitle>Others</TextWrapTitle>
+            <TextWrapSubTitle>Architecture / Programming / etc...</TextWrapSubTitle>
+          </TextWrap>
+        </WorkWrap>
       </React.Fragment>
     )
   }

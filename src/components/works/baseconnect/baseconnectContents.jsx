@@ -31,7 +31,7 @@ class BaseconnectContents extends Component {
             <WorkSubTitle
               style={{ padding: '0 0 70px' }}
             >
-              UI Design / MarkUpEngineering / FrontEndEngineering
+              UI Design / Frontend Cording
             </WorkSubTitle>
 
             <WorkText
