@@ -16,8 +16,8 @@ export const accentPink = "#F2505D"
 
 export const background = "#f6f6f6"
 export const baseconnectGreen = "#00bfa5"
-export const coralBlue = "#0084b0"
 
+export const coralBlue = "#0084b0"
 export const coralGreen = "#8eced1"
 export const coralGradient = "linear-gradient(to left, #0084b0, #8eced1)"
 export const coralGradientNaname = "linear-gradient(25deg, #0084b0, #8eced1)"

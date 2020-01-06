@@ -78,10 +78,10 @@ class CoralContentsStakeholder extends Component {
               <CoralContentsStakeholderTitle>親</CoralContentsStakeholderTitle>
             </CoralContentsStakeholderImage>
             <CoralContentsStakeholderPain>子供の歯が心配...</CoralContentsStakeholderPain>
-            <CoralContentsStakeholderPain>子供が歯科医を怖がる...</CoralContentsStakeholderPain>
             <CoralContentsStakeholderPain>仕事で歯科医に行く時間がない...</CoralContentsStakeholderPain>
+            <CoralContentsStakeholderPain>なんとなく歯医者が億劫...</CoralContentsStakeholderPain>
             <CoralContentsStakeholdertriangle/>
-            <CoralContentsStakeholderSolution>気軽に手軽に検診できるシステム</CoralContentsStakeholderSolution>
+            <CoralContentsStakeholderSolution>気軽に歯科検診できるシステム</CoralContentsStakeholderSolution>
           </CoralContentsStakeholderParent>
 
           {/*

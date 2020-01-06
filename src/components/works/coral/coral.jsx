@@ -44,13 +44,13 @@ class Baseconnect extends Component {
       <React.Fragment>
         <WorkWrap>
           <ImagetWrap>
-            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coralImage.jpg"
+            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coralImage.png"
               style={{ width: '400px' }}
             />
           </ImagetWrap>
           <TextWrap>
             <TextWrapTitle>オンライン歯科診断アプリ<span>- Coral -</span></TextWrapTitle>
-            <TextWrapSubTitle>UI & UX Design / BussinesModel Design</TextWrapSubTitle>
+            <TextWrapSubTitle>UI & UX Design / Business Design</TextWrapSubTitle>
           </TextWrap>
         </WorkWrap>
       </React.Fragment>
