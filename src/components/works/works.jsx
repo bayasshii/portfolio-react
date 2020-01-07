@@ -60,12 +60,6 @@ class Works extends Component {
               to="./others"
               childComponent={Others}
             />
-            {/*<Baseconnect/>
-            <Photal/>
-            <Sugar/>
-            <Foltana/>
-            <Others/>
-            */}
           </div>
         </WorksWrap>
       </React.Fragment>
