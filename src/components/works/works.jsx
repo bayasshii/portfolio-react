@@ -9,7 +9,7 @@ import styled from 'styled-components'
 import * as color from "../../css/color.js"
 
 const WorksWrap = styled.div`
-  margin: auto;
+  margin: 0 auto 100px;
   width: 1000px;
 `;
 
@@ -33,7 +33,7 @@ class Works extends Component {
     return (
       <React.Fragment>
         <WorksWrap>
-          <div style={{marginTop: '60px'}}>
+          <div style={{margin: '60px 0 0'}}>
             <WorksWrapTitle>Works</WorksWrapTitle>
             <WorksWrapTitleUnder/>
           </div>

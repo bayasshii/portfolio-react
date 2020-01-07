@@ -106,10 +106,11 @@ const ProblemGraphWrap = styled.div`
 `
 
 const ProblemGraphItem = styled.div`
-  background: ${color.coralBlue};
+  background: ${color.coralGreen};
   text-align: center;
   color: #fff;
   font-size: 1.5rem;
+  font-weight: 600;
   padding: 15px 16px;
   border-radius: 10px;
   position: relative;
@@ -121,7 +122,7 @@ const ProblemGraphItemTop = styled.div`
   left: 0;
   right: 0;
   margin: auto;
-  background: #ccc;
+  background: #ddd;
   height: 30px;
   width: 10px;
 `
@@ -216,20 +217,49 @@ const CoralContentsBusinnesModelArrowToRight = styled.div`
     position: absolute;
     top: 170px;
     right: -10px;
-    border-left: 20px solid ${color.coralBlue};
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+    border-left: 15px solid ${color.coralBlue};
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
   }
 `
 
-const WorkHeadingCoral = styled(WorkHeading)`
-  padding-left: 20px;
+const WorkHeadingCoral = styled.div`
+  font-size: 1.5rem;
+  line-height:3.0rem;
+  font-weight: 600;
   &::before {
-    height: 35px;
-    left: 70px;
+    content:  '';
+    width: 10px;
+    height: 28px;
     background: ${color.coralGradientVertical};
+    display:  block;
+    position:  absolute;
+    left: 40px;
   }
 `;
+
+const UIItemText = styled.div`
+  width: 21%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: ${color.coralGreen}
+`
+
+const UIItemTextContents = styled.div`
+  font-size: 1.5rem
+`
+
+const UIlItemTextBlue = styled(UIItemText)`
+  padding: 20px 0;
+  background: #EDF7F7;
+`
+
+const UIItemTextHeader = styled.div`
+  width: 40%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: ${color.coralGreen}
+`
 
 /* UIコンポーネント */
 
@@ -237,7 +267,7 @@ class CoralContentsUX extends Component {
   render() {
     return (
       <React.Fragment>
-        <CoralContentsUXWrap>
+        <CoralContentsUXWrap style={{padding: '0 0 50px 0'}}>
 
           <UXContetsWrap style={{display: 'flex'}}>
             <TextWrap>
@@ -468,46 +498,130 @@ class CoralContentsUX extends Component {
           </UXContetsWrap>
 
           <UXContetsWrap style={{margin: '50px 0 0'}}>
-            <WorkText style={{padding: '0 0 30px'}}>
+            <WorkText style={{padding: '0 0 70px'}}>
               <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　UI Design</CoralContentsUXSubTitle>
               ユーザー側の画面に絞って、ユーザーが検診を終えるまでに必要な最低限の機能をまとめて、UIデザインを行いました。
             </WorkText>
+
             <UIWrap>
+              <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 10px'}}>
+                <UIItemText>ホーム画面</UIItemText>
+                <UIItemText>検索条件</UIItemText>
+                <UIItemText>検索結果</UIItemText>
+                <UIItemText>歯医者詳細</UIItemText>
+              </div>
               <div className="flex" style={{justifyContent: 'space-between', padding: '0 0 40px'}}>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png"
-                  style={{ width: '30%'}}
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E3%83%9B%E3%83%BC%E3%83%A0%E7%94%BB%E9%9D%A2.jpg"
+                  style={{ width: '21%', border: '1px solid #ddd'}}
                 />
                 <CoralContentsBusinnesModelArrowToRight/>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png"
-                  style={{ width: '30%'}}
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E3%83%A2%E3%83%BC%E3%82%BF%E3%82%99%E3%83%AB.png"
+                  style={{ width: '21%', border: '1px solid #ddd'}}
                 />
                 <CoralContentsBusinnesModelArrowToRight/>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png"
-                  style={{ width: '30%'}}
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Slice+3.jpg"
+                  style={{ width: '21%', border: '1px solid #ddd'}}
+                />
+                <CoralContentsBusinnesModelArrowToRight/>
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Slice+4.jpg"
+                  style={{ width: '21%', border: '1px solid #ddd'}}
                 />
               </div>
 
-              <div className="flex" style={{justifyContent: 'space-between'}}>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png"
-                  style={{ width: '30%'}}
-                />
-                <CoralContentsBusinnesModelArrowToRight/>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png"
-                  style={{ width: '30%'}}
-                />
-                <CoralContentsBusinnesModelArrowToRight/>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.png"
-                  style={{ width: '30%'}}
-                />
-              </div>
-
-              <WorkHeadingCoral style={{margin: '50px 0 30px 30px'}}>
-                こだわり １. 　歯医者を検索する手順
+              <WorkHeadingCoral style={{margin: '50px 0 30px 20px'}}>
+                こだわり １. 　<span style={{fontSize: '1.7rem'}}>header</span>の検索機能
               </WorkHeadingCoral>
 
               <WorkText style={{padding: '0 0 30px'}}>
-
+                まず既存の予約サービスのhome画面によく見られるheaderの検索機能を、下の３つのように分類しました。
               </WorkText>
+
+              <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 20px'}}>
+                <UXDetailItemText>A. 検索モーダルへの導線</UXDetailItemText>
+                <UXDetailItemText>B. その場で打ち込んで検索</UXDetailItemText>
+                <UXDetailItemText>C. AとBのハイブリット型</UXDetailItemText>
+              </div>
+              <div className="flex" style={{justifyContent: 'space-between', margin: '0 0 20px'}}>
+                <UXDetailItem>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Mobile_sample1.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+                <UXDetailItem>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Mobile_sample2.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+                <UXDetailItem>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_Mobile3.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+              </div>
+              <div className="flex" style={{justifyContent: 'space-between'}}>
+                <UXDetailItemTextBlue>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・面積をとらない</UIItemTextContents>
+                </UXDetailItemTextBlue>
+                <UXDetailItemTextBlue>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移が少ない</UIItemTextContents>
+                </UXDetailItemTextBlue>
+                <UXDetailItemTextBlue>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・比較的面積をとらない</UIItemTextContents>
+                  <br/>
+                  <UIItemTextContents>・入力する情報量が減る</UIItemTextContents>
+                </UXDetailItemTextBlue>
+              </div>
+              <div className="flex" style={{justifyContent: 'space-between', padding: '20px 0'}}>
+                <UXDetailItemText>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                </UXDetailItemText>
+                <UXDetailItemText>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・面積をとる</UIItemTextContents>
+                </UXDetailItemText>
+                <UXDetailItemText>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                </UXDetailItemText>
+              </div>
+
+              <WorkText style={{padding: '30px 0 30px'}}>
+                そもそも本サービスにおいて、理想のユーザー体験は「検索しなくても、良い歯医者に検診してもらえること」だと考えました。それが「予約の気軽さ」に繋がるからです。
+                本サービスにおける理想と、上記の検索機能を考慮して、下の２つのデザインをしました。
+              </WorkText>
+
+              <div className="flex" style={{margin: '0 0 20px'}}>
+                <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
+                  ボツ案
+                </UIItemTextHeader>
+                <UIItemTextHeader>
+                  採用した案
+                </UIItemTextHeader>
+              </div>
+
+              <div className="flex" style={{margin: '0 0 20px'}}>
+                <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
+                    style={{ width: '100%' }}
+                  />
+                </UIItemTextHeader>
+                <UIItemTextHeader>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search.png"
+                    style={{ width: '100%' }}
+                  />
+                </UIItemTextHeader>
+              </div>
+
+              <WorkText style={{padding: '30px 0 30px'}}>
+                今回のサービスにおいて、ユーザーは最寄りの歯医者に検診してもらいたいと考えるのではにかと仮説を立てて、自宅や職場周辺に限って歯医者の検索ができるようにしました。
+                またアカウント作成時にあらかじめ地域を選ばせておくことで、『あなたにおすすめの歯医者』の精度も格段に向上して、
+                「検索しなくても、良い歯医者に検診してもらえる」という理想のユーザー体験に近づきます。
+              </WorkText>
+
             </UIWrap>
           </UXContetsWrap>
 

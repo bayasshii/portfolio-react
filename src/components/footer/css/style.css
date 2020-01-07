@@ -5,7 +5,7 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  background: #F0F6F3; }
+  background: #E5D98E; }
   .footer .footer__menue {
     margin: 0 auto; }
     .footer .footer__menue a {
@@ -15,6 +15,7 @@
       display: inline-block;
       text-decoration: none;
       font-weight: bold;
-      font-size: 20px; }
+      font-size: 20px;
+      color: #003778; }
     .footer .footer__menue a:hover {
       opacity: 0.7; }

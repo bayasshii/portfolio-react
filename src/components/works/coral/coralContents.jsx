@@ -4,24 +4,12 @@ import WorkTitle from "../workContents/workTitle";
 import WorkWrap from "../workContents/workWrap";
 import WorkText from "../workContents/workText";
 import WorkSubTitle from "../workContents/workSubTitle";
-import WorkHeading from "../workContents/workHeading";
-import WorkMenuComponent from "../workContents/workMenuComponent";
 
 import CoralHeader from "./coralHeader";
-import CoralContentsStakeholder from "./coralContentsStakeholder";
-import CoralContentsBusinnesModel from "./coralContentsBusinnesModel";
 import CoralContentsUX from "./coralContentsUX";
 
 import * as color from "../../../css/color.js"
 
-const WorkHeadingCoral = styled(WorkHeading)`
-  padding-left: 20px;
-  font-size: 2.0rem;
-  &::before {
-    height: 35px;
-    background: ${color.coralGradientVertical};
-  }
-`;
 
 class CoralContents extends Component {
   render() {
@@ -29,7 +17,7 @@ class CoralContents extends Component {
       <React.Fragment>
         <CoralHeader/>
         <div
-          style={{ background:color.background }}
+          style={{ background: color.background }}
         >
           <WorkWrap>
             <WorkTitle

@@ -14,14 +14,15 @@ export const mainGreen__thin = "#F0F6F3"
 export const accentYellow = "#f0f066"
 export const accentPink = "#F2505D"
 
-export const background = "#f6f6f6"
+export const background = "#f3f3f3"
+
 export const baseconnectGreen = "#00bfa5"
 
 export const coralBlue = "#0084b0"
-export const coralGreen = "#8eced1"
-export const coralGradient = "linear-gradient(to left, #0084b0, #8eced1)"
-export const coralGradientNaname = "linear-gradient(25deg, #0084b0, #8eced1)"
-export const coralGradientVertical = "linear-gradient(0deg, #0084b0, #8eced1)"
+export const coralGreen = "#8AC7CA"
+export const coralGradient = "linear-gradient(to left, #0084b0, #8AC7CA)"
+export const coralGradientNaname = "linear-gradient(25deg, #0084b0, #8AC7CA)"
+export const coralGradientVertical = "linear-gradient(0deg, #0084b0, #8AC7CA)"
 
 
 export const photal_thin = "#c5dbeb"
