@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './css/about.css';
-import TopImage from "../topImage/topImage.jsx"
 import SkillCharts from "./skillCharts.jsx"
+import Skills from "./skills.jsx"
+import TopImage from "../topImage/homeTop.jsx"
+
+import AboutHeading from "./aboutHeading.jsx"
+import AboutHeadingUnderline from "./aboutHeadingUnderline.jsx"
+
 
 class About extends Component {
   state={
@@ -11,20 +16,18 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <TopImage
-          imageURL={this.state.imageURL}
-          backImageURL={this.state.backImageURL}
-        />
+        <TopImage/ >
         <div className="about bg-white">
-          <div className="flex">
+          <div className="flex">_
             <div className="width">
               <div className="mb-40">
-                <h2 className="flex flex-center"><span>About</span></h2>
+                <AboutHeading>About</AboutHeading>
+                <AboutHeadingUnderline/>
                 <div>
-                  <div>
-                    <span class="colorUnderline f-22">木林将也 / KibayashiMasaya</span>
+                  <div style={{fontSize: '1.5rem'}}>
+                    <span class="colorUnderline f-22" style={{fontSize: '2.0rem', fontWeight: '600'}}>木林 将也 / Kibayashi Masaya</span>
                     <p className="mt-30">
-                      　1997年生まれ、大阪府松原市在住。小学校中学校時代は放課後に野球やサッカー、バスケに明け暮れる活発的に日々を過ごす。2012年、大阪府立天王寺高校に入学。
+                      1997年生まれ、大阪府松原市在住。小学校中学校時代は放課後に野球やサッカー、バスケに明け暮れる活発的に日々を過ごす。2012年、大阪府立天王寺高校に入学。
                       バレーボール部に入部する。バレー経験のある監督が不在の中、学生たちで練習メニューを改善しながら日々の練習に打ち込む。高校３年生の時にはビーチバレーでの近畿大会出場を果たす。
                       また高校２年生の頃から建築デザインに興味が湧き、１年半ほどの間、毎日美術室に通ってデッサンや設計にチャレンジし始める。
                       <br/>
@@ -40,6 +43,11 @@ class About extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="flex bg-gray" style={{padding: '0 0 50px'}}>
+            <div className="width pb-40">
+              <Skills />
             </div>
           </div>
           {/*

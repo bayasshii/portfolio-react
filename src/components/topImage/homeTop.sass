@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+$color__baseText: #020E26;
+$color__thinText: #0B3640;
+$color__urlText: #7A77D9;
+$color__accentYellow: #F2C744;
+$color__accentPink: #F2505D;
+$color__background: #edeff1;
+
+.homeTop
+  background: $color__background;
+  padding: 200px 0 150px;
+  margin: auto;
+  .homeTop__mainText
+    text-align: center;
+    h1
+      background: linear-gradient(transparent 70%, $color__accentYellow 70%);
+      display: inline-block;
+      font-size: 36px;
+      margin-bottom: 60px;
+      font-weight: 400;
+      span
+        font-weight: 600;
+        font-size: 42px;
+    h2
+      background: linear-gradient(transparent 70%, $color__accentYellow 70%);
+      font-size: 42px;
+      display: inline-block;
+      font-weight: 600;
+      span
+        font-weight: 400;
+        font-size: 36px;
+    @media screen and (max-width:980px)
+      h1
+        font-size: 32px;
+      h2
+        font-size: 20px;
+        line-height: 30px
+        padding: 0 30px;

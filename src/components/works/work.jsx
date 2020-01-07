@@ -1,28 +1,47 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import styled from 'styled-components'
+
+const WorkWrap = styled.div`
+  position: relative;
+  width: 470px;
+  background: #fff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  z-index: -2
+`;
+
+const WorkUrl = styled.a`
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+`;
 
 class Work extends Component {
   render() {
-    const strageScroll =()=>{
-      var scrollPos= document.scrollTop();
-      localStorage.setItem('key',scrollPos);
-    }
     return (
-        <li className="myWork">
-          <Link to={"works/"+this.props.url} onclick={strageScroll}>
-            <div className="myWork__image">
-              <img alt={this.props.name} src={this.props.imageURL} />
-            </div>
-            <div className="myWork__title">
-              {this.props.name}
-            </div>
-            <div className="myWork__day">
-              {this.props.day}
-            </div>
-          </Link>
-        </li>
-    );
+      <div style={{position: 'relative'}}>
+        <Link
+          to={this.props.to}
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            cursor: 'pointer',
+            width: '100%',
+            height: '100%'
+          }}
+        />
+        <WorkWrap>
+          <this.props.childComponent/>
+        </WorkWrap>
+      </div>
+    )
   }
 }
 
-export default Work ;
+export default Work;

@@ -4,27 +4,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ScrollToTop from "./scrollTop.jsx"
 import ChangeCurrentHeader from "./changeCurrentHeader.jsx"
 import About from "./components/about/about.jsx";
+import BaseconnectContents from "./components/works/baseconnect/baseconnectContents.jsx";
+import CoralContents from "./components/works/coral/coralContents.jsx";
+import PhotalContents from "./components/works/photal/photalContents.jsx";
+import OthersContents from "./components/works/others/othersContents.jsx";
 
-import WorksList from "./components/works/worksList.jsx";
-import Foltana from "./components/works/works/foltana.jsx";
-import SUTD__workshop from "./components/works/works/sutd__workshop.jsx";
-import Undulight from "./components/works/works/undulight.jsx";
-import Trivet from "./components/works/works/trivet.jsx";
-import Office from "./components/works/works/office.jsx";
-import Portfolio from "./components/works/works/portfolio.jsx";
-import Sudaku from "./components/works/works/sudaku.jsx";
-import SudakuGaisou from "./components/works/works/sudakuGaisou.jsx";
-import Sotsuron from "./components/works/works/sotsuron.jsx";
-import Jouneyalist from "./components/works/works/jouneyalist.jsx";
-import Takatobi from "./components/works/works/takatobi.jsx";
-import Baseconnect from "./components/works/works/baseconnect.jsx";
-import CampanyTlogo from "./components/works/works/campanyTlogo.jsx";
-
-import Blog from "./components/blog/blog.jsx";
-import Article from "./components/blog/article/article1.jsx";
-import ReactSwiper from "./components/blog/article/ReactSwiper.jsx";
-import Article3 from "./components/blog/article/article3.jsx";
-
+/*
+import FoltanaContents from "./components/works/foltana/foltanaContents.jsx";
+import SugarContents from "./components/works/sugar/sugarContents.jsx";
+import PhotalContents from "./components/works/photal/photalContents.jsx";
+*/
 import Home from "./components/home/home.jsx";
 import App from './App.js';
 
@@ -38,91 +27,25 @@ ReactDOM.render(
         <App>
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" component={About}></Route>
-
-          <Route exact path="/blog" component={Blog}></Route>
-          {/*ブログのURL*/}
-          <Route
-            path="/blog/article1"
-            component={Article}
-          >
-          </Route>
-          <Route
-            path="/blog/react.swiper"
-            component={ReactSwiper}
-          >
-          </Route>
-          <Route
-            path="/blog/article3"
-            component={Article3}
-          >
-          </Route>
-          {/*ブログのURLここまで*/}
-
-          <Route exact path="/works" component={WorksList}></Route>
           {/*ワークのURL*/}
           <Route
-            path="/works/fortana"
-            component={Foltana}
+            path="/baseconnect"
+            component={BaseconnectContents}
           >
           </Route>
           <Route
-            path="/works/sutd__workshop"
-            component={SUTD__workshop}
+            path="/coral"
+            component={CoralContents}
           >
           </Route>
           <Route
-            path="/works/undulight"
-            component={Undulight}
+            path="/photal"
+            component={PhotalContents}
           >
           </Route>
           <Route
-            path="/works/trivet"
-            component={Trivet}
-          >
-          </Route>
-          <Route
-            path="/works/office"
-            component={Office}
-          >
-          </Route>
-          <Route
-            path="/works/portfolio"
-            component={Portfolio}
-          >
-          </Route>
-          <Route
-            path="/works/sudaku-lp"
-            component={Sudaku}
-          >
-          </Route>
-          <Route
-            path="/works/sudaku-gaisou"
-            component={SudakuGaisou}
-          >
-          </Route>
-          <Route
-            path="/works/cloudChair"
-            component={Sotsuron}
-          >
-          </Route>
-          <Route
-            path="/works/jouneyalist"
-            component={Jouneyalist}
-          >
-          </Route>
-          <Route
-            path="/works/takatobi"
-            component={Takatobi}
-          >
-          </Route>
-          <Route
-            path="/works/baseconnect"
-            component={Baseconnect}
-          >
-          </Route>
-          <Route
-            path="/works/campanyT.logo"
-            component={CampanyTlogo}
+            path="/others"
+            component={OthersContents}
           >
           </Route>
           {/*ワークのURLここまで*/}

@@ -4,14 +4,9 @@ header {
   header .header {
     left: 0;
     padding: 27px 5% 27px;
-    background: #fff;
-    -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
-    top: 0; }
-    header .header .header__title {
-      font-size: 25px;
-      line-height: 25px; }
+    top: 0;
+    position: fixed; }
     header .header .header__menues {
       margin-right: auto;
       vertical-align: middle; }
@@ -19,45 +14,20 @@ header {
       margin-left: auto;
       vertical-align: middle; }
     header .header .header__menue {
-      font-size: 18px; }
+      font-size: 18px;
+      font-weight: bold; }
       header .header .header__menue a {
         padding: 0 30px 0;
         cursor: pointer;
-        color: #182634;
+        color: #626E82;
         position: relative;
         display: inline-block;
         text-decoration: none; }
-      header .header .header__menue a::after {
-        position: absolute;
-        bottom: -27px;
-        left: 0;
-        content: '';
-        width: 100%;
-        height: 2px;
-        -webkit-transform: scale(0, 1);
-        -ms-transform: scale(0, 1);
-        transform: scale(0, 1);
-        -webkit-transform-origin: left top;
-        -ms-transform-origin: left top;
-        transform-origin: left top;
-        -webkit-transition: -webkit-transform .3s;
-        transition: -webkit-transform .3s;
-        -o-transition: transform .3s;
-        transition: transform .3s;
-        transition: transform .3s, -webkit-transform .3s; }
-      header .header .header__menue .home::after {
-        background: #00bfa5; }
-      header .header .header__menue .works::after {
-        background: #d59d66; }
-      header .header .header__menue .about::after {
-        background: #f5ae3e; }
       header .header .header__menue a:hover::after {
         -webkit-transform: scale(1, 1);
         -ms-transform: scale(1, 1);
         transform: scale(1, 1); }
     header .header .currentPage .home {
-      color: #00bfa5; }
-    header .header .currentPage .works {
-      color: #d59d66; }
+      color: #020E26; }
     header .header .currentPage .about {
-      color: #f5ae3e; }
+      color: #020E26; }
