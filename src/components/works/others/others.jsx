@@ -9,7 +9,7 @@ const WorkWrap = styled.div`
 
 const ImagetWrap = styled.div`
   width: 400px;
-  height: 335px
+  height: 306px;
   text-align: center;
   margin: auto;
   padding: 30px;

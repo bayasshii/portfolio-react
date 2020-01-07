@@ -10,7 +10,7 @@ const OthersHeaderWrap = styled.div`
 `
 
 const BaseconnectHeaderBackground = styled.div`
-  background: linear-gradient(to left, #222f40, #323f50);
+  background: ${color.mainYellow};
   width: 100%;
   position: absolute;
   bottom: 0;

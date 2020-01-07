@@ -2,6 +2,7 @@
 /* --------------------------------
  * base
  * -------------------------------- */
+
 html {
   font-size: 10px;
   color: #020E26; }
@@ -304,3 +305,9 @@ li {
 .mbt-50 {
   margin-bottom: 50px;
   margin-top: 50px; }
+
+
+  .slick-next,
+  .slick-prev{
+     display: none!important;
+  }

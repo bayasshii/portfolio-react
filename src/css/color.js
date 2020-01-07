@@ -14,7 +14,7 @@ export const mainGreen__thin = "#F0F6F3"
 export const accentYellow = "#f0f066"
 export const accentPink = "#F2505D"
 
-export const background = "#f3f3f3"
+export const background = "#fafafa"
 
 export const baseconnectGreen = "#00bfa5"
 
