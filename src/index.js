@@ -7,6 +7,8 @@ import About from "./components/about/about.jsx";
 import BaseconnectContents from "./components/works/baseconnect/baseconnectContents.jsx";
 import CoralContents from "./components/works/coral/coralContents.jsx";
 import PhotalContents from "./components/works/photal/photalContents.jsx";
+import OthersContents from "./components/works/others/othersContents.jsx";
+
 /*
 import FoltanaContents from "./components/works/foltana/foltanaContents.jsx";
 import SugarContents from "./components/works/sugar/sugarContents.jsx";
@@ -41,13 +43,11 @@ ReactDOM.render(
             component={PhotalContents}
           >
           </Route>
-          {/*
           <Route
-            path="/sugar"
-            component={SugarContents}
+            path="/others"
+            component={OthersContents}
           >
           </Route>
-          */}
           {/*ワークのURLここまで*/}
         </App>
       </ChangeCurrentHeader>

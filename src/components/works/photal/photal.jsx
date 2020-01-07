@@ -44,7 +44,7 @@ class Baseconnect extends Component {
       <React.Fragment>
         <WorkWrap>
           <ImagetWrap>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_imac.png"
+            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/photal__mac_ver.png"
               style={{ width: '300px' }}
             />
           </ImagetWrap>

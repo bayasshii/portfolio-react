@@ -57,7 +57,6 @@ class TopImage extends Component {
     <HometopWrap>
       <HometopRec/>
       <HometopContents>
-        <HometopCircle/>
         <HometopText style={{paddingTop: '200px'}}>I'm Masaya Kibayashi,</HometopText>
         <div><HometopMainText style={{paddingTop: '30px'}}>UI & UX</HometopMainText></div>
         <div><HometopMainText style={{paddingTop: '30px'}}>Designer,</HometopMainText></div>

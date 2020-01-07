@@ -3,7 +3,7 @@ import Work from "./work.jsx";
 import Baseconnect from "./baseconnect/baseconnect.jsx"
 import Coral from "./coral/coral.jsx"
 import Photal from "./photal/photal.jsx"
-import Sugar from "./sugar/sugar.jsx"
+import Others from "./others/others.jsx"
 
 import styled from 'styled-components'
 import * as color from "../../css/color.js"
@@ -57,8 +57,8 @@ class Works extends Component {
               />
             </div>
             <Work
-              to="./sugar"
-              childComponent={Sugar}
+              to="./others"
+              childComponent={Others}
             />
             {/*<Baseconnect/>
             <Photal/>

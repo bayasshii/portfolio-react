@@ -16,10 +16,9 @@ import PhotalContentsServerside from "./photalContentsServerside"
 import * as color from "../../../css/color.js"
 
 const WorkHeadingPhotal = styled(WorkHeading)`
-  padding-left: 20px;
   &::before {
     height: 35px;
-    background: ${color.photalGradient};
+    background: none
   }
   & span {
     opacity: 0.6;
@@ -35,6 +34,14 @@ const WorkHeadingPhotal = styled(WorkHeading)`
   }
 `;
 
+const PhotalContentsWrap = styled.div`
+  border-radius: 20px;
+  background: #FFF;
+  padding: 40px;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+`
+
+
 class PhotalContents extends Component {
   render() {
     return (
@@ -43,9 +50,9 @@ class PhotalContents extends Component {
         <div
           style={{ background:color.background }}
         >
-          <WorkWrap>
-            <WorkTitle style={{padding: '70px 0 20px'}}>
-              Share Album Service - Photal -
+          <WorkWrap style={{padding: '0 0 50px'}}>
+            <WorkTitle style={{padding: '70px 0 30px'}}>
+              アルバム共有アプリ - Photal -
             </WorkTitle>
             <WorkSubTitle style={{ padding: '0 0 70px' }}>
               SeverSide Cording / FrontEnd Cording / UX Design
@@ -56,21 +63,24 @@ class PhotalContents extends Component {
               またインターン終了後、制作物のリデザインをしました。
             </WorkText>
 
-            <WorkHeadingPhotal>
-              teamLab Internship
-              <span>Duration: 2weaks</span>
-              <span>Tools: Laravel / Vue.js</span>
-            </WorkHeadingPhotal>
-            <PhotalContentsNeedfinding/>
 
+            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+              <WorkHeadingPhotal>
+                1. Concept
+                <span>Duration: 2hours</span>
+              </WorkHeadingPhotal>
+              <PhotalContentsNeedfinding/>
+            </PhotalContentsWrap>
+            {/*
             <WorkHeadingPhotal>
               UI/UX Redesign
               <span>Duration: 2days</span>
               <span>Tools: Sketch</span>
             </WorkHeadingPhotal>
             <PhotalContentsUX/>
-
+            */}
             {/*
+
             <WorkHeadingPhotal>
               2. UX Design
               <span>Duration: 3hours</span>
@@ -79,50 +89,51 @@ class PhotalContents extends Component {
             <WorkText style={{padding: '20px 0 50px'}}>
               <PhotalContentsUX/>
             </WorkText>
-            */}
 
-            {/*
-            <WorkHeadingPhotal>
-              3. ServerSide Cording
-              <span>Duration: 32hours</span>
-              <span>Tools: Laravel / PosgreSQL</span>
-            </WorkHeadingPhotal>
-            <PhotalContentsServerside/>
             */}
+            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+              <WorkHeadingPhotal>
+              2. ServerSide Cording
+                <span>Duration: 32hours</span>
+                <span>Tools: Laravel / PosgreSQL</span>
+              </WorkHeadingPhotal>
+              <PhotalContentsServerside/>
+            </PhotalContentsWrap>
 
-            {/*
-            <WorkHeadingPhotal>
-              4. FrontEnd Cording
-              <span>Duration: 24hours</span>
-              <span>Tools: Vue.js</span>
-            </WorkHeadingPhotal>
-            <WorkText style={{padding: '20px 0 50px'}}>
-              時間に余裕があったので、Vueでの非同期通信の実装も行いました。
-              上記の要件のうちほぼ全てを非同期通信として書き直しました。
-              非同期通信になることで操作性が大きく向上しました。
-            </WorkText>
-            */}
+            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+              <WorkHeadingPhotal>
+                3. FrontEnd Cording
+                <span>Duration: 24hours</span>
+                <span>Tools: Vue.js</span>
+              </WorkHeadingPhotal>
+              <WorkText style={{padding: '20px 0 0'}}>
+                時間に余裕があったので、Vueでの非同期通信の実装も行いました。
+                上記の要件のうちほぼ全てを非同期通信として書き直しました。
+                非同期通信になることで操作性が大きく向上しました。
+              </WorkText>
+            </PhotalContentsWrap>
 
-            {/*
-            <WorkHeadingPhotal>
-              5. MarkUp Cording & UI Design
-              <span>Duration: 5hours</span>
-              <span>Tools: HTML / css</span>
-            </WorkHeadingPhotal>
-            <WorkText style={{padding: '20px 0 50px'}}>
-              非同期にこだわったため時間がなくなったので、UIデザインと同時進行でマークアップを行いました。ですので正直に言うと、ほとんどUIがワイヤーのままで、UIに関してあまり意図はありません。笑<br/>
-              ただ一つだけ、やはり写真のアプリなので、グラデーションを使って、綺麗で写真映えしそうなアプリであることは意識しました。
-            </WorkText>
-            */}
+            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+              <WorkHeadingPhotal>
+                4. MarkUp Cording & UI Design
+                <span>Duration: 5hours</span>
+                <span>Tools: HTML / css</span>
+              </WorkHeadingPhotal>
+              <WorkText style={{padding: '20px 0 0'}}>
+                非同期にこだわったため時間がなくなったので、UIデザインと同時進行でマークアップを行いました。
+                ですので正直に言うと、ほとんどUIがワイヤーのままで、UIに関してあまり意図はありません。<br/>
+                ただ一つだけ、やはり写真のアプリなので、グラデーションを使って、綺麗で写真映えしそうなアプリであることは意識しました。
+              </WorkText>
+            </PhotalContentsWrap>
 
-            {/*
-            <WorkHeadingPhotal>Summary</WorkHeadingPhotal>
-            <WorkText style={{padding: '20px 0 50px'}}>
-              実装すべき機能は他にもたくさんありましたが、エンジニアの業務・考え方について学べました。
-              PHPという未知の分野に苦しめられましたが、 実装を通して得た知識・経験は、
-              今後デザイナーとしての僕が直接使うことはなくても、エンジニアとコミュニケーションをとる際には共通言語として必ず役に立つと思います。
-            </WorkText>
-            */}
+            <PhotalContentsWrap>
+              <WorkHeadingPhotal>5. Summary</WorkHeadingPhotal>
+              <WorkText style={{padding: '20px 0 0'}}>
+                実装すべき機能は他にもたくさんありましたが、エンジニアの業務・考え方について学べました。
+                PHPという未知の分野に苦しめられましたが、 実装を通して得た知識・経験は、
+                今後デザイナーとしての僕が直接使うことはなくても、エンジニアとコミュニケーションをとる際には共通言語として必ず役に立つと思います。
+              </WorkText>
+            </PhotalContentsWrap>
 
           </WorkWrap>
         </div>

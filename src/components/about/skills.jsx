@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+import AboutHeading from "./aboutHeading.jsx"
+import AboutHeadingUnderline from "./aboutHeadingUnderline.jsx"
+
 class Skills extends Component {
   render() {
     return (
       <div className="mySkills">
-        <h2 className="flex flex-center"><span>Skills</span></h2>
+        <AboutHeading>Skills</AboutHeading>
+        <AboutHeadingUnderline/>
         <ul className="flex flex-wrap">
           <li className="mySkill designSkill">
             <div className="mySkill__title">Web Design</div>

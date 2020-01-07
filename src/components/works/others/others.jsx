@@ -45,7 +45,6 @@ class Baseconnect extends Component {
       <React.Fragment>
         <WorkWrap>
           <ImagetWrap>
-
           </ImagetWrap>
           <TextWrap>
             <TextWrapTitle>Others</TextWrapTitle>
