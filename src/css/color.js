@@ -7,6 +7,7 @@ export const mainBlue = "#003778"
 export const mainBlue__thin = "#7F9BBB"
 
 export const mainYellow = "#E5D98E"
+export const mainYellow__thin = "#ECE3AB"
 export const mainGreen = "#CFE1D7"
 export const mainGreen__thin = "#F0F6F3"
 
