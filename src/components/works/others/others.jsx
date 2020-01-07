@@ -14,6 +14,7 @@ const ImagetWrap = styled.div`
   margin: auto;
   padding: 30px;
   background: ${color.mainYellow};
+  position: relative;
 `;
 
 const TextWrap = styled.div`
@@ -38,6 +39,25 @@ const TextWrapSubTitle = styled.div`
   font-weight: 600;
 `;
 
+const OthersHeaderContents = styled.div`
+  text-align: center;
+  padding-top: 95px;
+  font-size: 6.0rem;
+  font-weight: 900;
+  color: #fff;
+`
+const OthersHeaderRec = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 340px;
+  height: 190px;
+  border: 20px solid #fff;
+`
+
 
 class Baseconnect extends Component {
   render() {
@@ -45,6 +65,8 @@ class Baseconnect extends Component {
       <React.Fragment>
         <WorkWrap>
           <ImagetWrap>
+            <OthersHeaderRec/>
+            <OthersHeaderContents>Others</OthersHeaderContents>
           </ImagetWrap>
           <TextWrap>
             <TextWrapTitle>Others</TextWrapTitle>

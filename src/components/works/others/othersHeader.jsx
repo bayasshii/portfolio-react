@@ -9,7 +9,7 @@ const OthersHeaderWrap = styled.div`
   font-size: 5rem;
 `
 
-const BaseconnectHeaderBackground = styled.div`
+const OthersHeaderBackground = styled.div`
   background: ${color.mainYellow};
   width: 100%;
   position: absolute;
@@ -19,13 +19,35 @@ const BaseconnectHeaderBackground = styled.div`
   z-index: -1;
 `
 
+const OthersHeaderContents = styled.div`
+  text-align: center;
+  padding-top: 250px;
+  font-size: 10.0rem;
+  font-weight: 900;
+  color: #fff;
+`
+
+const OthersHeaderRec = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 700px;
+  height: 300px;
+  border: 30px solid #fff;
+`
+
 
 class BaseconnectHeader extends Component {
   render() {
     return (
       <React.Fragment>
         <OthersHeaderWrap>
-          <BaseconnectHeaderBackground/>
+          <OthersHeaderRec/>
+          <OthersHeaderBackground/>
+          <OthersHeaderContents>Others</OthersHeaderContents>
         </OthersHeaderWrap>
       </React.Fragment>
     )

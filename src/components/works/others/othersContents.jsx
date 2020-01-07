@@ -13,7 +13,7 @@ const OthersContetsWrap = styled.div`
 `
 
 const OthersTopImage = styled.div`
-  width: 470px;
+  width: 500px;
   height: auto;
   background: #fff;
   z-index: 100;
@@ -22,7 +22,7 @@ const OthersTopImage = styled.div`
 const OthersTopImageWrap = styled.div`
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 80px;
 `
 
 const OthersTitleWrap = styled.div`
@@ -82,7 +82,7 @@ class OthersContents extends Component {
           <WorkWrap style={{padding: '80px 0'}}>
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="me310" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/me310_2.jpg"
                       style={{ width: '100%' }}
@@ -119,13 +119,14 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：デザイン / マーケティング / インタビュー</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Illustrator</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2019/09 ~ 2020/08 (修士1年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：2019/09 ~ 2020/07 (修士1年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
 
               <OthersTextWrap>
-                スタンフォード大学主催の国際プロジェクトです。<br/>
-                自国の学生４人と他国の学生４人でチームを組んで、一つの問題をデザイン思考を用いて解決します。
-                現在、リサーチをしながらプロトタイプを検証しているところです。
+                ME310/Sugarとはスタンフォード大学主催の国際プロジェクトです。
+                自国の学生４人と他国の学生４人で１つのチームを組んで、デザイン思考やユーザー中心設計を実践的に学ぶプロジェクトです。
+                私たちのチームは現代の農家が抱える問題の発見と解決に取り組んでいます。
+                現在、リサーチをしながらプロトタイプを作成して検証している段階です。
               </OthersTextWrap>
             </OthersContetsWrap>
 
@@ -133,7 +134,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="fortana" src="https://s3-ap-northeast-1.amazonaws.com/treeethreee/fortana1.svg"
                       style={{ width: '100%' }}
@@ -156,7 +157,7 @@ class OthersContents extends Component {
                   </OthersTopImage>
                 </Slider>
               </OthersTopImageWrap>
-              <OthersTitleWrap>
+              <OthersTitleWrap style={{background:color.mainYellow__thin}}>
                 <OthersTitle>fortana</OthersTitle>
                 <div className="flex">
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>グループワーク</OthersDerails></OthersDerailsWrap>
@@ -181,7 +182,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg"
                       style={{ width: '100%' }}
@@ -218,7 +219,7 @@ class OthersContents extends Component {
               <OthersTextWrap>
                 シンガポール国立工科大学との共同ワークショップに参加しました。
                 Twitter上のツイートをスクレイピングして得た位置情報データを、実際の地図にプロットして分析しました。
-                日本人と外国人観光客でかなり違いがあり面白かったです。
+                日本人と外国人観光客でかなり違いがあって面白かったです。
               </OthersTextWrap>
             </OthersContetsWrap>
 
@@ -227,7 +228,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sotsuron1.jpg"
                       style={{ width: '100%' }}
@@ -241,7 +242,7 @@ class OthersContents extends Component {
                 </Slider>
               </OthersTopImageWrap>
 
-              <OthersTitleWrap>
+              <OthersTitleWrap style={{background:color.mainYellow__thin}}>
                 <OthersTitle>CloudChair</OthersTitle>
                 <div className="flex">
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
@@ -253,7 +254,7 @@ class OthersContents extends Component {
               </OthersTitleWrap>
 
               <OthersTextWrap>
-                最終的には紙を使った軽い椅子を制作しました。
+                紙のみを使用して軽い椅子を制作しました。
                 Rhinocerosを用いて、椅子の高さ・横幅・座面の深さなど様々な要素をパラメトリックにプログラミングした後、３種類の異なる形の椅子を制作してユーザー評価を行いました。
               </OthersTextWrap>
             </OthersContetsWrap>
@@ -262,7 +263,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <OthersTopImage style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <OthersTopImage style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudakuWebImage.jpg"
                     style={{ width: '100%' }}
                   />
@@ -275,7 +276,7 @@ class OthersContents extends Component {
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
                   <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'15px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
                 </div>
-                <OthersDerailsWrap><OthersDerails>URL：http://sudaku.crap.jp</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails><a href="http://sudaku.crap.jp" target="_blank">URL：http://sudaku.crap.jp</a></OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン / コーディング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Sketch / HTML / CSS</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>期間：2018/12 (学部4年)</OthersDerails></OthersDerailsWrap>
@@ -283,7 +284,7 @@ class OthersContents extends Component {
 
               <OthersTextWrap>
                 友人が経営する焼肉屋のLPをデザインしました。
-                当時の私はwebデザインが初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホからのアクセスのみに絞りました。
+                当時の私はwebデザインやコーディングが本当に初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞ってデザインと実装をしました。
               </OthersTextWrap>
             </OthersContetsWrap>
 
@@ -292,7 +293,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/office1.jpg"
                       style={{ width: '100%' }}
@@ -306,7 +307,7 @@ class OthersContents extends Component {
                 </Slider>
               </OthersTopImageWrap>
 
-              <OthersTitleWrap>
+              <OthersTitleWrap style={{background:color.mainYellow__thin}}>
                 <OthersTitle>Connect Office</OthersTitle>
                 <div className="flex">
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
@@ -328,7 +329,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/meishidayon2.jpg"
                       style={{ width: '100%' }}
@@ -364,7 +365,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/undolight092.jpg"
                       style={{ width: '100%' }}
@@ -378,7 +379,7 @@ class OthersContents extends Component {
                 </Slider>
               </OthersTopImageWrap>
 
-              <OthersTitleWrap>
+              <OthersTitleWrap style={{background:color.mainYellow__thin}}>
                 <OthersTitle>UnduLight</OthersTitle>
                 <div className="flex">
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
@@ -401,7 +402,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '470px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/takatobida.jpg"
                       style={{ width: '100%' }}
@@ -433,8 +434,8 @@ class OthersContents extends Component {
               </OthersTitleWrap>
 
               <OthersTextWrap>
-                『学内では、エレベータを使って階段を使う人がなかなかいない。階段を使えば節電にもなるし運動にもなるのに』という問題から、
-                階段をより意識してもらうために『階段の踊り場で高飛び大会を開く』という企画を行ないました。大盛況でした。
+                『エレベータを使って階段を使う人がなかなかいない。階段を使えば節電にもなるし運動にもなるのに』という問題から、
+                階段をより意識してもらうために『階段の踊り場で高飛び大会を開く』という企画を行ないました。意外と大盛況でした。
               </OthersTextWrap>
             </OthersContetsWrap>
 

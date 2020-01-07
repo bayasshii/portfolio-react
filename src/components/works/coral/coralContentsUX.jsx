@@ -128,18 +128,18 @@ const ProblemGraphItemTop = styled.div`
 `
 
 const ProblemGraphItemLeft = styled(ProblemGraphItem)`
-  width: 290px;
-  font-size: 1.2rem;
+  width: 310px;
+  font-size: 1.5rem;
 `
 
 const ProblemGraphItemRight = styled(ProblemGraphItem)`
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-left: 10px;
 `
 
 const ProblemGraphItemRightBottom = styled(ProblemGraphItem)`
-  font-size: 1.2rem;
+  font-size: 1.17rem;
   background: #EA629F;
   margin-bottom: 0;
 `
@@ -153,8 +153,8 @@ const UserStoryWrap = styled.div`
 `
 
 const UserStoryItem = styled.div`
-  width: 440px;
-  height: 440px
+  width: 370px;
+  height: 370px
   background: ${color.coralGreen};
   position: relative;
 `
@@ -344,16 +344,16 @@ class CoralContentsUX extends Component {
             </WorkText>
 
             <UserStoryWrap>
-              <div className="flex" style={{justifyContent: 'space-between' , margin: '0 0 20px'}}>
+              <div className="flex" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/SADwoman.jpg"
                     style={{ width: '100%' }}
                   />
                   <UserStoryItemText>
-                    １. 歯科検診行くの億劫だなぁ...けど行かなきゃだなぁ...
+                    １. 歯科検診行くの億劫だなぁ...けど行かなきゃ...
                   </UserStoryItemText>
                 </UserStoryItem>
-                <UserStoryItem>
+                <UserStoryItem style={{ margin: '0 0 0 20px'}}>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E7%99%BB%E5%A0%B4.jpg"
                     style={{ width: '100%' }}
                   />
@@ -362,7 +362,7 @@ class CoralContentsUX extends Component {
                   </UserStoryItemText>
                 </UserStoryItem>
               </div>
-              <div className="flex" style={{justifyContent: 'space-between' , margin: '0 0 20px'}}>
+              <div className="flex" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/zido.jpg"
                     style={{ width: '100%' }}
@@ -371,12 +371,12 @@ class CoralContentsUX extends Component {
                     ３.　口内の写真を撮影して、歯医者さんに送信！
                   </UserStoryItemText>
                 </UserStoryItem>
-                <UserStoryItem>
+                <UserStoryItem style={{ margin: '0 0 0 20px'}}>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/last.jpg"
                     style={{ width: '100%' }}
                   />
                   <UserStoryItemText>
-                    ４.　検診の結果が返ってきた！大丈夫そうでよかった！
+                    ４.　検診の結果が返ってきた！大丈夫でよかった！
                   </UserStoryItemText>
                 </UserStoryItem>
               </div>
