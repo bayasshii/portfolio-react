@@ -119,7 +119,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：デザイン / マーケティング / インタビュー</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Illustrator</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2019/09 ~ 2020/07 (修士1年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：11months / 2019.09 ~ 2020.07 (修士1年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
 
               <OthersTextWrap>
@@ -165,7 +165,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / プログラミング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Rhinoceros / Python / Illustrator / Photoshop</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2018/01 (学部3年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：1months / 2018.01 (学部3年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
 
               <OthersTextWrap>
@@ -214,7 +214,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / プログラミング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Python / Illustrator / Photoshop</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2018/06 (学部4年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：5days / 2018.06 (学部4年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
               <OthersTextWrap>
                 シンガポール国立工科大学との共同ワークショップに参加しました。
@@ -250,7 +250,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン / プログラミング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Rhinoceros / Python / Illustrator</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2018/10 ~ 2019/01(学部4年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：4months / 2018.10 ~ 2019.01(学部4年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
 
               <OthersTextWrap>
@@ -279,12 +279,12 @@ class OthersContents extends Component {
                 <OthersDerailsWrap><OthersDerails><a href="http://sudaku.crap.jp" target="_blank">URL：http://sudaku.crap.jp</a></OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン / コーディング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Sketch / HTML / CSS</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2018/12 (学部4年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：5days / 2018.12 (学部4年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
 
               <OthersTextWrap>
                 友人が経営する焼肉屋のLPをデザインしました。
-                当時の私はwebデザインやコーディングが本当に初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞ってデザインと実装をしました。
+                当時の私はwebデザインやコーディングが本当に初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞りました。
               </OthersTextWrap>
             </OthersContetsWrap>
 
@@ -315,7 +315,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン / 模型制作</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Illustrator / Photoshop / JWCAD</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2017/06 ~ 07 (学部3年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：2months / 2017.06 ~ 07 (学部3年)</OthersDerails></OthersDerailsWrap>
 
               </OthersTitleWrap>
 
@@ -351,7 +351,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Illustrator / Photoshop</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2019/04 (修士1年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：2days / 2019.04 (修士1年)</OthersDerails></OthersDerailsWrap>
 
               </OthersTitleWrap>
 
@@ -387,7 +387,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：デザイン / プログラミング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Rhinoceros / Python / Illustrator / Photoshop</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2017/12 (学部3年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：2months / 2017.12 (学部3年)</OthersDerails></OthersDerailsWrap>
 
               </OthersTitleWrap>
 
@@ -429,7 +429,7 @@ class OthersContents extends Component {
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：企画 / ポスターデザイン</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Illustrator</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：2018/11 (学部4年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：1months / 2018.11 (学部4年)</OthersDerails></OthersDerailsWrap>
 
               </OthersTitleWrap>
 
