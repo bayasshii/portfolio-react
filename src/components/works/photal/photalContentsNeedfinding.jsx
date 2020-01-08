@@ -29,7 +29,7 @@ class PhotalContentsNeedfinding extends Component {
         </WorkText>
         <WorkText style={{padding: '20px 0 10px'}}>
           そこで僕が目をつけたのは「LINEのアルバム機能」です。
-          大抵の大学生は、グループでの旅行の後の写真の共有にLINEのアルバム機能を使用します。
+          私の周りの大学生のほぼ100%は、グループでの旅行の後の写真の共有にLINEのアルバム機能を使用します。
           それはすごく便利なのですが、僕は１ユーザーとして、改善して欲しいと思っていたことがありました。
         </WorkText>
         <ImageWrap>
@@ -39,7 +39,7 @@ class PhotalContentsNeedfinding extends Component {
               src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/photal_laughUX_before.jpg"
               style={{width: '100%'}}
             />
-            <WorkSubTitle style={{marginTop: '10px'}}>LINEのアルバム管理方法。アルバム単位での管理。</WorkSubTitle>
+            <WorkSubTitle style={{marginTop: '10px'}}>LINEのアルバム管理方法。グループ単位での管理。</WorkSubTitle>
           </ImageItem>
           <ImageItem>
             <img
@@ -55,9 +55,8 @@ class PhotalContentsNeedfinding extends Component {
           それはそれで便利なのですが、グループ単位でのアルバム管理に加えて、<WorkUnderLine>ユーザー個人単位でのアルバムの管理</WorkUnderLine>もできればいいのになぁと常々思っていました。
           あのグループでの旅行も、社内でのあのイベントも、あの人とのデートも... 自分が関わった行事のアルバムを一括して閲覧できればとても便利だと思いませんか？
         </WorkText>
-        <WorkText style={{padding: '10px 0 50px'}}>
+        <WorkText style={{padding: '10px 0 30px'}}>
           そのような思いで作り始めて、二週間の期間で、デザインからサーバーサイド、フロントエンド、マークアップまでを個人で行いました。
-
         </WorkText>
       </React.Fragment>
     )

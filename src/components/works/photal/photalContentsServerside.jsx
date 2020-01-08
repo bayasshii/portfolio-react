@@ -26,13 +26,14 @@ class PhotalContentsServerside extends Component {
     return (
       <React.Fragment>
         <WorkText style={{padding: '20px 0 10px'}}>
-          続いてサーバーサイドです。本来ここが今回のインターンのメインですが、このポートフォリオではプロセスは省略します。
-          もし興味を持ってくださるなら、ぜひGitHub<a href="https://github.com/bayasshii/laravelProjects" target="_blank"> (https://github.com/bayasshii/laravelProjects)</a>のコードを見てください。
+          サーバーサイドとフロントエンドのコーディングを行いました。
+          データ通信するwebサイトの実装を自分でするのが初めてだったので、非常に良い経験になりました。
         </WorkText>
         <WorkText style={{padding: '20px 0 10px'}}>
           学んだこととしては、<br/>
-          - API、MVC、正規化など、サーバーサイドの用語<br/>
+          - API、MVC、正規化など、サーバーサイドやデータベースの用語<br/>
           - サーバーとの通信の方法<br/>
+          - 非同期通信の仕組み<br/>
           などです。
         </WorkText>
         <ImageWrap>
