@@ -10,6 +10,16 @@ import CoralContentsUX from "./coralContentsUX";
 
 import * as color from "../../../css/color.js"
 
+const OthersDerails = styled.span`
+  font-size: 1.2rem;
+  background: #fff;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+`
+
 
 class CoralContents extends Component {
   render() {
@@ -25,13 +35,20 @@ class CoralContents extends Component {
             >
               <span style={{fontSize: '4.0rem'}}>オンライン歯科診断アプリ</span> - Coral -
             </WorkTitle>
-            <WorkSubTitle style={{padding: '0 0 70px'}}>
+            <WorkSubTitle style={{padding: '0 0 40px'}}>
               UX & UI Design / Business Design
             </WorkSubTitle>
 
-            <WorkText style={{padding: '0 0 50px'}}>
+            <div className="flex">
+              <OthersDerails>課外活動</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>(ほぼ) 個人ワーク</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>期間：1month / 2019.12 ~ 2020.01(修士1年)</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>使用ツール：Sketch / Illustrator / Photoshop</OthersDerails>
+            </div>
+
+            <WorkText style={{padding: '60px 0 50px'}}>
               オンライン歯科検診アプリCoralは、歯科医と患者を繋ぐヘルスケアアプリです。
-              大学の授業で考えたアイデアを元に製作しました。
+              大学の授業でグループで考えたアイデアを元に個人で再製作しました。
             </WorkText>
 
             {/*

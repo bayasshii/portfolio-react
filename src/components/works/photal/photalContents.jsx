@@ -41,6 +41,15 @@ const PhotalContentsWrap = styled.div`
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
 `
 
+const OthersDerails = styled.span`
+  font-size: 1.2rem;
+  background: #fff;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+`
 
 class PhotalContents extends Component {
   render() {
@@ -57,6 +66,14 @@ class PhotalContents extends Component {
             <WorkSubTitle style={{ padding: '0 0 70px' }}>
               SeverSide Cording / FrontEnd Cording / UX Design
             </WorkSubTitle>
+
+            <div className="flex">
+              <OthersDerails>課外活動</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>個人ワーク</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>期間：2weeks / 2019.07 ~ 08 (修士1年)</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>使用ツール：Laravel / PosgreSQL / Vue / Heroku / HTML / CSS</OthersDerails>
+            </div>
+
             <WorkText style={{padding: '0 0 50px'}}>
               チームラボ サマーインターンシップ2019にサーバーサイドエンジニアとして参加しました。
               二週間のインターンシップを通してサービスの企画から、サーバーサイド・フロントエンド・デプロイまでを個人で行いました。
