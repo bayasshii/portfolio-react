@@ -285,6 +285,7 @@ class OthersContents extends Component {
               <OthersTextWrap>
                 友人が経営する焼肉屋のLPをデザインしました。
                 当時の私はwebデザインやコーディングが本当に初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞りました。
+                今見返すと、デザイン以前にclass名がとても面白くて笑えます。
               </OthersTextWrap>
             </OthersContetsWrap>
 
@@ -434,7 +435,7 @@ class OthersContents extends Component {
               </OthersTitleWrap>
 
               <OthersTextWrap>
-                『エレベータを使って階段を使う人がなかなかいない。階段を使えば節電にもなるし運動にもなるのに』という問題から、
+                『エレベータを使う人が多くて階段を使う人がなかなかいない。階段を使えば節電にもなるし運動にもなるのに』という課題から、
                 階段をより意識してもらうために『階段の踊り場で高飛び大会を開く』という企画を行ないました。意外と大盛況でした。
               </OthersTextWrap>
             </OthersContetsWrap>
