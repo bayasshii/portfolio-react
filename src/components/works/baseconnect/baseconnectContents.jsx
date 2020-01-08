@@ -13,6 +13,16 @@ import BaseconnectHeader from "./baseconnectHeader";
 
 
 
+const OthersDerails = styled.span`
+  font-size: 1.2rem;
+  background: #fff;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+`
+
 class BaseconnectContents extends Component {
   render() {
     return (
@@ -29,13 +39,20 @@ class BaseconnectContents extends Component {
             </WorkTitle>
 
             <WorkSubTitle
-              style={{ padding: '0 0 70px' }}
+              style={{ padding: '0 0 30px' }}
             >
               UI Design / Frontend Cording
             </WorkSubTitle>
 
+            <div className="flex">
+              <OthersDerails>課外活動</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>グループワーク</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>期間：16month / 2018.10 ~ 2020.01 (学部4年 ~ 修士1年)</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>使用ツール：Sketch / React / HTML / CSS</OthersDerails>
+            </div>
+
             <WorkText
-              style={{padding: '0 0 50px'}}
+              style={{padding: '50px 0 50px'}}
             >
               Baseconnectのミッションは「世界中のデータを繋げることで、ダイレクトに必要な情報にアクセスできる世界を作る」ことです。現在は主に、営業を支援するBtoBのwebサービスを開発しています。
             </WorkText>

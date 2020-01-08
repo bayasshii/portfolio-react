@@ -40,13 +40,13 @@ class Works extends Component {
           <div className="flex" style={{margin: '60px 0'}}>
             <div style={{marginRight: '60px'}}>
               <Work
-                to="./baseconnect"
-                childComponent={Baseconnect}
+                to="./coral"
+                childComponent={Coral}
               />
             </div>
             <Work
-              to="./coral"
-              childComponent={Coral}
+              to="./baseconnect"
+              childComponent={Baseconnect}
             />
           </div>
           <div className="flex" style={{margin: '0 0 60px'}}>

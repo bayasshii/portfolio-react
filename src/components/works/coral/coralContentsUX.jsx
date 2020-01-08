@@ -258,7 +258,7 @@ const UIItemTextHeader = styled.div`
   width: 40%;
   text-align: center;
   font-size: 1.5rem;
-  color: ${color.coralGreen}
+  color: ${color.coralGreen};
 `
 
 /* UIコンポーネント */
@@ -448,7 +448,7 @@ class CoralContentsUX extends Component {
               <div className="flex" style={{justifyContent: 'space-between'}}>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>検診の気軽さ(ユーザー)</UXDetailItemTextTitle>
-                  <UXDetailItemTextContents>○</UXDetailItemTextContents>
+                  <UXDetailItemTextContents>△</UXDetailItemTextContents>
                 </UXDetailItemTextBlue>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>検診の気軽さ(ユーザー)</UXDetailItemTextTitle>
@@ -488,11 +488,17 @@ class CoralContentsUX extends Component {
                 </UXDetailItemTextBlue>
               </div>
             </UXDetailWrap>
-            <WorkText style={{padding: '30px 0 30px'}}>
-              A案では検診のクオリティ良さそうですが、時間通りに通信する必要があるので、ユーザーにとって大きな手間になることが危惧されます。
-              C案ではテキストベースで診断を受け取るので便利ではあるが、テキストだけでは歯医者の評価をしづらく気軽に歯医者を選べなくなることが危惧されます。
-              またテキストだけで、満足感のある検診ができるのか不安が残るのではないかとも考えました。
-              B案では歯医者の手間こそ増えるものの、ユーザー側の問題はほとんど解決できているので、B案を採用することにしました。
+            <WorkText style={{padding: '30px 0 10px'}}>
+              リアルタイムで検診を受けるA案では歯医者での通常の検診に近いですが、時間通りに通信する必要があるので、予約や検診において大きな手間になることが危惧されます。
+              また歯医者にとっても手間になるので料金が上がることも予想されます。
+            </WorkText>
+            <WorkText style={{padding: '10px 0 10px'}}>
+              またC案ではテキストベースで検診を受け取るので、ユーザーは検診自体に時間の制約がない分気軽ではありますが、テキストだけでは歯医者の評価をしづらく、検診の評価が適正でなくなる可能性があります。
+              評価が適正でないと、ユーザーは気軽に歯医者を選びづらくなることにも繋がるので、これは大きな問題だと考えました。
+              またテキストだけでユーザーにとって満足感のある検診ができるのか、という不安も残ります。
+            </WorkText>
+            <WorkText style={{padding: '10px 0 0px'}}>
+              B案では歯医者の手間が増え、それに伴い料金も割増になるものの、ユーザー側の問題はほとんど解決できているのでB案を採用することにしました。
             </WorkText>
 
           </UXContetsWrap>
@@ -528,12 +534,34 @@ class CoralContentsUX extends Component {
                 />
               </div>
 
-              <WorkHeadingCoral style={{margin: '50px 0 30px 20px'}}>
-                こだわり １. 　<span style={{fontSize: '1.7rem'}}>header</span>の検索機能
-              </WorkHeadingCoral>
+              <WorkText style={{padding: '30px 0'}}>
+                デザインする上で特に悩んでこだわった点がいくつかあったので、以下にまとめました。
+              </WorkText>
+
+
+              <div className="flex" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
+                <div style={{margin: '70px 0 30px 10px', fontWeight:'600'}}>
+                  こだわり １. 　<span style={{fontSize: '2rem'}}>ホーム画面</span><span style={{fontSize: '1.5rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- headerの検索機能 -</span>
+                </div>
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
+                  style={{ width: '50%', marginLeft:'auto' }}
+                />
+              </div>
+
+              <WorkText style={{padding: '30px 0 30px'}}>
+                まずそもそも本サービスのホーム画面において、理想のユーザー体験について考えました。
+                そして理想のユーザー体験は、『検索しなくても、良い歯医者をすぐに見つけられること』だと定義しました。
+                良い歯医者がすぐに見つかれば、それが「予約の気軽さ」に繋がるからです。
+              </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
-                まず既存の予約サービスのhome画面によく見られるheaderの検索機能を、下の３つのように分類しました。
+                その理想のユーザー体験を踏まえて、
+                ホーム画面には『あなたにおすすめの歯医者』や『過去に検診を受けたことのある歯医者』をレイアウトして、検索しなくても歯医者を選択できるようにすることを考えました。
+                以下のheaderのデザインでは、そのレイアウトを前提に取り組みました。
+              </WorkText>
+
+              <WorkText style={{padding: '0 0 30px'}}>
+                次に既存の予約サービスのホーム画面によく見られるheaderの検索機能を調査して、下の３つのように分類しました。
               </WorkText>
 
               <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 20px'}}>
@@ -566,6 +594,8 @@ class CoralContentsUX extends Component {
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
                   <UIItemTextContents>・画面遷移が少ない</UIItemTextContents>
+                  <br/>
+                  <UIItemTextContents>・迷いが少ない</UIItemTextContents>
                 </UXDetailItemTextBlue>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
@@ -589,21 +619,29 @@ class CoralContentsUX extends Component {
                 </UXDetailItemText>
               </div>
 
-              <WorkText style={{padding: '30px 0 30px'}}>
-                そもそも本サービスにおいて、理想のユーザー体験は「検索しなくても、良い歯医者に検診してもらえること」だと考えました。それが「予約の気軽さ」に繋がるからです。
-                本サービスにおける理想と、上記の検索機能を考慮して、下の２つのデザインをしました。
+              <WorkText style={{padding: '30px 0 10px'}}>
+                以上３つのデザインのうち、どのデザインが一番良いというものは一概になく、サービスにおける理想のユーザー体験に応じて、デザインする必要があると感じたので、一案一案検討していきました。
               </WorkText>
 
-              <div className="flex" style={{margin: '0 0 20px'}}>
+              <WorkText style={{padding: '10px 0 30px'}}>
+                まず、B案では、画面を大きく占領するので、『まずheaderから検索しないといけない』ということをユーザーに強く意識させてしまいます。
+                そうなると、『検索しなくても、良い歯医者をすぐに見つけられる』という理想のユーザー体験から遠ざかってしまうので、まずB案はボツとしました。
+              </WorkText>
+
+              <WorkText style={{padding: '10px 0 30px'}}>
+                次にA案とC案について考えました。
+              </WorkText>
+
+              <div className="flex" style={{margin: '20px 0 20px'}}>
                 <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
-                  ボツ案
+                  A案
                 </UIItemTextHeader>
                 <UIItemTextHeader>
-                  採用した案
+                  C案
                 </UIItemTextHeader>
               </div>
 
-              <div className="flex" style={{margin: '0 0 20px'}}>
+              <div className="flex" style={{margin: '20px 0 20px'}}>
                 <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
                     style={{ width: '100%' }}
@@ -617,9 +655,10 @@ class CoralContentsUX extends Component {
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
-                今回のサービスにおいて、ユーザーは最寄りの歯医者に検診してもらいたいと考えるのではにかと仮説を立てて、自宅や職場周辺に限って歯医者の検索ができるようにしました。
-                またアカウント作成時にあらかじめ地域を選ばせておくことで、『あなたにおすすめの歯医者』の精度も格段に向上して、
-                「検索しなくても、良い歯医者に検診してもらえる」という理想のユーザー体験に近づきます。
+                まず、今回のサービスにおいて、ユーザーは「できれば最寄りの歯医者に検診してもらいたい。通院が必要になれば、オンライン検診してもらった歯医者に見てもらいたい」と考えるのではないかという仮説を立てました。
+                また歯医者側からしても「オンライン検診だけではなく、実際に自分の病院に通院して欲しい」というニーズは確実にあるはずです。
+                以上のニーズを叶えるために、アカウント作成時にあらかじめ地域を選ばせておくことで、自宅周辺に絞って歯医者の検索をするように誘導するC案のデザインを採用しました。
+                また、地域をあらかじめ選択しておくことで、『あなたにおすすめの歯医者』の精度も格段に向上して、「検索しなくても、良い歯医者をすぐに見つけられる」という理想のユーザー体験に近づきます。
               </WorkText>
 
             </UIWrap>
