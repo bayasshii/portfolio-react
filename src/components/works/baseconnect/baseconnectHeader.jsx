@@ -48,7 +48,7 @@ class BaseconnectHeader extends Component {
             />
           </BaseconnectHeaderBack>
           <BaseconnectHeaderPC>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_imac.png"
+            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/eTVTfB.png"
               style={{ width: '550px' }}
             />
           </BaseconnectHeaderPC>
