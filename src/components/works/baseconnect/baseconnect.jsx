@@ -12,7 +12,6 @@ const ImagetWrap = styled.div`
   height: 326px;
   text-align: center;
   margin: auto;
-  padding: 30px;
   background: ${color.mainGreen}
 `;
 
@@ -42,8 +41,8 @@ class Baseconnect extends Component {
       <React.Fragment>
         <WorkWrap>
           <ImagetWrap>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_imac.png"
-              style={{ width: '300px' }}
+            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_icon.png"
+              style={{ width: '400px' }}
             />
           </ImagetWrap>
           <TextWrap>

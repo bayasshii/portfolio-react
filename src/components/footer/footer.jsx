@@ -15,7 +15,7 @@ class Footer extends Component {
               </ul>
             </div>
             <div className="ml-auto">
-              2019 Masaya Kibayashi
+              © 2020 Masaya Kibayashi All rights Reserved.
             </div>
           </div>
         </div>
