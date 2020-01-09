@@ -3,6 +3,7 @@ import Header from "./components/header/header.jsx"
 import Footer from "./components/footer/footer.jsx"
 import './css/share.css'
 import './css/reset.css'
+import * as color from "./css/color.js"
 
 class App extends Component {
   render() {

@@ -7,7 +7,7 @@ const HometopWrap = styled.div`
   z-index: -2;
   position: relative;
   height: 800px;
-  background: ${color.mainGreen__thin};
+  background: ${color.background}
 `
 
 const HometopContents = styled.div`
@@ -22,7 +22,7 @@ const HometopRec = styled.div`
   z-index: -1;
   position: absolute;
   right: 0;
-  width: 40%;
+  width: 20%;
   height: 800px;
   background: ${color.mainYellow};
 `
@@ -57,11 +57,9 @@ class TopImage extends Component {
     <HometopWrap>
       <HometopRec/>
       <HometopContents>
-        <HometopText style={{paddingTop: '200px'}}>I'm Masaya Kibayashi,</HometopText>
-        <div><HometopMainText style={{paddingTop: '30px'}}>UI & UX</HometopMainText></div>
-        <div><HometopMainText style={{paddingTop: '30px'}}>Designer,</HometopMainText></div>
-        <HometopText style={{paddingTop: '50px'}}>Frontend Engineer, </HometopText>
-        <HometopText style={{paddingTop: '30px'}}>Architect, & More !</HometopText>
+        <HometopText style={{paddingTop: '300px'}}>I'm Masaya Kibayashi,</HometopText>
+        <div><HometopMainText style={{paddingTop: '30px'}}>UI & UX Designer,</HometopMainText></div>
+        <HometopText style={{paddingTop: '50px'}}>Frontend Engineer, Architect, & More !</HometopText>
       </HometopContents>
     </HometopWrap>
     );

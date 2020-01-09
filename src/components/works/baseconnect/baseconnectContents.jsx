@@ -101,7 +101,6 @@ class BaseconnectContents extends Component {
             <BaseconnectContetsWrap style={{margin: '0 0 0 0'}}>
               <WorkHeadingPhotal style={{margin: '0 0 10px'}}>
                 case 1.　Frontend Cording　- 事業所画面 -
-                <span>Tools: React.js / Sass / HTML</span>
               </WorkHeadingPhotal>
               <div
                 style={{
