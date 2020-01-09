@@ -13,7 +13,7 @@ const WorkWrap = styled.div`
 
 const WorkUrl = styled.a`
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   left: 0;
   cursor: pointer;
@@ -31,9 +31,9 @@ class Work extends Component {
             position: 'absolute',
             top: 0,
             left: 0,
-            cursor: 'pointer',
             width: '100%',
-            height: '100%'
+            height: '100%',
+            zIndex: 10
           }}
         />
         <WorkWrap>

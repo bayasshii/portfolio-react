@@ -1,15 +1,30 @@
 import React, { Component } from 'react';
+import styled from 'styled-components'
+import * as color from "../../css/color.js"
 
 import AboutHeading from "./aboutHeading.jsx"
 import AboutHeadingUnderline from "./aboutHeadingUnderline.jsx"
+
+const WorksWrapTitle = styled.div`
+  text-align: left;
+  font-size: 4.0rem;
+  color: ${color.baseText__thin};
+`;
+
+const WorksWrapTitleUnder = styled.div`
+  width: 80px;
+  height: 3px;
+  margin-top: 20px;
+  background: ${color.baseText__thin};
+`;
 
 class Skills extends Component {
   render() {
     return (
       <div className="mySkills">
-        <AboutHeading>Skills</AboutHeading>
-        <AboutHeadingUnderline/>
-        <ul className="flex flex-wrap">
+        <WorksWrapTitle>Skills</WorksWrapTitle>
+        <WorksWrapTitleUnder/>
+        <ul className="flex flex-wrap" style={{padding:'50px 0',justifyContent: 'space-between'}}>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Web Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/display.svg" /></div>
@@ -18,13 +33,15 @@ class Skills extends Component {
           <li className="mySkill designSkill">
             <div className="mySkill__title">Spatial Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/home.svg" /></div>
-            <div className="mySkill__text">　学部時代の私の専攻です。住宅、オフィス、公共建築、リノベーション、椅子、棚、照明などの空間デザインを演習や研究室でのPJを通して学びました。</div>
+            <div className="mySkill__text">　学部時代に、住宅、オフィス、公共建築、リノベーション、椅子、棚、照明などの空間デザインを授業での演習や研究室でのPJを通して学びました。中でも私の専攻にしていたのはオフィスのデザインです。</div>
           </li>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Algorithmic Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/boronoi.svg" /></div>
             <div className="mySkill__text">　現在の私の専攻です。RhionocerosをPythonで動かしたり、Processingを用いたりしてデザインを行います。Pythonを用いたスクレイピング・データ分析とデザインといった領域にも興味があり、現在取り組んでいます。</div>
           </li>
+        </ul>
+        <ul className="flex flex-wrap" style={{justifyContent: 'space-between'}}>
           <li className="mySkill programmingSkill">
             <div className="mySkill__title">Coding</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/keyboard.svg" /></div>
