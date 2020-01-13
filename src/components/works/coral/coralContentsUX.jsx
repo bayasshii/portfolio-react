@@ -777,8 +777,9 @@ class CoralContentsUX extends Component {
                 />
               </div>
               <WorkText style={{padding: '30px 0 30px'}}>
-                検索結果画面以降のユーザーの行動のプロセスは、『良さげな医者を探す』→『予約する』の２つであると考えました。
-                それを踏まえて既存予約サービスの検索結果画面を研究した結果、『検索結果画面から予約ができる』ものと『詳細画面に画面遷移してから予約する』ものの２つの検索結果画面が存在しました。
+                検索結果画面以降のユーザーの行動のプロセスは、『良いと思う歯医者を探す』→『歯医者を決定して予約する』の２つであると考えました。
+                それを踏まえて、既存予約サービスの検索結果画面を研究して今回のケースで考えた結果、
+                『A. 検索結果画面から歯医者を探して、そのまま予約ができる』と『B. 検索結果画面から医者を探して、詳細画面に画面遷移してから歯医者を決定して予約する』の２つがユーザー体験の候補として挙げられました。
                 今回のケースではどちらの画面が適しているかを以下で検証しました。
               </WorkText>
 
@@ -811,9 +812,10 @@ class CoralContentsUX extends Component {
                 </UXDetailItemTextBlue>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・面積が少ない</UIItemTextContents>
+                  <UIItemTextContents>・面積をとらない</UIItemTextContents>
                 </UXDetailItemTextBlue>
               </div>
+
               <div className="flex flex-center" style={{padding: '20px 0'}}>
                 <UXDetailItemText style={{margin: '0 30px 0 0 '}}>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
@@ -826,20 +828,28 @@ class CoralContentsUX extends Component {
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
-                画面遷移を減らすために検索結果画面に情報を詰め込んで視認性が悪くなり、『気軽に歯科検診』ができなくなっては元も子もありません。
-                では今回のケースで、どれほどの情報があればユーザーは良い医者かどうか判断することができるのかを考えました。
-                結果情報量はそれほど膨大ではなく、検索結果画面に納めても大きく視認性を損ねることはないと判断しました。
-                また、詳細画面を見る際にも、検索結果画面に必要な情報が表示されていて、詳細画面で本当にこの歯医者でいいのか確認する程度の手間の方が結果として最短で歯医者を予約することに繋がると思います。
-                以上の理由から『検索結果画面で予約が完結できる』ことをこの画面の理想のユーザー体験に定めました。
+                A案とB案は、『A. 検索結果画面で予約が完結できるように十分な情報量を表示する』『B. 詳細画面で予約することを前提とした情報量にする』と言い換えることができます。
+                A案とB案を選ぶ上で問題になるのは、十分な情報を表示すると情報量が膨大になり、検索結果を一覧する上で視認性を損ねないかどうか、だと思います。
+                結論を述べると、私はA案を選択しました。
+                なぜなら、ユーザーが歯医者を選ぶ上で必要な情報はさほど多くないと予想されるので、検索結果画面にその必要な情報を全て表示しても、大きく視認性を損ねることにはならないと判断したからです。
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
-                次に『検索結果画面で予約が完結できる』ために必要な情報を１から考え直して列挙して、列挙した情報に対して優先順位をつけました。
-                優先順位の優劣は、『いい歯医者が見つけられる』ために必要な情報かどうかという視点で評価しました。
-                そして最後に優先順位の高い情報がユーザーにより届きやすくなるようにUIデザインを考えました。
+                またA案の場合、詳細画面に画面遷移することがあっても、検索結果画面で十分な情報を見てから詳細画面に遷移しているので、
+                詳細画面は確認する程度の用途になると予想されます。
+                結果として何度も画面遷移しないことに繋がるので、より早く歯医者を予約できると思います。
+              <WorkText style={{padding: '0 0 30px'}}>
+
+              </WorkText>
+                以上の理由から『歯医者を探して、そのまま予約ができる』ことを検索結果画面の理想のユーザー体験に定めました。
               </WorkText>
 
-              <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched__doctor_graph.jpg"
+              <WorkText style={{padding: '0 0 30px'}}>
+                次に『歯医者を探して、そのまま予約ができる』ために必要な情報を列挙して、目的のために必要な情報かという視点で優先順位をつけました。
+                そして優先順位の高い情報がユーザーにより届きやすくなるようにUIデザインした結果が以下になります。
+              </WorkText>
+
+              <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched__doctor.jpg"
                 style={{ width: '100%' }}
               />
 
