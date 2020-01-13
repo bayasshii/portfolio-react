@@ -28,34 +28,34 @@ class Skills extends Component {
           <li className="mySkill designSkill">
             <div className="mySkill__title">Web Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/display.svg" /></div>
-            <div className="mySkill__text">　SketchやPhotoshopを使ってデザインすることができます。web系ベンチャー企業でのインターンシップを通して学びました。その他、個人的に依頼して頂いた団体のWebサイトを製作もしています。</div>
+            <div className="mySkill__text">　SketchやAdobeXDを使ってwebデザインすることができます。本やwebサイトを使って独学で学んだのちに、web系スタートアップ企業での長期インターンシップでの実践を通して知識と経験を深めました。</div>
           </li>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Spatial Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/home.svg" /></div>
-            <div className="mySkill__text">　学部時代に、住宅、オフィス、公共建築、リノベーション、椅子、棚、照明などの空間デザインを授業での演習や研究室でのPJを通して学びました。中でも私の専攻にしていたのはオフィスのデザインです。</div>
+            <div className="mySkill__text">　個人住宅、集合住宅、オフィス、公共建築、リノベーション、椅子、棚、照明などの空間デザインを授業での演習や研究室の活動を通して学びました。中でも、現在も私の専攻にしているのはオフィスのデザインです。</div>
           </li>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Algorithmic Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/boronoi.svg" /></div>
-            <div className="mySkill__text">　現在の私の専攻です。RhionocerosをPythonで動かしたり、Processingを用いたりしてデザインを行います。Pythonを用いたスクレイピング・データ分析とデザインといった領域にも興味があり、現在取り組んでいます。</div>
+            <div className="mySkill__text">　現在の私の専攻です。RhionocerosをPythonで動かしたり、Processingを用いたりしてデザインを行います。プログラミングによって、より合理的で有機的なデザインができるように日々勉強しています。</div>
           </li>
         </ul>
         <ul className="flex flex-wrap" style={{justifyContent: 'space-between'}}>
           <li className="mySkill programmingSkill">
             <div className="mySkill__title">Coding</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/keyboard.svg" /></div>
-            <div className="mySkill__text">　HTMLやCSS、JavaScriptを用いたフロントエンドのコーディングができます。AtomicDesignやstyled-componentsなどの設計手法にも興味があります。１年後の自分でも迷わずに読めるコードを書くことに注力しています。</div>
+            <div className="mySkill__text">　HTMLやCSSを用いたwebサイトのマークアップが得意です。JavaScriptでのフロントエンドの実装も勉強中です。AtomicDesignやstyled-componentsなどの設計手法にも興味があります。</div>
           </li>
           <li className="mySkill directionSkill">
             <div className="mySkill__title">Research</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/pen.svg" /></div>
-            <div className="mySkill__text">　市場調査やSWOT分析、観察調査、ワークショップ、アンケート、ヒアリングなどの様々な分析や調査を研究室の活動を通して経験しました。根本的な問題解決ができるように常にメタ思考で考えることを心がけています。</div>
+            <div className="mySkill__text">　エスノグラフィー、インタビュー、アンケート、ワークショップなどの様々な調査を研究室の活動や課外活動を通して経験しました。市場調査やSWOT分析などのマーケティング目線の分析手法にも興味があります。</div>
           </li>
           <li className="mySkill curiositySkill">
             <div className="mySkill__title">Curiosity</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/heart.svg" /></div>
-            <div className="mySkill__text">　好奇心が非常に旺盛で、常に動き回っているタイプです。会社経営、経済学、プロジェクトマネジメント、心理学、スポーツ、筋肉、栄養学、日本食やワインなど、幅広い分野に興味があって勉強しています。</div>
+            <div className="mySkill__text">　好奇心が非常に旺盛で、常に動き回っているタイプです。デザインの他にも、会社経営、経済学、プロジェクトマネジメント、スポーツ、筋肉、栄養学、日本食やワインなどの幅広い分野に興味があるので、本を読んで勉強しています。</div>
           </li>
         </ul>
       </div>

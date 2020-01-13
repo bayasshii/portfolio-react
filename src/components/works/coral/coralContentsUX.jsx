@@ -17,7 +17,7 @@ const UXContetsWrap = styled.div`
 `
 
 const TextWrap = styled.div`
-  width: 500px;
+  width: 500px
 `
 
 const CoralContentsUXSubTitle = styled.div`
@@ -95,6 +95,12 @@ const TaegetGraphMainText = styled.div`
   right: 50px;
   font-size: 2.0rem;
   font-weight: 600;
+`
+
+const TargetInfoWrap = styled.div`
+  & img {
+    padding-left:10px
+  }
 `
 
 /* ターゲットコンポーネント */
@@ -269,30 +275,126 @@ class CoralContentsUX extends Component {
       <React.Fragment>
         <CoralContentsUXWrap style={{padding: '0 0 50px 0'}}>
 
-          <UXContetsWrap style={{display: 'flex'}}>
-            <TextWrap>
-              <WorkText style={{padding: '0 20px 0 0'}}>
-                <CoralContentsUXSubTitle style={{padding: '0 0 20px'}}>１.　Target</CoralContentsUXSubTitle>
-                今回ターゲットにしたのは、歯の重要性は理解しているが定期的に歯医者に行かない人です。
-                公益社団法人日本歯科医師会の2016年の調査によると、日本人のうち、31%の人が年に一度以上、歯の定期検診を受けるようです。
-                一方で、歯の重要性を理解していて、歯に対して今まで以上にお金をかけたいと思っている人の割合は61%と、実際に定期検診を受けている人の割合よりも高い数値を示しています。
-                歯の重要性を理解しているにも関わらず、歯が痛くなる限界まで歯医者に行かないことには、何か問題があるのではないかと考えて、今回のデザインに挑戦しました。
-              </WorkText>
-            </TextWrap>
-            <div style={{paddingTop: '60px'}}>
-              <TaegetGraphWrap>
-                <TaegetGraphHori/>
-                <TaegetGraphVert/>
-                <TaegetGraphTargetArea/>
-                <TaegetGraphTextTop>定期的に歯医者に行く</TaegetGraphTextTop>
-                <TaegetGraphTextBottom>定期的に歯医者に行かない</TaegetGraphTextBottom>
-                <TaegetGraphTextRight>歯の重要性を理解している</TaegetGraphTextRight>
-                <TaegetGraphTextLeft>歯の重要性を理解していない</TaegetGraphTextLeft>
-                <TaegetGraphMainText>ターゲット</TaegetGraphMainText>
-              </TaegetGraphWrap>
+          <UXContetsWrap>
+            <div style={{display: 'flex'}}>
+              <TextWrap>
+                <WorkText style={{padding: '0 20px 0 0'}}>
+                  <CoralContentsUXSubTitle style={{padding: '0 0 20px'}}>１.　Target</CoralContentsUXSubTitle>
+                  今回ターゲットにしたのは、歯に対して今まで以上にお金をかけたいと思っているが定期的に歯医者に行かない人です。
+                  公益社団法人日本歯科医師会の2016年の調査によると、日本人のうち、31%の人が年に一度以上、歯の定期検診を受けるようです。
+                  一方で、歯の重要性を理解していて、歯に対して今まで以上にお金をかけたいと思っている人の割合は61%と、実際に定期検診を受けている人の割合よりも高い数値を示しています。
+                  歯の重要性を理解しているにも関わらず、歯が痛くなる限界まで歯医者に行かないことには、何か問題があるのではないかと考えて、今回のデザインに挑戦しました。
+                </WorkText>
+              </TextWrap>
+              <div style={{paddingTop: '60px'}}>
+                <TaegetGraphWrap>
+                  <TaegetGraphHori/>
+                  <TaegetGraphVert/>
+                  <TaegetGraphTargetArea/>
+                  <TaegetGraphTextTop>定期的に歯医者に行く</TaegetGraphTextTop>
+                  <TaegetGraphTextBottom>定期的に歯医者に行かない</TaegetGraphTextBottom>
+                  <TaegetGraphTextRight>歯の重要性を理解している</TaegetGraphTextRight>
+                  <TaegetGraphTextLeft>歯の重要性を理解していない</TaegetGraphTextLeft>
+                  <TaegetGraphMainText>ターゲット</TaegetGraphMainText>
+                </TaegetGraphWrap>
+              </div>
             </div>
-          </UXContetsWrap>
+            {/*
+            <div className="flex" style={{justifyContent: 'space-between'}} >
+              <TargetInfoWrap style={{padding:'50px 0 0'}}>
+                <div className="flex" style={{justifyContent: 'space-between', width: '400px'}}>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
 
+                </div>
+
+                <div className="flex" style={{padding:'20px 0 0'}}>
+                  <div style={{fontSize:'8rem', padding:'0 20px 0 10px'}}>
+                    61<span style={{fontSize:'3rem'}}>%</span>
+                  </div>
+                  <div style={{fontSize:'1.5rem',lineHeight:'2rem',padding:'30px 0 0'}}>
+                    歯に対して今まで以上に<br/>お金をかけたいと思っている人
+                  </div>
+                </div>
+              </TargetInfoWrap>
+
+              <div style={{fontSize:'8rem', padding: '70px 0 0 0'}}> > </div>
+
+              <TargetInfoWrap style={{padding:'50px 0 0'}}>
+                <div className="flex" style={{justifyContent: 'space-between',width: '400px'}}>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/person_gray.png"
+                    style={{ width: '10%' }}
+                  />
+
+                </div>
+
+                <div className="flex" style={{padding:'20px 0 0'}}>
+                  <div style={{fontSize:'8rem', padding:'0 20px 0 10px'}}>
+                    31<span style={{fontSize:'3rem'}}>%</span>
+                  </div>
+                  <div style={{fontSize:'1.5rem',lineHeight:'2rem',padding:'30px 0 0'}}>
+                    歯の定期検診を<br/>年に一回以上受けている人
+                  </div>
+                </div>
+              </TargetInfoWrap>
+            </div>
+          */}
+          </UXContetsWrap>
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 30px'}}>
@@ -344,7 +446,7 @@ class CoralContentsUX extends Component {
             </WorkText>
 
             <UserStoryWrap>
-              <div className="flex" style={{ margin: '0 0 20px'}}>
+              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/SADwoman.jpg"
                     style={{ width: '100%' }}
@@ -362,7 +464,7 @@ class CoralContentsUX extends Component {
                   </UserStoryItemText>
                 </UserStoryItem>
               </div>
-              <div className="flex" style={{ margin: '0 0 20px'}}>
+              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/zido.jpg"
                     style={{ width: '100%' }}
@@ -505,8 +607,9 @@ class CoralContentsUX extends Component {
 
           <UXContetsWrap style={{margin: '50px 0 0'}}>
             <WorkText style={{padding: '0 0 70px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　UI Design</CoralContentsUXSubTitle>
-              ユーザー側の画面に絞って、ユーザーが検診を終えるまでに必要な最低限の機能をまとめて、UIデザインを行いました。
+              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　Mockup</CoralContentsUXSubTitle>
+              ユーザー側の画面に絞って、ユーザーが検診を終えるまでに必要な最低限の機能をまとめて、画面の
+              デザインを行いました。
             </WorkText>
 
             <UIWrap>
@@ -540,8 +643,10 @@ class CoralContentsUX extends Component {
 
 
               <div className="flex" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
-                <div style={{margin: '70px 0 30px 10px', fontWeight:'600'}}>
-                  こだわり １. 　<span style={{fontSize: '2rem'}}>ホーム画面</span><span style={{fontSize: '1.5rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- headerの検索機能 -</span>
+                <div style={{margin: '50px 0 30px 10px', fontWeight:'600'}}>
+                  こだわり １. 　
+                  <br/><br/>
+                  <span style={{fontSize: '2.5rem'}}>ホーム画面</span><span style={{fontSize: '2rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- headerの検索機能 -</span>
                 </div>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
                   style={{ width: '50%', marginLeft:'auto' }}
@@ -632,8 +737,8 @@ class CoralContentsUX extends Component {
                 次にA案とC案について考えました。
               </WorkText>
 
-              <div className="flex" style={{margin: '20px 0 20px'}}>
-                <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
+              <div className="flex flex-center" style={{margin: '20px 0 20px'}}>
+                <UIItemTextHeader style={{margin: '0 50px 0 0'}}>
                   A案
                 </UIItemTextHeader>
                 <UIItemTextHeader>
@@ -641,8 +746,8 @@ class CoralContentsUX extends Component {
                 </UIItemTextHeader>
               </div>
 
-              <div className="flex" style={{margin: '20px 0 20px'}}>
-                <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
+              <div className="flex flex-center" style={{margin: '20px 0 20px'}}>
+                <UIItemTextHeader style={{margin: '0 50px 0 0'}}>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
                     style={{ width: '100%' }}
                   />
@@ -656,10 +761,97 @@ class CoralContentsUX extends Component {
 
               <WorkText style={{padding: '30px 0 30px'}}>
                 まず、今回のサービスにおいて、ユーザーは「できれば最寄りの歯医者に検診してもらいたい。通院が必要になれば、オンライン検診してもらった歯医者に見てもらいたい」と考えるのではないかという仮説を立てました。
-                また歯医者側からしても「オンライン検診だけではなく、実際に自分の病院に通院して欲しい」というニーズは確実にあるはずです。
-                以上のニーズを叶えるために、アカウント作成時にあらかじめ地域を選ばせておくことで、自宅周辺に絞って歯医者の検索をするように誘導するC案のデザインを採用しました。
+                また歯医者側からしても「オンライン検診だけではなく、オンライン検診後に実際に自分の病院に通院して欲しい」というニーズは確実にあるはずです。
+                以上の両者のニーズを叶えるために、アカウント作成時にあらかじめ地域を選ばせておくことで、自宅周辺に絞って歯医者の検索をするように誘導するC案のデザインを採用しました。
                 また、地域をあらかじめ選択しておくことで、『あなたにおすすめの歯医者』の精度も格段に向上して、「検索しなくても、良い歯医者をすぐに見つけられる」という理想のユーザー体験に近づきます。
               </WorkText>
+
+              <div className="flex" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
+                <div style={{margin: '90px 0 30px 10px', fontWeight:'600'}}>
+                  こだわり ２. 　
+                  <br/><br/>
+                  <span style={{fontSize: '2.5rem'}}>検索結果画面</span><span style={{fontSize: '2rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- 歯医者のプロフィール -</span>
+                </div>
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched__doctor.jpg"
+                  style={{ width: '50%', marginLeft:'auto' }}
+                />
+              </div>
+              <WorkText style={{padding: '30px 0 30px'}}>
+                検索結果画面以降のユーザーの行動のプロセスは、『良いと思う歯医者を探す』→『歯医者を決定して予約する』の２つであると考えました。
+                それを踏まえて、既存予約サービスの検索結果画面を研究して今回のケースで考えた結果、
+                『A. 検索結果画面から歯医者を探して、そのまま予約ができる』と『B. 検索結果画面から医者を探して、詳細画面に画面遷移してから歯医者を決定して予約する』の２つがユーザー体験の候補として挙げられました。
+                今回のケースではどちらの画面が適しているかを以下で検証しました。
+              </WorkText>
+
+              <div className="flex flex-center" style={{padding: '5px 0 10px', margin:'auto'}}>
+                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>A. 検索結果画面から予約ができる</UXDetailItemText>
+                <UXDetailItemText>B. 検索結果画面から予約はできない</UXDetailItemText>
+              </div>
+
+              <div className="flex flex-center" style={{padding: '5px 0 20px', color: '#aaa'}}>
+                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>(詳細画面は補助的)</UXDetailItemText>
+                <UXDetailItemText>(詳細画面は必須)</UXDetailItemText>
+              </div>
+
+              <div className="flex flex-center" style={{margin: '0 0 20px'}}>
+                <UXDetailItem　style={{margin: '0 30px 0 0 '}}>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched1.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+                <UXDetailItem>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched2.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+              </div>
+              <div className="flex flex-center" style={{}}>
+                <UXDetailItemTextBlue style={{margin: '0 30px 0 0 '}}>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移が少ない</UIItemTextContents>
+                </UXDetailItemTextBlue>
+                <UXDetailItemTextBlue>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・面積をとらない</UIItemTextContents>
+                </UXDetailItemTextBlue>
+              </div>
+
+              <div className="flex flex-center" style={{padding: '20px 0'}}>
+                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・面積をとる</UIItemTextContents>
+                </UXDetailItemText>
+                <UXDetailItemText>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                </UXDetailItemText>
+              </div>
+
+              <WorkText style={{padding: '30px 0 30px'}}>
+                A案とB案は、『A. 検索結果画面で予約が完結できるように十分な情報量を表示する』『B. 詳細画面で予約することを前提とした情報量にする』と言い換えることができます。
+                A案とB案を選ぶ上で問題になるのは、十分な情報を表示すると情報量が膨大になり、検索結果を一覧する上で視認性を損ねないかどうか、だと思います。
+                結論を述べると、私はA案を選択しました。
+                なぜなら、ユーザーが歯医者を選ぶ上で必要な情報はさほど多くないと予想されるので、検索結果画面にその必要な情報を全て表示しても、大きく視認性を損ねることにはならないと判断したからです。
+              </WorkText>
+
+              <WorkText style={{padding: '0 0 30px'}}>
+                またA案の場合、詳細画面に画面遷移することがあっても、検索結果画面で十分な情報を見てから詳細画面に遷移しているので、
+                詳細画面は確認する程度の用途になると予想されます。
+                結果として何度も画面遷移しないことに繋がるので、より早く歯医者を予約できると思います。
+              <WorkText style={{padding: '0 0 30px'}}>
+
+              </WorkText>
+                以上の理由から『歯医者を探して、そのまま予約ができる』ことを検索結果画面の理想のユーザー体験に定めました。
+              </WorkText>
+
+              <WorkText style={{padding: '0 0 30px'}}>
+                次に『歯医者を探して、そのまま予約ができる』ために必要な情報を列挙して、目的のために必要な情報かという視点で優先順位をつけました。
+                そして優先順位の高い情報がユーザーにより届きやすくなるようにUIデザインした結果が以下になります。
+              </WorkText>
+
+              <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched__doctor.jpg"
+                style={{ width: '100%' }}
+              />
 
             </UIWrap>
           </UXContetsWrap>

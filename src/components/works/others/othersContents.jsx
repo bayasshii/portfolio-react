@@ -332,12 +332,12 @@ class OthersContents extends Component {
               <OthersTopImageWrap>
                 <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
                   <OthersTopImage>
-                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/meishidayon2.jpg"
+                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E3%81%8A%E3%82%82%E3%81%A6.jpg"
                       style={{ width: '100%' }}
                     />
                   </OthersTopImage>
                   <OthersTopImage>
-                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/meishidayon1.jpg"
+                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E8%A3%8F.jpg"
                       style={{ width: '100%' }}
                     />
                   </OthersTopImage>
