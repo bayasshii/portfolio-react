@@ -2,6 +2,8 @@
 /* --------------------------------
  * base
  * -------------------------------- */
+ @import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 
 html {
   font-size: 10px;
@@ -11,7 +13,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W2", "Hiragino Kaku Gothic Pro", 游ゴシック体, "Yu Gothic", YuGothic, メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  font-family: "Avenir Next", 'Noto Sans JP', "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif; }
 
 /* 横幅決めてるところ〜結構重要〜*/
 .width {

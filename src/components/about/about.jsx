@@ -55,6 +55,7 @@ class About extends Component {
               帰国後、このポートフォリオを制作。
               現在、オフィスデザインについて研究・実践、Baseconnect.incでのインターンシップ活動も続けながら、国際プロジェクトME310/SUGARに参加してより広いデザインの分野を学んでいる。
             </AboutText>
+
             <div className="flex" style={{padding: '100px 0 50px'}}>
               <div className="width pb-40">
                 <Skills />
