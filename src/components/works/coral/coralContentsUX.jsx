@@ -446,7 +446,7 @@ class CoralContentsUX extends Component {
             </WorkText>
 
             <UserStoryWrap>
-              <div className="flex" style={{ margin: '0 0 20px'}}>
+              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/SADwoman.jpg"
                     style={{ width: '100%' }}
@@ -464,7 +464,7 @@ class CoralContentsUX extends Component {
                   </UserStoryItemText>
                 </UserStoryItem>
               </div>
-              <div className="flex" style={{ margin: '0 0 20px'}}>
+              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/zido.jpg"
                     style={{ width: '100%' }}
@@ -737,8 +737,8 @@ class CoralContentsUX extends Component {
                 次にA案とC案について考えました。
               </WorkText>
 
-              <div className="flex" style={{margin: '20px 0 20px'}}>
-                <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
+              <div className="flex flex-center" style={{margin: '20px 0 20px'}}>
+                <UIItemTextHeader style={{margin: '0 50px 0 0'}}>
                   A案
                 </UIItemTextHeader>
                 <UIItemTextHeader>
@@ -746,8 +746,8 @@ class CoralContentsUX extends Component {
                 </UIItemTextHeader>
               </div>
 
-              <div className="flex" style={{margin: '20px 0 20px'}}>
-                <UIItemTextHeader style={{margin: '0 30px 0 0'}}>
+              <div className="flex flex-center" style={{margin: '20px 0 20px'}}>
+                <UIItemTextHeader style={{margin: '0 50px 0 0'}}>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
                     style={{ width: '100%' }}
                   />
@@ -777,10 +777,71 @@ class CoralContentsUX extends Component {
                 />
               </div>
               <WorkText style={{padding: '30px 0 30px'}}>
-                検索結果画面以降のユーザーの行動のプロセスは、『良さげな医者を探す』→『詳細を見て本当に信頼できそうか確認する』→『予約する』の３つであると考えました。
-                『良さげな医者を探す』→『詳細を見て本当に信頼できそうか確認する』→『予約する』をできるだけ検索結果画面で完結できるようにして、より気軽に予約できるユーザー体験に近づけることを目標に定めました。
-                
+                検索結果画面以降のユーザーの行動のプロセスは、『良さげな医者を探す』→『予約する』の２つであると考えました。
+                それを踏まえて既存予約サービスの検索結果画面を研究した結果、『検索結果画面から予約ができる』ものと『詳細画面に画面遷移してから予約する』ものの２つの検索結果画面が存在しました。
+                今回のケースではどちらの画面が適しているかを以下で検証しました。
               </WorkText>
+
+              <div className="flex flex-center" style={{padding: '5px 0 10px', margin:'auto'}}>
+                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>A. 検索結果画面から予約ができる</UXDetailItemText>
+                <UXDetailItemText>B. 検索結果画面から予約はできない</UXDetailItemText>
+              </div>
+
+              <div className="flex flex-center" style={{padding: '5px 0 20px', color: '#aaa'}}>
+                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>(詳細画面は補助的)</UXDetailItemText>
+                <UXDetailItemText>(詳細画面は必須)</UXDetailItemText>
+              </div>
+
+              <div className="flex flex-center" style={{margin: '0 0 20px'}}>
+                <UXDetailItem　style={{margin: '0 30px 0 0 '}}>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched1.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+                <UXDetailItem>
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched2.png"
+                    style={{ width: '100%' }}
+                  />
+                </UXDetailItem>
+              </div>
+              <div className="flex flex-center" style={{}}>
+                <UXDetailItemTextBlue style={{margin: '0 30px 0 0 '}}>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移が少ない</UIItemTextContents>
+                </UXDetailItemTextBlue>
+                <UXDetailItemTextBlue>
+                  <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・面積が少ない</UIItemTextContents>
+                </UXDetailItemTextBlue>
+              </div>
+              <div className="flex flex-center" style={{padding: '20px 0'}}>
+                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・面積をとる</UIItemTextContents>
+                </UXDetailItemText>
+                <UXDetailItemText>
+                  <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
+                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                </UXDetailItemText>
+              </div>
+
+              <WorkText style={{padding: '30px 0 30px'}}>
+                画面遷移を減らすために検索結果画面に情報を詰め込んで視認性が悪くなり、『気軽に歯科検診』ができなくなっては元も子もありません。
+                では今回のケースで、どれほどの情報があればユーザーは良い医者かどうか判断することができるのかを考えました。
+                結果情報量はそれほど膨大ではなく、検索結果画面に納めても大きく視認性を損ねることはないと判断しました。
+                また、詳細画面を見る際にも、検索結果画面に必要な情報が表示されていて、詳細画面で本当にこの歯医者でいいのか確認する程度の手間の方が結果として最短で歯医者を予約することに繋がると思います。
+                以上の理由から『検索結果画面で予約が完結できる』ことをこの画面の理想のユーザー体験に定めました。
+              </WorkText>
+
+              <WorkText style={{padding: '0 0 30px'}}>
+                次に『検索結果画面で予約が完結できる』ために必要な情報を１から考え直して列挙して、列挙した情報に対して優先順位をつけました。
+                優先順位の優劣は、『いい歯医者が見つけられる』ために必要な情報かどうかという視点で評価しました。
+                そして最後に優先順位の高い情報がユーザーにより届きやすくなるようにUIデザインを考えました。
+              </WorkText>
+
+              <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched__doctor_graph.jpg"
+                style={{ width: '100%' }}
+              />
 
             </UIWrap>
           </UXContetsWrap>

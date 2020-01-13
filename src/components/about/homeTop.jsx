@@ -29,18 +29,18 @@ const HometopImage = styled.div`
   position: relative;
   width: 100%;
   height: 600px;
-  opacity: 1;
+  opacity: 0.9;
 `
 
 const HometopMainText = styled.div`
-  font-size: 73px;
+  font-size: 80px;
   font-weight: 700;
   color: ${color.mainBlue};
   position: absolute;
-  right: -100px;
+  right: 50px;
   top: 370px;
   z-index: 10;
-  opacity: 0.4
+  opacity: 0.5
 `
 
 
@@ -58,15 +58,15 @@ class TopImage extends Component {
             style={{
               objectFit: 'cover',
               position: 'absolute',
-              width: '70%',
-              height:'600px',
-              left: '0',
-              top: '100px',
+              width: '100%',
+              height:'800px',
+              left: '0px',
+              top: '0px',
               margin:'auto',
               zIndex: -1
             }}
           />
-          <HometopMainText>Masaya Kibayashi</HometopMainText>
+          <HometopMainText>about Me.</HometopMainText>
         </HometopImage>
       </HometopContents>
     </HometopWrap>

@@ -83,7 +83,7 @@ class BaseconnectContents extends Component {
               デザイナーインターンとして2018年10月から現在まで勤務しています。
               私が担当している領域は
                 <ul>
-                  <li>- 製品のUIデザイン</li>
+                  <li>- UIデザイン</li>
                   <li>- 新画面・新機能のマークアップ</li>
                   <li>- フロントエンドの改修</li>
                   <li>- IE/モバイル対応</li>
