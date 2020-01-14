@@ -619,8 +619,8 @@ class CoralContentsUX extends Component {
                 <UIItemText>検索結果</UIItemText>
                 <UIItemText>歯医者詳細</UIItemText>
               </div>
-              <div className="flex" style={{justifyContent: 'space-between', padding: '0 0 40px'}}>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E3%83%9B%E3%83%BC%E3%83%A0%E7%94%BB%E9%9D%A2.jpg"
+              <div className="flex" style={{justifyContent: 'space-between', padding: '0 0 30px'}}>
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__kensaku.jpg"
                   style={{ width: '21%', border: '1px solid #ddd'}}
                 />
                 <CoralContentsBusinnesModelArrowToRight/>
@@ -628,7 +628,7 @@ class CoralContentsUX extends Component {
                   style={{ width: '21%', border: '1px solid #ddd'}}
                 />
                 <CoralContentsBusinnesModelArrowToRight/>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Slice+3.jpg"
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__kensakukekka.jpg"
                   style={{ width: '21%', border: '1px solid #ddd'}}
                 />
                 <CoralContentsBusinnesModelArrowToRight/>
@@ -637,7 +637,7 @@ class CoralContentsUX extends Component {
                 />
               </div>
 
-              <WorkText style={{padding: '30px 0'}}>
+              <WorkText style={{padding: '30px 0 0'}}>
                 デザインする上で特に悩んでこだわった点がいくつかあったので、以下にまとめました。
               </WorkText>
 
