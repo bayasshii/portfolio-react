@@ -86,8 +86,9 @@ class BaseconnectContents extends Component {
                   <li>- UIデザイン</li>
                   <li>- 新画面・新機能のマークアップ</li>
                   <li>- フロントエンドの改修</li>
+                  <li>- コーディングレビュー</li>
                   <li>- IE/モバイル対応</li>
-                  <li>- DESIGN BOOTCAMPの運営 <a href="http://company.baseconnect.in/design-bootcamp/" target="_blank">(http://company.baseconnect.in/design-bootcamp)</a></li>
+                  <li>- Design Bootcampの運営 <a href="http://company.baseconnect.in/design-bootcamp/" target="_blank">(http://company.baseconnect.in/design-bootcamp)</a></li>
                 </ul>
                 などです。
             </WorkText>
@@ -165,6 +166,50 @@ class BaseconnectContents extends Component {
               </div>
               </WorkText>
             </BaseconnectContetsWrap>
+
+
+            <BaseconnectContetsWrap style={{margin: '50px 0 0 0'}}>
+              <WorkHeadingPhotal style={{margin: '0 0 10px'}}>
+                case 2.　Design Bootcamp 運営
+              </WorkHeadingPhotal>
+              <img
+                alt="baseconnect"
+                src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Design+Bootcamp+%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99+(1).jpg"
+                style={{
+                  width: '100%',
+                  padding: '20px 0'
+                }}
+              />
+              <img
+                alt="baseconnect"
+                src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Design+Bootcamp+%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99.jpg"
+                style={{
+                  width: '100%',
+                  padding: '20px 0'
+                }}
+              />
+
+              <WorkText
+                style={{padding: '0px 0 0px',textAlign:'center', color:color.baseText__thin}}
+              >
+              説明会で使用している資料の一部
+
+              </WorkText>
+
+              <WorkText
+                style={{padding: '30px 0 30px'}}
+              >
+                Design Bootcampは未経験からデザイナーを目指すプログラムです。優秀で意欲の高い人材の長期インターン採用を目標に、毎月開催してます。
+              </WorkText>
+
+              <WorkText
+                style={{padding: '0px 0 30px'}}
+              >
+                優秀で意欲の高い人材に興味を持ってもらうために、なるべく自分の情報を開示したり、自分のインターンでの体験談を話したりして、インターンを通して得られる経験が想像しやすくなるように工夫して運営しています。
+              </WorkText>
+
+            </BaseconnectContetsWrap>
+
           </WorkWrap>
         </div>
       </React.Fragment>

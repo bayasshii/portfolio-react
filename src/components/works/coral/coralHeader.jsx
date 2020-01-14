@@ -29,7 +29,7 @@ class CoralHeader extends Component {
       <React.Fragment>
         <CoralHeaderWrap>
           <CoralHeaderDesignImage>
-            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral_many2.png"
+            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral_many3.png"
               style={{ width: '100%' ,height: '600px', objectFit: 'cover'}}
             />
           </CoralHeaderDesignImage>
