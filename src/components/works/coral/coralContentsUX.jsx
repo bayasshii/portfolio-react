@@ -606,10 +606,9 @@ class CoralContentsUX extends Component {
           </UXContetsWrap>
 
           <UXContetsWrap style={{margin: '50px 0 0'}}>
-            <WorkText style={{padding: '0 0 70px'}}>
+            <WorkText style={{padding: '0 0 50px'}}>
               <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　Mockup</CoralContentsUXSubTitle>
-              ユーザー側の画面に絞って、ユーザーが検診を終えるまでに必要な最低限の機能をまとめて、画面の
-              デザインを行いました。
+              ユーザー側の画面に絞って、ユーザーが検診を終えるまでに必要な最低限の機能をまとめて、画面のデザインを行いました。
             </WorkText>
 
             <UIWrap>
@@ -638,7 +637,7 @@ class CoralContentsUX extends Component {
               </div>
 
               <WorkText style={{padding: '30px 0 0'}}>
-                デザインする上で特に悩んでこだわった点がいくつかあったので、以下にまとめました。
+                デザインする上で特に悩んでこだわった点が２つあるので、以下にまとめました。
               </WorkText>
 
 
