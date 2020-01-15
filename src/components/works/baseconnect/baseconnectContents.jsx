@@ -159,7 +159,7 @@ class BaseconnectContents extends Component {
                   新しい画面だったので、マークアップの構成を考えるのと、クラスの命名にはいつもより時間がかかりました。
                   後にコーディングする人が迷わずに作業できるように工夫しました。
                 </div>
-                <WorkPoint>Point 2. データの読み込み</WorkPoint>
+                <WorkPoint>Point 3. データの読み込み</WorkPoint>
                 <div style={{padding: '0 0 0'}}>
                   「もっと見る」をクリックすると事務所が全て表示されるようにしました。また、動作が重たくならないように「もっと見る」をクリックするまでは表示されてない事業所を読み込まないようにコーディングしました。
                 </div>
