@@ -19,13 +19,16 @@ const WorkBackground = styled.div`
 
 const WorksWrap = styled.div`
   margin: 0 auto;
-  width: 1000px;
+  max-width: 1000px;
 `;
 
 const WorksWrapTitle = styled.div`
   text-align: left;
   font-size: 4.0rem;
   color: ${color.baseText__thin};
+  @media screen and (max-width: 767px) {
+    margin-left: 20px
+  }
 `;
 
 const WorksWrapTitleUnder = styled.div`
@@ -33,6 +36,9 @@ const WorksWrapTitleUnder = styled.div`
   height: 3px;
   margin-top: 30px;
   background: ${color.baseText__thin};
+  @media screen and (max-width: 767px) {
+    margin-left: 20px
+  }
 `;
 
 
@@ -44,25 +50,19 @@ class Works extends Component {
           <WorksWrap style={{padding:'50px 0 0'}}>
             <WorksWrapTitle>Works</WorksWrapTitle>
             <WorksWrapTitleUnder/>
-            <div className="flex" style={{padding: '60px 0'}}>
-              <div style={{marginRight: '60px'}}>
-                <Work
-                  to="./coral"
-                  childComponent={Coral}
-                />
-              </div>
+            <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding: '60px 0'}}>
+              <Work
+                to="./coral"
+                childComponent={Coral}
+              />
               <Work
                 to="./baseconnect"
                 childComponent={Baseconnect}
               />
-            </div>
-            <div className="flex">
-              <div style={{marginRight: '60px'}}>
-                <Work
-                  to="./photal"
-                  childComponent={Photal}
-                />
-              </div>
+              <Work
+                to="./photal"
+                childComponent={Photal}
+              />
               <Work
                 to="./others"
                 childComponent={Others}

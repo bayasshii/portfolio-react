@@ -12,7 +12,13 @@ const ImagetWrap = styled.div`
   height: 326px;
   text-align: center;
   margin: auto;
-  background: ${color.mainGreen}
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    padding: 0 20px
+    & img {
+      width: 100%!important;
+    }
 `;
 
 const TextWrap = styled.div`

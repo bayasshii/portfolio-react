@@ -13,6 +13,15 @@ const ImagetWrap = styled.div`
   margin: auto;
   padding: 30px;
   background: ${color.photalGradientNaname};
+  @media screen and (max-width: 767px) {
+    width: calc(100% - 40px);
+    height: auto;
+    padding: 0 20px;
+    margin: 0 20px;
+    & img {
+      width: 100%!important;
+    }
+  }
 `;
 
 const TextWrap = styled.div`
