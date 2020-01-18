@@ -1,12 +1,30 @@
 import React, { Component } from 'react'
 import './css/style.css';
+import styled from 'styled-components'
+import * as color from "../../css/color.js"
+
+const FooterWrap = styled.div`
+  width: 1000px
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+`
+
+const FooterReseave = styled.div`
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+`
 
 class Footer extends Component {
   render() {
     return (
       <React.Fragment>
         <div className="footer">
-          <div className="flex width">
+          <FooterWrap className="flex flex-wrap">
             <div>
               <ul className="flex">
                 <li className="footer__menue"><a href="https://github.com/bayasshii" target="_blank">GitHub</a></li>
@@ -14,10 +32,10 @@ class Footer extends Component {
                 <li className="footer__menue"><a href="https://www.wantedly.com/users/98019768" target="_blank">Wantedly</a></li>
               </ul>
             </div>
-            <div className="ml-auto">
+            <FooterReseave className="ml-auto">
               © 2020 Masaya Kibayashi All rights Reserved.
-            </div>
-          </div>
+            </FooterReseave>
+          </FooterWrap>
         </div>
       </React.Fragment>
     );
