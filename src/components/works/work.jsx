@@ -9,6 +9,10 @@ const WorkWrap = styled.div`
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
   z-index: -2
+  @media screen and (max-width: 767px) {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
 `;
 
 const WorkUrl = styled.a`
@@ -24,7 +28,7 @@ const WorkUrl = styled.a`
 class Work extends Component {
   render() {
     return (
-      <div style={{position: 'relative'}}>
+      <div style={{position: 'relative', marginBottom: '50px'}}>
         <Link
           to={this.props.to}
           style={{

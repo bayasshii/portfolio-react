@@ -8,6 +8,9 @@ const HometopWrap = styled.div`
   position: relative;
   height: 800px;
   background: ${color.background}
+  @media screen and (max-width: 767px) {
+    height: 400px
+  }
 `
 
 const HometopContents = styled.div`
@@ -16,6 +19,10 @@ const HometopContents = styled.div`
   left: 0;
   right: 0;
   margin: auto;
+  padding: 300px 0 0 0
+  @media screen and (max-width: 767px) {
+    padding: 100px 30px 0;
+  }
 `
 
 const HometopRec = styled.div`
@@ -41,6 +48,9 @@ const HometopCircle = styled.div`
 const HometopText = styled.div`
   font-size: 32px;
   color: ${color.mainBlue};
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
 `
 
 const HometopMainText = styled.span`
@@ -49,6 +59,9 @@ const HometopMainText = styled.span`
   color: ${color.mainBlue};
   background: linear-gradient(transparent 70%, ${color.mainYellow} 30%);
   display: inline-block;
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+  }
 `
 
 class TopImage extends Component {
@@ -57,7 +70,7 @@ class TopImage extends Component {
     <HometopWrap>
       <HometopRec/>
       <HometopContents>
-        <HometopText style={{paddingTop: '300px'}}>I'm Masaya Kibayashi,</HometopText>
+        <HometopText>I'm Masaya Kibayashi,</HometopText>
         <div><HometopMainText style={{paddingTop: '30px'}}>UI & UX Designer,</HometopMainText></div>
         <HometopText style={{paddingTop: '50px'}}>Frontend Engineer, Architect, & More !</HometopText>
       </HometopContents>

@@ -15,6 +15,14 @@ const ImagetWrap = styled.div`
   padding: 30px;
   background: ${color.mainYellow};
   position: relative;
+  @media screen and (max-width: 767px) {
+    width: calc(100% - 40px);
+    height: 250px;
+    padding: 0 20px;
+    margin: 0 20px
+    & img {
+      width: 100% !important;
+    }
 `;
 
 const TextWrap = styled.div`
@@ -56,6 +64,9 @@ const OthersHeaderRec = styled.div`
   width: 340px;
   height: 190px;
   border: 20px solid #fff;
+  @media screen and (max-width: 767px) {
+    display: none;
+    }
 `
 
 
@@ -70,7 +81,7 @@ class Baseconnect extends Component {
           </ImagetWrap>
           <TextWrap>
             <TextWrapTitle>Others</TextWrapTitle>
-            <TextWrapSubTitle>Architecture / Programming / etc...</TextWrapSubTitle>
+            <TextWrapSubTitle>Workshop / Architecture / Programming / etc...</TextWrapSubTitle>
           </TextWrap>
         </WorkWrap>
       </React.Fragment>
