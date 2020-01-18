@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import * as color from "../../css/color.js"
 
 const FooterWrap = styled.div`
-  width: 1000px
-
+  width: 1000px;
+  margin: auto;
   @media screen and (max-width: 767px) {
     width: 100%;
     padding: 0 20px;
