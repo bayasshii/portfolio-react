@@ -27,7 +27,8 @@ const WorksWrapTitle = styled.div`
   font-size: 4.0rem;
   color: ${color.baseText__thin};
   @media screen and (max-width: 767px) {
-    margin-left: 20px
+    margin-left: 20px;
+    font-size: 3rem;
   }
 `;
 
