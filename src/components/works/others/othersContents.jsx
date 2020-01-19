@@ -441,6 +441,71 @@ class OthersContents extends Component {
             </OthersContetsWrap>
 
 
+            <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
+              <OthersTopImageWrap>
+                <div style={{ width: '500px' , zIndex:'1000', position:'relative', border: '1px solid #ccc'}}>
+                  <OthersTopImage>
+                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio_ver1.png"
+                      style={{ width: '100%' }}
+                    />
+                  </OthersTopImage>
+                </div>
+              </OthersTopImageWrap>
+
+              <OthersTitleWrap style={{background:color.mainYellow__thin, height:'310px'}}>
+                <OthersTitle>Portfolio ver1</OthersTitle>
+                <div className="flex">
+                  <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
+                  <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'10px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
+                </div>
+                <OthersDerailsWrap><OthersDerails><a href="https://portfilio-ver1.d25wewtwc9tu3r.amplifyapp.com/" target="_blank">URL：https://portfilio-ver1.d25wewtwc9tu3r.amplifyapp.com/</a></OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>担当： UI.UXデザイン / フロントエンド / デプロイ</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>使用ツール：React / HTML.CSS / Illustrator / Photoshop / Sketch</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：3months / 2019.05 ~ 2019.07(修士1年)</OthersDerails></OthersDerailsWrap>
+
+              </OthersTitleWrap>
+
+              <OthersTextWrap>
+                初代ポートフォリオです。
+                自分には何ができるのか、何をしたいのかが伝わるようにデザインしました。
+                一から複数枚のウェブページをコーディングするのは初めてだったので、ルーティングなどの基本的な作業に苦戦しました。
+              </OthersTextWrap>
+            </OthersContetsWrap>
+
+
+            <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
+              <OthersTopImageWrap>
+                <div style={{ width: '500px' , zIndex:'1000', position:'relative', border: '1px solid #ccc'}}>
+                  <OthersTopImage>
+                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio_ver2_1.png"
+                      style={{ width: '100%' }}
+                    />
+                  </OthersTopImage>
+                </div>
+              </OthersTopImageWrap>
+
+              <OthersTitleWrap style={{height:'310px'}}>
+                <OthersTitle>Portfolio ver2</OthersTitle>
+                <div className="flex">
+                  <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
+                  <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'10px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
+                </div>
+                <OthersDerailsWrap><OthersDerails><a href="https://kibachan.com" target="_blank">URL：https://kibachan.com</a></OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>担当： UI.UXデザイン / フロントエンド / デプロイ</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>使用ツール：React / HTML.CSS / Illustrator / Photoshop / Sketch</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：1months / 2019.12 ~ 2020.01(修士1年)</OthersDerails></OthersDerailsWrap>
+
+              </OthersTitleWrap>
+
+              <OthersTextWrap>
+                このポートフォリオです。
+                ウェブデザインをアピールするのに特化したバージョンのポートフォリオをつくりました。
+                なぜそのデザインにしたのかなど、僕の思考が伝わりやすくなるように、図やグラフを多く利用しました。
+                情報にメリハリをつけて本当に見て欲しい作品を絞ってそれ以外はothersにまとめました。
+              </OthersTextWrap>
+            </OthersContetsWrap>
+
+
           </WorkWrap>
         </div>
       </React.Fragment>
