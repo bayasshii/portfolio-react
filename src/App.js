@@ -14,7 +14,7 @@ class App extends Component {
             currentPage={this.props.currentPage}
           />
         </header>
-        <main style={{pointerEvents: 'none'}}>
+        <main>
           {this.props.children}
         </main>
         <footer>
