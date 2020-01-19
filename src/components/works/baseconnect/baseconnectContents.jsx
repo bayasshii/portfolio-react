@@ -80,17 +80,15 @@ class BaseconnectContents extends Component {
             <WorkText
               style={{padding: '30px 0'}}
             >
-              デザイナーインターンとして2018年10月から現在まで勤務しています。
-              私が担当している領域は
+              デザイナーインターンとして2018年10月から現在まで勤務しています。自社プロダクトや、自社の開発画面を主に担当しています。具体的な業務としては
                 <ul>
                   <li>- UIデザイン</li>
                   <li>- 新画面・新機能のマークアップ</li>
                   <li>- フロントエンドの改修</li>
                   <li>- コーディングレビュー</li>
-                  <li>- IE/モバイル対応</li>
                   <li>- Design Bootcampの運営 <a href="http://company.baseconnect.in/design-bootcamp/" target="_blank">(http://company.baseconnect.in/design-bootcamp)</a></li>
                 </ul>
-                などです。
+              などを行なっています。
             </WorkText>
 
             <WorkText
@@ -152,16 +150,18 @@ class BaseconnectContents extends Component {
               <div>
                 <WorkPoint>Point 1. レスポンシブ対応</WorkPoint>
                 <div style={{padding: '0 0 20px'}}>
-                  文字が長い事業所名が少なくなかったので、文字が長くなった場合でもスマホとPCの両方でレイアウトが崩れないように、デザインと並行してコーディングを進めました。
+                  スマホからの流入が多いサービスなので、レスポンシブ対応にも時間をかけました。
+                  事業所名の文字が長くなった場合でもスマホとPCの両方でレイアウトが崩れないように、デザインと並行してコーディングを進めました。
                 </div>
                 <WorkPoint>Point 2. マークアップの構成とクラスの命名</WorkPoint>
                 <div style={{padding: '0 0 20px'}} >
                   新しい画面だったので、マークアップの構成を考えるのと、クラスの命名にはいつもより時間がかかりました。
-                  後にコーディングする人が迷わずに作業できるように工夫しました。
+                  具体的にはAtomicDesignを意識して、再利用できる箇所はコンポーネント単位で切り分けて実装するように心がけました。
+                  また後にコーディングする人が迷わずに作業できるように、BEMに則ってクラスの命名をしました。
                 </div>
                 <WorkPoint>Point 3. データの読み込み</WorkPoint>
                 <div style={{padding: '0 0 0'}}>
-                  「もっと見る」をクリックすると事務所が全て表示されるようにしました。また、動作が重たくならないように「もっと見る」をクリックするまでは表示されてない事業所を読み込まないようにコーディングしました。
+                  読み込みの動作が重たくならないように、「もっと見る」をクリックしてから表示されてない事業所を読み込むようにコーディングしました。
                 </div>
               </div>
               </WorkText>
