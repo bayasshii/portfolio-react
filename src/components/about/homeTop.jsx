@@ -28,7 +28,7 @@ const HometopImage = styled.div`
   z-index: -1;
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 800px;
   opacity: 0.9;
 `
 
@@ -38,7 +38,7 @@ const HometopMainText = styled.div`
   color: ${color.mainBlue};
   position: absolute;
   right: 50px;
-  top: 370px;
+  bottom: 300px;
   z-index: 10;
   opacity: 0.5
 `
@@ -58,8 +58,8 @@ class TopImage extends Component {
             style={{
               objectFit: 'cover',
               position: 'absolute',
-              width: '100%',
-              height:'800px',
+              width: '70%',
+              height:'700px',
               left: '0px',
               top: '0px',
               margin:'auto',
