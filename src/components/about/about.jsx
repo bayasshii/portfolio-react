@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './css/about.css';
 import SkillCharts from "./skillCharts.jsx"
 import Skills from "./skills.jsx"
+import Photos from "./photos.jsx"
 import TopImage from "./homeTop.jsx"
 import styled from 'styled-components'
 import * as color from "../../css/color.js"
@@ -34,11 +35,11 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{position: 'relative', zIndex: '-10',background: '#fafafa'}}>
-          <TopImage/ >
+        <div style={{position: 'relative', zIndex: '-10',background: '#fafafa', padding: '0 0 100px'}}>
+          <TopImage/>
           <div style={{width:'1000px', margin:'50px auto 0'}}>
-            <WorksWrapTitle>Profile</WorksWrapTitle>
-            <WorksWrapTitleUnder/>
+            <WorksWrapTitle style={{margin:'100px 0 0'}}>Profile</WorksWrapTitle>
+            <WorksWrapTitleUnder />
             <AboutText style={{padding:'50px 0 0'}}>
               　1997年、大阪府に生まれる。小・中学校では放課後に野球やサッカー、バスケに明け暮れる活発的に日々を過ごす。
               2012年、大阪府立天王寺高校に入学。
@@ -61,16 +62,10 @@ class About extends Component {
                 <Skills />
               </div>
             </div>
-            {/*
-            <div className="flex bg-gray">
-              <div className="width pb-40">
-                <div className="f-30 pt-40 pb-10">
-                  My Confidence of Skills<span className="hideText">   ~超主観的評価です~   </span>
-                </div>
-                <SkillCharts />
-              </div>
-            </div>
-          */}
+
+            <WorksWrapTitle　style={{padding: '50px 0 0'}}>Photo Gallery</WorksWrapTitle>
+            <WorksWrapTitleUnder style={{margin: '20px 0 50px'}}/>
+            <Photos/>
           </div>
         </div>
       </React.Fragment>

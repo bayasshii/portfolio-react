@@ -56,7 +56,7 @@ class Baseconnect extends Component {
             />
           </ImagetWrap>
           <TextWrap>
-            <TextWrapTitle>オンライン歯科診断アプリ<span>- Coral -</span></TextWrapTitle>
+            <TextWrapTitle>オンライン歯科検診アプリ<span>- Coral -</span></TextWrapTitle>
             <TextWrapSubTitle>UI & UX Design / Business Design</TextWrapSubTitle>
           </TextWrap>
         </WorkWrap>

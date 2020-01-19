@@ -15,16 +15,6 @@ const WorkWrap = styled.div`
   }
 `;
 
-const WorkUrl = styled.a`
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
-`;
-
 class Work extends Component {
   render() {
     return (
