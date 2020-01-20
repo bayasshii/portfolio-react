@@ -17,12 +17,18 @@ const PhotosTitle = styled.div`
 `;
 
 const PhotoModal = styled.div`
+`;
+
+const PhotoModalBack = styled.div`
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  background: #ccc;
+  background: #000;
+  opacity: 0.6;
+  z-index: 10000;
+  cursor: pointer;
 `;
 
 
@@ -34,10 +40,16 @@ class Photo extends Component {
     };
   }
 
-  func(e) {
+  handleClickFunction = () => {
     this.setState({
       toggle: !this.state.toggle // state.toggleフラグを反転させる
-    });
+    })
+    if (!this.state.toggle){
+      document.body.setAttribute('style', 'overflow: hidden;')
+    } else {
+      document.body.removeAttribute('style', 'overflow: hidden;')
+    }
+
   }
 
   render() {
@@ -67,12 +79,33 @@ class Photo extends Component {
               zIndex: 100000,
               cursor: 'pointer'
             }}
-            onClick={this.func}
+            onClick={this.handleClickFunction}
           />
         </PhotosWrap>
         {this.state.toggle &&
-          <PhotoModal>
-          </PhotoModal>
+          <React.Fragment>
+            <PhotoModalBack
+              onClick={this.handleClickFunction}
+            />
+            <PhotoModal>
+              <img
+                alt="my_photo"
+                src={this.props.src}
+                style={{
+                  objectFit: 'cover',
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  width: '80vw',
+                  height:'90vh',
+                  margin:'auto',
+                  zIndex:'1000000'
+                }}
+              />
+            </PhotoModal>
+          </React.Fragment>
         }
       </React.Fragment>
     );

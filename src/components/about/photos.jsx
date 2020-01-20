@@ -21,11 +21,11 @@ class Photos extends Component {
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/chari3.jpg"
-            title="特技は石で自転車を自立させることです"
+            title="特技は石で自転車を自立させることです @小浜"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/chari4.jpg"
-            title="斜め後ろから撮るのがセクシーで好きです"
+            title="左後ろからのアングルも好きです @家島"
           />
         </div>
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
@@ -35,13 +35,13 @@ class Photos extends Component {
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/mada.jpg"
-            title="日が暮れるまで泳いだビーチ @NosyBe"
+            title="朝から日が暮れるまで泳いだビーチ @NosyBe"
           />
         </div>
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/volley1.jpg"
-            title="マダガスカルにも持っていったバレーボール"
+            title="旅行にバレーボールを持って行くタイプです @沖縄"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/volley3.jpg"
@@ -65,24 +65,24 @@ class Photos extends Component {
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/zaha.jpg"
-            title="でもやっぱりザハが好きです @東大門デザインプラザ"
+            title="やっぱりザハが好き @東大門デザインプラザ"
           />
         </div>
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby1.jpg"
-            title="息抜きはだいたいカラオケ"
+            title="息抜きはだいたいカラオケ @ジャンカラ洛北店"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby4.jpg"
-            title="謎のカラオケ大会に参加しました @Hefei Chana"
+            title="謎のカラオケ大会に飛び入り参加しました @Hefei Chana"
           />
         </div>
 
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby2.jpg"
-            title="自称京都一の甘党です"
+            title="自称 京都一の甘党です"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby3.jpg"
