@@ -35,7 +35,7 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{position: 'relative', zIndex: '-10',background: '#fafafa', padding: '0 0 100px'}}>
+        <div style={{position: 'relative', zIndex: '1',background: '#fafafa', padding: '0 0 100px'}}>
           <TopImage/>
           <div style={{width:'1000px', margin:'50px auto 0'}}>
             <WorksWrapTitle style={{margin:'100px 0 0'}}>Profile</WorksWrapTitle>
@@ -44,7 +44,7 @@ class About extends Component {
               　1997年、大阪府に生まれる。小・中学校では放課後に野球やサッカー、バスケに明け暮れる活発的に日々を過ごす。
               2012年、大阪府立天王寺高校に入学。
               バレー部に入部し、高校３年生の時にはビーチバレーでの近畿大会出場を果たす。
-              高校２年生の頃から建築デザインに興味が湧き、１年半ほどの間、放課後に美術室に通ってデッサンや設計に取り組む。
+              建築デザインに興味が湧いたのが高校２年生の頃。それから卒業までの１年半ほどの間、放課後に美術室に通ってデッサンや設計に取り組む。
               <br/><br/>
               　2015年、京都工芸繊維大学デザイン経営工学課程に入学。大学でも体育会のバレー部に入部して、副キャプテンを１年間務める。体育会リーグでは全勝で５部昇格を果たす。
               勉学の面では、デザインとビジネス、エンジニアリングなどの幅広い分野を体系的に学ぶ。
