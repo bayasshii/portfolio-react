@@ -501,7 +501,7 @@ class CoralContentsUX extends Component {
           <UXContetsWrap style={{margin: '50px 0 0'}}>
             <WorkText style={{padding: '0 0 50px'}}>
               <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　Mockup</CoralContentsUXSubTitle>
-              今回はユーザー側の画面に絞ってモックアップのデザインを行いました。ユーザーが検診を終えるまでに必要な最低限の機能のみを考えています。
+              今回はユーザー側の画面に絞ってモックアップのデザインを行いました。<WorkTextBold>ユーザーが検診を終えるまでに必要な最低限の機能のみ</WorkTextBold>を考えています。
             </WorkText>
 
             <UIWrap>
@@ -555,14 +555,19 @@ class CoralContentsUX extends Component {
 
               <WorkText style={{padding: '30px 0 30px'}}>
                 まずそもそも本サービスのホーム画面において、理想のユーザー体験について考えました。
-                そして理想のユーザー体験は、『検索しなくても、良い歯医者をすぐに見つけられること』だと定義しました。
-                良い歯医者がすぐに見つかれば、それが「予約の気軽さ」に繋がるからです。
+                そして理想のユーザー体験は、<WorkTextBold>検索しなくても、良い歯医者をすぐに見つけられること</WorkTextBold>だと定義しました。
+                良い歯医者がすぐに見つかれば、それが<WorkTextBold>予約の気軽さ</WorkTextBold>に繋がるからです。
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
                 その理想のユーザー体験を踏まえて、
-                ホーム画面には『あなたにおすすめの歯医者』や『過去に検診を受けたことのある歯医者』をレイアウトして、検索しなくても歯医者を選択できるようにすることを考えました。
-                以下のheaderのデザインでは、そのレイアウトを前提に取り組みました。
+                『あなたにおすすめの歯医者』や『過去に検診を受けたことのある歯医者』をホーム画面にレイアウトして、検索しなくても歯医者を選択できるようにすることを考えました。
+              </WorkText>
+
+              <WorkText style={{padding: '0 0 30px'}}>
+                また、検索しないのが理想のユーザー体験だからと言って、検索したいというニーズを無視するわけにもいかないので、<WorkTextBold>検索機能をどこに配置するか</WorkTextBold>を考えました。
+                ホーム画面にheaderとして配置するか、タブに切り分けるか、といった可能性を考えましたが、結論から言うと<WorkTextBold>ホーム画面にheaderとして配置する</WorkTextBold>方を採用しました。
+                理由は下部にタブとして配置するよりも、上部に検索窓があったほうが<WorkTextBold>インターフェース的に分かりやすい</WorkTextBold>と推測したからです。
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
@@ -594,33 +599,33 @@ class CoralContentsUX extends Component {
               <div className="flex" style={{justifyContent: 'space-between'}}>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・面積をとらない</UIItemTextContents>
+                  <UIItemTextContents>面積をとらない</UIItemTextContents>
                 </UXDetailItemTextBlue>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・画面遷移が少ない</UIItemTextContents>
+                  <UIItemTextContents>画面遷移が少ない</UIItemTextContents>
                   <br/>
-                  <UIItemTextContents>・迷いが少ない</UIItemTextContents>
+                  <UIItemTextContents>迷いが少ない</UIItemTextContents>
                 </UXDetailItemTextBlue>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・比較的面積をとらない</UIItemTextContents>
+                  <UIItemTextContents>比較的面積をとらない</UIItemTextContents>
                   <br/>
-                  <UIItemTextContents>・入力する情報量が減る</UIItemTextContents>
+                  <UIItemTextContents>入力する情報量が減る</UIItemTextContents>
                 </UXDetailItemTextBlue>
               </div>
               <div className="flex" style={{justifyContent: 'space-between', padding: '20px 0'}}>
                 <UXDetailItemText>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                  <UIItemTextContents>画面遷移がある</UIItemTextContents>
                 </UXDetailItemText>
                 <UXDetailItemText>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・面積をとる</UIItemTextContents>
+                  <UIItemTextContents>面積をとる</UIItemTextContents>
                 </UXDetailItemText>
                 <UXDetailItemText>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                  <UIItemTextContents>画面遷移がある</UIItemTextContents>
                 </UXDetailItemText>
               </div>
 
@@ -629,8 +634,8 @@ class CoralContentsUX extends Component {
               </WorkText>
 
               <WorkText style={{padding: '10px 0 30px'}}>
-                まず、B案では、画面を大きく占領するので、『まずheaderから検索しないといけない』ということをユーザーに強く意識させてしまいます。
-                そうなると、『検索しなくても、良い歯医者をすぐに見つけられる』という理想のユーザー体験から遠ざかってしまうので、まずB案はボツとしました。
+                まず、B案では、画面を大きく占領するので、<WorkTextBold>まずheaderから検索しないといけない</WorkTextBold>ということをユーザーに強く意識させてしまいます。
+                そうなると、<WorkTextBold>検索しなくても、良い歯医者をすぐに見つけられる</WorkTextBold>という理想のユーザー体験から遠ざかってしまうので、まずB案はボツとしました。
               </WorkText>
 
               <WorkText style={{padding: '10px 0 30px'}}>
@@ -660,9 +665,11 @@ class CoralContentsUX extends Component {
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
-                まず、今回のサービスにおいて、ユーザーは「できれば最寄りの歯医者に検診してもらいたい。通院が必要になれば、オンライン検診してもらった歯医者に見てもらいたい」と考えるのではないかという仮説を立てました。
-                また歯医者側からしても「オンライン検診だけではなく、オンライン検診後に実際に自分の病院に通院して欲しい」というニーズは確実にあるはずです。
-                以上の両者のニーズを叶えるために、アカウント作成時にあらかじめ地域を選ばせておくことで、自宅周辺に絞って歯医者の検索をするように誘導するC案のデザインを採用しました。
+                まず、今回のサービスにおいて、ユーザーは<WorkTextBold>できれば最寄りの歯医者に検診してもらいたい。通院が必要になれば、オンライン検診してもらった歯医者に見てもらいたい</WorkTextBold>と考えるのではないかという仮説を立てました。
+                また歯医者側からしても<WorkTextBold>オンライン検診だけではなく、オンライン検診後に実際に自分の病院に通院して欲しい</WorkTextBold>というニーズは確実にあるはずです。
+              </WorkText>
+              <WorkText style={{padding: '0 0 30px'}}>
+                以上の両者のニーズを叶えるために、<WorkTextBold>アカウント作成時にあらかじめ地域を選ばせておくことで、自宅周辺に絞って歯医者の検索をするように誘導する</WorkTextBold>C案のデザインを採用しました。
                 また、地域をあらかじめ選択しておくことで、『あなたにおすすめの歯医者』の精度も格段に向上して、「検索しなくても、良い歯医者をすぐに見つけられる」という理想のユーザー体験に近づきます。
               </WorkText>
 
@@ -677,9 +684,9 @@ class CoralContentsUX extends Component {
                 />
               </div>
               <WorkText style={{padding: '30px 0 30px'}}>
-                検索結果画面以降のユーザーの行動のプロセスは、『良いと思う歯医者を探す』→『歯医者を決定して予約する』の２つであると考えました。
+                検索結果画面以降のユーザーの行動のプロセスは、<WorkTextBold>良いと思う歯医者を探す→歯医者を決定して予約する</WorkTextBold>の２つであると考えました。
                 それを踏まえて、既存予約サービスの検索結果画面を研究した結果、
-                『A. 検索結果画面から歯医者を探して、そのまま予約ができる』と『B. 検索結果画面から医者を探して、詳細画面に画面遷移してから歯医者を決定して予約する』の２つが本サービスのユーザー体験の候補として挙げられました。
+                <WorkTextBold>A. 検索結果画面から歯医者を探して、そのまま予約ができる</WorkTextBold>と、<WorkTextBold>B. 検索結果画面から医者を探して、詳細画面に画面遷移してから歯医者を決定して予約する</WorkTextBold>の２つが本サービスのユーザー体験の候補として挙げられました。
                 どちらの体験が適しているかを以下で検証しました。
               </WorkText>
 
@@ -708,43 +715,43 @@ class CoralContentsUX extends Component {
               <div className="flex flex-center" style={{}}>
                 <UXDetailItemTextBlue style={{margin: '0 30px 0 0 '}}>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・画面遷移が少ない</UIItemTextContents>
+                  <UIItemTextContents>画面遷移が少ない</UIItemTextContents>
                 </UXDetailItemTextBlue>
                 <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・面積をとらない</UIItemTextContents>
+                  <UIItemTextContents>面積をとらない</UIItemTextContents>
                 </UXDetailItemTextBlue>
               </div>
 
               <div className="flex flex-center" style={{padding: '20px 0'}}>
                 <UXDetailItemText style={{margin: '0 30px 0 0 '}}>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・面積をとる</UIItemTextContents>
+                  <UIItemTextContents>面積をとる</UIItemTextContents>
                 </UXDetailItemText>
                 <UXDetailItemText>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
-                  <UIItemTextContents>・画面遷移がある</UIItemTextContents>
+                  <UIItemTextContents>画面遷移がある</UIItemTextContents>
                 </UXDetailItemText>
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
-                A案とB案は、『A. 検索結果画面で予約が完結できるように十分な情報量を表示する』『B. 詳細画面で予約することを前提とした必要最低限の情報量にする』と言い換えることができます。
-                A案とB案を選ぶ上で問題になるのは、十分な情報を表示すると情報量が膨大になり、検索結果を一覧する上で視認性を損ねないかどうか、だと思います。
+                A案とB案は、<WorkTextBold>A. 検索結果画面で予約が完結できるように十分な情報量を表示する</WorkTextBold>と、<WorkTextBold>『B. 詳細画面で予約することを前提とした必要最低限の情報量にする</WorkTextBold>と言い換えることができます。
+                A案とB案を選ぶ上で問題になるのは、<WorkTextBold>A案を採用するなら十分な情報を表示すると情報量が膨大になって検索結果を一覧する上で視認性を損ねないかどうか</WorkTextBold>だと思います。
                 今回のアプリでは、ユーザーが歯医者を選ぶ上で必要な情報はさほど多くないので、私はA案を採用しました。
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
                 またA案の場合、詳細画面に遷移することがあっても、検索結果画面で十分な情報を見てから遷移しているので、
-                詳細画面は情報を確認する程度の用途になり検索結果画面への出戻りは少ないと予想されます。
+                詳細画面は情報を確認する程度の用途になり<WorkTextBold>検索結果画面への出戻りは少ない</WorkTextBold>と予想されます。
                 なのでA案では結果として何度も画面遷移しないことにも繋がり、より気軽に歯医者を予約できます。
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
-                以上の理由から『歯医者を探して、そのまま予約ができる』ことを検索結果画面の理想のユーザー体験に定めました。
+                以上の理由から<WorkTextBold>歯医者を探して、そのまま予約ができる</WorkTextBold>ことを検索結果画面の理想のユーザー体験に定めました。
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
-                次に『歯医者を探して、そのまま予約ができる』ために必要な情報を列挙して、その目的のために必要な情報かという視点で重要度を評価しました。
+                次に歯医者を探して、そのまま予約ができるために必要な情報を列挙して、<WorkTextBold>その目的のために必要な情報か</WorkTextBold>という視点で重要度を評価しました。
                 そして重要度の高い情報がユーザーにより届きやすくなるように歯医者のプロフィールをUIデザインした結果が以下になります。
               </WorkText>
 
@@ -753,8 +760,8 @@ class CoralContentsUX extends Component {
               />
 
               <WorkText style={{padding: '0 0 30px'}}>
-                重要度が高い情報は、濃い色で大きいフォントサイズで表示しました。
-                また予約ボタン以外に塗りつぶしを使わないことで、予約ボタンを目立たせて検索結果画面から予約できることがはっきりとわかるようにデザインしました。
+                重要度が高い情報は、<WorkTextBold>濃い色で大きいフォントサイズ</WorkTextBold>で表示しました。
+                また予約ボタン以外に塗りつぶしを使わないことで、予約ボタンを目立たせて、<WorkTextBold>検索結果画面から予約できることがはっきりとわかる</WorkTextBold>ようにデザインしました。
               </WorkText>
 
             </UIWrap>
