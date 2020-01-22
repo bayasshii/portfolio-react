@@ -86,32 +86,13 @@ class Mission extends Component {
             <VisionWrapTitleUnder/>
 
             <MissionTitle style={{padding:'40px 0 20px'}}>
-              <span>自ら楽しむ</span>
+              <span>相手を尊重する</span>
             </MissionTitle>
             <MissionText style={{padding:'0 0 0px'}}>
-              楽しんで働いている人の周りで働いていると、自然と周りの人も楽しくなります。
+              チームのメンバーが団結して仕事できると、仕事することが楽しくなるし、必ず良いプロダクトが生まれると信じています。
               <br/>
-              また楽しく働くことで生産性が上がり、結果としてより多くの人の「働く」を楽しくできます。
+              そのためには相手の思考のバックグラウンドを知り、相手の価値観や意見を尊重することが必要だと思います。
             </MissionText>
-
-            <MissionTitle style={{padding:'40px 0 20px'}}>
-              <span>価値観を尊重する</span>
-            </MissionTitle>
-            <MissionText style={{padding:'0 0 0px'}}>
-              相手の思考のバックグラウンドを知り、相手の価値観を尊重することで、チームの団結を促進するデザイナーになりたいです。
-              <br/>
-              チームのメンバーが職種の垣根を超えて団結できると、仕事が楽しくなるし、必ず良いプロダクトが生まれると信じています。
-            </MissionText>
-
-            <MissionTitle style={{padding:'40px 0 20px'}}>
-              <span>まずやってみる</span>
-            </MissionTitle>
-            <MissionText style={{padding:'0 0 0px'}}>
-              日々に変化を起こしてこそ、新しい刺激を得られて楽しく働くことができます。
-              <br/>
-              また、じっとしていても世界を変えることはできません。
-            </MissionText>
-
 
           </MissionWrap>
         </MissionBackground>
