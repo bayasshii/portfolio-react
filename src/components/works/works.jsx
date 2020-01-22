@@ -24,7 +24,7 @@ const WorksWrap = styled.div`
 
 const WorksWrapTitle = styled.div`
   text-align: left;
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   color: ${color.baseText__thin};
   @media screen and (max-width: 767px) {
     margin-left: 20px;
@@ -33,9 +33,9 @@ const WorksWrapTitle = styled.div`
 `;
 
 const WorksWrapTitleUnder = styled.div`
-  width: 100px;
+  width: 50px;
   height: 3px;
-  margin-top: 30px;
+  margin-top: 20px;
   background: ${color.baseText__thin};
   @media screen and (max-width: 767px) {
     margin-left: 20px

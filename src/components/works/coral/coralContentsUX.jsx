@@ -549,7 +549,7 @@ class CoralContentsUX extends Component {
                   <span style={{fontSize: '2.5rem'}}>ホーム画面</span><span style={{fontSize: '2rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- headerの検索機能 -</span>
                 </div>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
-                  style={{ width: '50%', marginLeft:'auto' }}
+                  style={{ width: '50%',height:'155px', marginLeft:'auto' }}
                 />
               </div>
 
@@ -565,13 +565,8 @@ class CoralContentsUX extends Component {
               </WorkText>
 
               <WorkText style={{padding: '0 0 30px'}}>
-                また、検索しないのが理想のユーザー体験だからと言って、検索したいというニーズを無視するわけにもいかないので、<WorkTextBold>検索機能をどこに配置するか</WorkTextBold>を考えました。
-                ホーム画面にheaderとして配置するか、タブに切り分けるか、といった可能性を考えましたが、結論から言うと<WorkTextBold>ホーム画面にheaderとして配置する</WorkTextBold>方を採用しました。
-                理由は下部にタブとして配置するよりも、上部に検索窓があったほうが<WorkTextBold>インターフェース的に分かりやすい</WorkTextBold>と推測したからです。
-              </WorkText>
-
-              <WorkText style={{padding: '0 0 30px'}}>
-                次に既存の予約サービスのホーム画面によく見られるheaderの検索機能を調査して、下の３つのように分類しました。
+                検索しないのが理想のユーザー体験だからと言って、検索したいというニーズを無視するわけにもいかないので、
+                <WorkTextBold>既存の予約サービスのホーム画面</WorkTextBold>によく見られる検索機能を調査して、下の３つのように分類しました。
               </WorkText>
 
               <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 20px'}}>
@@ -680,7 +675,7 @@ class CoralContentsUX extends Component {
                   <span style={{fontSize: '2.5rem'}}>検索結果画面</span><span style={{fontSize: '2rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- 歯医者のプロフィール -</span>
                 </div>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E8%A9%B3%E7%B4%B0%E7%94%BB%E9%9D%A2.jpg"
-                  style={{ width: '50%', marginLeft:'auto' }}
+                  style={{ width: '50%', height:'244px', marginLeft:'auto' }}
                 />
               </div>
               <WorkText style={{padding: '30px 0 30px'}}>

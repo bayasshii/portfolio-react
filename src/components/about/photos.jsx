@@ -15,7 +15,7 @@ class Photos extends Component {
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/chari6.jpg"
-            title="東京まで行ったとき(左の写真の3年後) @浜名湖"
+            title="再び東京まで行ったとき(左の写真の3年後) @浜名湖"
           />
         </div>
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
