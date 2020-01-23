@@ -20,7 +20,7 @@ const MissionWrap = styled.div`
 
 const MissionWrapTitle = styled.div`
   text-align: left;
-  font-size: 3.0rem;
+  font-size: 4.0rem;
   color: ${color.baseText__thin};
   @media screen and (max-width: 767px) {
     margin-left: 20px;
@@ -71,7 +71,7 @@ class Mission extends Component {
   render() {
     return (
       <React.Fragment>
-        <MissionBackground style={{padding:'100px 0 100px'}}>
+        <MissionBackground style={{padding:'50px 0 50px'}}>
           <MissionWrap>
             <MissionWrapTitle>Mission</MissionWrapTitle>
             <MissionWrapTitleUnder/>
