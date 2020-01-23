@@ -50,6 +50,16 @@ class Photos extends Component {
         </div>
         <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
+            src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/fuzisan.jpg"
+            title="山に登るのも好きです @富士山"
+          />
+          <Photo
+            src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/mikosi.jpg"
+            title="毎年参加してる下宿先の近所の神輿"
+          />
+        </div>
+        <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
+          <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/soho.jpg"
             title="建築が好きです。特にザハ・ハディド @凌空SOHO"
           />
@@ -89,18 +99,6 @@ class Photos extends Component {
             title="収集グセがあります"
           />
         </div>
-        {/*
-        <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
-          <Photo
-            src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/mikosi.jpg"
-            title="毎年参加してる下宿先の近所の神輿"
-          />
-          <Photo
-            src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby2.jpg"
-            title="富士山"
-          />
-        </div>
-        */}
       </React.Fragment>
     );
   }

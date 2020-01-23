@@ -61,18 +61,23 @@ class About extends Component {
               </AboutText>
             </div>
           </div>
-
+          {/*
           <Mission/>
+          */}
 
-          <div className="flex" style={{padding: '100px 0 50px', background: '#fafafa'}}>
+          <div className="flex" style={{padding: '50px 0 50px', background: '#fafafa'}}>
             <div className="width pb-40">
               <Skills />
             </div>
           </div>
 
-          <WorksWrapTitle　style={{padding: '50px 0 0'}}>Photo Gallery</WorksWrapTitle>
-          <WorksWrapTitleUnder style={{margin: '20px 0 50px'}}/>
-          <Photos/>
+          <div className="flex" style={{padding: '50px 0 50px', background: '#fafafa'}}>
+            <div className="width">
+              <WorksWrapTitle　style={{padding: '50px 0 0'}}>Photo Gallery</WorksWrapTitle>
+              <WorksWrapTitleUnder style={{margin: '20px 0 50px'}}/>
+              <Photos/>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );
