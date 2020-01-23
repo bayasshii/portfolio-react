@@ -11,7 +11,6 @@ class Home extends Component {
       <React.Fragment>
         <div>
           <TopImage/>
-          <Mission />
           <Works />
         </div>
       </React.Fragment>

@@ -29,7 +29,7 @@ class Footer extends Component {
               <ul className="flex">
                 <li className="footer__menue"><a href="https://github.com/bayasshii" target="_blank">GitHub</a></li>
                 {/*<li className="footer__menue"><a href="https://note.com/kibachan" target="_blank">note</a></li>*/}
-                <li className="footer__menue"><a href="https://www.wantedly.com/users/98019768" target="_blank">Wantedly</a></li>
+                <li className="footer__menue"><a href="https://www.wantedly.com/secret_profiles/eOicdvwNpTUl9YEYuF024VBplVALVl1h" target="_blank">Wantedly</a></li>
               </ul>
             </div>
             <FooterReseave className="ml-auto">
