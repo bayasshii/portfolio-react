@@ -41,7 +41,7 @@ const HometopContents = styled.div`
   left: 0;
   right: 0;
   margin: auto;
-  padding: 280px 0 0 800px;
+  padding: 280px 0 0 850px;
   @media screen and (max-width: 1400px) {
     padding-right: 50px
   }
