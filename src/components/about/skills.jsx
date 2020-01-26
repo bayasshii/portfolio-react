@@ -8,14 +8,15 @@ import AboutHeadingUnderline from "./aboutHeadingUnderline.jsx"
 const WorksWrapTitle = styled.div`
   text-align: left;
   font-size: 3.0rem;
-  color: ${color.baseText__thin};
+  color: ${color.mainYellow};
+  font-weight: 600;
 `;
 
 const WorksWrapTitleUnder = styled.div`
   width: 60px;
   height: 3px;
   margin-top: 20px;
-  background: ${color.baseText__thin};
+  background: ${color.mainYellow};
 `;
 
 class Skills extends Component {
