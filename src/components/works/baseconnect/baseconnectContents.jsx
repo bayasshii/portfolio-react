@@ -168,7 +168,7 @@ class BaseconnectContents extends Component {
             </BaseconnectContetsWrap>
 
 
-            <BaseconnectContetsWrap style={{margin: '50px 0 0 0'}}>
+            <BaseconnectContetsWrap style={{margin: '50px 0 100px 0'}}>
               <WorkHeadingPhotal style={{margin: '0 0 10px'}}>
                 case 2.　Design Bootcamp 運営
               </WorkHeadingPhotal>

@@ -3,17 +3,13 @@ export const baseText__thin = "#ADA9A9"
 
 export const urlText = "#7A77D9"
 
-export const mainBlue = "#003778"
-export const mainBlue__thin = "#7F9BBB"
+export const mainBlue = "#4C6E9B"
+export const mainBlue__thin = "#A5B6CD"
 
-export const mainYellow = "#E5D98E"
+export const mainYellow = "#99CED2"
 export const mainYellow__thin = "#ECE3AB"
-export const mainGreen = "#CFE1D7"
-export const mainGreen__thin = "#F0F6F3"
-
 
 export const accentYellow = "#f0f066"
-export const accentPink = "#F2505D"
 
 export const background = "#fafafa"
 

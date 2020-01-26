@@ -128,7 +128,7 @@ class PhotalContents extends Component {
               </WorkText>
             </PhotalContentsWrap>
 
-            <PhotalContentsWrap>
+            <PhotalContentsWrap style={{margin: '0 0 150px 0'}}>
               <WorkHeadingPhotal>4. Redesign</WorkHeadingPhotal>
               <WorkText style={{padding: '80px 0 60px', textAlign:'center', fontSize:'3.0rem', fontWeight:'900'}}>
                 Coming Soon...

@@ -17,12 +17,12 @@ const AboutText = styled.div`
 
 const WorksWrapTitle = styled.div`
   text-align: left;
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   color: ${color.baseText__thin};
 `;
 
 const WorksWrapTitleUnder = styled.div`
-  width: 100px;
+  width: 70px;
   height: 3px;
   margin-top: 20px;
   background: ${color.baseText__thin};
@@ -37,9 +37,9 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{position: 'relative', zIndex: '1',padding: '0 0 100px'}}>
+        <div style={{position: 'relative', zIndex: '1',padding: '0 0 0'}}>
           <TopImage/>
-          <div style={{background: '#fafafa', padding:'30px 0'}}>
+          <div style={{background: '#fafafa', padding:'30px 0 100px'}}>
             <div style={{width:'1000px', margin:'0 auto 0'}}>
               <WorksWrapTitle style={{margin:'20px 0 0'}}>Profile</WorksWrapTitle>
               <WorksWrapTitleUnder />
@@ -71,7 +71,7 @@ class About extends Component {
             </div>
           </div>
 
-          <div className="flex" style={{padding: '50px 0 50px', background: '#fafafa'}}>
+          <div className="flex" style={{padding: '50px 0 150px', background: '#fafafa'}}>
             <div className="width">
               <WorksWrapTitle　style={{padding: '50px 0 0'}}>Photo Gallery</WorksWrapTitle>
               <WorksWrapTitleUnder style={{margin: '20px 0 50px'}}/>

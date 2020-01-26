@@ -13,7 +13,7 @@ const WorkBackground = styled.div`
   z-index: 1;
   position: relative;
   background: ${color.background}
-  padding: 0 0 100px;
+  padding: 0 0 200px;
 `;
 
 
