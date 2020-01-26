@@ -5,12 +5,11 @@ import WorkSubTitle from "../workContents/workSubTitle";
 import WorkWrap from "../workContents/workWrap";
 import WorkText from "../workContents/workText";
 import WorkHeading from "../workContents/workHeading";
-import WorkMenuComponent from "../workContents/workMenuComponent";
+import WorkBack from "../workContents/workBack";
 
 import PhotalHeader from "./photalHeader";
 
 import PhotalContentsNeedfinding from "./photalContentsNeedfinding"
-import PhotalContentsUX from "./photalContentsUX"
 import PhotalContentsServerside from "./photalContentsServerside"
 
 import * as color from "../../../css/color.js"
@@ -59,7 +58,7 @@ class PhotalContents extends Component {
         <div
           style={{ background:color.background }}
         >
-          <WorkWrap style={{padding: '0 0 50px'}}>
+          <WorkWrap style={{padding: '0 0 100px'}}>
             <WorkTitle style={{padding: '70px 0 30px'}}>
               アルバム共有アプリ - Photal -
             </WorkTitle>
@@ -128,12 +127,14 @@ class PhotalContents extends Component {
               </WorkText>
             </PhotalContentsWrap>
 
-            <PhotalContentsWrap style={{margin: '0 0 150px 0'}}>
+            <PhotalContentsWrap style={{margin: '0 0 50px 0'}}>
               <WorkHeadingPhotal>4. Redesign</WorkHeadingPhotal>
               <WorkText style={{padding: '80px 0 60px', textAlign:'center', fontSize:'3.0rem', fontWeight:'900'}}>
                 Coming Soon...
               </WorkText>
             </PhotalContentsWrap>
+
+            <WorkBack/>
 
 
           </WorkWrap>

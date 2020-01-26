@@ -4,15 +4,17 @@ import './css/mobile.css'
 import Works from "../works/works.jsx"
 import Mission from "./mission.jsx"
 import TopImage from "../topImage/homeTop.jsx"
+import About from "../about/about.jsx"
+import Header from "../header/header.jsx"
 
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-          <TopImage/>
-          <Works />
-        </div>
+        <Header />
+        <TopImage/>
+        <Works />
+        <About />
       </React.Fragment>
     );
   }

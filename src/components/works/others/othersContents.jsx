@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import * as color from "../../../css/color.js"
 import WorkWrap from "../workContents/workWrap";
+import WorkBack from "../workContents/workBack";
 
 import Slider from "react-slick";
 
@@ -504,6 +505,8 @@ class OthersContents extends Component {
                 情報にメリハリをつけるために本当に見て欲しい作品を絞って、それ以外をothersにまとめています。
               </OthersTextWrap>
             </OthersContetsWrap>
+
+            <WorkBack/>
 
 
           </WorkWrap>

@@ -39,10 +39,10 @@ class About extends Component {
     return (
       <React.Fragment>
         <div style={{position: 'relative', zIndex: '1',padding: '0 0 0'}}>
-          <TopImage/>
-          <div style={{background: '#fafafa', padding:'30px 0 100px'}}>
+          {/*<TopImage/>*/}
+          <div style={{background: '#fafafa', padding:'0 0 100px'}}>
             <div style={{width:'1000px', margin:'0 auto 0'}}>
-              <WorksWrapTitle style={{margin:'20px 0 0'}}>Profile</WorksWrapTitle>
+              <WorksWrapTitle style={{margin:'0 0 0'}}>Profile</WorksWrapTitle>
               <WorksWrapTitleUnder />
               <AboutText style={{padding:'50px 0 0'}}>
                 　1997年、大阪府に生まれる。小・中学校では放課後に野球やサッカー、バスケに明け暮れる活発的に日々を過ごす。
