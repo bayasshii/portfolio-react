@@ -5,9 +5,9 @@ import WorkTitle from "../workContents/workTitle";
 import WorkWrap from "../workContents/workWrap";
 import WorkText from "../workContents/workText";
 import WorkHeading from "../workContents/workHeading";
-import WorkMenuComponent from "../workContents/workMenuComponent";
 import WorkSubTitle from "../workContents/workSubTitle";
 import WorkPoint from "../workContents/workPoint";
+import WorkBack from "../workContents/workBack";
 
 import BaseconnectHeader from "./baseconnectHeader";
 
@@ -209,6 +209,8 @@ class BaseconnectContents extends Component {
               </WorkText>
 
             </BaseconnectContetsWrap>
+
+            <WorkBack/>
 
           </WorkWrap>
         </div>

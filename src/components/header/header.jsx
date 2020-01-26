@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import './css/style.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import styled from 'styled-components'
+import * as color from "../../css/color.js"
 
 class Header extends Component {
   ChangeCurrentPage(){
@@ -19,24 +20,57 @@ class Header extends Component {
     }
   }
 
-  // TODO: ダーティな上にDidMount使ってる。要修正。
-  componentDidMount(){
-    this.ChangeCurrentPage()
-  }
-  componentDidUpdate(prevProps, prevState){
-    this.ChangeCurrentPage()
-  }
-
   render() {
+    const Point1 = styled.div`
+      position: absolute;
+      top: 700px;
+      left: 0;
+      width: 1px;
+      height:1px;
+    `;
+
+    const Point2 = styled.div`
+      position: absolute;
+      top: 1900px;
+      left: 0;
+      width: 1px;
+      height:1px;
+    `;
+
+    const Point3 = styled.div`
+      position: absolute;
+      top: 3700px;
+      left: 0;
+      width: 1px;
+      height:1px;
+    `;
+
+    const Header = styled.div`
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: right;
+      font-size: 2rem;
+      color: ${color.baseText};
+      font-weight: 600;
+      padding: 40px 100px;
+      z-index: 10000000000000000000;
+    `;
 
     return (
-      <div className="header flex">
-        <ul className="header__menue--others flex">
-          <li className="header__menue" id="home"><Link to="" className="home">home</Link></li>
-          {/*<li className="header__menue" id="works"><Link to="/works" className="works">works</Link></li>*/}
-          <li className="header__menue" id="about"><Link style={{paddingRight:0}}  to="/about" className="about">about</Link></li>
-        </ul>
-      </div>
+      <React.Fragment>
+        <Header>
+          <AnchorLink href="#works" style={{padding:'0 30px 0 0'}}>works</AnchorLink>
+          <AnchorLink href="#about" style={{padding:'0 30px 0 0'}}>about</AnchorLink>
+          <AnchorLink href="#photos">photos</AnchorLink>
+        </Header>
+        <div id="overFlowScrollArea" style={{position:'relative'}}>
+          <Point1 id="works"/>
+          <Point2 id="about"/>
+          <Point3 id="photos"/>
+        </div>
+      </React.Fragment>
     );
   }
 }

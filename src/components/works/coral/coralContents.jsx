@@ -5,6 +5,7 @@ import WorkWrap from "../workContents/workWrap";
 import WorkText from "../workContents/workText";
 import WorkTextBold from "../workContents/workTextBold";
 import WorkSubTitle from "../workContents/workSubTitle";
+import WorkBack from "../workContents/workBack";
 
 import CoralHeader from "./coralHeader";
 import CoralContentsUX from "./coralContentsUX";
@@ -30,7 +31,7 @@ class CoralContents extends Component {
         <div
           style={{ background: color.background }}
         >
-          <WorkWrap>
+          <WorkWrap style={{padding: '0 0 100px'}}>
             <WorkTitle
               style={{padding: '70px 0 20px'}}
             >
@@ -53,6 +54,8 @@ class CoralContents extends Component {
             </WorkText>
 
             <CoralContentsUX/>
+
+            <WorkBack/>
 
           </WorkWrap>
         </div>
