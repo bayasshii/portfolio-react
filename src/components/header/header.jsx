@@ -34,7 +34,7 @@ class Header extends Component {
         <ul className="header__menue--others flex">
           <li className="header__menue" id="home"><Link to="" className="home">home</Link></li>
           {/*<li className="header__menue" id="works"><Link to="/works" className="works">works</Link></li>*/}
-          <li className="header__menue" id="about"><Link to="/about" className="about">about</Link></li>
+          <li className="header__menue" id="about"><Link style={{paddingRight:0}}  to="/about" className="about">about</Link></li>
         </ul>
       </div>
     );

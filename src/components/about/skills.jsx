@@ -7,12 +7,12 @@ import AboutHeadingUnderline from "./aboutHeadingUnderline.jsx"
 
 const WorksWrapTitle = styled.div`
   text-align: left;
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   color: ${color.baseText__thin};
 `;
 
 const WorksWrapTitleUnder = styled.div`
-  width: 80px;
+  width: 60px;
   height: 3px;
   margin-top: 20px;
   background: ${color.baseText__thin};
