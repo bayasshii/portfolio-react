@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import * as color from "../../css/color.js"
 
 const HometopWrap = styled.div`
-  z-index: -2;
   position: relative;
   height: 700px;
   background: ${color.background}
@@ -14,7 +13,6 @@ const HometopWrap = styled.div`
 `
 
 const HometopRec = styled.div`
-  z-index: -1;
   position: absolute;
   left: 0;
   width: 100%;
@@ -28,7 +26,6 @@ const HometopRec = styled.div`
 `
 
 const HometopImage = styled.div`
-  z-index: -1;
   position: absolute;
   left: 0;
   top: 0;
