@@ -23,7 +23,7 @@ const WorksWrapTitle = styled.div`
 `;
 
 const WorksWrapTitleUnder = styled.div`
-  width: 70px;
+  width: 50px;
   height: 3px;
   margin-top: 20px;
   background: ${color.mainYellow};
@@ -42,7 +42,7 @@ class About extends Component {
           {/*<TopImage/>*/}
           <div style={{background: '#fafafa', padding:'0 0 100px'}}>
             <div style={{width:'1000px', margin:'0 auto 0'}}>
-              <WorksWrapTitle style={{margin:'0 0 0'}}>Profile</WorksWrapTitle>
+              <WorksWrapTitle style={{margin:'0 0 0'}}>About</WorksWrapTitle>
               <WorksWrapTitleUnder />
               <AboutText style={{padding:'50px 0 0'}}>
                 　1997年、大阪府に生まれる。小・中学校では放課後に野球やサッカー、バスケに明け暮れる活発的に日々を過ごす。

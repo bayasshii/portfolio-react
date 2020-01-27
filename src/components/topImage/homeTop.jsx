@@ -32,7 +32,7 @@ const HometopImage = styled.div`
   position: absolute;
   left: 0;
   top: 0;
-  width: 800px;
+  width: 950px;
   height: auto;
 `
 
@@ -72,7 +72,7 @@ class TopImage extends Component {
     <HometopWrap>
       <HometopRec/>
       <HometopImage>
-        <img alt="homeTop" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/topIlla.png"
+        <img alt="homeTop" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/topImage.png"
           style={{ width: '100%' , height: 'auto'}}
         />
       </HometopImage>
