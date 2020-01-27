@@ -498,7 +498,7 @@ class CoralContentsUX extends Component {
 
           </UXContetsWrap>
 
-          <UXContetsWrap style={{margin: '50px 0 50px 0'}}>
+          <UXContetsWrap style={{margin: '50px 0 20px 0'}}>
             <WorkText style={{padding: '0 0 50px'}}>
               <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　Mockup</CoralContentsUXSubTitle>
               今回はユーザー側の画面に絞ってモックアップのデザインを行いました。<WorkTextBold>ユーザーが検診を終えるまでに必要な最低限の機能のみ</WorkTextBold>を考えています。
