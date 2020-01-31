@@ -8,7 +8,7 @@ class Photos extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
+        <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/cahri5.jpg"
             title="初めて自転車で東京まで行ったとき(高3) @富士山"
@@ -18,7 +18,7 @@ class Photos extends Component {
             title="再び東京まで行ったとき(左の写真の3年後) @浜名湖"
           />
         </div>
-        <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
+        <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/chari3.jpg"
             title="特技は石で自転車を自立させることです @小浜"
@@ -28,7 +28,7 @@ class Photos extends Component {
             title="左後ろからのアングルも好きです @家島"
           />
         </div>
-        <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
+        <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baobabu.jpg"
             title="バオバブ with木林 @Morondava"
@@ -38,7 +38,7 @@ class Photos extends Component {
             title="朝から日が暮れるまで泳いだビーチ @NosyBe"
           />
         </div>
-        <div className="flex" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
+        <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 70px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/volley1.jpg"
             title="旅行にバレーボールを持って行くタイプです @沖縄"
