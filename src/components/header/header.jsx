@@ -23,7 +23,7 @@ class Header extends Component {
   render() {
     const Point1 = styled.div`
       position: absolute;
-      top: 620px;
+      top: 0;
       left: 0;
       width: 1px;
       height:1px;
@@ -31,7 +31,7 @@ class Header extends Component {
 
     const Point2 = styled.div`
       position: absolute;
-      top: 1820px;
+      top: 1800px;
       left: 0;
       width: 1px;
       height:1px;
@@ -39,7 +39,7 @@ class Header extends Component {
 
     const Point3 = styled.div`
       position: absolute;
-      top: 3620px;
+      top: 3600px;
       left: 0;
       width: 1px;
       height:1px;
@@ -61,7 +61,7 @@ class Header extends Component {
     return (
       <React.Fragment>
         <Header>
-          <AnchorLink href="#works" style={{padding:'0 30px 0 0'}}>Works</AnchorLink>
+          <AnchorLink href="#works" style={{padding:'0 30px 0 0'}}>Top</AnchorLink>
           <AnchorLink href="#about" style={{padding:'0 30px 0 0'}}>About</AnchorLink>
           <AnchorLink href="#photos">Photos</AnchorLink>
         </Header>
