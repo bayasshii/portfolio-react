@@ -14,11 +14,11 @@ const HometopRec = styled.div`
   left: 0;
   width: 100%;
   height: 600px;
-  max-width: 1300px;
+  max-width: 1500px;
   border-top: 300px solid ${color.mainYellow};
-  border-right: 650px solid transparent;
+  border-right: 750px solid transparent;
   border-bottom: 300px solid transparent;
-  border-left: 650px solid ${color.mainYellow};
+  border-left: 750px solid ${color.mainYellow};
   @media screen and (max-width: 1300px) {
     max-width: 1100px;
     border-top: 250px solid ${color.mainYellow};
@@ -54,7 +54,7 @@ const HometopImage = styled.div`
 const HometopContents = styled.div`
   position: relative;
   z-index: 10;
-  margin: 280px 0 0 -150px;
+  margin: 310px 0 0 -150px;
   @media screen and (max-width: 1300px) {
     margin: 280px 0 0 -200px;
   }
