@@ -23,7 +23,7 @@ class Header extends Component {
   render() {
     const Point1 = styled.div`
       position: absolute;
-      top: 700px;
+      top: 620px;
       left: 0;
       width: 1px;
       height:1px;
@@ -31,7 +31,7 @@ class Header extends Component {
 
     const Point2 = styled.div`
       position: absolute;
-      top: 1900px;
+      top: 1820px;
       left: 0;
       width: 1px;
       height:1px;
@@ -39,7 +39,7 @@ class Header extends Component {
 
     const Point3 = styled.div`
       position: absolute;
-      top: 3700px;
+      top: 3620px;
       left: 0;
       width: 1px;
       height:1px;
@@ -61,9 +61,9 @@ class Header extends Component {
     return (
       <React.Fragment>
         <Header>
-          <AnchorLink href="#works" style={{padding:'0 30px 0 0'}}>works</AnchorLink>
-          <AnchorLink href="#about" style={{padding:'0 30px 0 0'}}>about</AnchorLink>
-          <AnchorLink href="#photos">photos</AnchorLink>
+          <AnchorLink href="#works" style={{padding:'0 30px 0 0'}}>Works</AnchorLink>
+          <AnchorLink href="#about" style={{padding:'0 30px 0 0'}}>About</AnchorLink>
+          <AnchorLink href="#photos">Photos</AnchorLink>
         </Header>
         <div id="overFlowScrollArea" style={{position:'relative'}}>
           <Point1 id="works"/>
