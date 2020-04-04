@@ -12,24 +12,34 @@ const CoralContentsUXWrap = styled.div`
 const UXContetsWrap = styled.div`
   border-radius: 20px;
   background: #FFF;
-  padding: 40px;
+  padding: 30px 40px;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+  margin: 0 20px;
+  @media screen and (max-width: 767px) {
+    padding: 20px;
+  }
 `
 
 const TextWrap = styled.div`
-  width: 500px
+  width: 100%;
+  max-width: 480px;
 `
 
 const CoralContentsUXSubTitle = styled.div`
   font-size: 2.0rem;
-  font-weight: 600;
+  font-weight: 700;
+  padding: 0 0 20px;
+  @media screen and (max-width: 767px) {
+    padding: 10px 0 20px;
+  }
 `
 
 /* ターゲットコンポーネント */
 
 const TaegetGraphWrap = styled.div`
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 300px;
   margin: auto;
   position: relative;
 `
@@ -38,14 +48,15 @@ const TaegetGraphHori = styled.div`
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 400px;
-  height: 7px;
+  width: 100%;
+  max-width: 400px;
+  height: 8px;
   margin: auto;
   background: ${color.coralGreen};
 `
 
 const TaegetGraphVert = styled.div`
-  width: 7px;
+  width: 8px;
   height: 300px;
   margin: auto;
   background: ${color.coralGreen};
@@ -55,11 +66,11 @@ const TaegetGraphTargetArea = styled.div`
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 197px;
-  height: 147px;
+  width: calc(50% - 4px);
+  max-width: 197px;
+  height: 146px;
   margin: auto;
-  background: ${color.coralGreen};
-  opacity: 0.3;
+  background: #DEEFEF;
 `
 
 const TaegetGraphTextTop = styled.div`
@@ -90,11 +101,10 @@ const TaegetGraphTextLeft = styled.div`
 `
 
 const TaegetGraphMainText = styled.div`
-  position: absolute;
-  bottom: 66px;
-  right: 50px;
+  text-align: center;
   font-size: 2.0rem;
   font-weight: 600;
+  margin-top: 60px;
 `
 
 const TargetInfoWrap = styled.div`
@@ -121,6 +131,11 @@ const ProblemGraphItem = styled.div`
   border-radius: 10px;
   position: relative;
   margin: 0 0 30px 0;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+    padding: 8px;
+    line-height: 1.5rem
+  }
 `
 const ProblemGraphItemTop = styled.div`
   position: absolute;
@@ -136,18 +151,28 @@ const ProblemGraphItemTop = styled.div`
 const ProblemGraphItemLeft = styled(ProblemGraphItem)`
   width: 310px;
   font-size: 1.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
+
 
 const ProblemGraphItemRight = styled(ProblemGraphItem)`
   width: 100%;
   font-size: 1.5rem;
   margin-left: 10px;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 const ProblemGraphItemRightBottom = styled(ProblemGraphItem)`
   font-size: 1.17rem;
   background: #EA629F;
   margin-bottom: 0;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 /* プロブレムコンポーネント */
@@ -159,18 +184,18 @@ const UserStoryWrap = styled.div`
 `
 
 const UserStoryItem = styled.div`
-  width: 370px;
-  height: 370px
+  max-width: 400px;
   background: ${color.coralGreen};
   position: relative;
+  margin: 20px auto;
 `
 
 const UserStoryItemText = styled.div`
   font-size: 1.5rem;
+  line-height: 2rem;
   color: #fff;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
+  text-align: center;
+  margin: -20px 10px 20px;
 `
 
 /* ユーザーストーリーコンポーネント */
@@ -276,34 +301,33 @@ class CoralContentsUX extends Component {
         <CoralContentsUXWrap style={{padding: '0 0 50px 0'}}>
 
           <UXContetsWrap>
-            <div style={{display: 'flex'}}>
+            <div className='flex flex-wrap'>
               <TextWrap>
                 <WorkText style={{padding: '0 20px 0 0'}}>
-                  <CoralContentsUXSubTitle style={{padding: '0 0 20px'}}>１.　Target</CoralContentsUXSubTitle>
+                  <CoralContentsUXSubTitle>１.　Target</CoralContentsUXSubTitle>
                   　今回ターゲットにしたのは、<WorkTextBold>歯に対して今以上にお金をかけたいと思っているが定期的に歯医者に行かない人</WorkTextBold>です。<br/>
                   　公益社団法人日本歯科医師会の2016年の調査によると、日本人のうち、31%の人が年に一度以上、歯の定期検診を受けるようです。
                   一方で、歯の重要性を理解していて、歯に対して今以上にお金をかけたいと思っている人の割合は61%と、実際に定期検診を受けている人の割合よりも高い数値を示しています。
                   歯の重要性を理解しているにも関わらず、歯が痛くなる限界まで歯医者に行かないことには、何か問題があるのではないかと考えて、今回のデザインに挑戦しました。
                 </WorkText>
               </TextWrap>
-              <div style={{paddingTop: '60px'}}>
-                <TaegetGraphWrap>
-                  <TaegetGraphHori/>
-                  <TaegetGraphVert/>
-                  <TaegetGraphTargetArea/>
-                  <TaegetGraphTextTop>定期的に歯医者に行く</TaegetGraphTextTop>
-                  <TaegetGraphTextBottom>定期的に歯医者に行かない</TaegetGraphTextBottom>
-                  <TaegetGraphTextRight>歯に対してお金をかけたい</TaegetGraphTextRight>
-                  <TaegetGraphTextLeft>歯に対してお金をかけたくない</TaegetGraphTextLeft>
+              <TaegetGraphWrap>
+                <TaegetGraphHori/>
+                <TaegetGraphVert/>
+                <TaegetGraphTargetArea>
                   <TaegetGraphMainText>ターゲット</TaegetGraphMainText>
-                </TaegetGraphWrap>
-              </div>
+                </TaegetGraphTargetArea>
+                <TaegetGraphTextTop>定期的に歯医者に行く</TaegetGraphTextTop>
+                <TaegetGraphTextBottom>定期的に歯医者に行かない</TaegetGraphTextBottom>
+                <TaegetGraphTextRight>歯に対してお金をかけたい</TaegetGraphTextRight>
+                <TaegetGraphTextLeft>歯に対してお金をかけたくない</TaegetGraphTextLeft>
+              </TaegetGraphWrap>
             </div>
           </UXContetsWrap>
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 30px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>２.　Problems</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>２.　Problems</CoralContentsUXSubTitle>
               また今回は、デザイナーである私自身がこのターゲット層でもあるので、自分の意見も頼りにしてデザインを進めました。
               <WorkTextBold>なぜ歯に対して今以上にお金をかけたいと思っているのに定期的に歯医者に行かないのか、</WorkTextBold>その理由を自分の考えをもとに掘り下げた結果、以下のものが得られました。
             </WorkText>
@@ -325,7 +349,7 @@ class CoralContentsUX extends Component {
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 30px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>３.　Concept</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>３.　Concept</CoralContentsUXSubTitle>
               上記の根本の原因に共通する問題は、<WorkTextBold>歯医者に行くのが億劫になっている</WorkTextBold>ことだと思います。
               逆に、定期的に歯医者に行くための理想的な状態は、歯医者に行くことが億劫ではない状態です。さらにそれを言い換えると、理想は、<WorkTextBold>歯医者に行くのが気軽である</WorkTextBold>状態だと考えました。
             </WorkText>
@@ -351,7 +375,7 @@ class CoralContentsUX extends Component {
             </WorkText>
 
             <UserStoryWrap>
-              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
+              <div className="flex flex-center flex-wrap" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/SADwoman.jpg"
                     style={{ width: '100%' }}
@@ -360,7 +384,7 @@ class CoralContentsUX extends Component {
                     １. 歯科検診行きたいけど、いろいろ億劫だなぁ...
                   </UserStoryItemText>
                 </UserStoryItem>
-                <UserStoryItem style={{ margin: '0 0 0 20px'}}>
+                <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E7%99%BB%E5%A0%B4.jpg"
                     style={{ width: '100%' }}
                   />
@@ -368,8 +392,6 @@ class CoralContentsUX extends Component {
                     ２. 歯科検診ができるアプリ発見！試してみよう！
                   </UserStoryItemText>
                 </UserStoryItem>
-              </div>
-              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/zido.jpg"
                     style={{ width: '100%' }}
@@ -378,7 +400,7 @@ class CoralContentsUX extends Component {
                     ３.　口内を撮影して、歯医者に送信！めちゃ気軽！
                   </UserStoryItemText>
                 </UserStoryItem>
-                <UserStoryItem style={{ margin: '0 0 0 20px'}}>
+                <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/last.jpg"
                     style={{ width: '100%' }}
                   />
@@ -392,7 +414,7 @@ class CoralContentsUX extends Component {
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 10px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>４.　UX Detail</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>４.　UX Detail</CoralContentsUXSubTitle>
               アプリのユーザー体験の詳細を考える上で悩んだことは、<WorkTextBold>ユーザーはどのようにして歯医者から検診のフィードバックを受けるのか</WorkTextBold>です。
               そのアイデアとして以下の３案を考えてそれぞれの特徴を分類した上で、どのアイデアを採用するかを決めました。
             </WorkText>
@@ -500,7 +522,7 @@ class CoralContentsUX extends Component {
 
           <UXContetsWrap style={{margin: '50px 0 20px 0'}}>
             <WorkText style={{padding: '0 0 50px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　Mockup</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>５.　Mockup</CoralContentsUXSubTitle>
               今回はユーザー側の画面に絞ってモックアップのデザインを行いました。<WorkTextBold>ユーザーが検診を終えるまでに必要な最低限の機能のみ</WorkTextBold>を考えています。
             </WorkText>
 

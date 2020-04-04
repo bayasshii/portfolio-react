@@ -33,22 +33,22 @@ class CoralContents extends Component {
         >
           <WorkWrap style={{padding: '0 0 100px'}}>
             <WorkTitle
-              style={{padding: '70px 0 20px'}}
+              style={{padding: '50px 0 20px'}}
             >
-              <span style={{fontSize: '4.0rem'}}>オンライン歯科検診アプリ</span> - Coral -
+              <span>オンライン歯科検診アプリ</span> - Coral -
             </WorkTitle>
             <WorkSubTitle style={{padding: '0 0 40px'}}>
               UX & UI Design / Business Design
             </WorkSubTitle>
 
-            <div className="flex">
-              <OthersDerails>課外活動</OthersDerails>
+            <div className="flex flex-wrap">
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>課外活動</OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 20px'}}>個人ワーク</OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 20px'}}>期間：1month / 2019.12 ~ 2020.01(修士1年)</OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 20px'}}>使用ツール：Sketch / Illustrator / Photoshop</OthersDerails>
             </div>
 
-            <WorkText style={{padding: '60px 0 50px'}}>
+            <WorkText style={{padding: '40px 20px 40px'}}>
               オンライン歯科検診アプリCoralは、<WorkTextBold>歯科医と患者を繋ぐヘルスケアアプリ</WorkTextBold>です。
               大学の授業でグループで考えたアイデアを元に、アプリデザインのトレーニングとしてターゲットの定義からモックアップのデザインまで、一から個人で取り組み直しました。
             </WorkText>

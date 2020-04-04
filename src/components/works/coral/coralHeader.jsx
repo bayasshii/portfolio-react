@@ -15,11 +15,24 @@ const CoralHeaderLogoImage = styled.div`
   position: absolute;
   top: 270px;
   right: 80px;
+  @media screen and (max-width: 767px) {
+    width: 130px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    top: auto;
+  }
 `;
 
 const CoralHeaderDesignImage = styled.div`
   width: calc(100% - 200px);
-  height: 300px
+  height: 300px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    & img {
+      height: 300px;
+    }
+  }
 `;
 
 

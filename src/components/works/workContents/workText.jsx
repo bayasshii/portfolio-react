@@ -4,6 +4,10 @@ const WorkText = styled.div`
   font-size: 1.5rem;
   line-height: 3.5rem;
   font-weight: 400;
+  @media screen and (max-width: 767px) {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
 `;
 
 export default WorkText;
