@@ -23,14 +23,14 @@ const HometopRec = styled.div`
   border-right: 700px solid transparent;
   border-bottom: 380px solid transparent;
   border-left: 700px solid ${color.mainYellow};
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 }
 `
 
 const HometopRec2 = styled.div`
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     position: absolute;
     left: 0;
     width: 100%;
@@ -58,8 +58,8 @@ const HometopContents = styled.div`
   position: relative;
   z-index: 10;
   margin: 310px 0 0 -150px;
-  @media screen and (max-width: 767px) {
-    margin: 20px 0 30px;
+  @media screen and (max-width: 1000px) {
+    margin: 20px 0 40px;
     margin-left: auto;
     padding: 0 20px;
     text-align: right;
