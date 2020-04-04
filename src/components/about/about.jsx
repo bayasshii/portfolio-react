@@ -40,6 +40,7 @@ class About extends Component {
       <React.Fragment>
         <div style={{position: 'relative', zIndex: '1',padding: '0 0 0'}}>
           {/*<TopImage/>*/}
+          {/*
           <div style={{background: '#fafafa', padding:'0 0 100px'}}>
             <div style={{width:'1000px', margin:'0 auto 0'}}>
               <WorksWrapTitle style={{margin:'0 0 0'}}>About</WorksWrapTitle>
@@ -62,6 +63,8 @@ class About extends Component {
               </AboutText>
             </div>
           </div>
+          */}
+          
           {/*
           <Mission/>
           */}

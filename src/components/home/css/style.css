@@ -2,7 +2,8 @@
 .mySkill {
   display: block;
   padding: 30px 20px 20px;
-  width: 300px;
+  margin: 0 auto 40px;
+  max-width: 300px;
   border-top: 12px solid #00bfa5;
   -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
