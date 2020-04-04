@@ -13,7 +13,7 @@ class App extends Component {
         <Helmet
           title={'portfolio'}
           meta={[
-            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:card', content: 'summary_large_image' },
             { property: 'og:image', content: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolioForTwitter.jpg' },
             { property: 'og:title', content: 'きばやしのポートフォリオ' },
             { property: 'og:description', content: '学生時代に作った作品を掲載しています' },
