@@ -5,20 +5,26 @@ import * as color from "../../css/color.js"
 
 const HometopWrap = styled.div`
   position: relative;
-  height: 600px;
-  background: ${color.background}
+  height: 760px;
+  background: ${color.background};
+  @media screen and (max-width: 1300px) {
+    height: 500px
+  }
+  @media screen and (max-width: 1000px) {
+    height: 400px
+  }
 `
 
 const HometopRec = styled.div`
   position: absolute;
   left: 0;
   width: 100%;
-  height: 600px;
-  max-width: 1500px;
-  border-top: 300px solid ${color.mainYellow};
-  border-right: 750px solid transparent;
-  border-bottom: 300px solid transparent;
-  border-left: 750px solid ${color.mainYellow};
+  height: 760px;
+  max-width: 1400px;
+  border-top: 380px solid ${color.mainYellow};
+  border-right: 700px solid transparent;
+  border-bottom: 380px solid transparent;
+  border-left: 700px solid ${color.mainYellow};
   @media screen and (max-width: 1300px) {
     max-width: 1100px;
     border-top: 250px solid ${color.mainYellow};
@@ -41,7 +47,7 @@ const HometopRec = styled.div`
 const HometopImage = styled.div`
   position: relative;
   z-index: 10;
-  width: 950px;
+  width: 1100px;
   height: auto;
   @media screen and (max-width: 1300px) {
     width: 800px
