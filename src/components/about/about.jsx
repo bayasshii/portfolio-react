@@ -76,9 +76,9 @@ class About extends Component {
             </div>
           </div>
 
-          <div className="flex" style={{padding: '50px 0 100px', background: '#fafafa'}}>
+          <div className="flex" style={{padding: '0 0 100px', background: '#fafafa'}}>
             <div className="width">
-              <WorksWrapTitle　style={{padding: '50px 0 0'}}>Photo Gallery</WorksWrapTitle>
+              <WorksWrapTitle　style={{padding: '0 0 0'}}>Photo Gallery</WorksWrapTitle>
               <WorksWrapTitleUnder/>
               <Photos/>
             </div>

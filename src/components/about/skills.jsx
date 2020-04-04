@@ -26,7 +26,7 @@ class Skills extends Component {
       <div className="mySkills">
         <WorksWrapTitle>Skills</WorksWrapTitle>
         <WorksWrapTitleUnder/>
-        <ul className="flex flex-wrap" style={{padding:'50px 0',justifyContent: 'space-between'}}>
+        <ul className="flex flex-wrap" style={{padding:'50px 0 0',justifyContent: 'space-between'}}>
           <li className="mySkill designSkill">
             <div className="mySkill__title">Web Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/display.svg" /></div>

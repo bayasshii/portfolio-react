@@ -32,6 +32,9 @@ const TextWrapTitle = styled.div`
   font-size: 2.5rem;
   padding-bottom: 20px;
   font-weight: 600;
+  @media screen and (max-width: 767px) {
+    font-size: 2rem
+  }
 `;
 
 const TextWrapSubTitle = styled.div`

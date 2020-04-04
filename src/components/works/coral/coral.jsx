@@ -36,6 +36,12 @@ const TextWrapTitle = styled.div`
   & span {
     font-size: 2.5rem;
   }
+  @media screen and (max-width: 767px) {
+    font-size: 1.6rem
+    & span {
+      font-size: 1.8rem;
+    }
+  }
 `;
 
 const TextWrapSubTitle = styled.div`
