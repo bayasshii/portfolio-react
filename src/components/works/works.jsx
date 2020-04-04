@@ -49,7 +49,7 @@ class Works extends Component {
     return (
       <React.Fragment>
         <WorkBackground>
-          <WorksWrap style={{padding:'70px 0 0'}}>
+          <WorksWrap style={{padding:'0 0 0'}}>
             <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding: '60px 0'}}>
               <Work
                 to="./coral"
