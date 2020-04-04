@@ -41,8 +41,6 @@ class Skills extends Component {
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/boronoi.svg" /></div>
             <div className="mySkill__text">　現在の私の専攻です。RhionocerosをPythonで動かしたり、Processingを用いたりしてデザインを行います。プログラミングによって、より合理的で有機的なデザインができるように勉強しています。</div>
           </li>
-        </ul>
-        <ul className="flex flex-wrap" style={{justifyContent: 'space-between'}}>
           <li className="mySkill programmingSkill">
             <div className="mySkill__title">Coding</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/keyboard.svg" /></div>

@@ -11,12 +11,12 @@ class App extends Component {
     return (
       <React.Fragment>
         <Helmet
-          title={'きばやしのポートフォリオ'}
+          title={'portfolio'}
           meta={[
             { name: 'twitter:card', content: 'summary' },
             { property: 'og:image', content: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolioForTwitter.jpg' },
             { property: 'og:title', content: 'きばやしのポートフォリオ' },
-            { property: 'og:description', '学生時代に作った作品を載せています' },
+            { property: 'og:description', content: '学生時代に作った作品を掲載しています' },
             { property: 'og:url', content: 'https://kibachan.com' }
           ]}
         />

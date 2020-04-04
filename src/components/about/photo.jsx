@@ -3,15 +3,21 @@ import styled from 'styled-components'
 import * as color from "../../css/color.js"
 
 const PhotosWrap = styled.div`
-  width: 480px;
-  height: 320px
+  width: calc(100% - 40px);
+  max-width: 480px;
+  height: auto;
+  margin: auto;
   position: relative;
+  padding: 0 0 60px 0;
+  :nth-child(2n+1){
+    padding: 0 0 60px 0;
+  }
 `;
 
 
 const PhotosTitle = styled.div`
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: ${color.baseText__thin}
   padding: 10px 0 0
 `;
