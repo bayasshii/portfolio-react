@@ -7,6 +7,7 @@ const HometopWrap = styled.div`
   position: relative;
   background: ${color.background};
   height: 760px;
+  width: 100%;
   @media screen and (max-width: 767px) {
     height:auto;
   }
@@ -23,12 +24,19 @@ const HometopRec = styled.div`
   border-bottom: 380px solid transparent;
   border-left: 700px solid ${color.mainYellow};
   @media screen and (max-width: 767px) {
-    max-width: 800px;
-    border-top: 125px solid ${color.mainYellow};
-    border-right: 250px solid transparent;
-    border-bottom: 125px solid transparent;
-    border-left: 250px solid ${color.mainYellow};
-    height: 200px
+    display: none;
+  }
+}
+`
+
+const HometopRec2 = styled.div`
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    max-width: 1400px;
+    background: ${color.mainYellow};
   }
 }
 `
@@ -82,6 +90,7 @@ class TopImage extends Component {
     return (
     <HometopWrap>
       <HometopRec/>
+      <HometopRec2/>
       <div className="flex flex-wrap">
         <HometopImage>
           <img alt="homeTop" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/topImage.png"
