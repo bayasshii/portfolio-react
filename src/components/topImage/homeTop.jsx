@@ -59,7 +59,7 @@ const HometopContents = styled.div`
   z-index: 10;
   margin: 310px 0 0 -150px;
   @media screen and (max-width: 767px) {
-    margin: 40px 0 0;
+    margin: 20px 0 30px;
     margin-left: auto;
     padding: 0 20px;
     text-align: right;
@@ -69,8 +69,10 @@ const HometopContents = styled.div`
 const HometopText = styled.div`
   font-size: 3rem;
   color: ${color.mainBlue};
+  padding: 30px 0 0;
   @media screen and (max-width: 767px) {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    padding: 10px 0 0;
   }
 `
 
@@ -80,8 +82,10 @@ const HometopMainText = styled.span`
   color: ${color.mainBlue};
   background: linear-gradient(transparent 80%, ${color.mainYellow} 20%);
   display: inline-block;
+  padding: 20px 0 0;
   @media screen and (max-width: 767px) {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding: 10px 0 0;
   }
 `
 
@@ -99,9 +103,9 @@ class TopImage extends Component {
         </HometopImage>
         <HometopContents>
           <HometopText>I'm Masaya Kibayashi,</HometopText>
-          <div><HometopMainText style={{paddingTop: '30px'}}>UI/UX Designer,</HometopMainText></div>
-          <HometopText style={{paddingTop: '40px'}}>Engineer, Marketer, Architect,</HometopText>
-          <HometopText style={{paddingTop: '30px'}}>& More !</HometopText>
+          <div><HometopMainText>UI/UX Designer,</HometopMainText></div>
+          <HometopText>Engineer, Marketer, Architect,</HometopText>
+          <HometopText>& More !</HometopText>
         </HometopContents>
       </div>
     </HometopWrap>
