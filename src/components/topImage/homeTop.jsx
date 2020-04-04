@@ -5,13 +5,10 @@ import * as color from "../../css/color.js"
 
 const HometopWrap = styled.div`
   position: relative;
-  height: 760px;
   background: ${color.background};
-  @media screen and (max-width: 1300px) {
-    height: 500px
-  }
-  @media screen and (max-width: 1000px) {
-    height: 400px
+  height: 760px;
+  @media screen and (max-width: 767px) {
+    height:auto;
   }
 `
 
@@ -19,27 +16,19 @@ const HometopRec = styled.div`
   position: absolute;
   left: 0;
   width: 100%;
-  height: 760px;
+  height: 360px;
   max-width: 1400px;
   border-top: 380px solid ${color.mainYellow};
   border-right: 700px solid transparent;
   border-bottom: 380px solid transparent;
   border-left: 700px solid ${color.mainYellow};
-  @media screen and (max-width: 1300px) {
-    max-width: 1100px;
-    border-top: 250px solid ${color.mainYellow};
-    border-right: 550px solid transparent;
-    border-bottom: 250px solid transparent;
-    border-left: 550px solid ${color.mainYellow};
-    height: 500px
-  }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 767px) {
     max-width: 800px;
-    border-top: 200px solid ${color.mainYellow};
-    border-right: 400px solid transparent;
-    border-bottom: 200px solid transparent;
-    border-left: 400px solid ${color.mainYellow};
-    height: 400px
+    border-top: 125px solid ${color.mainYellow};
+    border-right: 250px solid transparent;
+    border-bottom: 125px solid transparent;
+    border-left: 250px solid ${color.mainYellow};
+    height: 200px
   }
 }
 `
@@ -61,20 +50,20 @@ const HometopContents = styled.div`
   position: relative;
   z-index: 10;
   margin: 310px 0 0 -150px;
-  @media screen and (max-width: 1300px) {
-    margin: 280px 0 0 -200px;
-  }
-  @media screen and (max-width: 1000px) {
-    margin: 210px 0 0 -200px;
-  }
-  @media screen and (max-width: 850px) {
-    margin: 0 0 0 300px;
+  @media screen and (max-width: 767px) {
+    margin: 40px 0 0;
+    margin-left: auto;
+    padding: 0 20px;
+    text-align: right;
   }
 `
 
 const HometopText = styled.div`
   font-size: 3rem;
   color: ${color.mainBlue};
+  @media screen and (max-width: 767px) {
+    font-size: 2rem;
+  }
 `
 
 const HometopMainText = styled.span`
@@ -83,6 +72,9 @@ const HometopMainText = styled.span`
   color: ${color.mainBlue};
   background: linear-gradient(transparent 80%, ${color.mainYellow} 20%);
   display: inline-block;
+  @media screen and (max-width: 767px) {
+    font-size: 3rem;
+  }
 `
 
 class TopImage extends Component {

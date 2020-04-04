@@ -7,7 +7,7 @@ const FooterWrap = styled.div`
   width: 100%;
   margin: auto;
   text-align: right;
-  z-index: 3;
+  z-index: 1;
   font-size: 3rem;
   padding: 0 6% 70px 0
   @media screen and (max-width: 767px) {
@@ -19,7 +19,7 @@ const FooterWrap = styled.div`
 
 const FooterMenu = styled.div`
   position: inherit;
-  z-index: 3;
+  z-index: 1;
   & ul {
     margin-left: auto;
     padding-bottom: 40px;
@@ -35,7 +35,7 @@ const FooterReseave = styled.div`
   position: inherit;
   font-size: 2rem;
   color: ${color.mainBlue};
-  z-index: 3;
+  z-index: 1;
   @media screen and (max-width: 767px) {
     font-size: 1.2rem;
     padding-bottom: 20px;

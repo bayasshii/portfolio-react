@@ -10,13 +10,14 @@ const WorksWrapTitle = styled.div`
   font-size: 3.0rem;
   color: ${color.mainYellow};
   font-weight: 600;
+  padding: 0 0 0 20px;
 `;
 
 const WorksWrapTitleUnder = styled.div`
   width: 60px;
   height: 3px;
-  margin-top: 20px;
   background: ${color.mainYellow};
+  margin: 20px 0 0 20px;
 `;
 
 class Skills extends Component {
