@@ -20,7 +20,11 @@
     height: 80px; }
   .mySkill .mySkill__text {
     font-size: 14px;
-    line-height: 25px; }
+    line-height: 25px;
+    @media screen and (max-width: 767px) {
+      font-size: 11px;
+    }
+  }
 
 .directionSkill {
   border-top: 12px solid #3C379E; }
