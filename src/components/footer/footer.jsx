@@ -11,9 +11,9 @@ const FooterWrap = styled.div`
   font-size: 3rem;
   padding: 0 6% 70px 0
   @media screen and (max-width: 767px) {
-    width: 100%;
     padding: 0 20px;
     text-align: center;
+    font-size: 1.4rem;
   }
 `
 
@@ -24,6 +24,10 @@ const FooterMenu = styled.div`
     margin-left: auto;
     padding-bottom: 40px;
     font-weight: 600
+    @media screen and (max-width: 767px) {
+      margin: auto;
+      padding-bottom: 20px;
+    }
   }
 `
 
@@ -33,7 +37,8 @@ const FooterReseave = styled.div`
   color: ${color.mainBlue};
   z-index: 3;
   @media screen and (max-width: 767px) {
-    display: none;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
   }
 `
 
@@ -49,6 +54,10 @@ const FooterRec = styled.div`
   border-right: 650px solid ${color.mainYellow};
   border-bottom: 200px solid ${color.mainYellow};
   border-left: 650px solid transparent;
+  @media screen and (max-width: 767px) {
+    border: none;
+    background: ${color.mainYellow};
+    height: 100px;
 }
 `
 
@@ -56,7 +65,7 @@ class Footer extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{position:'relative',background: '#fafafa',}}>
+        <div style={{position:'relative',background: '#fafafa'}}>
           <FooterRec/>
           <FooterWrap>
             <FooterMenu className="flex">
