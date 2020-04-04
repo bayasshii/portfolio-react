@@ -20,13 +20,14 @@ const WorksWrapTitle = styled.div`
   font-size: 3.0rem;
   color: ${color.mainYellow};
   font-weight: 600;
+  margin: 0 0 0 20px;
 `;
 
 const WorksWrapTitleUnder = styled.div`
   width: 50px;
   height: 3px;
-  margin-top: 20px;
   background: ${color.mainYellow};
+  margin: 20px 0 40px 20px;
 `;
 
 class About extends Component {
@@ -64,7 +65,7 @@ class About extends Component {
             </div>
           </div>
           */}
-          
+
           {/*
           <Mission/>
           */}
@@ -75,10 +76,10 @@ class About extends Component {
             </div>
           </div>
 
-          <div className="flex" style={{padding: '50px 0 150px', background: '#fafafa'}}>
+          <div className="flex" style={{padding: '50px 0 100px', background: '#fafafa'}}>
             <div className="width">
               <WorksWrapTitle　style={{padding: '50px 0 0'}}>Photo Gallery</WorksWrapTitle>
-              <WorksWrapTitleUnder style={{margin: '20px 0 50px'}}/>
+              <WorksWrapTitleUnder/>
               <Photos/>
             </div>
           </div>

@@ -23,6 +23,7 @@ const PhotosTitle = styled.div`
 `;
 
 const PhotoModal = styled.div`
+  z-index: 10000000000;
 `;
 
 const PhotoModalBack = styled.div`
@@ -88,7 +89,7 @@ class Photo extends Component {
             onClick={this.handleClickFunction}
           />
         </PhotosWrap>
-        {this.state.toggle &&
+        {/*this.state.toggle &&
           <React.Fragment>
             <PhotoModalBack
               onClick={this.handleClickFunction}
@@ -112,7 +113,7 @@ class Photo extends Component {
               />
             </PhotoModal>
           </React.Fragment>
-        }
+        */}
       </React.Fragment>
     );
   }
