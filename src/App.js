@@ -17,7 +17,7 @@ class App extends Component {
             { property: 'og:image', content: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolioForTwitter.jpg' },
             { property: 'og:title', content: 'きばやしのポートフォリオ' },
             { property: 'og:description', content: '学生時代に作った作品を掲載しています' },
-            { property: 'og:url', content: 'https://kibachan.com' }
+            { property: 'og:url', content: 'https://www.kibachan.com' }
           ]}
         />
         <main>
