@@ -12,24 +12,34 @@ const CoralContentsUXWrap = styled.div`
 const UXContetsWrap = styled.div`
   border-radius: 20px;
   background: #FFF;
-  padding: 40px;
+  padding: 30px 40px;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+  margin: 0 20px;
+  @media screen and (max-width: 767px) {
+    padding: 20px;
+  }
 `
 
 const TextWrap = styled.div`
-  width: 500px
+  width: 100%;
+  max-width: 480px;
 `
 
 const CoralContentsUXSubTitle = styled.div`
   font-size: 2.0rem;
-  font-weight: 600;
+  font-weight: 700;
+  padding: 0 0 20px;
+  @media screen and (max-width: 767px) {
+    padding: 10px 0 20px;
+  }
 `
 
 /* ターゲットコンポーネント */
 
 const TaegetGraphWrap = styled.div`
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 300px;
   margin: auto;
   position: relative;
 `
@@ -38,14 +48,15 @@ const TaegetGraphHori = styled.div`
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 400px;
-  height: 7px;
+  width: 100%;
+  max-width: 400px;
+  height: 8px;
   margin: auto;
   background: ${color.coralGreen};
 `
 
 const TaegetGraphVert = styled.div`
-  width: 7px;
+  width: 8px;
   height: 300px;
   margin: auto;
   background: ${color.coralGreen};
@@ -55,11 +66,11 @@ const TaegetGraphTargetArea = styled.div`
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 197px;
-  height: 147px;
+  width: calc(50% - 4px);
+  max-width: 197px;
+  height: 146px;
   margin: auto;
-  background: ${color.coralGreen};
-  opacity: 0.3;
+  background: #DEEFEF;
 `
 
 const TaegetGraphTextTop = styled.div`
@@ -90,11 +101,10 @@ const TaegetGraphTextLeft = styled.div`
 `
 
 const TaegetGraphMainText = styled.div`
-  position: absolute;
-  bottom: 66px;
-  right: 50px;
+  text-align: center;
   font-size: 2.0rem;
   font-weight: 600;
+  margin-top: 60px;
 `
 
 const TargetInfoWrap = styled.div`
@@ -121,6 +131,11 @@ const ProblemGraphItem = styled.div`
   border-radius: 10px;
   position: relative;
   margin: 0 0 30px 0;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+    padding: 8px;
+    line-height: 1.5rem
+  }
 `
 const ProblemGraphItemTop = styled.div`
   position: absolute;
@@ -136,18 +151,28 @@ const ProblemGraphItemTop = styled.div`
 const ProblemGraphItemLeft = styled(ProblemGraphItem)`
   width: 310px;
   font-size: 1.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
+
 
 const ProblemGraphItemRight = styled(ProblemGraphItem)`
   width: 100%;
   font-size: 1.5rem;
   margin-left: 10px;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 const ProblemGraphItemRightBottom = styled(ProblemGraphItem)`
   font-size: 1.17rem;
   background: #EA629F;
   margin-bottom: 0;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 /* プロブレムコンポーネント */
@@ -159,18 +184,18 @@ const UserStoryWrap = styled.div`
 `
 
 const UserStoryItem = styled.div`
-  width: 370px;
-  height: 370px
+  max-width: 400px;
   background: ${color.coralGreen};
   position: relative;
+  margin: 20px auto;
 `
 
 const UserStoryItemText = styled.div`
   font-size: 1.5rem;
+  line-height: 2rem;
   color: #fff;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
+  text-align: center;
+  margin: -20px 10px 20px;
 `
 
 /* ユーザーストーリーコンポーネント */
@@ -182,8 +207,7 @@ const UXDetailWrap = styled.div`
 `
 
 const UXDetailItem = styled.div`
-  width: 270px;
-  height: 270px;
+  max-width: 270px;
   background: ${color.coralGreen};
 `
 
@@ -191,6 +215,9 @@ const UXDetailItemText = styled.div`
   width: 270px;
   text-align: center;
   font-size: 1.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 const UXDetailItemTextTitle = styled.div`
@@ -200,6 +227,9 @@ const UXDetailItemTextTitle = styled.div`
 
 const UXDetailItemTextContents = styled.span`
   font-size: 1.8rem
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 const UXDetailItemTextBlue = styled(UXDetailItemText)`
@@ -231,7 +261,7 @@ const CoralContentsBusinnesModelArrowToRight = styled.div`
 
 const WorkHeadingCoral = styled.div`
   font-size: 1.5rem;
-  line-height:3.0rem;
+  line-height: 3.0rem;
   font-weight: 600;
   &::before {
     content:  '';
@@ -244,15 +274,24 @@ const WorkHeadingCoral = styled.div`
   }
 `;
 
-const UIItemText = styled.div`
+const UIItemTextWrap = styled.div`
+  min-width: 130px;
   width: 21%;
+  margin-bottom: 20px;
+`
+
+const UIItemText = styled.div`
   text-align: center;
   font-size: 1.5rem;
-  color: ${color.coralGreen}
+  color: ${color.coralGreen};
+  padding-bottom: 10px;
 `
 
 const UIItemTextContents = styled.div`
   font-size: 1.5rem
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 const UIlItemTextBlue = styled(UIItemText)`
@@ -261,11 +300,39 @@ const UIlItemTextBlue = styled(UIItemText)`
 `
 
 const UIItemTextHeader = styled.div`
-  width: 40%;
+  width: 50%;
   text-align: center;
   font-size: 1.5rem;
   color: ${color.coralGreen};
 `
+
+const KodawariWrap = styled.div`
+  margin: 50px 0 30px 10px;
+  font-weight: 600;
+  @media screen and (max-width: 767px) {
+    margin: 0 0 20px;
+  }
+`
+const KodawariTitle = styled.div`
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+  }
+`
+
+const KodawariSubTitle = styled.div`
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 10px 0 0;
+  color: ${color.baseText__thin};
+  @media screen and (max-width: 767px) {
+    padding: 0;
+    font-size: 1.3rem;
+  }
+`
+
+
 
 /* UIコンポーネント */
 
@@ -273,37 +340,36 @@ class CoralContentsUX extends Component {
   render() {
     return (
       <React.Fragment>
-        <CoralContentsUXWrap style={{padding: '0 0 50px 0'}}>
+        <CoralContentsUXWrap style={{padding: '0 0 30px 0'}}>
 
           <UXContetsWrap>
-            <div style={{display: 'flex'}}>
+            <div className='flex flex-wrap'>
               <TextWrap>
                 <WorkText style={{padding: '0 20px 0 0'}}>
-                  <CoralContentsUXSubTitle style={{padding: '0 0 20px'}}>１.　Target</CoralContentsUXSubTitle>
+                  <CoralContentsUXSubTitle>１.　Target</CoralContentsUXSubTitle>
                   　今回ターゲットにしたのは、<WorkTextBold>歯に対して今以上にお金をかけたいと思っているが定期的に歯医者に行かない人</WorkTextBold>です。<br/>
                   　公益社団法人日本歯科医師会の2016年の調査によると、日本人のうち、31%の人が年に一度以上、歯の定期検診を受けるようです。
                   一方で、歯の重要性を理解していて、歯に対して今以上にお金をかけたいと思っている人の割合は61%と、実際に定期検診を受けている人の割合よりも高い数値を示しています。
                   歯の重要性を理解しているにも関わらず、歯が痛くなる限界まで歯医者に行かないことには、何か問題があるのではないかと考えて、今回のデザインに挑戦しました。
                 </WorkText>
               </TextWrap>
-              <div style={{paddingTop: '60px'}}>
-                <TaegetGraphWrap>
-                  <TaegetGraphHori/>
-                  <TaegetGraphVert/>
-                  <TaegetGraphTargetArea/>
-                  <TaegetGraphTextTop>定期的に歯医者に行く</TaegetGraphTextTop>
-                  <TaegetGraphTextBottom>定期的に歯医者に行かない</TaegetGraphTextBottom>
-                  <TaegetGraphTextRight>歯に対してお金をかけたい</TaegetGraphTextRight>
-                  <TaegetGraphTextLeft>歯に対してお金をかけたくない</TaegetGraphTextLeft>
+              <TaegetGraphWrap>
+                <TaegetGraphHori/>
+                <TaegetGraphVert/>
+                <TaegetGraphTargetArea>
                   <TaegetGraphMainText>ターゲット</TaegetGraphMainText>
-                </TaegetGraphWrap>
-              </div>
+                </TaegetGraphTargetArea>
+                <TaegetGraphTextTop>定期的に歯医者に行く</TaegetGraphTextTop>
+                <TaegetGraphTextBottom>定期的に歯医者に行かない</TaegetGraphTextBottom>
+                <TaegetGraphTextRight>歯に対してお金をかけたい</TaegetGraphTextRight>
+                <TaegetGraphTextLeft>歯に対してお金をかけたくない</TaegetGraphTextLeft>
+              </TaegetGraphWrap>
             </div>
           </UXContetsWrap>
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 30px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>２.　Problems</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>２.　Problems</CoralContentsUXSubTitle>
               また今回は、デザイナーである私自身がこのターゲット層でもあるので、自分の意見も頼りにしてデザインを進めました。
               <WorkTextBold>なぜ歯に対して今以上にお金をかけたいと思っているのに定期的に歯医者に行かないのか、</WorkTextBold>その理由を自分の考えをもとに掘り下げた結果、以下のものが得られました。
             </WorkText>
@@ -325,7 +391,7 @@ class CoralContentsUX extends Component {
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 30px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>３.　Concept</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>３.　Concept</CoralContentsUXSubTitle>
               上記の根本の原因に共通する問題は、<WorkTextBold>歯医者に行くのが億劫になっている</WorkTextBold>ことだと思います。
               逆に、定期的に歯医者に行くための理想的な状態は、歯医者に行くことが億劫ではない状態です。さらにそれを言い換えると、理想は、<WorkTextBold>歯医者に行くのが気軽である</WorkTextBold>状態だと考えました。
             </WorkText>
@@ -351,7 +417,7 @@ class CoralContentsUX extends Component {
             </WorkText>
 
             <UserStoryWrap>
-              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
+              <div className="flex flex-center flex-wrap" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/SADwoman.jpg"
                     style={{ width: '100%' }}
@@ -360,7 +426,7 @@ class CoralContentsUX extends Component {
                     １. 歯科検診行きたいけど、いろいろ億劫だなぁ...
                   </UserStoryItemText>
                 </UserStoryItem>
-                <UserStoryItem style={{ margin: '0 0 0 20px'}}>
+                <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral%E7%99%BB%E5%A0%B4.jpg"
                     style={{ width: '100%' }}
                   />
@@ -368,8 +434,6 @@ class CoralContentsUX extends Component {
                     ２. 歯科検診ができるアプリ発見！試してみよう！
                   </UserStoryItemText>
                 </UserStoryItem>
-              </div>
-              <div className="flex flex-center" style={{ margin: '0 0 20px'}}>
                 <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/zido.jpg"
                     style={{ width: '100%' }}
@@ -378,7 +442,7 @@ class CoralContentsUX extends Component {
                     ３.　口内を撮影して、歯医者に送信！めちゃ気軽！
                   </UserStoryItemText>
                 </UserStoryItem>
-                <UserStoryItem style={{ margin: '0 0 0 20px'}}>
+                <UserStoryItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/last.jpg"
                     style={{ width: '100%' }}
                   />
@@ -392,7 +456,7 @@ class CoralContentsUX extends Component {
 
           <UXContetsWrap style={{marginTop: '50px'}}>
             <WorkText style={{padding: '0 0 10px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>４.　UX Detail</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>４.　UX Detail</CoralContentsUXSubTitle>
               アプリのユーザー体験の詳細を考える上で悩んだことは、<WorkTextBold>ユーザーはどのようにして歯医者から検診のフィードバックを受けるのか</WorkTextBold>です。
               そのアイデアとして以下の３案を考えてそれぞれの特徴を分類した上で、どのアイデアを採用するかを決めました。
             </WorkText>
@@ -402,12 +466,12 @@ class CoralContentsUX extends Component {
                 <UXDetailItemText><UXDetailItemTextTitle>B案</UXDetailItemTextTitle></UXDetailItemText>
                 <UXDetailItemText><UXDetailItemTextTitle>C案</UXDetailItemTextTitle></UXDetailItemText>
               </div>
-              <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 20px'}}>
+              <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 10px'}}>
                 <UXDetailItemText>リアルタイムでオンライン検診</UXDetailItemText>
                 <UXDetailItemText>検診結果を後日に動画で確認</UXDetailItemText>
                 <UXDetailItemText>検診結果を後日に文章で確認</UXDetailItemText>
               </div>
-              <div className="flex" style={{justifyContent: 'space-between' , margin: '0 0 20px'}}>
+              <div className="flex" style={{justifyContent: 'space-between' , margin: '0 0 10px'}}>
                 <UXDetailItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__realtime.jpg"
                     style={{ width: '100%' }}
@@ -498,58 +562,58 @@ class CoralContentsUX extends Component {
 
           </UXContetsWrap>
 
-          <UXContetsWrap style={{margin: '50px 0 20px 0'}}>
+          <UXContetsWrap style={{margin: '50px 20px 20px'}}>
             <WorkText style={{padding: '0 0 50px'}}>
-              <CoralContentsUXSubTitle style={{padding: '0 0 30px'}}>５.　Mockup</CoralContentsUXSubTitle>
+              <CoralContentsUXSubTitle>５.　Mockup</CoralContentsUXSubTitle>
               今回はユーザー側の画面に絞ってモックアップのデザインを行いました。<WorkTextBold>ユーザーが検診を終えるまでに必要な最低限の機能のみ</WorkTextBold>を考えています。
             </WorkText>
 
             <UIWrap>
-              <div className="flex" style={{justifyContent: 'space-between', padding: '5px 0 10px'}}>
-                <UIItemText>ホーム画面</UIItemText>
-                <UIItemText>検索条件</UIItemText>
-                <UIItemText>検索結果</UIItemText>
-                <UIItemText>歯医者詳細</UIItemText>
-              </div>
-              <div className="flex" style={{justifyContent: 'space-between', padding: '0 0 30px'}}>
-                <div style={{ width: '21%', border: '1px solid #ddd'}}>
-                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__kensaku.jpg"
-                    style={{ width: '100%'}}
-                  />
-                </div>
+              <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding: '5px 0 10px'}}>
+                <UIItemTextWrap>
+                  <UIItemText>ホーム画面</UIItemText>
+                    <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__kensaku.jpg"
+                      style={{ width: '100%'}}
+                    />
+                </UIItemTextWrap>
                 <CoralContentsBusinnesModelArrowToRight/>
-                <div style={{ width: '21%', border: '1px solid #ddd'}}>
+                <UIItemTextWrap>
+                  <UIItemText>検索条件</UIItemText>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E3%83%A2%E3%83%BC%E3%82%BF%E3%82%99%E3%83%AB.png"
                     style={{ width: '100%'}}
                   />
-                </div>
+                </UIItemTextWrap>
                 <CoralContentsBusinnesModelArrowToRight/>
-                <div style={{ width: '21%', border: '1px solid #ddd'}}>
+                <UIItemTextWrap>
+                  <UIItemText>検索結果</UIItemText>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__kensakukekka.jpg"
                     style={{ width: '100%'}}
                   />
-                </div>
+                </UIItemTextWrap>
                 <CoralContentsBusinnesModelArrowToRight/>
-                <div style={{ width: '21%', border: '1px solid #ddd'}}>
+                <UIItemTextWrap>
+                  <UIItemText>歯医者詳細</UIItemText>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Slice+4.jpg"
                     style={{ width: '100%'}}
                   />
-                </div>
+                </UIItemTextWrap>
               </div>
 
-              <WorkText style={{padding: '30px 0 0'}}>
+              <WorkText style={{padding: '10px 0 0'}}>
                 デザインする上で特に悩んでこだわった点が２つあるので、以下にまとめました。
               </WorkText>
 
 
-              <div className="flex" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
-                <div style={{margin: '50px 0 30px 10px', fontWeight:'600'}}>
-                  こだわり １. 　
-                  <br/><br/>
-                  <span style={{fontSize: '2.5rem'}}>ホーム画面</span><span style={{fontSize: '2rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- headerの検索機能 -</span>
-                </div>
+              <div className="flex flex-wrap" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
+                <KodawariWrap>
+                  こだわり １.
+                  <div style={{padding: '20px 0 0'}}>
+                    <KodawariTitle>ホーム画面</KodawariTitle>
+                    <KodawariSubTitle>- headerの検索機能 -</KodawariSubTitle>
+                  </div>
+                </KodawariWrap>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
-                  style={{ width: '50%',height:'155px', marginLeft:'auto' }}
+                  style={{ maxWidth: '400px', width: '100%', marginLeft:'auto' }}
                 />
               </div>
 
@@ -668,16 +732,19 @@ class CoralContentsUX extends Component {
                 また、地域をあらかじめ選択しておくことで、『あなたにおすすめの歯医者』の精度も格段に向上して、「検索しなくても、良い歯医者をすぐに見つけられる」という理想のユーザー体験に近づきます。
               </WorkText>
 
-              <div className="flex" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
-                <div style={{margin: '90px 0 30px 10px', fontWeight:'600'}}>
-                  こだわり ２. 　
-                  <br/><br/>
-                  <span style={{fontSize: '2.5rem'}}>検索結果画面</span><span style={{fontSize: '2rem',color:color.baseText__thin, padding:'0 0 0 20px'}}>- 歯医者のプロフィール -</span>
-                </div>
+              <div className="flex flex-wrap" style={{border: '2px solid #8AC7CA',margin: '50px 0 30px 0', padding: '30px'}}>
+                <KodawariWrap>
+                  こだわり２.
+                  <div style={{padding: '20px 0 0'}}>
+                    <KodawariTitle>検索結果画面</KodawariTitle>
+                    <KodawariSubTitle>- 歯医者のプロフィール -</KodawariSubTitle>
+                  </div>
+                </KodawariWrap>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E8%A9%B3%E7%B4%B0%E7%94%BB%E9%9D%A2.jpg"
-                  style={{ width: '50%', height:'244px', marginLeft:'auto' }}
+                  style={{ maxWidth: '400px', width: '100%', marginLeft:'auto' }}
                 />
               </div>
+
               <WorkText style={{padding: '30px 0 30px'}}>
                 検索結果画面以降のユーザーの行動のプロセスは、<WorkTextBold>良いと思う歯医者を探す→歯医者を決定して予約する</WorkTextBold>の２つであると考えました。
                 それを踏まえて、既存予約サービスの検索結果画面を研究した結果、
