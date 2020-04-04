@@ -8,7 +8,7 @@ class Photos extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 270px'}}>
+        <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 0px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/cahri5.jpg"
             title="初めて自転車で東京まで行ったとき(高3) @富士山"
