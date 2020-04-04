@@ -9,7 +9,6 @@ const BackWrap = styled.div`
   position: relative;
   margin: auto;
   width: 300px;
-  height: 200px;
   & a {
     position: absolute;
     top: 0;
