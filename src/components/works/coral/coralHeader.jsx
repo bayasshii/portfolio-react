@@ -19,7 +19,7 @@ const CoralHeaderLogoImage = styled.div`
   top: 270px;
   right: 80px;
   @media screen and (max-width: 767px) {
-    width: 100px;
+    width: 130px;
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -29,8 +29,11 @@ const CoralHeaderLogoImage = styled.div`
 
 const CoralHeaderDesignImage = styled.div`
   width: calc(100% - 200px);
-  height: 600px;
-  object-fit: cover;
+  & img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
   @media screen and (max-width: 767px) {
     width: 100%;
     & img {
