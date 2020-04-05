@@ -14,7 +14,8 @@ const OthersContetsWrap = styled.div`
 `
 
 const OthersTopImage = styled.div`
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   background: #fff;
   z-index: 100;
@@ -24,6 +25,21 @@ const OthersTopImageWrap = styled.div`
   position: absolute;
   left: 0;
   top: 80px;
+  @media screen and (max-width: 767px) {
+    left: 0;
+    right: 0;
+    top: 280px;
+    margin: auto;
+  }
+  & .slick-slider.slick-initialized {
+    width: 500px;
+    z-index: 1000;
+    position: relative;
+    @media screen and (max-width: 767px) {
+      width: calc(100% - 40px);
+      margin: auto;
+    }
+  }
 `
 
 const OthersTitleWrap = styled.div`
@@ -32,12 +48,20 @@ const OthersTitleWrap = styled.div`
   height: 270px;
   background: #C5E6E7;
   z-index: 10;
-  padding: 35px 30px 30px 140px
+  padding: 35px 30px 30px 140px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    padding: 30px;
+  }
 `
 
 const OthersTitle = styled.div`
   font-size: 3.0rem;
   letter-spacing: 0.3rem
+  @media screen and (max-width: 767px) {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 `
 
 const OthersDerailsWrap = styled.div`
@@ -51,6 +75,9 @@ const OthersDerails = styled.span`
   margin-top: 10px;
   border-radius: 10px;
   width: auto;
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
 `
 
 const OthersTextWrap = styled.div`
@@ -61,6 +88,11 @@ const OthersTextWrap = styled.div`
   z-index: 10;
   font-size: 1.5rem;
   line-height: 3rem;
+  @media screen and (max-width: 767px) {
+    width: calc(100% - 40px);
+    padding: 0;
+    margin: 310px 20px 0;
+  }
 `
 
 class OthersContents extends Component {
@@ -83,7 +115,7 @@ class OthersContents extends Component {
           <WorkWrap style={{padding: '80px 0'}}>
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="me310" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/me310_2.jpg"
                       style={{ width: '100%' }}
@@ -135,7 +167,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="fortana" src="https://s3-ap-northeast-1.amazonaws.com/treeethreee/fortana1.svg"
                       style={{ width: '100%' }}
@@ -183,7 +215,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://s3-ap-northeast-1.amazonaws.com/treeethreee/sutd__workshop-01.svg"
                       style={{ width: '100%' }}
@@ -229,7 +261,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sotsuron1.jpg"
                       style={{ width: '100%' }}
@@ -264,11 +296,13 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <OthersTopImage style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
-                  <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudakuWebImage.jpg"
-                    style={{ width: '100%' }}
-                  />
-                </OthersTopImage>
+                <div className="slick-slider slick-initialized">
+                  <OthersTopImage>
+                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/sudakuWebImage.jpg"
+                      style={{ width: '100%' }}
+                    />
+                  </OthersTopImage>
+                </div>
               </OthersTopImageWrap>
 
               <OthersTitleWrap style={{height:'310px'}}>
@@ -295,7 +329,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/office1.jpg"
                       style={{ width: '100%' }}
@@ -331,7 +365,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E3%81%8A%E3%82%82%E3%81%A6.jpg"
                       style={{ width: '100%' }}
@@ -367,7 +401,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/undolight092.jpg"
                       style={{ width: '100%' }}
@@ -404,7 +438,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <Slider {...settings} style={{ width: '500px' , zIndex:'1000', position:'relative'}}>
+                <Slider {...settings}>
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/takatobida.jpg"
                       style={{ width: '100%' }}
@@ -444,7 +478,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <div style={{ width: '500px' , zIndex:'1000', position:'relative', border: '1px solid #ccc'}}>
+                <div className="slick-slider slick-initialized">
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio_ver1.png"
                       style={{ width: '100%' }}
@@ -476,7 +510,7 @@ class OthersContents extends Component {
 
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
-                <div style={{ width: '500px' , zIndex:'1000', position:'relative', border: '1px solid #ccc'}}>
+                <div className="slick-slider slick-initialized">
                   <OthersTopImage>
                     <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio_ver2_1.png"
                       style={{ width: '100%' }}
