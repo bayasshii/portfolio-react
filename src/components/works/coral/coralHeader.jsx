@@ -8,6 +8,9 @@ const CoralHeaderWrap = styled.div`
   height: 600px;
   font-size: 5rem;
   position: relative;
+  @media screen and (max-width: 767px) {
+    height: 400px;
+  }
 `;
 
 const CoralHeaderLogoImage = styled.div`
@@ -16,21 +19,22 @@ const CoralHeaderLogoImage = styled.div`
   top: 270px;
   right: 80px;
   @media screen and (max-width: 767px) {
-    width: 130px;
+    width: 100px;
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
     top: auto;
   }
 `;
 
 const CoralHeaderDesignImage = styled.div`
   width: calc(100% - 200px);
-  height: 300px;
+  height: 600px;
+  object-fit: cover;
   @media screen and (max-width: 767px) {
     width: 100%;
     & img {
-      height: 300px;
+      height: 400px;
     }
   }
 `;
@@ -42,9 +46,7 @@ class CoralHeader extends Component {
       <React.Fragment>
         <CoralHeaderWrap>
           <CoralHeaderDesignImage>
-            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral_many3.png"
-              style={{ width: '100%' ,height: '600px', objectFit: 'cover'}}
-            />
+            <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral_many3.png"/>
           </CoralHeaderDesignImage>
           <CoralHeaderLogoImage>
             <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coralLogo.png"

@@ -21,7 +21,9 @@ const BackWrap = styled.div`
     color: #53678e;
     z-index: 1000
   }
-`
+  @media screen and (max-width: 767px) {
+    font-size: 2rem;
+  }`
 
 class WorkBack extends Component {
   render() {
