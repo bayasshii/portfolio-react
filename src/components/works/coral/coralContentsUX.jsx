@@ -627,7 +627,7 @@ class CoralContentsUX extends Component {
                   </div>
                 </KodawariWrap>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
-                  style={{ maxWidth: '400px', width: '100%', marginLeft:'auto', height:'auto'}}
+                  style={{ maxWidth: '400px', width: '100%', marginLeft:'auto', height: 'inherit'}}
                 />
               </div>
 
@@ -753,7 +753,7 @@ class CoralContentsUX extends Component {
                   </div>
                 </KodawariWrap>
                 <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E8%A9%B3%E7%B4%B0%E7%94%BB%E9%9D%A2.jpg"
-                  style={{ maxWidth: '400px', width: '100%', marginLeft:'auto', height:'auto' }}
+                  style={{ maxWidth: '400px', width: '100%', marginLeft:'auto', height: 'inherit'}}
                 />
               </div>
 
