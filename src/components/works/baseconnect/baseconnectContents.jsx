@@ -19,7 +19,7 @@ const OthersDerails = styled.span`
   padding: 10px 30px;
   margin-top: 10px;
   border-radius: 10px;
-  width: auto;
+  max-width: calc(100% - 40px);
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
 `
 
@@ -28,6 +28,9 @@ const BaseconnectContetsWrap = styled.div`
   background: #FFF;
   padding: 40px;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+  @media screen and (max-width: 767px) {
+    padding: 20px;
+  }
 `
 
 const WorkHeadingPhotal = styled(WorkHeading)`
@@ -47,6 +50,9 @@ const WorkHeadingPhotal = styled(WorkHeading)`
   & span:first-child {
     margin-left: 50px;
   }
+  @media screen and (max-width: 767px) {
+    font-size: 1.4rem;
+  }
 `;
 
 class BaseconnectContents extends Component {
@@ -58,11 +64,7 @@ class BaseconnectContents extends Component {
           style={{ background:color.background , padding:'0 0 80px'}}
         >
           <WorkWrap>
-            <WorkTitle
-              style={{ padding: '70px 0 20px' }}
-            >
-              Baseconnect Internship
-            </WorkTitle>
+            <WorkTitle>Baseconnect Internship</WorkTitle>
 
             <WorkSubTitle
               style={{ padding: '0 0 30px' }}
@@ -70,15 +72,15 @@ class BaseconnectContents extends Component {
               UI Design / Frontend Cording
             </WorkSubTitle>
 
-            <div className="flex">
-              <OthersDerails>課外活動</OthersDerails>
+            <div className="flex flex-wrap">
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>課外活動</OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 20px'}}>グループワーク</OthersDerails>
-              <OthersDerails style={{margin: '10px 0 0 20px'}}>期間：16month / 2018.10 ~ 2020.01 (学部4年 ~ 修士1年)</OthersDerails>
-              <OthersDerails style={{margin: '10px 0 0 20px'}}>使用ツール：Sketch / React / HTML / CSS</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>期間 ： 16month / 2018.10 ~ 2020.01 (学部4年 ~ 修士1年)</OthersDerails>
+              <OthersDerails style={{margin: '10px 0 0 20px'}}>使用ツール ： Sketch / React / HTML / CSS</OthersDerails>
             </div>
 
             <WorkText
-              style={{padding: '30px 0'}}
+              style={{padding: '30px 20px'}}
             >
               デザイナーインターンとして2018年10月から現在まで勤務しています。自社プロダクトや、自社の開発画面を主に担当しています。具体的な業務としては
                 <ul>
@@ -92,12 +94,12 @@ class BaseconnectContents extends Component {
             </WorkText>
 
             <WorkText
-              style={{padding: '0 0 50px'}}
+              style={{padding: '0 20px 50px'}}
             >
               以下では数点、実際に担当した業務を紹介します
             </WorkText>
 
-            <BaseconnectContetsWrap style={{margin: '0 0 0 0'}}>
+            <BaseconnectContetsWrap style={{margin: '0 20px 0'}}>
               <WorkHeadingPhotal style={{margin: '0 0 10px'}}>
                 case 1.　Frontend Cording　- 事業所画面 -
               </WorkHeadingPhotal>
@@ -168,7 +170,7 @@ class BaseconnectContents extends Component {
             </BaseconnectContetsWrap>
 
 
-            <BaseconnectContetsWrap style={{margin: '50px 0 100px 0'}}>
+            <BaseconnectContetsWrap style={{margin: '50px 20px 100px'}}>
               <WorkHeadingPhotal style={{margin: '0 0 10px'}}>
                 case 2.　Design Bootcamp 運営
               </WorkHeadingPhotal>
@@ -210,7 +212,8 @@ class BaseconnectContents extends Component {
 
             </BaseconnectContetsWrap>
 
-            <WorkBack/>
+            <WorkBack
+            />
 
           </WorkWrap>
         </div>

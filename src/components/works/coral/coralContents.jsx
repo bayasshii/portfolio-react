@@ -31,7 +31,7 @@ class CoralContents extends Component {
         <div
           style={{ background: color.background }}
         >
-          <WorkWrap style={{padding: '0 0 100px'}}>
+          <WorkWrap>
             <WorkTitle
               style={{padding: '50px 0 20px'}}
             >

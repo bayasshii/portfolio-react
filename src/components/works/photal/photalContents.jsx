@@ -38,6 +38,9 @@ const PhotalContentsWrap = styled.div`
   background: #FFF;
   padding: 40px;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+  @media screen and (max-width: 767px) {
+    padding: 20px;
+  }
 `
 
 const OthersDerails = styled.span`
@@ -59,31 +62,30 @@ class PhotalContents extends Component {
           style={{ background:color.background }}
         >
           <WorkWrap style={{padding: '0 0 100px'}}>
-            <WorkTitle style={{padding: '70px 0 30px'}}>
+            <WorkTitle>
               アルバム共有アプリ - Photal -
             </WorkTitle>
             <WorkSubTitle style={{ padding: '0 0 30px' }}>
               Backend & Frontend Cording / UI & UX Design
             </WorkSubTitle>
 
-            <div className="flex">
-              <OthersDerails>個人ワーク</OthersDerails>
+            <div className="flex flex-wrap">
+              <OthersDerails style={{margin: '10px 0 0 10px'}}>個人ワーク</OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 10px'}}><a href="http://my-photal.herokuapp.com" target="_blank">URL：http://my-photal.herokuapp.com</a></OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 10px'}}>期間：2weeks / 2019.07 (修士1年)</OthersDerails>
               <OthersDerails style={{margin: '10px 0 0 10px'}}>使用ツール：Laravel / PosgreSQL / Vue / Heroku</OthersDerails>
             </div>
 
-            <WorkText style={{padding: '50px 0 50px'}}>
+            <WorkText style={{padding: '50px 20px 50px'}}>
               チームラボ サマーインターンシップ2019にサーバーサイドエンジニアとして参加しました。
               二週間のインターンシップを通してサービスの企画から、サーバーサイド・フロントエンド・デプロイまでを個人で行いました。
               またインターン終了後、制作物のリデザインをしました。
             </WorkText>
 
 
-            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+            <PhotalContentsWrap style={{margin: '0 20px 50px'}}>
               <WorkHeadingPhotal>
                 1. Concept
-                <span>Duration: 2hours</span>
               </WorkHeadingPhotal>
               <PhotalContentsNeedfinding/>
             </PhotalContentsWrap>
@@ -107,16 +109,14 @@ class PhotalContents extends Component {
             </WorkText>
 
             */}
-            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+            <PhotalContentsWrap style={{margin: '0 20px 50px'}}>
               <WorkHeadingPhotal>
               2. Cording
-                <span>Duration: 100hours</span>
-                <span>Github: <a href="https://github.com/bayasshii/laravelProjects" target="_blank" style={{fontSize: '1.3rem'}}>https://github.com/bayasshii/laravelProjects</a></span>
               </WorkHeadingPhotal>
               <PhotalContentsServerside/>
             </PhotalContentsWrap>
 
-            <PhotalContentsWrap style={{margin: '0 0 50px'}}>
+            <PhotalContentsWrap style={{margin: '0 20px 50px'}}>
               <WorkHeadingPhotal>
               3. Internship Summary
               </WorkHeadingPhotal>
@@ -127,7 +127,7 @@ class PhotalContents extends Component {
               </WorkText>
             </PhotalContentsWrap>
 
-            <PhotalContentsWrap style={{margin: '0 0 50px 0'}}>
+            <PhotalContentsWrap style={{margin: '0 20px 50px'}}>
               <WorkHeadingPhotal>4. Redesign</WorkHeadingPhotal>
               <WorkText style={{padding: '80px 0 60px', textAlign:'center', fontSize:'3.0rem', fontWeight:'900'}}>
                 Coming Soon...

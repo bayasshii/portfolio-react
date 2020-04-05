@@ -7,6 +7,9 @@ const BaseconnectHeaderWrap = styled.div`
   width: 100%;
   height: 600px;
   font-size: 5rem;
+  @media screen and (max-width: 767px) {
+    height: 400px;
+  }
 `
 
 const BaseconnectHeaderBackground = styled.div`
@@ -17,6 +20,9 @@ const BaseconnectHeaderBackground = styled.div`
   left: 0;
   height: 100px;
   z-index: -1;
+  @media screen and (max-width: 767px) {
+    height: 50px;
+  }
 `
 const BaseconnectHeaderPC = styled.div`
   z-index: 10;
@@ -25,6 +31,12 @@ const BaseconnectHeaderPC = styled.div`
   left: 0;
   right: 0;
   text-align: center;
+  & img {
+    width: 550px;
+    @media screen and (max-width: 767px) {
+      width: 250px;
+    }
+  }
 `
 
 const BaseconnectHeaderBack = styled.div`
@@ -35,6 +47,16 @@ const BaseconnectHeaderBack = styled.div`
   right: 0;
   height: 500px;
   opacity: 0.2;
+  @media screen and (max-width: 767px) {
+    height: 350px;
+  }
+  & img {
+    width: 100%;
+    height: 550px;
+    @media screen and (max-width: 767px) {
+      height: 350px;
+    }
+  }
 `
 
 class BaseconnectHeader extends Component {
@@ -43,14 +65,10 @@ class BaseconnectHeader extends Component {
       <React.Fragment>
         <BaseconnectHeaderWrap>
           <BaseconnectHeaderBack>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_headerBack.png"
-              style={{ width: '100%' , height: '500px'}}
-            />
+            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baseconnect_headerBack.png"/>
           </BaseconnectHeaderBack>
           <BaseconnectHeaderPC>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/eTVTfB.png"
-              style={{ width: '550px' }}
-            />
+            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/eTVTfB.png"/>
           </BaseconnectHeaderPC>
           <BaseconnectHeaderBackground/>
         </BaseconnectHeaderWrap>
