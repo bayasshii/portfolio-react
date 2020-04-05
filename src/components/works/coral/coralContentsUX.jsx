@@ -724,18 +724,26 @@ class CoralContentsUX extends Component {
                 <UIItemTextHeader>
                   A案
                 </UIItemTextHeader>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
+                <div
                   style={{ width: '100%', height: 'auto'}}
-                />
+                >
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
+                    style={{ width: '100%', height: 'auto'}}
+                  />
+                </div>
               </UIItemTextHeaderWrap>
 
               <UIItemTextHeaderWrap>
                 <UIItemTextHeader>
                   C案
                 </UIItemTextHeader>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search.png"
+                <div
                   style={{ width: '100%', height: 'auto'}}
-                />
+                >
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search.png"
+                    style={{ width: '100%', height: 'auto'}}
+                  />
+                </div>
               </UIItemTextHeaderWrap>
               </div>
 
@@ -756,9 +764,13 @@ class CoralContentsUX extends Component {
                     <KodawariSubTitle>- 歯医者のプロフィール -</KodawariSubTitle>
                   </div>
                 </KodawariWrap>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E8%A9%B3%E7%B4%B0%E7%94%BB%E9%9D%A2.jpg"
+                <div
                   style={{ maxWidth: '400px', width: '100%', marginLeft:'auto', height: 'auto'}}
-                />
+                >
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2_%E8%A9%B3%E7%B4%B0%E7%94%BB%E9%9D%A2.jpg"
+                    style={{ width: '100%', height: 'auto'}}
+                  />
+                </div>
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
