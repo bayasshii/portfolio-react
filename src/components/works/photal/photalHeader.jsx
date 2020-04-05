@@ -27,7 +27,7 @@ const BaseconnectHeaderBackground = styled.div`
 const BaseconnectHeaderPC = styled.div`
   z-index: 10;
   position: absolute;
-  bottom: -200px;
+  bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
@@ -35,9 +35,9 @@ const BaseconnectHeaderPC = styled.div`
     bottom: 0;
   }
   & img {
-    width: 1200px;
+    width: 700px;
     @media screen and (max-width: 767px) {
-      width: 100%;
+      width: calc(100% - 40px);
     }
   }
 `
@@ -58,7 +58,7 @@ class BaseconnectHeader extends Component {
       <React.Fragment>
         <BaseconnectHeaderWrap>
           <BaseconnectHeaderPC>
-            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/photal__mac.png"/>
+            <img alt="baseconnect" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/photal__mac_ver.png"/>
           </BaseconnectHeaderPC>
           <BaseconnectHeaderBackground/>
         </BaseconnectHeaderWrap>
