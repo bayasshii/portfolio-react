@@ -209,20 +209,23 @@ const UXDetailWrap = styled.div`
 const UXDetailItem = styled.div`
   max-width: 270px;
   background: ${color.coralGreen};
+  margin: 0 3px 10px;
 `
 
 const UXDetailItemText = styled.div`
   width: 270px;
   text-align: center;
   font-size: 1.5rem;
+  margin: 0 3px;
   @media screen and (max-width: 767px) {
     font-size: 1rem;
+    padding: 0;
   }
 `
 
 const UXDetailItemTextTitle = styled.div`
   color: ${color.mainBlue__thin};
-  padding-bottom: 10px;
+  padding: 0 0 3px;
 `
 
 const UXDetailItemTextContents = styled.span`
@@ -235,6 +238,9 @@ const UXDetailItemTextContents = styled.span`
 const UXDetailItemTextBlue = styled(UXDetailItemText)`
   padding: 20px 0;
   background: #EDF7F7;
+  @media screen and (max-width: 767px) {
+    padding: 20px 0;
+  }
 `
 
 /* UX詳細コンポーネント */
@@ -300,10 +306,18 @@ const UIlItemTextBlue = styled(UIItemText)`
 `
 
 const UIItemTextHeader = styled.div`
-  width: 50%;
+  width: 100%;
   text-align: center;
   font-size: 1.5rem;
   color: ${color.coralGreen};
+  padding: 20px 0 10px 0;
+`
+const UIItemTextHeaderWrap = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
 `
 
 const KodawariWrap = styled.div`
@@ -638,7 +652,7 @@ class CoralContentsUX extends Component {
                 <UXDetailItemText>B. その場で打ち込んで検索</UXDetailItemText>
                 <UXDetailItemText>C. AとBのハイブリット型</UXDetailItemText>
               </div>
-              <div className="flex" style={{justifyContent: 'space-between', margin: '0 0 20px'}}>
+              <div className="flex" style={{justifyContent: 'space-between'}}>
                 <UXDetailItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/Mobile_sample1.png"
                     style={{ width: '100%' }}
@@ -698,29 +712,27 @@ class CoralContentsUX extends Component {
               </WorkText>
 
               <WorkText style={{padding: '10px 0 30px'}}>
-                次にA案とC案について考えました。
+                次に、A案とC案について考えました。
               </WorkText>
 
-              <div className="flex flex-center" style={{margin: '20px 0 20px'}}>
-                <UIItemTextHeader style={{margin: '0 50px 0 0'}}>
+              <div className="flex flex-center flex-wrap" style={{margin: '0 0 20px'}}>
+              <UIItemTextHeaderWrap>
+                <UIItemTextHeader>
                   A案
                 </UIItemTextHeader>
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
+                  style={{ width: '100%' }}
+                />
+              </UIItemTextHeaderWrap>
+
+              <UIItemTextHeaderWrap>
                 <UIItemTextHeader>
                   C案
                 </UIItemTextHeader>
-              </div>
-
-              <div className="flex flex-center" style={{margin: '20px 0 20px'}}>
-                <UIItemTextHeader style={{margin: '0 50px 0 0'}}>
-                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search2.png"
-                    style={{ width: '100%' }}
-                  />
-                </UIItemTextHeader>
-                <UIItemTextHeader>
-                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search.png"
-                    style={{ width: '100%' }}
-                  />
-                </UIItemTextHeader>
+                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/header_search.png"
+                  style={{ width: '100%' }}
+                />
+              </UIItemTextHeaderWrap>
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
@@ -757,13 +769,13 @@ class CoralContentsUX extends Component {
                 <UXDetailItemText>B. 検索結果画面から予約はできない</UXDetailItemText>
               </div>
 
-              <div className="flex flex-center" style={{padding: '5px 0 20px', color: '#aaa'}}>
+              <div className="flex flex-center" style={{padding: '5px 0 10px', color: '#aaa'}}>
                 <UXDetailItemText style={{margin: '0 30px 0 0 '}}>(詳細画面は補助的)</UXDetailItemText>
                 <UXDetailItemText>(詳細画面は必須)</UXDetailItemText>
               </div>
 
-              <div className="flex flex-center" style={{margin: '0 0 20px'}}>
-                <UXDetailItem　style={{margin: '0 30px 0 0 '}}>
+              <div className="flex flex-center">
+                <UXDetailItem>
                   <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/coral__searched1.png"
                     style={{ width: '100%' }}
                   />
@@ -775,7 +787,7 @@ class CoralContentsUX extends Component {
                 </UXDetailItem>
               </div>
               <div className="flex flex-center" style={{}}>
-                <UXDetailItemTextBlue style={{margin: '0 30px 0 0 '}}>
+                <UXDetailItemTextBlue>
                   <UXDetailItemTextTitle>メリット</UXDetailItemTextTitle>
                   <UIItemTextContents>画面遷移が少ない</UIItemTextContents>
                 </UXDetailItemTextBlue>
@@ -786,7 +798,7 @@ class CoralContentsUX extends Component {
               </div>
 
               <div className="flex flex-center" style={{padding: '20px 0'}}>
-                <UXDetailItemText style={{margin: '0 30px 0 0 '}}>
+                <UXDetailItemText>
                   <UXDetailItemTextTitle>デメリット</UXDetailItemTextTitle>
                   <UIItemTextContents>面積をとる</UIItemTextContents>
                 </UXDetailItemText>
