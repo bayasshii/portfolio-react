@@ -17,7 +17,7 @@ const ImageWrap = styled.div`
 
 const ImageItem = styled.div`
   width: 100%;
-  max-width: 500px
+  max-width: 500px;
   margin: 30px 0;
   text-align: center;
 `

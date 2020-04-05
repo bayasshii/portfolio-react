@@ -7,6 +7,9 @@ const OthersHeaderWrap = styled.div`
   width: 100%;
   height: 600px;
   font-size: 5rem;
+  @media screen and (max-width: 767px) {
+    height: 400px
+  }
 `
 
 const OthersHeaderBackground = styled.div`
@@ -17,6 +20,9 @@ const OthersHeaderBackground = styled.div`
   left: 0;
   height:600px;
   z-index: -1;
+  @media screen and (max-width: 767px) {
+    height: 400px
+  }
 `
 
 const OthersHeaderContents = styled.div`
@@ -25,6 +31,10 @@ const OthersHeaderContents = styled.div`
   font-size: 10.0rem;
   font-weight: 900;
   color: #fff;
+  @media screen and (max-width: 767px) {
+    font-size: 5rem;
+    padding-top: 180px;
+  }
 `
 
 const OthersHeaderRec = styled.div`
@@ -37,6 +47,11 @@ const OthersHeaderRec = styled.div`
   width: 700px;
   height: 300px;
   border: 30px solid #fff;
+  @media screen and (max-width: 767px) {
+    width: 300px;
+    height: 200px
+    border: 10px solid #fff;
+  }
 `
 
 
