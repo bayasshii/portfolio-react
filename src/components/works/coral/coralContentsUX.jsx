@@ -626,9 +626,13 @@ class CoralContentsUX extends Component {
                     <KodawariSubTitle>- headerの検索機能 -</KodawariSubTitle>
                   </div>
                 </KodawariWrap>
-                <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
+                <div
                   style={{ maxWidth: '400px', width: '100%', marginLeft:'auto', height: 'auto'}}
-                />
+                >
+                  <img alt="coral" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/%E6%A4%9C%E7%B4%A2.png"
+                    style={{ width: '100%', height: 'auto'}}
+                  />
+                </div>
               </div>
 
               <WorkText style={{padding: '30px 0 30px'}}>
