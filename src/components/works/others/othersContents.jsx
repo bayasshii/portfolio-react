@@ -109,9 +109,7 @@ class OthersContents extends Component {
     return (
       <React.Fragment>
         <OthersHeader/>
-        <div
-          style={{ background:color.background }}
-        >
+        <div style={{ background:color.background }}>
           <WorkWrap style={{padding: '80px 0'}}>
             <OthersContetsWrap style={{margin: '0 0 80px 0'}}>
               <OthersTopImageWrap>
@@ -541,8 +539,6 @@ class OthersContents extends Component {
             </OthersContetsWrap>
 
             <WorkBack/>
-
-
           </WorkWrap>
         </div>
       </React.Fragment>

@@ -76,6 +76,14 @@ const HometopText = styled.div`
   }
 `
 
+const HometopTextKind = styled(HometopText)`
+  max-width: 420px;
+  line-height: 50px;
+  @media screen and (max-width: 767px) {
+    line-height: 20px;
+  }
+`
+
 const HometopMainText = styled.span`
   font-size: 5rem;
   font-weight: 700;
@@ -104,8 +112,7 @@ class TopImage extends Component {
         <HometopContents>
           <HometopText>I'm Masaya Kibayashi,</HometopText>
           <div><HometopMainText>UI/UX Designer,</HometopMainText></div>
-          <HometopText>Engineer, Marketer, Architect,</HometopText>
-          <HometopText>& More !</HometopText>
+          <HometopTextKind>Engineer, Marketer, Architect, & More !</HometopTextKind>
         </HometopContents>
       </div>
     </HometopWrap>

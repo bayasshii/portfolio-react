@@ -58,9 +58,7 @@ class PhotalContents extends Component {
     return (
       <React.Fragment>
         <PhotalHeader/>
-        <div
-          style={{ background:color.background }}
-        >
+        <div style={{ background:color.background }}>
           <WorkWrap style={{padding: '0 0 100px'}}>
             <WorkTitle>
               アルバム共有アプリ - Photal -

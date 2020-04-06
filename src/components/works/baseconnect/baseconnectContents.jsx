@@ -60,9 +60,7 @@ class BaseconnectContents extends Component {
     return (
       <React.Fragment>
         <BaseconnectHeader/>
-        <div
-          style={{ background:color.background , padding:'0 0 80px'}}
-        >
+        <div style={{ background:color.background}}>
           <WorkWrap>
             <WorkTitle>Baseconnect Internship</WorkTitle>
 

@@ -9,6 +9,7 @@ const BackWrap = styled.div`
   position: relative;
   margin: auto;
   width: 300px;
+  padding-bottom: 100px;
   & a {
     position: absolute;
     top: 0;
@@ -22,7 +23,7 @@ const BackWrap = styled.div`
     z-index: 1000
   }
   @media screen and (max-width: 767px) {
-    font-size: 2rem;
+    padding-bottom: 40px;
   }`
 
 class WorkBack extends Component {
