@@ -85,7 +85,7 @@ const HometopMainText = styled.span`
   padding: 20px 0 0;
   @media screen and (max-width: 767px) {
     font-size: 2.5rem;
-    padding: 10px 0 0;
+    padding: 7px 0 0;
   }
 `
 
