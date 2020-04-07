@@ -56,9 +56,8 @@ class Header extends Component {
       font-weight: 600;
       padding: 40px 100px;
       z-index: 10000000000000000000;
-      @media screen and (max-width: 767px) {
-        display: none;
-      }
+      /* とりあえず消しとくかー！！ */
+      display: none;
     `;
 
     return (
