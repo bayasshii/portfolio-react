@@ -27,7 +27,6 @@ const WorksWrapTitleUnder = styled.div`
   width: 50px;
   height: 3px;
   background: ${color.mainYellow};
-  margin: 20px 0 40px 20px;
   margin: 20px 0 40px 30px;
 `;
 
