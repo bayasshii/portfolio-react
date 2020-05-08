@@ -90,7 +90,7 @@ class Photo extends Component {
               zIndex: 100000,
               cursor: 'pointer'
             }}
-            onClick={this.handleClickFunction}
+            /*onClick={this.handleClickFunction}*/
           />
         </PhotosWrap>
         {/*this.state.toggle &&
