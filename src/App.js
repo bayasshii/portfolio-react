@@ -13,8 +13,8 @@ class App extends Component {
           meta={[
             { name: 'twitter:card', content: 'summary' },
             { property: 'og:image', content: 'https://treeethreee.s3-ap-northeast-1.amazonaws.com/IMG_3260.PNG' },
-            { property: 'og:title', content: 'きばやしのポートフォリオ' },
-            { property: 'og:description', content: '学生時代に作った作品を掲載しています' },
+            { property: 'og:title', content: 'ポートフォリオ' },
+            { property: 'og:description', content: 'きばやしの学生時代の作品集です' },
             { property: 'og:url', content: 'https://www.kibachan.com' }
           ]}
         />
