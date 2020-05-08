@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "chart.js": "^2.8.0",
+    "mkdirp": "1.0.4",
     "react": "^16.10.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-chartjs-2": "^2.8.0",
