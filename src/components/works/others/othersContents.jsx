@@ -89,7 +89,7 @@ const OthersTextWrap = styled.div`
   font-size: 1.5rem;
   line-height: 3rem;
   @media screen and (max-width: 767px) {
-    width: calc(100% - 40px);
+    width: calc(100% - 60px);
     padding: 0;
     margin: 310px 20px 0;
   }
@@ -303,13 +303,12 @@ class OthersContents extends Component {
                 </div>
               </OthersTopImageWrap>
 
-              <OthersTitleWrap style={{height:'310px'}}>
+              <OthersTitleWrap style={{height:'260px'}}>
                 <OthersTitle>近江焼肉すだく LPデザイン</OthersTitle>
                 <div className="flex">
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
                   <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'15px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
                 </div>
-                <OthersDerailsWrap><OthersDerails><a href="http://sudaku.crap.jp" target="_blank">URL：http://sudaku.crap.jp</a></OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン / コーディング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Sketch / HTML / CSS</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>期間：5days / 2018.12 (学部4年)</OthersDerails></OthersDerailsWrap>
@@ -317,8 +316,8 @@ class OthersContents extends Component {
 
               <OthersTextWrap>
                 友人が経営する焼肉屋のLPをデザインしました。
-                当時の私はwebデザインやコーディングが本当に初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞りました。
-                今見返すと、デザイン以前にclass名がとても面白くて笑えます。
+                当時の私はGitHubも知らないマジの初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞りました。
+                サーバーの都合上、現在はサイトは更新しておりません。
               </OthersTextWrap>
             </OthersContetsWrap>
 
@@ -485,13 +484,9 @@ class OthersContents extends Component {
                 </div>
               </OthersTopImageWrap>
 
-              <OthersTitleWrap style={{background:color.mainYellow__thin, height:'310px'}}>
+              <OthersTitleWrap style={{background:color.mainYellow__thin, height:'270px'}}>
                 <OthersTitle>Portfolio ver1</OthersTitle>
-                <div className="flex">
-                  <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
-                  <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'10px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
-                </div>
-                <OthersDerailsWrap><OthersDerails><a href="https://portfilio-ver1.d25wewtwc9tu3r.amplifyapp.com/" target="_blank">URL：https://portfilio-ver1.d25wewtwc9tu3r.amplifyapp.com/</a></OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails><a href="https://portfilio-ver1.d25wewtwc9tu3r.amplifyapp.com/" target="_blank">URL：https://portfilio-ver1.d25wewtwc9tu3r.amplifyapp.com/</a></OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>担当： UI.UXデザイン / フロントエンド / デプロイ</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：React / HTML.CSS / Illustrator / Photoshop / Sketch</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>期間：3months / 2019.05 ~ 2019.07(修士1年)</OthersDerails></OthersDerailsWrap>
@@ -517,13 +512,9 @@ class OthersContents extends Component {
                 </div>
               </OthersTopImageWrap>
 
-              <OthersTitleWrap style={{height:'310px'}}>
+              <OthersTitleWrap style={{height:'270px'}}>
                 <OthersTitle>Portfolio ver2</OthersTitle>
-                <div className="flex">
-                  <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
-                  <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'10px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
-                </div>
-                <OthersDerailsWrap><OthersDerails><a href="https://kibachan.com" target="_blank">URL：https://kibachan.com</a></OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails><a href="https://kibachan.com" target="_blank">URL：https://kibachan.com</a></OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>担当： UI.UXデザイン / フロントエンド / デプロイ</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：React / HTML.CSS / Illustrator / Photoshop / Sketch</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>期間：1months / 2019.12 ~ 2020.01(修士1年)</OthersDerails></OthersDerailsWrap>

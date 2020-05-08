@@ -11,7 +11,7 @@ class Photos extends Component {
         <div className="flex flex-wrap" style={{justifyContent: 'space-between', padding:'0 0 0px'}}>
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/cahri5.jpg"
-            title="初めて自転車で東京まで行ったとき(高3) @富士山"
+            title="ママチャリで大阪から東京に行ったとき @富士山"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/chari3.jpg"
@@ -19,15 +19,15 @@ class Photos extends Component {
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/baobabu.jpg"
-            title="バオバブ with木林 @Morondava"
+            title="バオバブ #木林を探せ @Morondava"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/mada.jpg"
-            title="朝から日が暮れるまで泳いだビーチ @NosyBe"
+            title="一日中泳いだマダガスカルのビーチ @NosyBe"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/volley1.jpg"
-            title="旅行にはバレーボールを持って行くタイプ @沖縄"
+            title="旅行にもバレーボールを持って行きます @沖縄"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/volley3.jpg"
@@ -51,11 +51,11 @@ class Photos extends Component {
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby1.jpg"
-            title="息抜きはだいたいカラオケ @ジャンカラ洛北店"
+            title="息抜きはカラオケが多いです @ジャンカラ洛北店"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby4.jpg"
-            title="謎のカラオケ大会に飛び入り参加しました @Hefei Chana"
+            title="カラオケ大会に飛び入り参加しました @Hefei Chana"
           />
           <Photo
             src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/hobby2.jpg"

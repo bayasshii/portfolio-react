@@ -21,7 +21,7 @@ const CoralHeaderLogoImage = styled.div`
   @media screen and (max-width: 767px) {
     width: 130px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     right: 10px;
     top: auto;
   }

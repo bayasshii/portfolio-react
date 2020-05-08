@@ -3,13 +3,16 @@ import styled from 'styled-components'
 import * as color from "../../css/color.js"
 
 const PhotosWrap = styled.div`
-  width: calc(100% - 40px);
-  max-width: 480px;
+  width: calc(100% - 60px);
+  max-width: 450px;
   height: 400px;
   object-fit: cover;
   margin: auto;
   position: relative;
   padding: 0 0 60px 0;
+  & img {
+    border-radius: 10px;
+  }
   :nth-child(2n+1){
     padding: 0 0 60px 0;
   }

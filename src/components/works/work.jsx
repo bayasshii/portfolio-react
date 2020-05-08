@@ -10,8 +10,8 @@ const WorkWrap = styled.div`
   border-radius: 10px;
   z-index: -2
   @media screen and (max-width: 767px) {
-    width: calc(100% - 40px);
-    margin: 0 20px;
+    width: calc(100% - 60px);
+    margin: 0 30px;
   }
 `;
 

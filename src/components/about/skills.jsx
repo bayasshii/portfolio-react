@@ -17,14 +17,14 @@ const WorksWrapTitleUnder = styled.div`
   width: 60px;
   height: 3px;
   background: ${color.mainYellow};
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 30px;
 `;
 
 class Skills extends Component {
   render() {
     return (
       <div className="mySkills">
-        <WorksWrapTitle>Skills</WorksWrapTitle>
+        <WorksWrapTitle style={{margin: '0 0 0 10px'}}>Skills</WorksWrapTitle>
         <WorksWrapTitleUnder/>
         <ul className="flex flex-wrap" style={{padding:'50px 0 0',justifyContent: 'space-between'}}>
           <li className="mySkill designSkill">

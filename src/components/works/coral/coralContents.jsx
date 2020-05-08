@@ -35,7 +35,7 @@ class CoralContents extends Component {
             <WorkTitle
               style={{padding: '50px 0 20px'}}
             >
-              <span>オンライン歯科検診アプリ</span> - Coral -
+              <span>遠隔歯科検診アプリ</span> - Coral -
             </WorkTitle>
             <WorkSubTitle style={{padding: '0 0 40px'}}>
               UX & UI Design / Business Design
@@ -49,7 +49,7 @@ class CoralContents extends Component {
             </div>
 
             <WorkText style={{padding: '40px 20px 40px'}}>
-              オンライン歯科検診アプリCoralは、<WorkTextBold>歯科医と患者を繋ぐヘルスケアアプリ</WorkTextBold>です。
+              遠隔歯科検診アプリCoralは、<WorkTextBold>歯科医と患者を繋ぐヘルスケアアプリ</WorkTextBold>です。
               大学の授業でグループで考えたアイデアを元に、アプリデザインのトレーニングとしてターゲットの定義からモックアップのデザインまで、一から個人で取り組み直しました。
             </WorkText>
 

@@ -6,7 +6,7 @@ const WorkPoint = styled.span`
   font-size: 1.7rem;
   background: linear-gradient(transparent 50%, ${color.accentYellow} 50%);
   @media screen and (max-width: 767px) {
-    font-size: 1.5rem
+    font-size: 1.2rem
   }
 `
 
