@@ -505,7 +505,7 @@ class OthersContents extends Component {
               <OthersTopImageWrap>
                 <div className="slick-slider slick-initialized">
                   <OthersTopImage>
-                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfolio_ver2_1.png"
+                    <img alt="Workshop with SUTD" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/portfprio2.png"
                       style={{ width: '100%' }}
                     />
                   </OthersTopImage>
