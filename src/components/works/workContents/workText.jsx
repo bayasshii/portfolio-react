@@ -6,7 +6,7 @@ const WorkText = styled.div`
   font-weight: 400;
   @media screen and (max-width: 767px) {
     font-size: 1.2rem;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
   }
 `;
 

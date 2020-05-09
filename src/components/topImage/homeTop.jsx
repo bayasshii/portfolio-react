@@ -61,7 +61,7 @@ const HometopContents = styled.div`
   @media screen and (max-width: 1000px) {
     margin: 20px 0 40px;
     margin-left: auto;
-    padding: 0 20px;
+    padding: 0 30px;
     text-align: right;
   }
 `
