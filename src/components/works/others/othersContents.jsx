@@ -304,19 +304,19 @@ class OthersContents extends Component {
               </OthersTopImageWrap>
 
               <OthersTitleWrap style={{height:'260px'}}>
-                <OthersTitle>近江焼肉すだく LPデザイン</OthersTitle>
+                <OthersTitle>近江焼肉すだく LP</OthersTitle>
                 <div className="flex">
                   <OthersDerailsWrap style={{marginTop:'30px'}}><OthersDerails>個人ワーク</OthersDerails></OthersDerailsWrap>
                   <OthersDerailsWrap style={{marginTop:'30px',marginLeft:'15px'}}><OthersDerails>課外活動</OthersDerails></OthersDerailsWrap>
                 </div>
                 <OthersDerailsWrap><OthersDerails>担当：コンセプトメイク / デザイン / コーディング</OthersDerails></OthersDerailsWrap>
                 <OthersDerailsWrap><OthersDerails>使用ツール：Sketch / HTML / CSS</OthersDerails></OthersDerailsWrap>
-                <OthersDerailsWrap><OthersDerails>期間：5days / 2018.12 (学部4年)</OthersDerails></OthersDerailsWrap>
+                <OthersDerailsWrap><OthersDerails>期間：5days / 2018.11 (学部4年)</OthersDerails></OthersDerailsWrap>
               </OthersTitleWrap>
 
               <OthersTextWrap>
-                友人が経営する焼肉屋のLPをデザインしました。
-                当時の私はGitHubも知らないマジの初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞りました。
+                友人が経営する焼肉屋のLPをデザイン・コーディングしました。
+                当時の私はGitHubすら知らないマジの初心者だった上、期間が一週間だったので、レスポンシブは諦めてスマホのみに絞りました。
                 サーバーの都合上、現在はサイトは更新しておりません。
               </OthersTextWrap>
             </OthersContetsWrap>
