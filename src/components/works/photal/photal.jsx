@@ -65,7 +65,7 @@ class Baseconnect extends Component {
           </ImagetWrap>
           <TextWrap>
             <TextWrapTitle>アルバム共有アプリ<span>- Photal -</span></TextWrapTitle>
-            <TextWrapSubTitle>Backend & Frontend Cording / UI & UX Design</TextWrapSubTitle>
+            <TextWrapSubTitle>Backend & Frontend Coding / UI & UX Design</TextWrapSubTitle>
           </TextWrap>
         </WorkWrap>
       </React.Fragment>

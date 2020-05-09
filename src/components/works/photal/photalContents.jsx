@@ -64,7 +64,7 @@ class PhotalContents extends Component {
               アルバム共有アプリ - Photal -
             </WorkTitle>
             <WorkSubTitle style={{ padding: '0 0 30px' }}>
-              Backend & Frontend Cording / UI & UX Design
+              Backend & Frontend Coding / UI & UX Design
             </WorkSubTitle>
 
             <div className="flex flex-wrap">
@@ -109,7 +109,7 @@ class PhotalContents extends Component {
             */}
             <PhotalContentsWrap style={{margin: '0 20px 50px'}}>
               <WorkHeadingPhotal>
-              2. Cording
+              2. Coding
               </WorkHeadingPhotal>
               <PhotalContentsServerside/>
             </PhotalContentsWrap>

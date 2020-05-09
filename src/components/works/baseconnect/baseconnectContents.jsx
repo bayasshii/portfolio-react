@@ -67,7 +67,7 @@ class BaseconnectContents extends Component {
             <WorkSubTitle
               style={{ padding: '0 0 30px' }}
             >
-              UI Design / Frontend Cording
+              UI Design / Frontend Coding
             </WorkSubTitle>
 
             <div className="flex flex-wrap">
@@ -99,7 +99,7 @@ class BaseconnectContents extends Component {
 
             <BaseconnectContetsWrap style={{margin: '0 20px 0'}}>
               <WorkHeadingPhotal style={{margin: '0 0 10px'}}>
-                case 1.　Frontend Cording　- 事業所画面 -
+                case 1.　Frontend Coding　- 事業所画面 -
               </WorkHeadingPhotal>
               <div
                 style={{
