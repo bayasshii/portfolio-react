@@ -56,7 +56,7 @@ class Baseconnect extends Component {
           </ImagetWrap>
           <TextWrap>
             <TextWrapTitle>Baseconnect Internship</TextWrapTitle>
-            <TextWrapSubTitle>Frontend Corging / UI Design</TextWrapSubTitle>
+            <TextWrapSubTitle>Frontend Coding / UI Design</TextWrapSubTitle>
           </TextWrap>
         </WorkWrap>
       </React.Fragment>
