@@ -40,12 +40,12 @@ class Skills extends Component {
           <li className="mySkill designSkill">
             <div className="mySkill__title">Algorithmic Design</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/boronoi.svg" /></div>
-            <div className="mySkill__text">　現在の私の専攻です。RhionocerosをPythonで動かしたり、Processingを用いたりしてデザインを行います。プログラミングによって、より合理的で有機的なデザインができるように勉強しています。</div>
+            <div className="mySkill__text">　現在の私の専攻です。RhionocerosをPythonで動かしたり、Processingを用いたりしてデザインを行います。プログラミングによって、ヒトの頭では考えられないデザインができるように勉強しています。</div>
           </li>
           <li className="mySkill programmingSkill">
             <div className="mySkill__title">Coding</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/keyboard.svg" /></div>
-            <div className="mySkill__text">　HTMLやCSSを用いたwebサイトのマークアップが得意です。ReactやVueでのフロントエンドや、Laravelでのバックエンドも勉強中です。AtomicDesignなどの設計手法にも興味があります。</div>
+            <div className="mySkill__text">　HTMLやCSSを用いたwebサイトのマークアップが得意です。ReactやVueでのフロントエンドや、Laravelでのバックエンドも勉強中です。現在ReactNativeでのアプリの個人開発にも取り組んでいます。</div>
           </li>
           <li className="mySkill directionSkill">
             <div className="mySkill__title">Research</div>
@@ -55,7 +55,7 @@ class Skills extends Component {
           <li className="mySkill curiositySkill">
             <div className="mySkill__title">Curiosity</div>
             <div className="mySkill__image"><img alt="MySkillImage" src="https://treeethreee.s3-ap-northeast-1.amazonaws.com/heart.svg" /></div>
-            <div className="mySkill__text">　好奇心が非常に旺盛で、常に動き回っているタイプです。デザインの他にも、会社経営、経済学、プロジェクトマネジメント、スポーツ、筋肉、栄養学、日本食やワインなどの幅広い分野に興味があるので、本を読んで勉強しています。</div>
+            <div className="mySkill__text">　好奇心が非常に旺盛で、常に動き回っているタイプです。デザインの他にも、会社経営、プロジェクトマネジメント、哲学、スポーツ、筋肉、栄養学、日本食やワインなどの幅広い分野に興味があるので、本を読んで勉強しています。</div>
           </li>
         </ul>
       </div>
