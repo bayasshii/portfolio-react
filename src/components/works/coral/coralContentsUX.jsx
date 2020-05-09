@@ -300,6 +300,13 @@ const UIItemTextContents = styled.div`
   }
 `
 
+const WorkTextResponse = styled(WorkText)`
+  padding: 0 20px 0 0;
+  @media screen and (max-width: 767px) {
+    padding: 0 0 20px;
+  }
+`
+
 const UIlItemTextBlue = styled(UIItemText)`
   padding: 20px 0;
   background: #EDF7F7;
@@ -359,13 +366,13 @@ class CoralContentsUX extends Component {
           <UXContetsWrap>
             <div className='flex flex-wrap'>
               <TextWrap>
-                <WorkText style={{padding: '0 20px 0 0'}}>
+                <WorkTextResponse>
                   <CoralContentsUXSubTitle>１.　Target</CoralContentsUXSubTitle>
                   　今回ターゲットにしたのは、<WorkTextBold>歯に対して今以上にお金をかけたいと思っているが定期的に歯医者に行かない人</WorkTextBold>です。<br/>
                   　公益社団法人日本歯科医師会の2016年の調査によると、日本人のうち、31%の人が年に一度以上、歯の定期検診を受けるようです。
                   一方で、歯の重要性を理解していて、歯に対して今以上にお金をかけたいと思っている人の割合は61%と、実際に定期検診を受けている人の割合よりも高い数値を示しています。
                   歯の重要性を理解しているにも関わらず、歯が痛くなる限界まで歯医者に行かないことには、何か問題があるのではないかと考えて、今回のデザインに挑戦しました。
-                </WorkText>
+                </WorkTextResponse>
               </TextWrap>
               <TaegetGraphWrap>
                 <TaegetGraphHori/>
